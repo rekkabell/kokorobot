@@ -1,0 +1,48 @@
+body { background:#000; color:#fff; font-family: "alte_haas_grotesk_regular", "Helvetica Neue", Helvetica, Arial;  overflow-x: hidden;}
+
+h1 { display: block; font-size:40px; font-weight: bold; text-align: center; color:#fff; margin-top: 30px; margin-bottom: 10px}
+h1 small { font-weight: normal; font-size:12px; display:block; }
+h2 { display: block; font-size:30px; text-align: center; color:#fff; margin-bottom: 30px; font-weight:normal; font-family: "alte_haas_grotesk_bold"}
+h2 small {  }
+h3 { font-style: italic;display: block;margin-bottom: 30px;font-size: 20px;max-width: 50% }
+p { display: block;max-width: 600px;color: #999;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
+p.main { font-weight: bold; margin-bottom: 30px;}
+p a { color:white; text-decoration: underline; }
+b { font-weight: bold }
+table { margin-bottom: 30px}
+h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
+hr { clear:both; }
+pre { max-width: 600px;margin: 0px auto;margin-bottom: 30px;font-family: courier;font-size: 12px;line-height: 20px;background: #fff;color: #000;padding: 15px;border-radius: 3px }
+
+#banner { max-width: 900px;margin:0px auto 60px }
+#banner div.microsite { width: calc(33.33% - 10px);float: left;margin:5px }
+#banner div.microsite p { text-align: justify; font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999; padding:5px }
+#banner div.microsite img { max-width: calc(100% - 10px);border-radius: 5px;margin: 5px }
+
+#menu { display: block; text-align: center; font-family: alte_haas_grotesk_regular; font-weight: bold; font-size:20px; padding: 20px; margin-bottom: 10px }
+#menu a { display: inline-block; margin: 0px 10px; }
+#menu a:hover { cursor: pointer;}
+
+#about p { font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+#about img { max-width: calc(100% - 30px); margin-bottom: 30px}
+#about columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px }
+#about list { display: block;margin-bottom: 30px }
+#about list ln { display: block; }
+
+page { display:none; max-width:900px; margin:0px auto; }
+page:target { display: block }
+
+#social { margin-bottom: 30px }
+#social img { max-width: 2%; border-radius: 5px; margin: 5px }
+
+#projects { margin-bottom: 30px }
+#projects img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+
+#games { margin-bottom: 30px }
+#games img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+
+#gallery { margin-bottom: 30px }
+#gallery img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+
+ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
+ul.default li a { font-weight: bold }
