@@ -23,26 +23,31 @@ pre { max-width: 600px;margin: 0px auto;margin-bottom: 30px;font-family: courier
 #menu a { display: inline-block; margin: 0px 10px; }
 #menu a:hover { cursor: pointer;}
 
-#about p { font-size: 12px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+#about p { font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
 #about img { max-width: calc(100% - 30px); margin-bottom: 30px}
 #about columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px }
 #about list { display: block;margin-bottom: 30px }
 #about list ln { display: block; }
 
+#store p { font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+
 page { display:none; max-width:900px; margin:0px auto; }
 page:target { display: block }
 
-#social { margin-bottom: 30px }
+page img.main { width: 100%;max-width: 100% !important }
+page img.thumbnail { width:33.33%; display:block; float:left; }
+
+#social, #projects, #gallery, #games, #books { margin-bottom: 30px }
 #social img { max-width: 2%; border-radius: 5px; margin: 5px }
 
-#projects { margin-bottom: 30px }
-#projects img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+#projects img, #games img, #books img, #gallery img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
 
-#games { margin-bottom: 30px }
-#games img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+#games .button {display: block;width: 160px;background: #000;border: 3px solid #fff;border-radius: 80px;text-decoration: none; ; text-align: center; padding-bottom: 10px; padding-top: 10px }
+#games .button:hover {background-color: #fff; color: black; cursor: pointer;}
 
-#gallery { margin-bottom: 30px }
-#gallery img { max-width: calc(25% - 10px); border-radius: 5px; margin: 5px; display: block; float:left; }
+#vendredi13 p, #bulle p { font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+#vendredi13 img, #bulle img { border-radius: 5px;max-width: 30%; margin-bottom: 30px; margin-left: 10px}
+#vendredi13 columns, #bulle columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px; }
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
