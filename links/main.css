@@ -45,9 +45,9 @@ page img.thumbnail { width:33.33%; display:block; float:left; }
 #games .button {display: block;width: 160px;background: #000;border: 3px solid #fff;border-radius: 80px;text-decoration: none; ; text-align: center; padding-bottom: 10px; padding-top: 10px }
 #games .button:hover {background-color: #fff; color: black; cursor: pointer;}
 
-#wiktopher p, #fungi p, #knots p, #ginger p, #sprite p, #vendredi13 p, #bulle p, #oquonie p, #malisse p, #thousandrooms p, #oquoniewalkthrough p, #grimgrains p, #cerbellum p { font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
-#wiktopher img, #fungi img, #knots img, #ginger img, #sprite img, #vendredi13 img, #bulle img, #oquonie img, #malisse img, #thousandrooms img, #oquoniewalkthrough img, #grimgrains img, #cerbellum img { border-radius: 5px;max-width: 30%; margin-bottom: 30px; margin-left: 10px}
-#wiktopher columns, #fungi columns, #knots columns, #ginger columns, #sprite columns, #vendredi13 columns, #bulle columns, #oquonie columns, #malisse columns, #thousandrooms columns, #oquoniewalkthrough columns, #grimgrains columns, #cerbellum columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px; }
+#ink p, #markl p, #wiktopher p, #fungi p, #knots p, #ginger p, #sprite p, #vendredi13 p, #bulle p, #oquonie p, #malisse p, #thousandrooms p, #oquoniewalkthrough p, #grimgrains p, #cerbellum p { font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999 }
+#ink img, #markl img, #wiktopher img, #fungi img, #knots img, #ginger img, #sprite img, #vendredi13 img, #bulle img, #oquonie img, #malisse img, #thousandrooms img, #oquoniewalkthrough img, #grimgrains img, #cerbellum img { border-radius: 5px;max-width: 30%; margin-bottom: 30px; margin-left: 10px}
+#ink columns, #markl columns, #wiktopher columns, #fungi columns, #knots columns, #ginger columns, #sprite columns, #vendredi13 columns, #bulle columns, #oquonie columns, #malisse columns, #thousandrooms columns, #oquoniewalkthrough columns, #grimgrains columns, #cerbellum columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px; }
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
