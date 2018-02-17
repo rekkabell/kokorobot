@@ -62,26 +62,26 @@
 
   <page id='illustration'>
     <gallery>
-      <a href="media/content/illustration.wiktopher.02.jpg"><img src="media/content/illustration.wiktopher.jpg"></a>
-      <a href="media/content/illustration.thousandrooms.02.jpg"><img src="media/content/illustration.thousandrooms.jpg"></a>
-      <a href="media/content/illustration.mirmaelle.02.jpg"><img src="media/content/illustration.mirmaelle.jpg"></a>
-      <a href="media/content/illustration.oquonie.02.jpg"><img src="media/content/illustration.oquonie.jpg"></a>
-      <a href="media/content/illustration.nimensei.02.jpg"><img src="media/content/illustration.nimensei.jpg"></a>
-      <a href="media/content/illustration.rougetomate.02.jpg"><img src="media/content/illustration.rougetomate.jpg"></a>
+      <img class='grey lightbox' src="media/content/illustration.wiktopher.jpg">
+      <img class='grey lightbox' src="media/content/illustration.thousandrooms.jpg">
+      <img class='grey lightbox' src="media/content/illustration.mirmaelle.jpg">
+      <img class='grey lightbox' src="media/content/illustration.oquonie.jpg">
+      <img class='grey lightbox' src="media/content/illustration.nimensei.jpg">
+      <img class='grey lightbox' src="media/content/illustration.rougetomate.jpg">
       <hr/>
     </gallery>
   </page>
 
   <page id='projects'>
     <gallery>
-      <a href="#wiktopher"><img src="media/content/project.wiktopher.jpg"></a>
-      <a href="#grimgrains"><img src="media/content/project.grimgrains.jpg"></a>
-      <a href="#cerbellum"><img src="media/content/project.cerbellum.jpg">
-      <a href="https://rekkabell.itch.io/incredible-death" target="_blank"><img src="media/content/project.death.jpg"></a>
-      <a href="#sprite"><img src="media/content/project.sprite.jpg"></a>
-      <a href="#ginger"><img src="media/content/project.ginger.jpg"></a>
-      <a href="#knots"><img src="media/content/project.knots.jpg"></a>
-      <a href="#fungi"><img src="media/content/project.fungi.jpg"></a>
+      <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
+      <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
+      <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg">
+      <a href="https://rekkabell.itch.io/incredible-death" target="_blank"><img class='grey' src="media/content/project.death.jpg"></a>
+      <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
+      <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
+      <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
+      <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
       <hr/>
     </gallery>
   </page>
@@ -377,15 +377,15 @@
   <div id='banner' align="center">
     <h2>What I'm working on</h2>
     <div class='microsite'>
-      <a href="#wiktopher" target="_blank"><img src="media/content/banner.wiktopher.jpg"></a>
+      <a href="#wiktopher"><img class='grey' src="media/content/banner.wiktopher.jpg"></a>
       <p>A novel I'm writing named Wiktopher, that will feature recipes, an illustrated glossary and recipes. Desert tales, told without gender.</p>
     </div>
     <div class='microsite'>
-      <a href="#ink" ><img src="media/content/banner.prints.jpg" alt="sometext" ></a>
+      <a href="#ink" ><img class='grey' src="media/content/banner.prints.jpg" alt="sometext" ></a>
       <p>I regularly make hand-drawn ink drawings of plants, fungi and other organic shapes. These drawings are unique, and made to order.</p>
     </div>
     <div class='microsite'>
-      <a href="#markl"><img src="media/content/banner.markl.jpg" alt="sometext" ></a>
+      <a href="#markl"><img class='grey' src="media/content/banner.markl.jpg" alt="sometext" ></a>
       <p>Markl is a game in which players must program their characters fighting style, to face various opponents in a battle happening too fast for humans to compete. I produce all of the artwork and animations of the game.</p>
     </div>
     <hr/>
@@ -394,18 +394,53 @@
   <footer>
     <wr>
       <a href='#about' class='about'>Rekka Bellum</a> © 2018
-      <a href='https://ko-fi.com/D1D86UM6' class='kofi'>Buy Me Coffee</a>
-      <a href="https://twitter.com/RekkaBell" class='social'><img src="media/interface/icon.twitter.png"></a>
-      <a href="https://www.patreon.com/100" class='social'><img src="media/interface/icon.patreon.png"></a>
+      <a href='https://ko-fi.com/D1D86UM6' class='kofi' target='_blank'>Buy Me Coffee</a>
+      <a href="https://twitter.com/RekkaBell" class='social' target='_blank'><img src="media/interface/icon.twitter.png"></a>
+      <a href="https://www.patreon.com/100" class='social' target='_blank'><img src="media/interface/icon.patreon.png"></a>
       <hr/>
     </wr>
   </footer>
 
   <script type="text/javascript">
+
     if(window.location.hash == ""){
       window.location.hash = "home"
     }
-    console.log()
+
+    function Lightbox()
+    {
+      this.el = document.createElement('div'); 
+      this.el.id = "lightbox"
+      this.image = document.createElement('img'); 
+      this.els = null;
+
+      this.start = function()
+      {
+        this.els = document.getElementsByClassName("lightbox");
+        this.el.appendChild(this.image)
+        document.body.appendChild(this.el)
+
+        this.el.addEventListener('click', lightbox.hide, false);
+        for (var i = 0; i < this.els.length; i++) {
+          this.els[i].addEventListener('click', lightbox.show, false);
+        }
+      }
+
+      this.show = function(e)
+      {
+        lightbox.el.className = "active"
+        lightbox.image.src = e.target.src
+      }
+
+      this.hide = function()
+      {
+        lightbox.el.className = ""
+      }
+    }
+
+    var lightbox = new Lightbox();
+
+    lightbox.start();
   </script>
 
 </body>
