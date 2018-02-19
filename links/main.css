@@ -24,7 +24,7 @@ page columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;ma
 page columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'Alegreya'}
 page columns p a:hover { text-decoration: none }
-page columns ul { display: block;margin-left:15px;font-size:14px;margin-bottom:30px;line-height: 20px }
+page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px;line-height: 26px }
 page columns ul li {}
 page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 13px); margin-bottom: 10px; margin-left: 10px}
 page gallery { display: block }
