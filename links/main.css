@@ -57,8 +57,14 @@ header wr h1:after { content:"–"; display: inline-block; padding:0px 10px; fon
 header wr h2 { font-size:30px;position: fixed;top:10px;left:20px }
 header wr h2:hover { color:white; }
 header wr #menu { display: block; text-align: center; font-weight: bold; font-size:20px; padding: 20px; margin-bottom: 10px }
-header wr #menu a { display: inline-block; margin: 0px 10px; }
-header wr #menu a:hover { cursor: pointer; text-decoration: underline;}
+header wr #menu a { display: inline-block;background-size: 100px;background-repeat: no-repeat;background-position: center top;padding-top:100px;min-width: 100px; transition: all 250ms }
+header wr #menu a:hover { cursor: pointer; text-decoration: underline; background-position:center -5px;}
+
+header wr #menu a.about { background-image: url(../media/interface/menu/about.png);  }
+header wr #menu a.projects { background-image: url(../media/interface/menu/projects.png);  }
+header wr #menu a.illustration { background-image: url(../media/interface/menu/illustration.png);  }
+header wr #menu a.games { background-image: url(../media/interface/menu/games.png);  }
+header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
 
 footer { display: block; background:white; color:black; padding-bottom:5px; }
 footer wr { max-width: 880px; padding: 30px 0px; margin:0px auto; display: block; }
