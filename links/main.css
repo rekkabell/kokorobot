@@ -9,7 +9,7 @@ h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
 hr { clear:both; }
 h3 {font-size: 23px; margin-bottom: 10px}
 
-page { display:none; max-width:900px; margin:0px auto; margin-bottom: 45px; padding-top:60px; margin-top:-300px; padding-top:345px; opacity: 0; transition: opacity 250ms }
+page { display:none; max-width:960px; margin:0px auto; margin-bottom: 45px; padding-top:60px; margin-top:-300px; padding-top:345px; opacity: 0; transition: opacity 250ms }
 page:target { display: block; opacity: 1 }
 page img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 page p.caption { font-style: italic; color:#999; font-size:16px; }
@@ -21,7 +21,7 @@ page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #c
 page columns p a:hover { text-decoration: none }
 page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px;line-height: 26px }
 page columns ul li {}
-page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10p}
+page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 page gallery { display: block; padding:0px 30px; }
 page gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
 page gallery hr { margin-bottom:30px; }
