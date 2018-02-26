@@ -20,6 +20,7 @@ page:target { display: block }
 page img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 page p.caption { font-style: italic; color:#999; font-size:16px; }
 page img.thumbnail { width:33.33%; display:block; float:left; }
+page p.intro {text-align: center;}
 page columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px }
 page columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'Alegreya'}
