@@ -94,7 +94,7 @@ footer wr a.about:hover { text-decoration: underline; }
 #lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px }
 
 /*
- * Reponsive — https://github.com/friederjanmoerman
+ * Responsive — https://github.com/friederjanmoerman
  */
 
 @media (max-width: 470px) {
@@ -116,9 +116,12 @@ footer wr a.about:hover { text-decoration: underline; }
   header wr h1 {
   font-size: 34px;
   }
-  footer {
+  footer, .intro {
     padding: 0 5%;
     text-align: center;
+  }
+  page gallery img {
+    max-width: calc(50% - 20px);
   }
   .footer_url {
     position: relative;
@@ -130,5 +133,8 @@ footer wr a.about:hover { text-decoration: underline; }
   }
   .footer_url--right {
     float: none;
+  }
+  page columns {
+    columns: auto;
   }
 }
