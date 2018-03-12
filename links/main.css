@@ -51,13 +51,7 @@ ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count
 ul.default li a { font-weight: bold }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
-header wr {  }
-header wr h1 {
-  font-size: 50px;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  font-weight: bold;
-}
+header wr h1 { font-size: 50px; text-transform: uppercase; letter-spacing: -2px; font-weight: bold; }
 header wr h1:before { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
 header wr h1:after { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
 header wr h2 { font-size:30px;position: fixed;top:10px;left:20px }
@@ -73,12 +67,8 @@ header wr #menu a.games { background-image: url(../media/interface/menu/games.pn
 header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
 
 footer { display: block; background:white; color:black; padding-bottom:5px; padding:0px 30px; }
-.footer_url {
-  float: left;
-}
-.footer_url--right {
-  float: right;
-}
+.footer_url { float: left; }
+.footer_url--right { float: right; }
 footer wr { max-width: 880px; padding: 30px 0px; margin:0px auto; display: block; }
 footer wr a.social { display: inline-block;float: right;padding:7px;margin-left:5px;height:17px; vertical-align: top;}
 footer wr a.social img { width:20px; filter: invert(100%); }
@@ -98,60 +88,21 @@ footer wr a.about:hover { text-decoration: underline; }
  */
 
 /* bug: lightbox displayed image is too large on smaller screens */
-#lightbox {
-  padding: 0;
-}
-#lightbox.active img {
-  max-height: 90%;
-  max-width: 90%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+#lightbox { padding: 0; }
+#lightbox.active img { max-height: 90%; max-width: 90%; position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%); }
 
 /*
  * Responsive — https://github.com/friederjanmoerman
  */
 
 @media (max-width: 470px) {
-  #banner {
-    max-width: 900px;
-    margin: 0px auto 60px;
-    padding: 0 5%;
-  }
-  #banner div.microsite {
-    width: 100%;
-    float: left;
-    margin: 0;
-  }
-  #banner div.microsite img {
-    width: 100%;
-    border-radius: 3px;
-    margin-bottom: 15px;
-  }
-  header wr h1 {
-  font-size: 34px;
-  }
-  footer, .intro {
-    padding: 0 5%;
-    text-align: center;
-  }
-  page gallery img {
-    max-width: calc(50% - 20px);
-  }
-  .footer_url {
-    position: relative;
-    display: block;
-    float: none;
-    margin: 0 auto;
-    display: inline-block;
-    overflow: hidden;
-  }
-  .footer_url--right {
-    float: none;
-  }
-  page columns {
-    columns: auto;
-  }
+  #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
+  #banner div.microsite { width: 100%; float: left; margin: 0; }
+  #banner div.microsite img { width: 100%; border-radius: 3px; margin-bottom: 15px; }
+  header wr h1 { font-size: 34px; }
+  footer, .intro { padding: 0 5%; text-align: center; }
+  page gallery img { max-width: calc(50% - 20px); }
+  .footer_url { position: relative; display: block; float: none; margin: 0 auto; display: inline-block; overflow: hidden; }
+  .footer_url--right { float: none; }
+  page columns { columns: auto; }
 }
