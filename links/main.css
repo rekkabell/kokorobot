@@ -48,9 +48,9 @@ page wr { display: block; padding:0px 30px; }
 #games .button:hover {background-color: #fff; color: black; cursor: pointer;}
 
 #wiktopher a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
-#wiktopher a.button:hover { background:#000; color:grey; }
+#wiktopher a.button:hover { background:pink; color:black; }
 #circa a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
-#circa a.button:hover { background:#000; color:grey; }
+#circa a.button:hover { background:pink; color:black; }
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
