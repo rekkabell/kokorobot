@@ -5,27 +5,35 @@ function Lightbox()
   this.image = document.createElement('img'); 
   this.els = null;
 
-  this.start = function()
+  this.install = function(host = document.getElementById("lightbox"))
   {
-    this.els = document.getElementsByClassName("lightbox");
+    this.el = host;
+    this.el.addEventListener('click', controller.lightbox.hide, false);
     this.el.appendChild(this.image)
-    document.body.appendChild(this.el)
+  }
 
-    this.el.addEventListener('click', lightbox.hide, false);
-    for (var i = 0; i < this.els.length; i++) {
-      this.els[i].addEventListener('click', lightbox.show, false);
+  this.update = function()
+  {
+    var els = document.getElementsByClassName("lightbox");
+    console.log(`Binding ${els.length} elements.`)
+    for (var i = 0; i < els.length; i++) {
+      els[i].addEventListener('click', controller.lightbox.show, false);
     }
   }
 
   this.show = function(e)
   {
-    var full_path = e.target.src.replace(".jpg",".full.jpg");
-    lightbox.el.className = "active"
-    lightbox.image.src = full_path;
+    var target = e.target;
+    if(!target){ return; }
+
+    var path = target.src.replace(".jpg",".full.jpg")
+    console.info(`Loading lightbox ${path}`)
+    controller.lightbox.el.className = "active"
+    controller.lightbox.image.src = path;
   }
 
   this.hide = function()
   {
-    lightbox.el.className = ""
+    controller.lightbox.el.className = ""
   }
 }

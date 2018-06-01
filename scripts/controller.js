@@ -2,16 +2,18 @@ function Controller()
 {
   this.el = null;
   this.database = null;
+  this.lightbox = new Lightbox(); 
 
   this.install = function(el = document.getElementById("main"))
   {
     this.el = el;
     this.database = new Indental(DATABASE).parse();
+    this.lightbox.install();
   }
 
   this.start = function()
   {
-    this.load()
+    this.load();
   }
 
   this.load = function(target = "Home")
@@ -25,6 +27,8 @@ function Controller()
     }
 
     this.el.innerHTML = `<page>${new Runic(content.LONG)}</page>`;
+
+    setTimeout(()=>{ this.lightbox.update() },500)
   }
 
   this.missing = function(target)
