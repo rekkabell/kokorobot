@@ -43,17 +43,20 @@ page wr { display: block; padding:0px 30px; }
 #banner h2 { margin-bottom: 30px;font-size:30px; }
 #banner div.microsite { width: calc(33.33% - 20px);float: left;margin:10px }
 #banner div.microsite p { text-align: justify;font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999;margin-right: 10px}
-#banner div.microsite img { max-width: 100%;border-radius: 3px;margin-bottom: 15px }
-
+#banner div.microsite img { max-width: 100%; border-radius: 3px;margin-bottom: 15px }
 #games .button {display: block;width: 160px;background: #000;border: 3px solid #fff;border-radius: 80px;text-decoration: none; ; text-align: center; padding-bottom: 10px; padding-top: 10px }
 #games .button:hover {background-color: #fff; color: black; cursor: pointer;}
+
+#wiktopher a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
+#wiktopher a.button:hover { background:pink; color:black; }
+#circa a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
+#circa a.button:hover { background:pink; color:black; }
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
-header wr {  }
-header wr h1 { font-size:50px;text-transform: uppercase;letter-spacing: -2px;font-weight: bold }
+header wr h1 { font-size: 50px; text-transform: uppercase; letter-spacing: -2px; font-weight: bold; }
 header wr h1:before { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
 header wr h1:after { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
 header wr h2 { font-size:30px;position: fixed;top:10px;left:20px }
@@ -69,8 +72,10 @@ header wr #menu a.games { background-image: url(../media/interface/menu/games.pn
 header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
 
 footer { display: block; background:white; color:black; padding-bottom:5px; padding:0px 30px; }
+.footer_url { float: left; }
+.footer_url--right { float: right; }
 footer wr { max-width: 880px; padding: 30px 0px; margin:0px auto; display: block; }
-footer wr a.social { display: inline-block;float: right;padding:7px;margin-left:5px;height:17px }
+footer wr a.social { display: inline-block;float: right;padding:7px;margin-left:5px;height:17px; vertical-align: top;}
 footer wr a.social img { width:20px; filter: invert(100%); }
 footer wr a.social:hover { opacity: 0.5 }
 footer wr a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px; display: inline-block; float:right; margin-left:10px;}
@@ -82,3 +87,27 @@ footer wr a.about:hover { text-decoration: underline; }
 #lightbox.active { opacity: 1; display: block }
 
 #lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px }
+
+/*
+ * Bugfix — https://github.com/friederjanmoerman
+ */
+
+/* bug: lightbox displayed image is too large on smaller screens */
+#lightbox { padding: 0; }
+#lightbox.active img { max-height: 90%; max-width: 90%; position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%); }
+
+/*
+ * Responsive — https://github.com/friederjanmoerman
+ */
+
+@media (max-width: 470px) {
+  #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
+  #banner div.microsite { width: 100%; float: left; margin: 0; }
+  #banner div.microsite img { width: 100%; border-radius: 3px; margin-bottom: 15px; }
+  header wr h1 { font-size: 34px; }
+  footer, .intro { padding: 0 5%; text-align: center; }
+  page gallery img { max-width: calc(50% - 20px); }
+  .footer_url { position: relative; display: block; float: none; margin: 0 auto; display: inline-block; overflow: hidden; }
+  .footer_url--right { float: none; }
+  page columns { columns: auto; }
+}
