@@ -92,8 +92,8 @@ WIKTOPHER
     Read the story : http://wiktopher.kokorobot.ca
 
 CIRCA
-  BREF : Happiness? There is no such thing. All you can do is live.
   LONG
+    & Happiness? There is no such thing. All you can do is live.
     & Circa is a work-in-progress, changes and chapters will be published regularly. Is it the story of many, focused on the contradictory lives of Sy and Token.
     & So it is here now, for you to read. Know that it can still change. Enjoy.
   LINK
@@ -105,8 +105,39 @@ THOUSAND ROOMS
     & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.
     & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.
 
+OQUONIE
+  LONG
+    > <columns>
+    % content/game.oquonie.02.jpg main
+    & This game is published by <a href="http://100r.co">Hundredrabbits</a>. Visit the <a href="http://oquonie.100r.co">Oquonie microsite</a> for more information about the game.
+    * Oquonie
+    & Oquonie is a textless puzzle game for PC, Linux, Mac, iPad, Iphone and Apple TV created in collaboration with designer Devine Lu Linvega where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
+    > </columns>
+    % itchio 23183
 
 GRIMGRAINS
+  LONG
+    > <columns>
+    % content/project.grimgrains.02.jpg main
+    & Grim Grains is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with bamboo charcoal powder, an ingredient that makes food black.
+    & The blog had recipes published on Foodgawder, My green planet, Finding Vegan and Tastespotting.
+    * Features
+    - <a href="https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains/">Food bloggers canada interview, 2015</a>
+    - <a href="https://www.maison-objet.com/fr/paris/programme/inspirations/wild">Inspiration book No28, MaisonEtObjet, 2016.</a>
+    & Visit <a href="http://grimgrains.com">GrimGrains</a> for some strange, but delicious recipes.
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.grimgrains.03.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.04.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.05.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.06.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.07.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.08.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.09.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.10.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.11.jpg" class='thumbnail'>
+    > </wr>
+    > <hr/>
 
 CERBELLUM
 

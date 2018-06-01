@@ -13,11 +13,13 @@ function Controller()
 
   this.start = function()
   {
-    this.load();
+    this.load(window.document.location.hash);
   }
 
   this.load = function(target = "Home")
   {
+    target = target.substr(0,1) == "#" ? target.substr(1,target.length-1) : target
+    
     console.info(`Loading ${target}.`)
 
     var content = this.database[target.toUpperCase()];
@@ -39,7 +41,8 @@ function Controller()
 
   this.touch = function(target)
   {
-    var link = target.getAttribute("href")
+    var link = target.getAttribute("href") ? target.getAttribute("href") : target.parentNode.getAttribute("href")
+
     if(!link){ return; }
     if(link.substr(0,1) != "#"){ return; }
 
