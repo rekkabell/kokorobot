@@ -1,15 +1,19 @@
 let DATABASE = `
+
 HOME
   LONG
     % content/main.jpg
+
 ABOUT
   BREF : I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, childrens books and boardgames.
   LONG
-    % media/interface/profile.jpg
+    > <columns>
+    % interface/profile.jpg main
     & My first game, Oquonie was nominated for an IGF award in 2015 for visual excellence.
     & I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
     & My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
     & Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of publications.
+    > </columns>
 
 WIKTOPHER
   BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.

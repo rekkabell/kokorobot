@@ -110,7 +110,7 @@ function Runic(raw)
     if(service == "custom"){
       return `<iframe src='${id}' style='width:100%;height:350px;'></iframe>`;
     }
-    return `<img src='media/${val}'/>`
+    return `<img src='media/${service}' class='${id}'/>`
   }
 
   this.quote = function(content)

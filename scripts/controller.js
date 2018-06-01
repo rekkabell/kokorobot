@@ -19,14 +19,18 @@ function Controller()
     console.info(`Loading ${target}.`)
 
     var content = this.database[target.toUpperCase()];
-    this.el.innerHTML = !content ? this.missing(target) : new Runic(content.LONG).parse();
+    if(!content){
+      this.missing(target);
+      return;
+    }
+
+    this.el.innerHTML = `<page>${new Runic(content.LONG)}</page>`;
   }
 
   this.missing = function(target)
   {
     console.warn(`Could not find ${target}.`)
-
-    return "Could not find page."
+    this.el.innerHTML = `<page><p>Could not find page ${target}</p></page>`;
   }
 
   this.touch = function(target)
