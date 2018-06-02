@@ -1,0 +1,156 @@
+let DATABASE = `
+
+HOME
+  LONG
+    % content/main.jpg
+
+ABOUT
+  BREF : I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, childrens books and boardgames.
+  LONG
+    > <columns>
+    % interface/profile.jpg main
+    & My first game, Oquonie was nominated for an IGF award in 2015 for visual excellence.
+    & I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
+    & My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
+    & Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of publications.
+    > </columns>
+
+PROJECTS
+  LONG
+    > <p class='intro'>Select an image, to find out more about each project.</p>
+    > <gallery>
+    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
+    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
+    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
+    >   <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg"></a>
+    >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
+    >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
+    >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
+    >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
+    >   <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
+    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
+    >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
+    >   <hr/>
+    > </gallery>
+
+ILLUSTRATION
+  LONG
+    > <gallery>
+    % content/illustration.famicase18.jpg lightbox
+    % content/illustration.paradise.jpg lightbox
+    % content/illustration.kida.jpg lightbox
+    % content/illustration.wiktopher.jpg lightbox
+    % content/illustration.thousandrooms.jpg lightbox
+    % content/illustration.mirmaelle.jpg lightbox
+    % content/illustration.oquonie.jpg lightbox
+    % content/illustration.nimensei.jpg lightbox
+    % content/illustration.espionne.jpg lightbox
+    % content/illustration.robot.jpg lightbox
+    % content/illustration.corgi.jpg lightbox
+    % content/illustration.comingofworlds.jpg lightbox
+    % content/illustration.monstroville.jpg lightbox
+    % content/illustration.cabane.jpg lightbox
+    % content/illustration.mirmaelle2.jpg lightbox
+    % content/illustration.wedding.jpg lightbox
+    > <hr />
+    > </gallery>
+
+GAMES
+  LONG
+    & Select an image, to find out more about each game.
+    > <gallery>
+    >   <a href='#vendredi13'><img src="media/content/game.vendredi13.jpg"></a>
+    >   <a href='#bulle'><img src="media/content/game.bulle.jpg"></a>
+    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
+    >   <a href='#malisse'><img src="media/content/game.malisse.jpg"></a>
+    >   <hr/>
+    > </gallery>
+
+STORE
+  LONG
+    > <columns>
+    % content/store.jpg main
+    * Prints
+    & You can purchase prints on <a href="https://www.etsy.com/shop/RekkaBell" target="_blank">Etsy</a>, <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> or <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
+    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a> or make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits.
+    & Thank you!
+    > </columns>
+
+WIKTOPHER
+  BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
+  LONG
+    & Wiktopher is a fiction story published online, (of ~60,000 words) taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and of its people.
+    & I hope to make an audiobook version, and maybe a print version if there is enough interest.
+    * Features
+    - An illustrated glossary of plants
+    - An illustrated glossary of animals
+    - Recipes, made with plants of that world
+    - A language alphabet, and songs
+    - An illustrated world map
+    - Written without gender pronouns
+  LINK
+    Read the story : http://wiktopher.kokorobot.ca
+
+CIRCA
+  LONG
+    & Happiness? There is no such thing. All you can do is live.
+    & Circa is a work-in-progress, changes and chapters will be published regularly. Is it the story of many, focused on the contradictory lives of Sy and Token.
+    & So it is here now, for you to read. Know that it can still change. Enjoy.
+  LINK
+    Read the story : http://circa.kokorobot.ca
+
+THOUSAND ROOMS
+  BREF : Thousand Rooms is a visual novel collaboration with Devine Lu Linvega, following the behaviours of four characters and a room.
+  LONG
+    & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.
+    & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.
+
+OQUONIE
+  LONG
+    > <columns>
+    % content/game.oquonie.02.jpg main
+    & This game is published by <a href="http://100r.co">Hundredrabbits</a>. Visit the <a href="http://oquonie.100r.co">Oquonie microsite</a> for more information about the game.
+    * Oquonie
+    & Oquonie is a textless puzzle game for PC, Linux, Mac, iPad, Iphone and Apple TV created in collaboration with designer Devine Lu Linvega where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
+    > </columns>
+    % itchio 23183
+
+GRIMGRAINS
+  LONG
+    > <columns>
+    % content/project.grimgrains.02.jpg main
+    & Grim Grains is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with bamboo charcoal powder, an ingredient that makes food black.
+    & The blog had recipes published on Foodgawder, My green planet, Finding Vegan and Tastespotting.
+    * Features
+    - <a href="https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains/">Food bloggers canada interview, 2015</a>
+    - <a href="https://www.maison-objet.com/fr/paris/programme/inspirations/wild">Inspiration book No28, MaisonEtObjet, 2016.</a>
+    & Visit <a href="http://grimgrains.com">GrimGrains</a> for some strange, but delicious recipes.
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.grimgrains.03.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.04.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.05.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.06.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.07.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.08.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.09.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.10.jpg" class='thumbnail'>
+    >   <img src="media/content/project.grimgrains.11.jpg" class='thumbnail'>
+    > </wr>
+    > <hr/>
+
+CERBELLUM
+
+DEATH
+
+SPRITE
+
+GINGER
+
+KNOTS
+
+FUNGI
+
+
+HITOBITO
+`
