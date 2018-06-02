@@ -19,6 +19,7 @@ function Controller()
   this.load = function(target = "Home")
   {
     target = target.substr(0,1) == "#" ? target.substr(1,target.length-1) : target
+    target = target.trim() == "" ? "Home" : target
     
     console.info(`Loading ${target}.`)
 
