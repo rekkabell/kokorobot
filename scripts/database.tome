@@ -65,6 +65,7 @@ GAMES
     >   <a href='#bulle'><img src="media/content/game.bulle.jpg"></a>
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img src="media/content/game.malisse.jpg"></a>
+    >   <a href='#misc'><img src="media/content/game.misc.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -246,6 +247,27 @@ MALISSE
     >  <img src="media/content/game.malisse.05.jpg" class='thumbnail lightbox'>
     >  <img src="media/content/game.malisse.06.gif" class='thumbnail'>
     >  <img src="media/content/game.malisse.07.gif" class='thumbnail'>
+    > </wr>
+    > <hr/>
+
+MISC
+  LONG
+    > <columns>
+    % content/game.misc.03.jpg main
+    > <p class='caption'></p>
+    > <h2>Misc game art</h2>
+    & Concept art for game projects that were cancelled, or never released. Enjoy.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.misc.02.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.12.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
