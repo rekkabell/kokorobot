@@ -83,7 +83,7 @@ footer wr a.kofi:hover { background:pink; color:black; }
 footer wr a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer wr a.about:hover { text-decoration: underline; }
 
-#lightbox { background:rgba(0,0,0,0.8); width:100vw; height:100vh; position: fixed;top:0px; opacity: 0; display: none; padding:30px; }
+#lightbox { background:rgba(0,0,0,0.8); width:100vw; height:100vh; position: fixed;top:0px; opacity: 0; display: none; padding:30px; z-index:999; }
 #lightbox.active { opacity: 1; display: block }
 
 #lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px }
