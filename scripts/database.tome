@@ -99,9 +99,9 @@ WIKTOPHER
     >   <a href="http://wiktopher.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
     > </columns>
     > <wr>
-    >   <img src="media/content/project.wiktopher.03.png" class='thumbnail'>
-    >   <img src="media/content/project.wiktopher.04.png" class='thumbnail'>
-    >   <img src="media/content/project.wiktopher.05.jpg" class='thumbnail'>
+    >   <img src="media/content/project.wiktopher.03.png" class='thumbnail lightbox'>
+    >   <img src="media/content/project.wiktopher.04.png" class='thumbnail lightbox'>
+    >   <img src="media/content/project.wiktopher.05.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -118,8 +118,8 @@ CIRCA
     > <a href="http://circa.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
     > </columns>
     > <wr>
-    >   <img src="media/content/project.circa.01.jpeg" class='thumbnail'>
-    >   <img src="media/content/project.circa.02.jpg" class='thumbnail'>
+    >   <img src="media/content/project.circa.01.jpeg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.02.png" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -134,7 +134,7 @@ THOUSANDROOMS
     & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.</p>
     & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.</p>
     > </columns>
-    > <gallery class='thumbnails'>
+    > <gallery class='thumbnails lightbox'>
     > <img src="media/content/project.thousandrooms.03.png">
     > <img src="media/content/project.thousandrooms.04.png">
     > <img src="media/content/project.thousandrooms.05.png">
@@ -150,7 +150,7 @@ OQUONIE
     > <h2>Oquonie</h2>
     & Oquonie is a textless puzzle game for PC, Linux, Mac, iPad, Iphone and Apple TV created in collaboration with designer Devine Lu Linvega where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
     > </columns>
-    > <gallery class='thumbnails'>
+    > <gallery class='thumbnails lightbox'>
     >  <img src="media/content/game.oquonie.03.jpg">
     >  <img src="media/content/game.oquonie.04.jpg">
     >  <img src="media/content/game.oquonie.05.jpg">
@@ -173,15 +173,15 @@ GRIMGRAINS
     & <a href="http://100r.co">Visit</a> GrimGrains for some strange, but delicious recipes.</p>
     > </columns>
     > <wr>
-    >  <img src="media/content/project.grimgrains.03.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.04.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.05.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.06.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.07.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.08.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.09.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.10.jpg" class='thumbnail'>
-    >  <img src="media/content/project.grimgrains.11.jpg" class='thumbnail'>
+    >  <img src="media/content/project.grimgrains.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.11.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -203,12 +203,12 @@ INK
     &  You can also purchase other products like <a href="https://society6.com/product/monkey-fist-knot_stretched-canvas?sku=s6-8651169p16a6v28">canvas prints</a> and <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank">throw pillows</a> in these stores.
     > </columns>
     > <wr>
-    > <img src="media/content/project.ink.03.jpg" class='thumbnail'>
-    > <img src="media/content/project.ink.04.jpg" class='thumbnail'>
-    > <img src="media/content/project.ink.05.jpg" class='thumbnail'>
-    > <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank"><img src="media/content/project.ink.06.jpg" class='thumbnail'></a>
-    > <a href="https://society6.com/product/zeppelin-bend-nautical-knot-art_iphone-case?sku=s6-8690991p20a9v745a52v377" target="_blank"><img src="media/content/project.ink.07.jpg" class='thumbnail'></a>
-    > <a href="https://society6.com/product/a-reef-knot-nautical-art_bag?sku=s6-8691261p29a26v196" target="_blank"><img src="media/content/project.ink.08.jpg" class='thumbnail'></a>
+    > <img src="media/content/project.ink.03.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.04.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.05.jpg" class='thumbnail lightbox'>
+    > <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank"><img src="media/content/project.ink.06.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/zeppelin-bend-nautical-knot-art_iphone-case?sku=s6-8690991p20a9v745a52v377" target="_blank"><img src="media/content/project.ink.07.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/a-reef-knot-nautical-art_bag?sku=s6-8691261p29a26v196" target="_blank"><img src="media/content/project.ink.08.jpg" class='thumbnail lightbox'></a>
     > </wr>
     > <hr/>
 
@@ -225,8 +225,8 @@ MARKL
     >  <img src="media/content/project.markl.04.gif" class='thumbnail'>
     >  <img src="media/content/project.markl.05.gif" class='thumbnail'>
     >  <img src="media/content/project.markl.06.gif" class='thumbnail'>
-    >  <img src="media/content/project.markl.07.jpg" class='thumbnail'>
-    >  <img src="media/content/project.markl.08.jpg" class='thumbnail'>
+    >  <img src="media/content/project.markl.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.08.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -241,9 +241,9 @@ MALISSE
     & Play Malisse <a href="https://renaudbedard.itch.io/malisse">here</a>.</p>
     > </columns>
     > <wr>
-    >  <img src="media/content/game.malisse.03.jpg" class='thumbnail'>
-    >  <img src="media/content/game.malisse.04.jpg" class='thumbnail'>
-    >  <img src="media/content/game.malisse.05.jpg" class='thumbnail'>
+    >  <img src="media/content/game.malisse.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.05.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
