@@ -13,7 +13,7 @@ function Controller()
 
   this.start = function()
   {
-    this.load(window.document.location.hash);
+    this.load(window.document.location.hash == "" ? 'Home' : window.document.location.hash);
   }
 
   this.load = function(target = "Home")
