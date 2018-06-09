@@ -8,12 +8,13 @@ ABOUT
   LONG
     > <columns>
     % interface/profile.jpg main
-    > <p class='caption'>I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, childrens books and boardgames</p>
+    > <p class='caption'>I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, children's books and boardgames</p>
     > <h2>Rekka Bellum</h2>
-    &   My first game, Oquonie was nominated for an IGF award in 2015 for visual excellence.
+    &   My first game Oquonie was nominated for an IGF award in 2015 for visual excellence.
     &   I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
     &   My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
-    &   Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of publications.
+    &   Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a list of publications.
+    & 
     > </columns>
     > <hr/>
 
@@ -75,7 +76,7 @@ STORE
     % content/store.jpg main
     * Prints
     & You can purchase prints on <a href="https://www.etsy.com/shop/RekkaBell" target="_blank">Etsy</a>, <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> or <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
-    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a> or make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits.
+    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a>, make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits or <a href="https://hundredrabbits.itch.io" target="_blank">buy my games</a>.
     & Thank you!
     > </columns>
 
@@ -481,6 +482,11 @@ VENDREDI13
     > </wr>
     > <hr/>
 
+NOTES
+  LONG
+    > Here you will find a collection of notes on various topics.
+    > <a href="http://kokorobot.ca/#media">Inspiration</a>
+
 MEDIA
   LONG
     > <columns>
@@ -528,7 +534,4 @@ MEDIA
     > </wr>
     > <hr/>
 
-SY CROSS
-  LONG
-    & Sy Cross, child of Harlow Cross and Michael Keon. 
 `
