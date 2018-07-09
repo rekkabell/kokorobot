@@ -70,6 +70,7 @@ header wr #menu a.projects { background-image: url(../media/interface/menu/proje
 header wr #menu a.illustration { background-image: url(../media/interface/menu/illustration.png);  }
 header wr #menu a.games { background-image: url(../media/interface/menu/games.png);  }
 header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
+header wr #menu a.notes { background-image: url(../media/interface/menu/notes.png);  }
 
 footer { display: block; background:white; color:black; padding-bottom:5px; padding:0px 30px; }
 .footer_url { float: left; }
