@@ -344,6 +344,7 @@ SPRITE
     >  <img src="media/content/project.sprite.27.gif" class='thumbnail'>
     >  <img src="media/content/project.sprite.28.gif" class='thumbnail'>
     >  <img src="media/content/project.sprite.29.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.30.jpg" class='thumbnail'>
     > </wr>
     > <hr/>
 
@@ -498,7 +499,6 @@ QUOTES
     > <ul>
     >   <li>"Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions" <br>― Unknown source</li><br>
     >   <li>Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand." <br>― Thomas Jefferson</li><br>
-    >   <li>It is only when we forget all our learnings that we begin to know. I do not get a hair's breadth nearer to any natural object so long as I presume to have an introduction to it from some learned man. To conceive of it with a total apprehension I must for the thousandth time approach it as something totally strange" <br>― Henry David Thoreau</li><br>
     >   <li>"Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others." <br>― Unknown source</li><br>
     >   <li>“You have power over your mind - not outside events. Realize this, and you will find strength.” <br>― Marcus Aurelius, Meditations</li>
     > </ul>
@@ -512,38 +512,47 @@ LINKS
     > <columns>
     > <h2> Artists & blogs</h2>
     > <ul>
-    >   <li><a href="http://villainette.com/">Villainette</a></li>
-    >   <li><a href="https://thesadghostclub.com/">The sad ghost club</a></li>
-    >   <li><a href="http://www.comingupforair.net">Matthew Forsythe</a></li>
-    >   <li><a href="http://qby9.squarespace.com/q-hayashida/">Q Hayashida</a></li>
-    >   <li><a href="http://vertetfruite.com">Vert et fruite</a></li>
-    >   <li><a href="http://www.lexaloffle.com">Lexaloffle</a></li>
-    >   <li><a href="http://www.polclarissou.com">Pol Clarissou</a></li>
-    >   <li><a href="http://www.frankrause.com">Fran Krause</a></li>
-    >   <li><a href="http://etterstudio.com">Etter studio</a></li>
-    >   <li><a href="http://www.ko-opmode.com">Ko-op studio</a></li>
-    >   <li><a href="http://ninasays.so">Nina Freeman</a></li>
-    >   <li><a href="http://tale-of-tales.com">Tale of tales</a></li>
-    >   <li><a href="http://emcarroll.com">Emily Carroll</a></li>
-    >   <li><a href="https://www.boltcityproductions.com">Kazu Kibuishi</a></li>
-    >   <li><a href="http://starfightercomic.com">Hamlet Machine</a></li>
+    >   <li><a href="http://villainette.com/" target="_blank">Villainette</a></li>
+    >   <li><a href="https://thesadghostclub.com/" target="_blank">The sad ghost club</a></li>
+    >   <li><a href="http://www.comingupforair.net" target="_blank">Matthew Forsythe</a></li>
+    >   <li><a href="http://qby9.squarespace.com/q-hayashida/" target="_blank">Q Hayashida</a></li>
+    >   <li><a href="http://vertetfruite.com" target="_blank">Vert et fruite</a></li>
+    >   <li><a href="http://www.polclarissou.com" target="_blank">Pol Clarissou</a></li>
+    >   <li><a href="http://www.frankrause.com" target="_blank">Fran Krause</a></li>
+    >   <li><a href="http://etterstudio.com" target="_blank">Etter studio</a></li>
+    >   <li><a href="http://www.ko-opmode.com" target="_blank">Ko-op studio</a></li>
+    >   <li><a href="http://ninasays.so" target="_blank">Nina Freeman</a></li>
+    >   <li><a href="http://tale-of-tales.com" target="_blank">Tale of tales</a></li>
+    >   <li><a href="http://emcarroll.com" target="_blank">Emily Carroll</a></li>
+    >   <li><a href="https://www.boltcityproductions.com" target="_blank">Kazu Kibuishi</a></li>
+    >   <li><a href="http://starfightercomic.com" target="_blank">Hamlet Machine</a></li>
+    >   <li><a href="https://karastonesite.com" target="_blank">Kara stone</a></li>
+    >   <li><a href="https://fromsmiling.com" target="_blank">Taylor Bai-Woo</a></li>
     > </ul>
     > <h2> Friends </h2>
     > <ul>
-    >   <li><a href="http://sailingwithbloom.com/">Sailing with Bloom</a></li>
-    >   <li><a href="http://www.tokyobybike.com">Tokyo by bike</a></li>
-    >   <li><a href="https://www.joursdepapier.com">Jours de papier</a></li>
-    >   <li><a href="http://www.cafenoirsanssucre.com">Cafe noir sans sucre</a></li>
-    >   <li><a href="http://cabfolio.com">Cab</a></li>
-    >   <li><a href="http://boumeries.com">Boumeries</a></li>
-    >   <li><a href="http://project-entropy.com">Project entropy</a></li>
-    >   <li><a href="http://genevieveft.com">Genevieve FT</a></li>
-    >   <li><a href="http://atelieroilandsugar.com">Oil and sugar</a></li>
-    >   <li><a href="http://juicybeast.com">Juicy beast</a></li>
-    >   <li><a href="http://dblstallion.com">Double stallion</a></li>
-    >   <li><a href="http://www.dom2d.com">Dom2d</a></li>
-    >   <li><a href="http://mathieubeaulieu.com">Mathieu Beaulieu</a></li>
-    >   <li><a href="https://bullybird.weebly.com">Bully bird</a></li>
+    >   <li><a href="http://sailingwithbloom.com/" target="_blank">Sailing with Bloom</a></li>
+    >   <li><a href="http://www.tokyobybike.com" target="_blank">Tokyo by bike</a></li>
+    >   <li><a href="https://www.joursdepapier.com" target="_blank">Jours de papier</a></li>
+    >   <li><a href="http://www.cafenoirsanssucre.com" target="_blank">Cafe noir sans sucre</a></li>
+    >   <li><a href="http://cabfolio.com" target="_blank">Cab</a></li>
+    >   <li><a href="http://boumeries.com" target="_blank">Boumeries</a></li>
+    >   <li><a href="http://project-entropy.com" target="_blank">Project entropy</a></li>
+    >   <li><a href="http://genevieveft.com" target="_blank">Genevieve FT</a></li>
+    >   <li><a href="http://atelieroilandsugar.com" target="_blank">Oil and sugar</a></li>
+    >   <li><a href="http://juicybeast.com" target="_blank">Juicy beast</a></li>
+    >   <li><a href="http://dblstallion.com" target="_blank">Double stallion</a></li>
+    >   <li><a href="http://www.dom2d.com" target="_blank">Dom2d</a></li>
+    >   <li><a href="http://www.lexaloffle.com" target="_blank">Lexaloffle</a></li>
+    >   <li><a href="http://mathieubeaulieu.com" target="_blank">Mathieu Beaulieu</a></li>
+    >   <li><a href="https://bullybird.weebly.com" target="_blank">Bully bird</a></li>
+    >   <li><a href="http://valeriebastille.tumblr.com" target="_blank">Valerie Bastille</a></li>
+    >   <li><a href="http://www.rayotecabane.com" target="_blank">Vincent Desbiens</a></li>
+    >   <li><a href="http://www.mariannevincent.com" target="_blank">Marianne Vincent</a></li>
+    >   <li><a href="http://www.marieemilierowe.com" target="_blank">Marie-emilie Rowe</a></li>
+    >   <li><a href="http://frogshark.com" target="_blank">Frog shark</a></li>
+    >   <li><a href="https://tokyoluv.com" target="_blank">Tokyo Luv</a></li>
+    >   <li><a href="https://ideeezportfolio.tumblr.com" target="_blank">Ideeez</a></li>
     > </ul>
     > </columns>
     > </wr>
