@@ -8,31 +8,32 @@ ABOUT
   LONG
     > <columns>
     % interface/profile.jpg main
-    > <p class='caption'>I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, children's books and boardgames</p>
+    > <p class='caption'>I am Rekka Bellum, I work on games and children's books.</p>
     > <h2>Rekka Bellum</h2>
-    &   My first game Oquonie was nominated for an IGF award in 2015 for visual excellence.
+    &   Here, you will finds that I've made, it is my space in the void, a room i've decorated that it is here for you visit. 
+    & I'm an illustrator from Montreal, living on a small sailboat. I enjoy drawings mushrooms, observing sea birds, cycling, cooking plants and sailing. 
     &   I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
     &   My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
-    &   Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a list of publications.
+    &   Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of my publications.
     & 
     > </columns>
     > <hr/>
 
 PROJECTS
   LONG
-    > <p class='intro'>Select an image, to find out more about each project.</p>
+    > <p class='intro'>Select an image, to find out more about these projects. There is a mix of drawn works and games.</p>
     > <gallery>
-    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
-    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
-    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
     >   <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg"></a>
     >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
     >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
     >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
     >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
     >   <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
-    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
+    >   <a href='#vendredi13'><img class='grey' src="media/content/game.vendredi13.jpg"></a>
+    >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
+    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
+    >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -58,15 +59,14 @@ ILLUSTRATION
     > <hr/>
     > </gallery>
 
-GAMES
+STORIES
   LONG
-    & Select an image, to find out more about each game.
+    & Select an image, to find out more about each story. 
     > <gallery>
-    >   <a href='#vendredi13'><img src="media/content/game.vendredi13.jpg"></a>
-    >   <a href='#bulle'><img src="media/content/game.bulle.jpg"></a>
-    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
-    >   <a href='#malisse'><img src="media/content/game.malisse.jpg"></a>
-    >   <a href='#misc'><img src="media/content/game.misc.jpg"></a>
+    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
+    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
+    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
+    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <hr/>
     > </gallery>
 

@@ -36,7 +36,7 @@ img.lightbox:hover { opacity: 0.8 }
 
 page gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
 page wr { display: block; padding:0px 30px; }
-#social, #projects, #gallery, #games, #books { margin-bottom: 30px }
+#social, #projects, #gallery, #stories, #books { margin-bottom: 30px }
 #social img { max-width: 2%; border-radius: 3px; margin: 5px }
 
 #home img { max-width: 100% }
@@ -68,7 +68,7 @@ header wr #menu a:hover { cursor: pointer; text-decoration: underline; backgroun
 header wr #menu a.about { background-image: url(../media/interface/menu/about.png);  }
 header wr #menu a.projects { background-image: url(../media/interface/menu/projects.png);  }
 header wr #menu a.illustration { background-image: url(../media/interface/menu/illustration.png);  }
-header wr #menu a.games { background-image: url(../media/interface/menu/games.png);  }
+header wr #menu a.stories { background-image: url(../media/interface/menu/stories.png);  }
 header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
 header wr #menu a.notes { background-image: url(../media/interface/menu/notes.png);  }
 
