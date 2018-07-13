@@ -564,73 +564,46 @@ LINKS
 
 COLLECTION
   LONG
-    > <columns>
-    > <h2> Books</h2>
-    > <h3>Death positivity</h3>
-    > <ul>
-    >   <li><b>Death, the duck and the tulip</b> by Wolf Erlbruch</li>
-    > </ul><br>
-    > <h3>Perception</h3>
-    > <ul>
-    >   <li><b>Walden</b> by Henry David Thoreau</li>
-    >   <li><b>Flatland</b> by Edwin Abbott</li>
-    > </ul><br>
-    > <h3>Mental and body health</h3>
-    > <ul>
-    >   <li><b>The red tree</b> by Shaun Tan</li>
-    >   <li><b>How not to die</b> by Michael Greger</li>
-    > </ul><br>
-    > <h3>Travel</h3>
-    > <ul>
-    >   <li><b>North into the night</b> by Alvah Simon</li>
-    >   <li><b>Ojingogo</b> by Matthew Forsythe
-    >   <li><b>Box wine sailors</b> by Amy McCullough
-    >   <li><b>Last chance to see-</b> by Douglas Adams and Mark Cowardine
-    > </ul><br>
-    > <h3>Art inspiration</h3>
-    > <ul>
-    >   <li><b>Uzumaki</b> by Junji Ito</li>
-    >   <li><b>Dorohedoro</b> by Q. Hayashida
-    >   <li><b>Blade of the immortal</b> by Hiroaki Samura</li>
-    > </ul><br>
-    > </columns>
-    > <columns>
-    > <h2> Films </h2>
-    > <ul>
-    >   <li><b>Mindgame</b>
-    >   <li><b>Catsoup</b>
-    >   <li><b>Nausicaa</b>
-    >   <li><b>Redline</b>
-    >   <li><b>Summer Wars</b>
-    >   <li><b>The Lost Boys</b>
-    >   <li><b>Ginger Snaps</b>
-    >   <li><b>Only lovers left alive</b>
-    >   <li><b>What we do in the shadows</b>
-    >   <li><b>Fright Night</b>
-    >   <li><b>Kiki's delivery service</b>
-    >   <li><b>Alien</b>
-    >   <li><b>Kiki's delivery service</b>
-    >   <li><b>Burn after reading</b>
-    >   <li><b>Return of the living dead</b>
-    >   <li><b>Fargo</b>
-    >   <li><b>Vampire hunter D</b>
-    >   <li><b>28 days later</b>
-    >   <li><b>Lost in translation</b>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Favorite artists </h2>
-    > <ul>
-    >   <li><b>Hiroaki Samura</b>
-    >   <li><b>Q. Hayashida</b>
-    >   <li><b>Junji Ito</b>
-    >   <li><b>Matthew Forsythe</b>
-    >   <li><b>Emily Caroll</b>
-    >   <li><b>Yoshitaka Amano</b>
-    >   <li><b>Kazu Kibuishi</b>
-    > </ul>
-    > </columns>
-    > </wr>
+    & Books, films and other things that I like.
+    * Death positivity
+    -  Death, the duck and the tulip by Wolf Erlbruch
+    * Perception
+    - Walden by Henry David Thoreau
+    - Flatland by Edwin Abbott
+    * Mental and body health
+    - The red tree by Shaun Tan
+    - How not to die by Michael Greger
+    * Travel
+    - North into the night by Alvah Simon
+    - Ojingogo<by Matthew Forsythe
+    - Box wine sailors by Amy McCullough
+    - Last chance to see- by Douglas Adams and Mark Cowardine
+    * Films
+    - Mindgame
+    - Catsoup
+    - Nausicaa
+    - Redline
+    - Summer Wars
+    - The Lost Boys
+    - Ginger Snaps
+    - Only lovers left alive
+    - What we do in the shadows
+    - Fright Night
+    - Kiki's delivery service
+    - Burn after reading
+    - Return of the living dead
+    - Fargo
+    - Vampire hunter D
+    - 28 days later
+    - Lost in translation
+    * Artists
+    - Hiroaki Samura
+    - Q. Hayashida
+    - Junji Ito
+    - Matthew Forsythe
+    - Emily Caroll
+    - Yoshitaka Amano
+    - Kazu Kibuishi
     > <hr/>
 
 `
