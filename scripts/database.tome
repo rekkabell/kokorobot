@@ -5,64 +5,68 @@ HOME
     % content/main.jpg
 
 ABOUT
-  BREF : I am Rekka Bellum, an illustrator from Montreal, living on a small sailboat. I do art for games, childrens books and boardgames.
   LONG
     > <columns>
     % interface/profile.jpg main
-    & My first game, Oquonie was nominated for an IGF award in 2015 for visual excellence.
-    & I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
-    & My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
-    & Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of publications.
+    > <p class='caption'>I am Rekka Bellum, I work on games and children's books.</p>
+    > <h2>Rekka Bellum</h2>
+    &   Here, you will finds that I've made, it is my space in the void, a room i've decorated that it is here for you visit. 
+    & I'm an illustrator from Montreal, living on a small sailboat. I enjoy drawings mushrooms, observing sea birds, cycling, cooking plants and sailing. 
+    &   I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
+    &   My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal.
+    &   Email me at rekkabell @ gmail dot com for art-related inquiries. You can also <a href="media/content/resume.rekkabellum.pdf">download my resume</a> for a complete list of my publications.
+    & 
     > </columns>
+    > <hr/>
 
 PROJECTS
   LONG
-    > <p class='intro'>Select an image, to find out more about each project.</p>
+    > <p class='intro'>Select an image, to find out more about these projects. There is a mix of drawn works and games.</p>
     > <gallery>
-    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
-    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
-    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
     >   <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg"></a>
     >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
     >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
     >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
     >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
     >   <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
-    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
+    >   <a href='#vendredi13'><img class='grey' src="media/content/game.vendredi13.jpg"></a>
+    >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
+    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
+    >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
     >   <hr/>
     > </gallery>
 
 ILLUSTRATION
   LONG
     > <gallery>
-    % content/illustration.famicase18.jpg lightbox
-    % content/illustration.paradise.jpg lightbox
-    % content/illustration.kida.jpg lightbox
-    % content/illustration.wiktopher.jpg lightbox
-    % content/illustration.thousandrooms.jpg lightbox
-    % content/illustration.mirmaelle.jpg lightbox
-    % content/illustration.oquonie.jpg lightbox
-    % content/illustration.nimensei.jpg lightbox
-    % content/illustration.espionne.jpg lightbox
-    % content/illustration.robot.jpg lightbox
-    % content/illustration.corgi.jpg lightbox
-    % content/illustration.comingofworlds.jpg lightbox
-    % content/illustration.monstroville.jpg lightbox
-    % content/illustration.cabane.jpg lightbox
-    % content/illustration.mirmaelle2.jpg lightbox
-    % content/illustration.wedding.jpg lightbox
-    > <hr />
+    > <img class='grey lightbox' src="media/content/illustration.famicase18.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.paradise.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.kida.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.wiktopher.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.thousandrooms.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.mirmaelle.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.oquonie.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.nimensei.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.espionne.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.robot.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.corgi.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.comingofworlds.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.monstroville.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.cabane.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.mirmaelle2.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.wedding.jpg">
+    > <hr/>
     > </gallery>
 
-GAMES
+STORIES
   LONG
-    & Select an image, to find out more about each game.
+    & Select an image, to find out more about each story. 
     > <gallery>
-    >   <a href='#vendredi13'><img src="media/content/game.vendredi13.jpg"></a>
-    >   <a href='#bulle'><img src="media/content/game.bulle.jpg"></a>
-    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
-    >   <a href='#malisse'><img src="media/content/game.malisse.jpg"></a>
+    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
+    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
+    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
+    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -72,85 +76,599 @@ STORE
     % content/store.jpg main
     * Prints
     & You can purchase prints on <a href="https://www.etsy.com/shop/RekkaBell" target="_blank">Etsy</a>, <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> or <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
-    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a> or make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits.
+    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a>, make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits or <a href="https://hundredrabbits.itch.io" target="_blank">buy my games</a>.
     & Thank you!
     > </columns>
 
 WIKTOPHER
   BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
   LONG
-    & Wiktopher is a fiction story published online, (of ~60,000 words) taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and of its people.
-    & I hope to make an audiobook version, and maybe a print version if there is enough interest.
-    * Features
-    - An illustrated glossary of plants
-    - An illustrated glossary of animals
-    - Recipes, made with plants of that world
-    - A language alphabet, and songs
-    - An illustrated world map
-    - Written without gender pronouns
+    > <columns>
+    >   <img src="media/content/project.wiktopher.02.jpg" class='main'>
+    >   <p class='caption'>"Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs."</p>
+    >   <h2>What is Wiktopher</h2>
+    >   <p>Wiktopher is a fiction story published online, (of ~60,000 words) taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and of its people.</p>
+    >   <p>I hope to make an audiobook version, and maybe a print version if there is enough interest.</p>
+    >   <h3>Features</h3>
+    >   <ul>
+    >     <li><b>An illustrated glossary of plants</b></li>
+    >     <li><b>An illustrated glossary of animals</b></li>
+    >     <li><b>Recipes</b> (made with plants of that world)</li>
+    >     <li><b>A language alphabet</b> (with songs)</li>
+    >     <li><b>An illustrated world map</b></li>
+    >     <li><b>Written without gender pronouns</b></li>
+    >   </ul>
+    >   <a href="http://wiktopher.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.wiktopher.03.png" class='thumbnail lightbox'>
+    >   <img src="media/content/project.wiktopher.04.png" class='thumbnail lightbox'>
+    >   <img src="media/content/project.wiktopher.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
   LINK
     Read the story : http://wiktopher.kokorobot.ca
 
 CIRCA
   LONG
-    & Happiness? There is no such thing. All you can do is live.
+    > <columns>
+    % content/project.circa.jpg main
+    > <p class='caption'>"Just another kind of prison."</p>
+    > <h2>What is Circa</h2>
     & Circa is a work-in-progress, changes and chapters will be published regularly. Is it the story of many, focused on the contradictory lives of Sy and Token.
     & So it is here now, for you to read. Know that it can still change. Enjoy.
+    > <a href="http://circa.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.circa.01.jpeg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.02.png" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
   LINK
     Read the story : http://circa.kokorobot.ca
 
-THOUSAND ROOMS
-  BREF : Thousand Rooms is a visual novel collaboration with Devine Lu Linvega, following the behaviours of four characters and a room.
+THOUSANDROOMS
   LONG
-    & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.
-    & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.
+    > <columns>
+    % content/project.thousandrooms.02.jpg main
+    > <p class='caption'>Thousand Rooms is a visual novel collaboration with Devine Lu Linvega, following the behaviours of four characters and a room.</p>
+    > <h2>Thousand rooms</h2>
+    & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.</p>
+    & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.</p>
+    > </columns>
+    > <gallery class='thumbnails lightbox'>
+    > <img src="media/content/project.thousandrooms.03.png">
+    > <img src="media/content/project.thousandrooms.04.png">
+    > <img src="media/content/project.thousandrooms.05.png">
+    > <hr/>
+    > </gallery>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/146658?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
 
 OQUONIE
   LONG
     > <columns>
     % content/game.oquonie.02.jpg main
-    & This game is published by <a href="http://100r.co">Hundredrabbits</a>. Visit the <a href="http://oquonie.100r.co">Oquonie microsite</a> for more information about the game.
-    * Oquonie
+    > <p class='caption'>This game is published by <a href="http://100r.co">Hundredrabbits</a>. Visit the <a href="http://oquonie.100r.co">Oquonie microsite</a> for more information about the game.</p>
+    > <h2>Oquonie</h2>
     & Oquonie is a textless puzzle game for PC, Linux, Mac, iPad, Iphone and Apple TV created in collaboration with designer Devine Lu Linvega where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
     > </columns>
-    % itchio 23183
+    > <gallery class='thumbnails lightbox'>
+    >  <img src="media/content/game.oquonie.03.jpg">
+    >  <img src="media/content/game.oquonie.04.jpg">
+    >  <img src="media/content/game.oquonie.05.jpg">
+    > <hr/>
+    > </gallery>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/23183?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
 
 GRIMGRAINS
   LONG
     > <columns>
     % content/project.grimgrains.02.jpg main
-    & Grim Grains is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with bamboo charcoal powder, an ingredient that makes food black.
-    & The blog had recipes published on Foodgawder, My green planet, Finding Vegan and Tastespotting.
-    * Features
-    - <a href="https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains/">Food bloggers canada interview, 2015</a>
-    - <a href="https://www.maison-objet.com/fr/paris/programme/inspirations/wild">Inspiration book No28, MaisonEtObjet, 2016.</a>
-    & Visit <a href="http://grimgrains.com">GrimGrains</a> for some strange, but delicious recipes.
+    > <h2>Grim grains</h2>
+    &  Grim Grains is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with bamboo charcoal powder, an ingredient that makes food black.
+    &  The blog had recipes published on Foodgawder, My green planet, Finding Vegan and Tastespotting.
+    > <h3>Features</h3>
+    > <ul>
+    >  <li><a href="https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains/">Food bloggers canada interview, 2015</a></li>
+    >  <li><a href="https://www.maison-objet.com/fr/paris/programme/inspirations/wild">Inspiration book No28, MaisonEtObjet, 2016.</a></li>
+    > </ul>
+    & <a href="http://100r.co">Visit</a> GrimGrains for some strange, but delicious recipes.</p>
     > </columns>
     > <wr>
-    >   <img src="media/content/project.grimgrains.03.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.04.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.05.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.06.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.07.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.08.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.09.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.10.jpg" class='thumbnail'>
-    >   <img src="media/content/project.grimgrains.11.jpg" class='thumbnail'>
+    >  <img src="media/content/project.grimgrains.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.11.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+INK
+  LONG
+    > <columns>
+    % content/project.ink.02.jpg main
+    > <p class='caption'>Currently, the drawings are 6x8in (148x210mm), although depending on the paper available to me the size may vary. They are drawn on 300 gsm watercolour paper, and sold for 40$ (with an extra 5$ for shipping).</p>
+    > <h2>Original art</h2>
+    & Once in a while, I illustrate and sell original ink drawings. The subjects vary, but often include plants. Below is a list of my current series:</p>
+    > <ul>
+    > <li><b><a href="#fungi">Fungi</a></b></li>
+    > <li><b><a href="#knots">Knots</a></b></li>
+    > <li><b><a href="#ginger">Ginger roots</a></b></li>
+    > </ul>
+    > <h3>Make a request</h3>
+    &  Email me at rekkabell at gmail dot com to request an original custom drawing.
+    &  Also, if you don't mind a reproduction, these drawings are sold as print copies on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
+    &  You can also purchase other products like <a href="https://society6.com/product/monkey-fist-knot_stretched-canvas?sku=s6-8651169p16a6v28">canvas prints</a> and <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank">throw pillows</a> in these stores.
+    > </columns>
+    > <wr>
+    > <img src="media/content/project.ink.03.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.04.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.05.jpg" class='thumbnail lightbox'>
+    > <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank"><img src="media/content/project.ink.06.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/zeppelin-bend-nautical-knot-art_iphone-case?sku=s6-8690991p20a9v745a52v377" target="_blank"><img src="media/content/project.ink.07.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/a-reef-knot-nautical-art_bag?sku=s6-8691261p29a26v196" target="_blank"><img src="media/content/project.ink.08.jpg" class='thumbnail lightbox'></a>
+    > </wr>
+    > <hr/>
+
+MARKL
+  LONG
+    > <columns>
+    % content/project.markl.02.jpg main
+    & Markl is a game currently in development - by myself and Devine - in which players must program their characters fighting style, to face various opponents in a battle happening too fast for humans to compete.</p>
+    & This game currently has no release date, and will be published by <a href="http://100r.co">Hundredrabbits</a> for PC, Mac, Linux and iOS.</p>
+    & Visit the <a href="http://markl.100r.co">Markl microsite</a> for more information about the project.</p>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.markl.03.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.04.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.05.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.06.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.08.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+MALISSE
+  LONG
+    > <columns>
+    % content/game.malisse.02.jpg main
+    > <p class='caption'>Help Malisse along, make sure the path stays clear so that everyone, including the rabbit buddies, may pass unscathed!</p>
+    > <h2>Malisse</h2>
+    & Malisse is a two-player cooperative game played with two controllers, or single-player with a single controller. You could also play it two players on the same controller!</p>
+    & Available for Windows and Mac. It was produced during ToJam 9 by Les Collegiennes. Side image and logo by Dom2d.</p>
+    & Play Malisse <a href="https://renaudbedard.itch.io/malisse">here</a>.</p>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.malisse.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.06.gif" class='thumbnail'>
+    >  <img src="media/content/game.malisse.07.gif" class='thumbnail'>
+    > </wr>
+    > <hr/>
+
+MISC
+  LONG
+    > <columns>
+    % content/game.misc.03.jpg main
+    > <p class='caption'></p>
+    > <h2>Misc game art</h2>
+    & Concept art for game projects that were cancelled, or never released. Enjoy.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.misc.02.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.12.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
 CERBELLUM
+  LONG
+    > <columns>
+    % content/project.cerbellum.02.gif main
+    > <h2>Cerbellum</h2>
+    & The world through the eyes of a socially anxious skeleton named C. Cerbellum is a project that sheds light on the thoughts and fears of people with anxiety.
+    & This is a project that I would like to expand into a book, or comic series.
+    & I'm still very undecided. More updates soon.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.cerbellum.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.14.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.15.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
 
 DEATH
+  LONG
+    > <columns>
+    % content/project.deathgod.02.gif main
+    > <p class='caption'>I have been for a long time at your side.</p>
+    > <h2>Incredible death</h2>
+    & Project done in 2016 as part of <a href="https://itch.io/jam/screensaverjam">Screensaver jam</a></p>
+    & <a href="https://rekkabell.itch.io/incredible-death">Download</a> the screensaver.</p>
+    > </columns>
+    > <hr/>
 
 SPRITE
+  LONG
+    > <columns>
+    % content/project.sprite.02.gif main
+    > <h2>Sprite</h2>
+    & While in Mexico, I started a sprite animation project to help fund the repair of the sails for our boat Pino.
+    & The sprites are in the style of <a href="#oquonie">Oquonie</a>, and all were requests by people on twitter.
+    & I still take sprite requests, if you want your own send me a tweet @rekkabell or send me an email at rekkabell at gmail dot com.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.sprite.03.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.04.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.05.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.06.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.07.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.08.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.09.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.10.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.11.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.12.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.13.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.14.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.15.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.16.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.17.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.18.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.19.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.20.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.21.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.22.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.23.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.24.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.25.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.26.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.27.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.28.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.29.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.30.jpg" class='thumbnail'>
+    > </wr>
+    > <hr/>
 
 GINGER
+  LONG
+    > <columns>
+    % content/project.ginger.02.jpg main
+    > <p class='caption'>6X6inch (152x152mm) ink drawings on watercolour paper. Completed in 2015.</p>
+    > <h2>Ginger root series</h2>
+    & Every ginger is unique.
+    & My love of the shape and taste of this rhizome has inspired this drawing series. I am happy to say that all of these drawings have found good homes.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.ginger.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.ginger.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.ginger.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
 
 KNOTS
+  LONG
+    > <columns>
+    % content/project.knots.02.jpg main
+    > <p class='caption'>148x210mm (6x8inches) ink drawings on watercolour paper. Completed in 2018</p>
+    > <h2>Nautical knot series</h2>
+    & Every knot has a purpose, drawings these has helped me to memorize them. Knowing how to tie a good knot, could save your life.
+    & Some of these are still available for sale: The monkey fist (picture on the left), the constrictor knot (number 1), the overhand knot (number 2). They are <b>40$ each</b>, plus an <b>extra 5$</b> for shipping. Contact me at <b>rekkabell at gmail dot com</b> to buy the drawings.
+    & You can also buy prints of these drawings on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.knots.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.08.jpg" class='thumbnail lightbox'>
+    > <wr>
+    > <hr/>
 
 FUNGI
-
+  LONG
+    > <columns>
+    % content/project.fungi.02.jpg main
+    > <p class='caption'>148x210mm (6x8inches) ink drawings on watercolour paper. Completed in 2017.</p>
+    > <h2>Fungi series</h2>
+    & Mushrooms come in a variety of shapes and sizes; attracted by their other-wordliness, I have started a fungi illustration series.</p>
+    & All of the originals of this series found good homes. If you would still like a mushroom, you can request one for <b>40$ plus 5$ for shipping</b> at rekkabell at gmail dot com.</p>
+    & You can also buy prints of all of these drawings on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a></p>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.fungi.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.14.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.15.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.16.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.17.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.18.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
 
 HITOBITO
+  LONG
+    > <columns>
+    % content/project.hitobito.02.jpg main
+    > <p class='caption'>Digital sketches drawn while traveling in Japan, Thailand, USA, Canada and Mexico.</p>
+    > <h2>Hitobito</h2>
+    & 人々 (hitobito), or "everyone". Named thusly since the project started while I lived in Tokyo.
+    & Drawings of people I see on the street, drawn on a daily basis.
+    & View the whole series on my <a href="http://hitobitobi.tumblr.com" target="_blank">Hitobito</a> tumblr.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.hitobito.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.14.jpg" class='thumbnail lightbox'>
+    > <wr>
+    > <hr/>
+
+BULLE 
+  LONG
+    > <columns>
+    % content/game.bulle.02.png main
+    > <p class='caption'>Bulle, Tartine, Momo and other characters of the Mon ami Bulle app, travel and make discoveries in unique universes.</p>
+    > <h2>Mon ami bulle</h2>
+    & Contract work for IOS app Mon ami Bulle by Tele Quebec.
+    & I worked on many assets for the animated sequences, and did the artwork for 3 of the main narrated stories of the game.
+    & Visit the <a href="https://www.telequebec.tv/bulle">Tele-quebec website</a> for more information.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.bulle.03.png" class='thumbnail lightbox'>
+    >  <img src="media/content/game.bulle.04.png" class='thumbnail lightbox'>
+    >  <img src="media/content/game.bulle.05.png" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+VENDREDI13
+  LONG
+    > <columns>
+    % content/game.vendredi13.02.jpg main
+    > <p class='caption'>Friday the 13th card game for 3 to 6 players, ages 8 and up.</p>
+    > <h2>Friday the 13th</h2>
+    & Push your bad luck away! Bad omens are all around you! Play your cards right to avoid bad luck. Or, risk gathering as much bad luck as possible, to pass the curse on to your adversaries and ruin their hand!
+    > <ul>
+    >   <li><b>Publisher</b> Scorpion Masque</li>
+    >   <li><b>Illustrator</b> Yours truly</li>
+    >   <li><b>Designer</b> Reiner Knizia</li>
+    > </ul>
+    & Visit <a href="https://www.scorpionmasque.com/en/friday-13th">Scorpion Masque</a> for more information about the game.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.vendredi13.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.vendredi13.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.vendredi13.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+NOTES
+  LONG
+    > <p>My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.</p>
+    > <ul>
+    >   <li><a href="#Collection"><h3>Collection</h3></a</li>
+    >   <li><a href="#Links"><h3>Links</h3></a</li>
+    >   <li><a href="#Quotes"><h3>Quotes</h3></a</li>
+    >   <li><a href="#Resources"><h3>Resources</h3></a</li>
+    > </ul>
+    > </wr>
+    > <hr/>
+
+
+QUOTES
+  LONG
+    > <columns>
+    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I live by. 
+    > <ul>
+    >   <li>"Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions" <br>― Unknown source</li><br>
+    >   <li>Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand." <br>― Thomas Jefferson</li><br>
+    >   <li>"Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others." <br>― Unknown source</li><br>
+    >   <li>“You have power over your mind - not outside events. Realize this, and you will find strength.” <br>― Marcus Aurelius, Meditations</li>
+    > </ul>
+    > </columns>
+    > </wr>
+    > <hr/>
+
+RESOURCES
+  LONG
+    & Articles and blogs that I go back to often, to help in projects.
+    > <columns>
+    > <h2> Research</h2>
+    > <ul>
+    >   <li><a href="http://www.francescaphillips.com/whistling-language-la-gomera/" target="_blank">La gomera</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Design </h2>
+    > <ul>
+    >   <li><a href="https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/" target="_blank">Everything in its place</a></li>
+    >   <li><a href="http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html" target="_blank">The five hole pamphlet stitch</a></li>
+    >   <li><a href="https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3" target="_blank">Pixel perfect handbook</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Writing </h2>
+    > <ul>
+    >   <li><a href="http://www.hemingwayapp.com" target="_blank">Hemmingwayapp</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Other </h2>
+    > <ul>
+    >   <li><a href="https://haikyo.org" target="_blank">Haikyo</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Boats </h2>
+    > <ul>
+    >   <li><a href="http://www.bosunbird.com" target="_blank">Bosun Bird</a></li>
+    >   <li><a href="https://www.sunstonesailing.com/" target="_blank">Sunstone sailing</a></li>
+    >   <li><a href="http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute" target="_blank">Non-toxic cleaning</a></li>
+    > </ul>
+    > </columns>
+    > </wr>
+    > <hr/>
+
+LINKS
+  LONG
+    & A list of links to the blogs and websites of people that I admire.
+    > <columns>
+    > <h2> Artists & blogs</h2>
+    > <ul>
+    >   <li><a href="http://villainette.com/" target="_blank">Villainette</a></li>
+    >   <li><a href="https://thesadghostclub.com/" target="_blank">The sad ghost club</a></li>
+    >   <li><a href="http://www.comingupforair.net" target="_blank">Matthew Forsythe</a></li>
+    >   <li><a href="http://qby9.squarespace.com/q-hayashida/" target="_blank">Q Hayashida</a></li>
+    >   <li><a href="http://vertetfruite.com" target="_blank">Vert et fruite</a></li>
+    >   <li><a href="http://www.polclarissou.com" target="_blank">Pol Clarissou</a></li>
+    >   <li><a href="http://www.frankrause.com" target="_blank">Fran Krause</a></li>
+    >   <li><a href="http://etterstudio.com" target="_blank">Etter studio</a></li>
+    >   <li><a href="http://www.ko-opmode.com" target="_blank">Ko-op studio</a></li>
+    >   <li><a href="http://ninasays.so" target="_blank">Nina Freeman</a></li>
+    >   <li><a href="http://tale-of-tales.com" target="_blank">Tale of tales</a></li>
+    >   <li><a href="http://emcarroll.com" target="_blank">Emily Carroll</a></li>
+    >   <li><a href="https://www.boltcityproductions.com" target="_blank">Kazu Kibuishi</a></li>
+    >   <li><a href="http://starfightercomic.com" target="_blank">Hamlet Machine</a></li>
+    >   <li><a href="https://karastonesite.com" target="_blank">Kara stone</a></li>
+    >   <li><a href="https://fromsmiling.com" target="_blank">Taylor Bai-Woo</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Friends </h2>
+    > <ul>
+    >   <li><a href="http://sailingwithbloom.com/" target="_blank">Sailing with Bloom</a></li>
+    >   <li><a href="http://www.tokyobybike.com" target="_blank">Tokyo by bike</a></li>
+    >   <li><a href="https://www.joursdepapier.com" target="_blank">Jours de papier</a></li>
+    >   <li><a href="http://www.cafenoirsanssucre.com" target="_blank">Cafe noir sans sucre</a></li>
+    >   <li><a href="http://cabfolio.com" target="_blank">Cab</a></li>
+    >   <li><a href="http://boumeries.com" target="_blank">Boumeries</a></li>
+    >   <li><a href="http://project-entropy.com" target="_blank">Project entropy</a></li>
+    >   <li><a href="http://genevieveft.com" target="_blank">Genevieve FT</a></li>
+    >   <li><a href="http://atelieroilandsugar.com" target="_blank">Oil and sugar</a></li>
+    >   <li><a href="http://juicybeast.com" target="_blank">Juicy beast</a></li>
+    >   <li><a href="http://dblstallion.com" target="_blank">Double stallion</a></li>
+    >   <li><a href="http://www.dom2d.com" target="_blank">Dom2d</a></li>
+    >   <li><a href="http://www.lexaloffle.com" target="_blank">Lexaloffle</a></li>
+    >   <li><a href="http://mathieubeaulieu.com" target="_blank">Mathieu Beaulieu</a></li>
+    >   <li><a href="https://bullybird.weebly.com" target="_blank">Bully bird</a></li>
+    >   <li><a href="http://valeriebastille.tumblr.com" target="_blank">Valerie Bastille</a></li>
+    >   <li><a href="http://www.rayotecabane.com" target="_blank">Vincent Desbiens</a></li>
+    >   <li><a href="http://www.mariannevincent.com" target="_blank">Marianne Vincent</a></li>
+    >   <li><a href="http://www.marieemilierowe.com" target="_blank">Marie-emilie Rowe</a></li>
+    >   <li><a href="http://frogshark.com" target="_blank">Frog shark</a></li>
+    >   <li><a href="https://tokyoluv.com" target="_blank">Tokyo Luv</a></li>
+    >   <li><a href="https://ideeezportfolio.tumblr.com" target="_blank">Ideeez</a></li>
+    > </ul>
+    > </columns>
+    > </wr>
+    > <hr/>
+
+
+COLLECTION
+  LONG
+    > <columns>
+    > <h2> Books</h2>
+    > <h3>Death positivity</h3>
+    > <ul>
+    >   <li><b>Death, the duck and the tulip</b> by Wolf Erlbruch</li>
+    > </ul><br>
+    > <h3>Perception</h3>
+    > <ul>
+    >   <li><b>Walden</b> by Henry David Thoreau</li>
+    >   <li><b>Flatland</b> by Edwin Abbott</li>
+    > </ul><br>
+    > <h3>Mental and body health</h3>
+    > <ul>
+    >   <li><b>The red tree</b> by Shaun Tan</li>
+    >   <li><b>How not to die</b> by Michael Greger</li>
+    > </ul><br>
+    > <h3>Travel</h3>
+    > <ul>
+    >   <li><b>North into the night</b> by Alvah Simon</li>
+    >   <li><b>Ojingogo</b> by Matthew Forsythe
+    >   <li><b>Box wine sailors</b> by Amy McCullough
+    >   <li><b>Last chance to see-</b> by Douglas Adams and Mark Cowardine
+    > </ul><br>
+    > <h3>Art inspiration</h3>
+    > <ul>
+    >   <li><b>Uzumaki</b> by Junji Ito</li>
+    >   <li><b>Dorohedoro</b> by Q. Hayashida
+    >   <li><b>Blade of the immortal</b> by Hiroaki Samura</li>
+    > </ul><br>
+    > </columns>
+    > <columns>
+    > <h2> Films </h2>
+    > <ul>
+    >   <li><b>Mindgame</b>
+    >   <li><b>Catsoup</b>
+    >   <li><b>Nausicaa</b>
+    >   <li><b>Redline</b>
+    >   <li><b>Summer Wars</b>
+    >   <li><b>The Lost Boys</b>
+    >   <li><b>Ginger Snaps</b>
+    >   <li><b>Only lovers left alive</b>
+    >   <li><b>What we do in the shadows</b>
+    >   <li><b>Fright Night</b>
+    >   <li><b>Kiki's delivery service</b>
+    >   <li><b>Alien</b>
+    >   <li><b>Kiki's delivery service</b>
+    >   <li><b>Burn after reading</b>
+    >   <li><b>Return of the living dead</b>
+    >   <li><b>Fargo</b>
+    >   <li><b>Vampire hunter D</b>
+    >   <li><b>28 days later</b>
+    >   <li><b>Lost in translation</b>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Favorite artists </h2>
+    > <ul>
+    >   <li><b>Hiroaki Samura</b>
+    >   <li><b>Q. Hayashida</b>
+    >   <li><b>Junji Ito</b>
+    >   <li><b>Matthew Forsythe</b>
+    >   <li><b>Emily Caroll</b>
+    >   <li><b>Yoshitaka Amano</b>
+    >   <li><b>Kazu Kibuishi</b>
+    > </ul>
+    > </columns>
+    > </wr>
+    > <hr/>
+
 `
