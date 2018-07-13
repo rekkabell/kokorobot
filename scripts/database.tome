@@ -87,7 +87,7 @@ WIKTOPHER
     >   <img src="media/content/project.wiktopher.02.jpg" class='main'>
     >   <p class='caption'>"Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs."</p>
     >   <h2>What is Wiktopher</h2>
-    >   <p>Wiktopher is a fiction story published online, (of ~60,000 words) taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and of its people.</p>
+    >   <p>Wiktopher is a fiction story published online, (of ~60,000 words) taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and its people.</p>
     >   <p>I hope to make an audiobook version, and maybe a print version if there is enough interest.</p>
     >   <h3>Features</h3>
     >   <ul>
@@ -480,27 +480,20 @@ VENDREDI13
 
 NOTES
   LONG
-    > <p>My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.</p>
-    > <ul>
-    >   <li><a href="#Collection"><h3>Collection</h3></a</li>
-    >   <li><a href="#Links"><h3>Links</h3></a</li>
-    >   <li><a href="#Quotes"><h3>Quotes</h3></a</li>
-    >   <li><a href="#Resources"><h3>Resources</h3></a</li>
-    > </ul>
-    > </wr>
-    > <hr/>
-
+    & My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.
+    - {{Collection}}
+    - {{Links}}
+    - {{Quotes}}
+    - {{Resources}}
 
 QUOTES
   LONG
     > <columns>
     & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I live by. 
-    > <ul>
-    >   <li>"Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions" <br>― Unknown source</li><br>
-    >   <li>Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand." <br>― Thomas Jefferson</li><br>
-    >   <li>"Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others." <br>― Unknown source</li><br>
-    >   <li>“You have power over your mind - not outside events. Realize this, and you will find strength.” <br>― Marcus Aurelius, Meditations</li>
-    > </ul>
+    @ Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions | Unknown source
+    @ Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand. | Thomas Jefferson
+    @ Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others. | Unknown source
+    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius | Meditations 
     > </columns>
     > </wr>
     > <hr/>
@@ -508,95 +501,64 @@ QUOTES
 RESOURCES
   LONG
     & Articles and blogs that I go back to often, to help in projects.
-    > <columns>
-    > <h2> Research</h2>
-    > <ul>
-    >   <li><a href="http://www.francescaphillips.com/whistling-language-la-gomera/" target="_blank">La gomera</a></li>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Design </h2>
-    > <ul>
-    >   <li><a href="https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/" target="_blank">Everything in its place</a></li>
-    >   <li><a href="http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html" target="_blank">The five hole pamphlet stitch</a></li>
-    >   <li><a href="https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3" target="_blank">Pixel perfect handbook</a></li>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Writing </h2>
-    > <ul>
-    >   <li><a href="http://www.hemingwayapp.com" target="_blank">Hemmingwayapp</a></li>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Other </h2>
-    > <ul>
-    >   <li><a href="https://haikyo.org" target="_blank">Haikyo</a></li>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Boats </h2>
-    > <ul>
-    >   <li><a href="http://www.bosunbird.com" target="_blank">Bosun Bird</a></li>
-    >   <li><a href="https://www.sunstonesailing.com/" target="_blank">Sunstone sailing</a></li>
-    >   <li><a href="http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute" target="_blank">Non-toxic cleaning</a></li>
-    > </ul>
-    > </columns>
-    > </wr>
-    > <hr/>
+    * Research
+    - {{La gomera|http://www.francescaphillips.com/whistling-language-la-gomera/}}
+    * Design
+    - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
+    - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
+    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
+    * Writing
+    - {{Hemmingwayapp|http://www.hemingwayapp.com}}
+    * Other
+    - {{Haikyo|https://haikyo.org}}
+    * Boats
+    - {{Bosun Bird|http://www.bosunbird.com}}
+    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
+    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
 
 LINKS
   LONG
     & A list of links to the blogs and websites of people that I admire.
-    > <columns>
-    > <h2> Artists & blogs</h2>
-    > <ul>
-    >   <li><a href="http://villainette.com/" target="_blank">Villainette</a></li>
-    >   <li><a href="https://thesadghostclub.com/" target="_blank">The sad ghost club</a></li>
-    >   <li><a href="http://www.comingupforair.net" target="_blank">Matthew Forsythe</a></li>
-    >   <li><a href="http://qby9.squarespace.com/q-hayashida/" target="_blank">Q Hayashida</a></li>
-    >   <li><a href="http://vertetfruite.com" target="_blank">Vert et fruite</a></li>
-    >   <li><a href="http://www.polclarissou.com" target="_blank">Pol Clarissou</a></li>
-    >   <li><a href="http://www.frankrause.com" target="_blank">Fran Krause</a></li>
-    >   <li><a href="http://etterstudio.com" target="_blank">Etter studio</a></li>
-    >   <li><a href="http://www.ko-opmode.com" target="_blank">Ko-op studio</a></li>
-    >   <li><a href="http://ninasays.so" target="_blank">Nina Freeman</a></li>
-    >   <li><a href="http://tale-of-tales.com" target="_blank">Tale of tales</a></li>
-    >   <li><a href="http://emcarroll.com" target="_blank">Emily Carroll</a></li>
-    >   <li><a href="https://www.boltcityproductions.com" target="_blank">Kazu Kibuishi</a></li>
-    >   <li><a href="http://starfightercomic.com" target="_blank">Hamlet Machine</a></li>
-    >   <li><a href="https://karastonesite.com" target="_blank">Kara stone</a></li>
-    >   <li><a href="https://fromsmiling.com" target="_blank">Taylor Bai-Woo</a></li>
-    > </ul>
-    > </columns>
-    > <columns>
-    > <h2> Friends </h2>
-    > <ul>
-    >   <li><a href="http://sailingwithbloom.com/" target="_blank">Sailing with Bloom</a></li>
-    >   <li><a href="http://www.tokyobybike.com" target="_blank">Tokyo by bike</a></li>
-    >   <li><a href="https://www.joursdepapier.com" target="_blank">Jours de papier</a></li>
-    >   <li><a href="http://www.cafenoirsanssucre.com" target="_blank">Cafe noir sans sucre</a></li>
-    >   <li><a href="http://cabfolio.com" target="_blank">Cab</a></li>
-    >   <li><a href="http://boumeries.com" target="_blank">Boumeries</a></li>
-    >   <li><a href="http://project-entropy.com" target="_blank">Project entropy</a></li>
-    >   <li><a href="http://genevieveft.com" target="_blank">Genevieve FT</a></li>
-    >   <li><a href="http://atelieroilandsugar.com" target="_blank">Oil and sugar</a></li>
-    >   <li><a href="http://juicybeast.com" target="_blank">Juicy beast</a></li>
-    >   <li><a href="http://dblstallion.com" target="_blank">Double stallion</a></li>
-    >   <li><a href="http://www.dom2d.com" target="_blank">Dom2d</a></li>
-    >   <li><a href="http://www.lexaloffle.com" target="_blank">Lexaloffle</a></li>
-    >   <li><a href="http://mathieubeaulieu.com" target="_blank">Mathieu Beaulieu</a></li>
-    >   <li><a href="https://bullybird.weebly.com" target="_blank">Bully bird</a></li>
-    >   <li><a href="http://valeriebastille.tumblr.com" target="_blank">Valerie Bastille</a></li>
-    >   <li><a href="http://www.rayotecabane.com" target="_blank">Vincent Desbiens</a></li>
-    >   <li><a href="http://www.mariannevincent.com" target="_blank">Marianne Vincent</a></li>
-    >   <li><a href="http://www.marieemilierowe.com" target="_blank">Marie-emilie Rowe</a></li>
-    >   <li><a href="http://frogshark.com" target="_blank">Frog shark</a></li>
-    >   <li><a href="https://tokyoluv.com" target="_blank">Tokyo Luv</a></li>
-    >   <li><a href="https://ideeezportfolio.tumblr.com" target="_blank">Ideeez</a></li>
-    > </ul>
-    > </columns>
-    > </wr>
+    * Artists & blogs
+    - {{Villainette|http://villainette.com/}}
+    - {{The sad ghost club|https://thesadghostclub.com/}}
+    - {{Matthew Forsythe|http://www.comingupforair.net}}
+    - {{Q Hayashida|http://qby9.squarespace.com/q-hayashida/}}
+    - {{Vert et fruite|http://vertetfruite.com}}
+    - {{Pol Clarissou|http://www.polclarissou.com}}
+    - {{Fran Krause|http://www.frankrause.com}}
+    - {{Etter studio|http://etterstudio.com}}
+    - {{Ko-op studio|http://www.ko-opmode.com}}
+    - {{Nina Freeman|http://ninasays.so}}
+    - {{Tale of tales|http://tale-of-tales.com}}
+    - {{Emily Carroll|http://emcarroll.com}}
+    - {{Kazu Kibuishi|https://www.boltcityproductions.com}}
+    - {{Hamlet Machine|http://starfightercomic.com}}
+    - {{Kara stone|https://karastonesite.com}}
+    - {{Taylor Bai-Woo|https://fromsmiling.com}}
+    * Friends
+    - {{Sailing with Bloom|http://sailingwithbloom.com/}}
+    - {{Tokyo by bike|http://www.tokyobybike.com}}
+    - {{Jours de papier|https://www.joursdepapier.com}}
+    - {{Cafe noir sans sucre|http://www.cafenoirsanssucre.com}}
+    - {{Cab|http://cabfolio.com}}
+    - {{Boumeries|http://boumeries.com}}
+    - {{Project entropy|http://project-entropy.com}}
+    - {{Genevieve FT|http://genevieveft.com}}
+    - {{Oil and sugar|http://atelieroilandsugar.com}}
+    - {{Juicy beast|http://juicybeast.com}}
+    - {{Double stallion|http://dblstallion.com}}
+    - {{Dom2d|http://www.dom2d.com}}
+    - {{Lexaloffle|http://www.lexaloffle.com}}
+    - {{Mathieu Beaulieu|http://mathieubeaulieu.com}}
+    - {{Bully bird|https://bullybird.weebly.com}}
+    - {{Valerie Bastille|http://valeriebastille.tumblr.com}}
+    - {{Vincent Desbiens|http://www.rayotecabane.com}}
+    - {{Marianne Vincent|http://www.mariannevincent.com}}
+    - {{Marie-emilie Rowe|http://www.marieemilierowe.com}}
+    - {{Frog shark|http://frogshark.com}}
+    - {{Tokyo Luv|https://tokyoluv.com}}
+    - {{Ideeez|https://ideeezportfolio.tumblr.com}}
     > <hr/>
 
 

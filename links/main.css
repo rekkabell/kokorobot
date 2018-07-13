@@ -11,22 +11,32 @@ h3 {font-size: 23px; margin-bottom: 10px}
 
 yu { background:red; }
 
-
 page { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; padding-top:60px; margin-top:-300px; padding-top:345px; transition: opacity 250ms; color:white; }
 page img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 page p.caption { font-style: italic; color:#999; font-size:16px; }
 page img.thumbnail { width:33.33%; display:block; float:left; }
 page p.intro {text-align: center;}
+page h3 { max-width: 600px; display: block; font-size: 24px;line-height: 30px;color:#999;font-weight: bold; margin:0px auto 30px; }
 page columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
 page columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'Alegreya'}
 page columns p a:hover { text-decoration: none }
 page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px;line-height: 26px }
 page columns ul li {}
+page columns list { margin-bottom:30px; }
+page list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
+page list ln { display: block; font-size:20px; }
+page list ln a { text-decoration: underline;}
+page list ln a:hover { text-decoration: none; }
 page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 page gallery { display: block; padding:0px 30px; }
 page gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
 page gallery hr { margin-bottom:30px; }
+page quote { display: block }
+page quote p.text { font-size:20px; font-style: italic; color:white;}
+page quote p.attrib { font-size:16px; padding-left:30px; }
+page quote p.attrib:before { content:"— "; }
+
 
 img.grey { -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%);transition: all 0.5s ease;}
 img.grey:hover {-webkit-filter: grayscale(0%);-moz-filter: grayscale(0%);filter: grayscale(0%);}
@@ -84,19 +94,10 @@ footer wr a.kofi:hover { background:pink; color:black; }
 footer wr a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer wr a.about:hover { text-decoration: underline; }
 
-#lightbox { background:rgba(0,0,0,0.8); width:100vw; height:100vh; position: fixed;top:0px; opacity: 0; display: none; padding:30px; z-index:999; }
+#lightbox { background:rgba(0,0,0,0.8); width:100vw; height:100vh; position: fixed;top:0px; opacity: 0; display: none; padding:30px; z-index:999; padding: 0; transition: all 500ms}
 #lightbox.active { opacity: 1; display: block }
-
-#lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px }
-
-/*
- * Bugfix — https://github.com/friederjanmoerman
- */
-
-/* bug: lightbox displayed image is too large on smaller screens */
-#lightbox { padding: 0; }
-#lightbox.active img { max-height: 90%; max-width: 90%; position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%); }
-
+#lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px; max-height: 90%; max-width: 90%; position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%); }
+#lightbox:hover { background:rgba(0,0,0,0.6); cursor: pointer; }
 /*
  * Responsive — https://github.com/friederjanmoerman
  */
