@@ -20,6 +20,13 @@ function Controller()
   {
     target = target.substr(0,1) == "#" ? target.substr(1,target.length-1) : target
     target = target.trim() == "" ? "Home" : target
+
+    if(target === ''){
+      window.history.replaceState(undefined, undefined, "#" + target)
+    }
+    else {
+      window.location.hash = target.to_url()
+    }
     
     console.info(`Loading ${target}.`)
 
@@ -52,3 +59,31 @@ function Controller()
 
   document.addEventListener('mouseup',  (e)=>{ this.touch(e.target); e.preventDefault(); });
 }
+
+var detectBackOrForward = function(onBack, onForward)
+{
+  hashHistory = [window.location.hash];
+  historyLength = window.history.length;
+
+  return function()
+  {
+    var hash = window.location.hash, length = window.history.length;
+    if (hashHistory.length && historyLength == length) {
+      if (hashHistory[hashHistory.length - 2] == hash) {
+        hashHistory = hashHistory.slice(0, -1);
+        onBack();
+      } else {
+        hashHistory.push(hash);
+        onForward();
+      }
+    } else {
+      hashHistory.push(hash);
+      historyLength = length;
+    }
+  }
+};
+
+window.addEventListener("hashchange", detectBackOrForward(
+  function() { console.log("back"); controller.load(); },
+  function() { console.log("forward"); controller.load(); }
+));
