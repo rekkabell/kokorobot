@@ -481,13 +481,12 @@ VENDREDI13
 NOTES
   LONG
     > <p>My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.</p>
-    > <columns>
     > <ul>
-    >   <li><a href="#quotes"><b>Wise words</b></a</li>
-    >   <li><a href="#collection"><b>Collection</b></a</li>
-    >   <li><a href="#links"><b>Links</b></a</li>
+    >   <li><a href="#Collection"><h3>Collection</h3></a</li>
+    >   <li><a href="#Links"><h3>Links</h3></a</li>
+    >   <li><a href="#Quotes"><h3>Quotes</h3></a</li>
+    >   <li><a href="#Resources"><h3>Resources</h3></a</li>
     > </ul>
-    > <columns>
     > </wr>
     > <hr/>
 
@@ -501,6 +500,46 @@ QUOTES
     >   <li>Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand." <br>― Thomas Jefferson</li><br>
     >   <li>"Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others." <br>― Unknown source</li><br>
     >   <li>“You have power over your mind - not outside events. Realize this, and you will find strength.” <br>― Marcus Aurelius, Meditations</li>
+    > </ul>
+    > </columns>
+    > </wr>
+    > <hr/>
+
+RESOURCES
+  LONG
+    & Articles and blogs that I go back to often, to help in projects.
+    > <columns>
+    > <h2> Research</h2>
+    > <ul>
+    >   <li><a href="http://www.francescaphillips.com/whistling-language-la-gomera/" target="_blank">La gomera</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Design </h2>
+    > <ul>
+    >   <li><a href="https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/" target="_blank">Everything in its place</a></li>
+    >   <li><a href="http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html" target="_blank">The five hole pamphlet stitch</a></li>
+    >   <li><a href="https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3" target="_blank">Pixel perfect handbook</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Writing </h2>
+    > <ul>
+    >   <li><a href="http://www.hemingwayapp.com" target="_blank">Hemmingwayapp</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Other </h2>
+    > <ul>
+    >   <li><a href="https://haikyo.org" target="_blank">Haikyo</a></li>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Boats </h2>
+    > <ul>
+    >   <li><a href="http://www.bosunbird.com" target="_blank">Bosun Bird</a></li>
+    >   <li><a href="https://www.sunstonesailing.com/" target="_blank">Sunstone sailing</a></li>
+    >   <li><a href="http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute" target="_blank">Non-toxic cleaning</a></li>
     > </ul>
     > </columns>
     > </wr>
@@ -564,27 +603,36 @@ LINKS
 COLLECTION
   LONG
     > <columns>
-    > <h2> Books </h2>
-    & Death positivity
+    > <h2> Books</h2>
+    > <h3>Death positivity</h3>
     > <ul>
     >   <li><b>Death, the duck and the tulip</b> by Wolf Erlbruch</li>
-    > </ul>
-    & Mental and body health
+    > </ul><br>
+    > <h3>Perception</h3>
+    > <ul>
+    >   <li><b>Walden</b> by Henry David Thoreau</li>
+    >   <li><b>Flatland</b> by Edwin Abbott</li>
+    > </ul><br>
+    > <h3>Mental and body health</h3>
     > <ul>
     >   <li><b>The red tree</b> by Shaun Tan</li>
     >   <li><b>How not to die</b> by Michael Greger</li>
-    > </ul>
-    & Adventure
+    > </ul><br>
+    > <h3>Travel</h3>
     > <ul>
     >   <li><b>North into the night</b> by Alvah Simon</li>
     >   <li><b>Ojingogo</b> by Matthew Forsythe
-    > </ul>
-    & Art inspiration
+    >   <li><b>Box wine sailors</b> by Amy McCullough
+    >   <li><b>Last chance to see-</b> by Douglas Adams and Mark Cowardine
+    > </ul><br>
+    > <h3>Art inspiration</h3>
     > <ul>
-    >   <li><b>Souichi's Diary of Curses</b> by Junji Ito</li>
+    >   <li><b>Uzumaki</b> by Junji Ito</li>
     >   <li><b>Dorohedoro</b> by Q. Hayashida
     >   <li><b>Blade of the immortal</b> by Hiroaki Samura</li>
-    > </ul>
+    > </ul><br>
+    > </columns>
+    > <columns>
     > <h2> Films </h2>
     > <ul>
     >   <li><b>Mindgame</b>
@@ -597,13 +645,28 @@ COLLECTION
     >   <li><b>Only lovers left alive</b>
     >   <li><b>What we do in the shadows</b>
     >   <li><b>Fright Night</b>
+    >   <li><b>Kiki's delivery service</b>
+    >   <li><b>Alien</b>
+    >   <li><b>Kiki's delivery service</b>
     >   <li><b>Burn after reading</b>
     >   <li><b>Return of the living dead</b>
     >   <li><b>Fargo</b>
-    >   <li><b>Re-animator</b>
     >   <li><b>Vampire hunter D</b>
     >   <li><b>28 days later</b>
     >   <li><b>Lost in translation</b>
+    > </ul>
+    > </columns>
+    > <columns>
+    > <h2> Favorite artists </h2>
+    > <ul>
+    >   <li><b>Hiroaki Samura</b>
+    >   <li><b>Q. Hayashida</b>
+    >   <li><b>Junji Ito</b>
+    >   <li><b>Matthew Forsythe</b>
+    >   <li><b>Emily Caroll</b>
+    >   <li><b>Yoshitaka Amano</b>
+    >   <li><b>Kazu Kibuishi</b>
+    > </ul>
     > </columns>
     > </wr>
     > <hr/>
