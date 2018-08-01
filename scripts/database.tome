@@ -500,18 +500,29 @@ CHARACTERS
   LONG
     & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them (some aren't yet clickable).
     > <gallery>
-    > <a href="#sy"><img class='grey' src="media/content/oc.sy.jpg"></a>
+    > <a href="#characters"><img class='grey' src="media/content/oc.sy.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.token.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.orion.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.seir.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.nemerald.jpg"></a>
-    > <a href="#characters"><img class='grey' src="media/content/oc.fenix.jpg"></a>
+    > <a href="#fenix"><img class='grey' src="media/content/oc.fenix.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.musi.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.shock.jpg"></a>
     > <hr/>
     > </gallery>
+    > </wr>
 
-SY
+FENIX
+  LONG
+    > <columns>
+    % content/oc.fenix.main.jpg main
+    > <p class='caption'>Fenton 'fenix' Drayer. Pokemon Team: Daedalus (Houndoom), Donov (Scolipede), Monad (Xatu), Shargon (Sharpedo and Flygon hybrid) and Swecleon (Swellow and Kecleon hybrid)</p>
+    > <h2>Fenix</h2>
+    & Fenix says little of his past, even when asked, he will tell you it's of no interest. What is known, is that he has been part of Matrix for some time, and that his long service has granted him two Pokemon hybrids: Shargon and Swecleon. He is best known for the scout work he does for the organization, spying on targets, and retrieving them when necessary. A loyal soldier, he does not question commandments, and will do whatever is asked of him. Out of touch with his feelings, Fenix has difficulty befriending others, or doing activities that doesn't involve training. His room is perfectly ordered, as his every aspect of his life. He keeps everything in check, his words and his emotions too. 
+    & Fenix does enjoy the company of Musi, another Matrix employee, although not one that is active in the organization. Although their relationship deteriorates greatly, because of Casey's presence, and bit by bit Fenix becomes less organized and cruel.
+    & Physical appearance: Fenix has black hair with blue hues, and tanned skin. His features are minimal, thin eyebrows and eyes, all this makes him hard to read. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side. This scar, is Fenix's greatest shame, the result of a moment of inattention, the only one in his career. 
+    > </columns>
+    > <hr/>
 
 TOOLS
   LONG
