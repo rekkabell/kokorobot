@@ -500,7 +500,7 @@ CHARACTERS
   LONG
     & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them (some aren't yet clickable).
     > <gallery>
-    > <a href="#characters"><img class='grey' src="media/content/oc.sy.jpg"></a>
+    > <a href="#sy"><img class='grey' src="media/content/oc.sy.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.token.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.orion.jpg"></a>
     > <a href="#characters"><img class='grey' src="media/content/oc.seir.jpg"></a>
@@ -512,6 +512,20 @@ CHARACTERS
     > </gallery>
     > </wr>
 
+SY
+  LONG
+    > <columns>
+    % content/oc.sy.main.jpg main
+    > <h2>Sy Keon-Cross</h2>
+    & Age: 19
+    & Family: Tim Keon & Harlow Cross
+    > </columns>
+    > <hr/>
+    & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlow spent little time with Sy as a kid, she didn't care where he was most times. He left home at 13, and never looked back.
+    & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. One day, he tried to pick a fight with {{Token|#token}}, a boy that lived across the river. But he learned that day, that this boy was pretty good fighter, what with his father being a local boxing celebrity. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
+    & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, not easy to befriend. Many try, taking pity on him, because despite his less-than-ideal personality, it is evident that he needs help. It is very difficult for him to care about others, and if he does, it's often because he finds joy in belittling them – or so he says. 
+    & Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. 
+    & Physical appearance: Sy has dark-coloured hair. His face is stuck in a state of perpertual anger, his eyebrows permanently arched over his blue eyes. He is 5'7, skinny but with a strong build. Sy bears a tattoo of a cross and serpent on his right shoulder. 
 FENIX
   LONG
     > <columns>
