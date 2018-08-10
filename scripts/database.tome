@@ -18,7 +18,7 @@ ABOUT
     > <li> Likes to {*<a href="http://grimgrains.com">cook</a>*}.</li>
     > </ul>
     > </columns>
-    & My past work experience include working in studio for {*Pascal Blais animation*}, {*Tele Quebec*} and {*TonePlus animation studios*}. I have done contract work for {*Edoki Academy*}, {*Volta Creations*} and {*Scorpion Masque*}; and have published children's books with {*Editions Druide*}, {*Bayard Canada*}, {*Erpi*} and {*Editions du Boreal*}. 
+    & My past work experience include working in studio for {*Pascal Blais animation*}, {*Télé-Québec*} and {*TonePlus animation studios*}. I have done contract work for {*Edoki Academy*}, {*Volta Creations*} and {*Scorpion Masqué*}; and have published children's books with {*Éditions Druide*}, {*Bayard Canada*}, {*Erpi*} and {*Éditions du Boréal*}. 
     & I'm great at spearheading projects, and prefer work that will allow me to use my own style - keep this in mind if you wish to work with me. I do book covers, interiors, game assets and promo/concept art. I only do animation for personal projects.
     & Email me at {*rekkabell @ gmail dot com*} or DM me {*@rekkabell*} on twitter for art-related inquiries (I speak fluent french).
     & You can also:
@@ -105,7 +105,7 @@ PUBLICATIONS
     > <li> {*Archaeology of the Digital: Media and Machines*} Canadian centre for architecture, Montreal, 2014
     > <li> {*Pictoplasma*} La GAÎTÉ LYRIQUE, Paris, 2011
     > <li> {*Tribute to Skydoll*} La Gallerie, Montreal, 2010
-    > </ul>
+    > </ul> 
 
 PROJECTS
   LONG
@@ -617,25 +617,33 @@ ORION
     > <columns>
     % content/oc.orion.main.jpg main
     > <h2>Orion Mintenko</h2>
-    & Age: 16
-    & Alignment: Neutral good
-    & Family: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.
-    & Physical appearance: Light, sandy blonde hair, cut short but hanging long over one side of the face. Orion is bright-eyed, fair-skinned and often wears bright mismatched clothes. He is thin, dark-eyed, not very strong of body. He has fish tattoos on his neck, black bars on his left arm, as well as the tattoo of two winged persons, arm in arm. He has a surface piercing on his cheek, a lip piercing, and ear stretches. 
+    > <ul>
+    > <li>{*Age*}: 17</li>
+    > <li>{*Alignment*}: Neutral good</li>
+    > <li>{*Orientation*}: Pansexual</li>
+    > <li>{*Gender*}: Non-binary</li>
+    > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.</li>
+    > <li>{*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Has multiple piercings. </li>
+    > </ul>
     > </columns>
     > <hr/>
-    & When the family split up, young Orion went with Petra to Kiev. He continued his schooling there, living with Petra's mother in the family home. Orion is a happy go-lucky kid, he can make the best of any situation. In his early teenhood, he went to a lot of clubs, concerts and parties, and began taking club drugs, such as LSD and ecstasy. Orion did get into trouble for it, and eventually started to take synthetic opioids and sedatives instead. With the recent crackdowns in Kiev, these were easier, and cheaper, to procure than naturally-derived drugs. Eventually, Orion began to produce and sell these locally too. After a near-arrest, Orion decided he needed a change of scenery and moved back to America with his brother {{Token|#token}}. This change, did little to appease Orion's addictive nature, and he began to take these same subtances there too but decided it best not to sell anymore.
-    & Orion works in a bar in the gay village in evenings, it's where he spends most of his time. Orion enjoys the company of others, and is seldom seen alone. He worries for his brother, and even for {{Sy|#sy}}, many times, to his great displeasure, he becomes the adult when around them and makes sure that they're well. Orion cares about everyone, and has a heart big enough to contain everyone he meets. He is smart, and likes to help others, whenever he can. 
-    & Orion is pansexual. Confident, he wears whatever he likes and cares little of the opinions of others. Not many show aggression towards him anyways, because of his genial nature. 
+    & When the family split up, young Orion went with Petra to Kiev and continued school there while living with Petra's mother in the family home. Orion is a happy go-lucky kid, and can make the best of any situation. At 15, Orion went to a lot of clubs, concerts and parties, and began taking club drugs, such as LSD and ecstasy. Orion did get into trouble for it, and eventually started to take synthetic opioids and sedatives instead. With the recent crackdowns in Kiev, these were easier, and cheaper, to procure than naturally-derived drugs. Eventually, Orion began to produce and sell these locally too. After a near-arrest, Orion decided to move back to America with {{Token|#token}}. This change, did little to appease Orion's addictive nature, and began to take these same subtances there too but decided it best not to sell anymore.
+    & Orion works in a bar in {*the Village*} (Montreal's gay village) in evenings and is seldom seen alone. Orion cares about everyone, and has a heart big enough to contain everyone. 
+    & Orion is confident, and wears whatever, caring little of the opinions of others. Not many show aggression towards Orion anyways, because of their genial nature. 
 
 TOKEN
   LONG
     > <columns>
     % content/oc.token.main.jpg main
     > <h2>Token Malvado</h2>
-    & Age: 19
-    & Alignment: Lawful neutral
-    & Family: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.
-    & Physical appearance: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts and loose pants, he often wears a red sports jacket. He bears a deep cut at his lip, and is missing two fingers on his left hand, with a third cut at the joint. 
+    > <ul>
+    > <li>{*Age*}: 20</li>
+    > <li>{*Alignment*}: Lawful neutral</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Gynesexual</li>
+    > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.</li>
+    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts and loose pants, he often wears a red sports jacket. He bears a deep cut at his lip, and is missing two fingers on his left hand, with a third cut at the joint. </li>
+    > </ul>
     > </columns>
     > <hr/>
     & Token's parents split up when he was young, he stayed with Luciano in Lasalle while Petra brought {{Orion|#orion}} back to Kiev. Petra never did love him, she always had a preference for Orion, Token pretended to be okay with this but it did hurt. Luciano too showed favoritism, he could see Token was strong and could be a good fighter, like he was. He was trained early on, and enrolled in city tournaments, and soon participated in events all around the province and the country. 
@@ -647,10 +655,14 @@ SY
     > <columns>
     % content/oc.sy.main.jpg main
     > <h2>Sy Keon-Cross</h2>
-    & Age: 19
-    & Alignment: Chaotic evil
-    & Family: Tim Keon & Harlow Cross
-    & Physical appearance: Sy has dark-coloured hair. His face is stuck in a state of perpetual anger, his eyebrows permanently arched over his blue eyes. He is 5'7, skinny but with a strong build. Sy bears a tattoo of a cross and serpent on his right shoulder, and flame tattoos around his wrists. Wears loose t-shirts and old jeans, often wears a baseball cap.
+    > <ul>
+    > <li>{*Age*}: 19</li>
+    > <li>{*Alignment*}: Chaotic evil</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Gynesexual</li>
+    > <li>{*Family*}: Tim Keon & Harlow Cross</li>
+    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of a cross and serpent on the right shoulder. Wears loose t-shirts and old jeans, often wears a cap.</li>
+    > </ul>
     > </columns>
     > <hr/>
     & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlo:w spent little time with Sy as a kid, she didn't care where he was most times. He left home at 13, and never looked back.
@@ -663,9 +675,13 @@ FENIX
     > <columns>
     % content/oc.fenix.main.jpg main
     > <h2>Fenton 'Fenix' Drayer</h2>
-    & Age: 20
-    & Alignment: Lawful neutral
-    & Physical appearance: Fenix has black hair with blue hues. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side.  
+    > <ul>
+    > <li>{*Age*}: 20</li>
+    > <li>{*Alignment*}: Lawful neutral</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Gynesexual</li>
+    > <li>{*Appearance*}: Fenix has black hair with blue hues. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side. </li>
+    > </ul> 
     > </columns>
     > <hr/>
     & Fenix says little of his past, even when asked, he will tell you it's of no interest. What is known, is that he has with Matrix for some time, and that his long service has granted him two Pokemon hybrids: Shargon and Swecleon.
@@ -678,25 +694,37 @@ SEIR
     > <columns>
     % content/oc.seir.main.jpg main
     > <h2>Seir</h2>
-    & Age: irrelevant
-    & Alignment: Neutral evil
+    > <ul>
+    > <li>{*Age*}: irrelevant</li>
+    > <li>{*Alignment*}: Neutral evil</li>
+    > <li>{*Gender*}: Agender</li>
+    > <li>{*Orientation*}: Pansexual</li>
+    > </ul>
 
 NEMERALD
   LONG
     > <columns>
     % content/oc.nemerald.main.jpg main
     > <h2>Nemerald</h2>
-    & Age: 32
-    & Alignment: True neutral
+    > <ul>
+    > <li>{*Age*}: 32</li>
+    > <li>{*Alignment*}: True neutral</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Demisexual</li>
+    > </ul>
 
 MUSI
   LONG
     > <columns>
     % content/oc.musi.main.jpg main
     > <h2>Monty 'Musi' Quintero</h2>
-    & Age: 23
-    & Alignment: True neutral
-    & Physical appearance: Musi has light, and long brown hair. He is of thick build, not especially muscular but would perform well enough in a fight. He dresses casually, a light blouse and shorts as well as a mariner's cap will do. Musi is 6'1, he has two birth marks under one eye.  
+    > <ul>
+    > <li>{*Age*}: 23</li>
+    > <li>{*Alignment*}: True neutral</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Bisexual</li>
+    > <li>Physical appearance: Musi has light, and long brown hair. He is of thick build, not especially muscular but would perform well enough in a fight. He dresses casually, a light blouse and shorts as well as a mariner's cap will do. Musi is 6'1, he has two birth marks under one eye.  </li>
+    > </ul>
     > </columns>
     > <hr/>
     & Musi has always been a mariner, his family has always lived at sea. Growing up, they had no property, they always lived on the dock. His father Archie still travels on the ocean, while Musi stayed behind doing odd jobs for Matrix. Musi didn't intend on working for them, but he needed cash and the organization needed a skilled sailor to get their people on the offshore island of Goshin. He doesn't get involved in much of the happenings of Matrix, but does need to bring captives to the island, to his great displeasure. Musi doesn't like it, but doesn't do much against it either, it's just how it is. He considers himself lucky to be where he is.
@@ -708,9 +736,13 @@ SHOCK
     > <columns>
     % content/oc.shock.main.jpg main
     > <h2>Shane 'Shock' Evans</h2>
-    & Age: 17
-    & Alignment: Chaotic neutral
-    & Physical appearance: Shane lost a front tooth during a violent altercation with {{Fenix|#fenix}}, this gives him a childish look. His hair is grey, cut into a thick mohawk and shaved on the sides, his eyes at this same colour. He is mid-height, not skinny but does have some weight, because of a regular diet of pop and chips. Often seen wearing baggy bright-coloured pants, a white shirt with a black undershirt. 
+    > <ul>
+    > <li>{*Age*}: 17</li>
+    > <li>{*Alignment*}: Chaotic neutral</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Asexual</li>
+    > <li>{*Appearance*}: Shane lost a front tooth during a violent altercation with {{Fenix|#fenix}}, this gives him a childish look. His hair is grey, cut into a thick mohawk and shaved on the sides, his eyes at this same colour. Often seen wearing baggy bright-coloured pants, a white shirt with a black undershirt. </li>
+    > </ul>
     > </columns>
     > <hr/>
     & Shane was raised in Sunnyshore city, born in a wealthy family. The Evans operate a solar plant as well as a gym in town. His parents, Volitia and Elivire, are collectors of electric pokemon. He has two older siblings, brother Olliber and sister Bektra, they all train together, and never fail to make fun of Shane because he angers so very easily. 
