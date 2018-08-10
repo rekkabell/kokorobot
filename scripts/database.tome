@@ -15,7 +15,7 @@ ABOUT
     &   I am co-creator of the traveling game and design studio {*<a href="http://100r.co">Hundred Rabbits</a>*}, and manage a creative cooking blog called {*<a href="http://grimgrains.com">GrimGrains</a>*}.
     > </columns>
     & Living on a boat, I depend 100% on solar and have adapted my {{tools|#tools}} to match this restriction.
-    & My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal. 
+    & My past work experience include working in studio for {*Pascal Blais animation*}, {*Tele Quebec*} and {*TonePlus animation studios*}. I have done contract work for {*Edoki Academy*}, {*Volta Creations*} and {*Scorpion Masque*}; and have published children's books with {*Editions Druide*}, {*Bayard Canada*}, {*Erpi*} and {*Editions du Boreal*}. 
     & I'm great at spearheading projects, and prefer work that will allow me to use my own style - keep this in mind if you wish to work with me. I do book covers, interiors, game assets and promo/concept art. I only do animation for personal projects.
     &   Email me at {*rekkabell @ gmail dot com*} or DM me {*@rekkabell*} on twitter for art-related inquiries. 
     & You can also:
@@ -114,6 +114,7 @@ PROJECTS
     >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
     >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
     >   <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
+    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
     >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
     >   <a href='#vendredi13'><img class='grey' src="media/content/game.vendredi13.jpg"></a>
     >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
@@ -152,7 +153,6 @@ STORIES
     > <gallery>
     >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
-    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <hr/>
     > </gallery>
@@ -161,11 +161,23 @@ STORE
   LONG
     > <columns>
     % content/store.jpg main
-    * Prints
-    & You can purchase prints on <a href="https://www.etsy.com/shop/RekkaBell" target="_blank">Etsy</a>, <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> or <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
-    & Otherwise, you can <a href="http://ko-fi.com/rekkabellum" target="_blank">Buy me a coffee</a>, make a monthly pledge on <a href="https://www.patreon.com/100" target="_blank">Patreon</a> to my studio Hundredrabbits or <a href="https://hundredrabbits.itch.io" target="_blank">buy my games</a>.
-    & Thank you!
+    * Support my work
+    > <ul>
+    > <li>Buy prints on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} or {*{{Society6|https://society6.com/rekkabell}}*}</li>
+    > <li>Buy me a {*{{Coffee|http://ko-fi.com/rekkabellum}}*}</li>
+    > <li>Become a {*{{Patron|https://www.patreon.com/100}}*}</li>
+    > <li>Buy my {*{{Games|https://hundredrabbits.itch.io}}*}</li>
+    > <li>Ask for a {*{{paid commission|#ink}}*}</li>
+    > </ul>
     > </columns>
+    * ITEMS FOR SALE
+    & All drawings are {*40$ each*}, plus an {*extra 5$*} for shipping. Contact me at {*rekkabell at gmail dot com*} if interested.
+    > <wr>
+    >   <img src="media/content/project.knots.02.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.knots.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.knots.04.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
 
 WIKTOPHER
   BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
@@ -203,9 +215,9 @@ CIRCA
   LONG
     > <columns>
     % content/project.circa.jpg main
-    > <p class='caption'>"Just another kind of prison."</p>
+    > <p class='caption'>"Sy Keon Cross"</p>
     > <h2>What is Circa</h2>
-    & Circa is a work-in-progress. Is it the story of many, focused on the contradictory lives of {{Sy|#sy}} and Token.
+    & Circa is a work-in-progress. Is it the story of many, focused on the contradictory lives of {{Sy|#sy}} and {{Token|#token}}.
     > </columns>
     > <wr>
     >   <img src="media/content/project.circa.01.jpeg" class='thumbnail lightbox'>
@@ -221,46 +233,46 @@ THOUSANDROOMS
     % content/project.thousandrooms.02.jpg main
     > <p class='caption'>Thousand Rooms is a visual novel collaboration with Devine Lu Linvega, following the behaviours of four characters and a room.</p>
     > <h2>Thousand rooms</h2>
-    & We have written this book with the hopes of creating a sort of Borges for children, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.</p>
-    & The book is available in 13 languages: English, Lietal, French, Japanese, Russian, German, Italian, Dutch, Greek, Arabic, Chinese, Spanish and Portuguese.</p>
+    & We have written this book with the hopes of creating a sort of {*Borges for children*}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.</p>
+    & The book is available in {*13 languages*}, and can thus be used as a learning aid. All languares are available upon purchase.
     > </columns>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/146658?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
     > <gallery class='thumbnails lightbox'>
     > <img src="media/content/project.thousandrooms.03.png">
     > <img src="media/content/project.thousandrooms.04.png">
     > <img src="media/content/project.thousandrooms.05.png">
     > <hr/>
     > </gallery>
-    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/146658?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
 
 OQUONIE
   LONG
     > <columns>
     % content/game.oquonie.02.jpg main
-    > <p class='caption'>This game is published by <a href="http://100r.co">Hundredrabbits</a>. Visit the <a href="http://oquonie.100r.co">Oquonie microsite</a> for more information about the game.</p>
+    > <p class='caption'>This game is published by {*{{Hundred Rabbits|http://100r.co}}*}. Visit the {*{{Oquonie microsite|http://oquonie.100r.co}}*} for more information about the game.</p>
     > <h2>Oquonie</h2>
-    & Oquonie is a textless puzzle game for PC, Linux, Mac, iPad, Iphone and Apple TV created in collaboration with designer Devine Lu Linvega where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
+    & Oquonie (2014) is a textless puzzle game for {*PC*}, {*Linux*}, {*Mac*}, {*iPad*}, {*Iphone*} and {*Apple TV*} created in collaboration with designer {*{{Devine Lu Linvega|http://xxiivv.com}}*} where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
     > </columns>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/23183?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
     > <gallery class='thumbnails lightbox'>
     >  <img src="media/content/game.oquonie.03.jpg">
     >  <img src="media/content/game.oquonie.04.jpg">
     >  <img src="media/content/game.oquonie.05.jpg">
     > <hr/>
     > </gallery>
-    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/23183?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
 
 GRIMGRAINS
   LONG
     > <columns>
     % content/project.grimgrains.02.jpg main
     > <h2>Grim grains</h2>
-    &  Grim Grains is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with bamboo charcoal powder, an ingredient that makes food black.
-    &  The blog had recipes published on Foodgawder, My green planet, Finding Vegan and Tastespotting.
+    &  {*{{Grim Grains|http://grimgrains.com}}*} is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with {{bamboo charcoal powder|http://grimgrains.com/#bamboo+charcoal+powder}}, an ingredient that makes food black.
+    &  The blog had recipes featured on {*{{Foodgawder|https://foodgawker.com/post/archive/grimgrains/}}*}, {*{{One green planet|https://www.onegreenplanet.org/author/rekka_bell}}*}, {*Finding Vegan*} and {*{{Tastespotting|http://www.tastespotting.com/profile/grimgrains/submissions/1}}*}.
     > <h3>Features</h3>
     > <ul>
-    >  <li><a href="https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains/">Food bloggers canada interview, 2015</a></li>
-    >  <li><a href="https://www.maison-objet.com/fr/paris/programme/inspirations/wild">Inspiration book No28, MaisonEtObjet, 2016.</a></li>
+    >  <li>{*{{Food bloggers canada interview| https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains}}*}, 2015</a></li>
+    >  <li>{*{{Inspiration book No28|https://www.maison-objet.com/fr/paris/programme/inspirations/wild}}*} MaisonEtObjet, 2016.</a></li>
     > </ul>
-    & <a href="http://100r.co">Visit</a> GrimGrains for some strange, but delicious recipes.</p>
+    & Visit {*{{Grim Grains|http://100r.co">Visit}}*} for some strange, but delicious recipes.</p>
     > </columns>
     > <wr>
     >  <img src="media/content/project.grimgrains.03.jpg" class='thumbnail lightbox'>
@@ -288,9 +300,9 @@ INK
     > <li><b><a href="#ginger">Ginger roots</a></b></li>
     > </ul>
     > <h3>Make a request</h3>
-    &  Email me at rekkabell at gmail dot com to request an original custom drawing.
-    &  Also, if you don't mind a reproduction, these drawings are sold as print copies on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a>.
-    &  You can also purchase other products like <a href="https://society6.com/product/monkey-fist-knot_stretched-canvas?sku=s6-8651169p16a6v28">canvas prints</a> and <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank">throw pillows</a> in these stores.
+    &  Email me at {*rekkabell at gmail dot com*} to request an original custom drawing.
+    &  Also, if you don't mind a reproduction, these drawings are sold as print copies on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} and  {*{{Society6|https://society6.com/rekkabell}}*}.
+    &  You can also purchase other products like {*{{canvas prints|https://society6.com/product/monkey-fist-knot_stretched-canvas?sku=s6-8651169p16a6v28}}*} and {*{{Throw pillows|https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193}}*} in these stores.
     > </columns>
     > <wr>
     > <img src="media/content/project.ink.09.jpg" class='thumbnail lightbox'>
@@ -309,8 +321,8 @@ MARKL
     > <columns>
     % content/project.markl.02.jpg main
     & Markl is a game currently in development - by myself and Devine - in which players must program their characters fighting style, to face various opponents in a battle happening too fast for humans to compete.</p>
-    & This game currently has no release date, and will be published by <a href="http://100r.co">Hundredrabbits</a> for PC, Mac, Linux and iOS.</p>
-    & Visit the <a href="http://markl.100r.co">Markl microsite</a> for more information about the project.</p>
+    & This game currently has no release date, and will be published by {*{{Hundred Rabbits|http://100r.co}}*} for PC, Mac, Linux and iOS.</p>
+    & Visit the {*{{Markl Microsite|http://markl.100r.co}}*} for more information about the project.</p>
     > </columns>
     > <wr>
     >  <img src="media/content/project.markl.03.gif" class='thumbnail'>
@@ -330,7 +342,7 @@ MALISSE
     > <h2>Malisse</h2>
     & Malisse is a two-player cooperative game played with two controllers, or single-player with a single controller. You could also play it two players on the same controller!</p>
     & Available for Windows and Mac. It was produced during ToJam 9 by Les Collegiennes. Side image and logo by Dom2d.</p>
-    & Play Malisse <a href="https://renaudbedard.itch.io/malisse">here</a>.</p>
+    >  <a href="https://renaudbedard.itch.io/malisse" class='button' target="_blank">PLAY THE GAME</a>
     > </columns>
     > <wr>
     >  <img src="media/content/game.malisse.03.jpg" class='thumbnail lightbox'>
@@ -367,7 +379,7 @@ CERBELLUM
     > <columns>
     % content/project.cerbellum.02.gif main
     > <h2>Cerbellum</h2>
-    & The world through the eyes of a socially anxious skeleton named C. Cerbellum is a project that sheds light on the thoughts and fears of people with anxiety.
+    & The world through the eyes of a socially anxious skeleton named C. {*Cerbellum*} is a project that sheds light on the thoughts and fears of people with anxiety.
     & This is a project that I would like to expand into a book, or comic series.
     & I'm still very undecided. More updates soon.
     > </columns>
@@ -394,8 +406,8 @@ DEATH
     % content/project.deathgod.02.gif main
     > <p class='caption'>I have been for a long time at your side.</p>
     > <h2>Incredible death</h2>
-    & Project done in 2016 as part of <a href="https://itch.io/jam/screensaverjam">Screensaver jam</a></p>
-    & <a href="https://rekkabell.itch.io/incredible-death">Download</a> the screensaver.</p>
+    & Project done as part of {*{{Screensaver jam 2016|https://itch.io/jam/screensaverjam}}*}
+    >  <a href="https://rekkabell.itch.io/incredible-death" class='button' target="_blank">DOWNLOAD SCREENSAVER</a>
     > </columns>
     > <hr/>
 
@@ -405,8 +417,8 @@ SPRITE
     % content/project.sprite.02.gif main
     > <h2>Sprite</h2>
     & While in Mexico, I started a sprite animation project to help fund the repair of the sails for our boat Pino.
-    & The sprites are in the style of <a href="#oquonie">Oquonie</a>, and all were requests by people on twitter.
-    & I still take sprite requests, if you want your own send me a tweet @rekkabell or send me an email at rekkabell at gmail dot com.
+    & The sprites are in the style of {*{{Oquonie|#oquonie}}*}, and all were requests by people on twitter.
+    & I still take sprite requests, if you want your own send me a tweet {*@rekkabell*} or send me an email at {*rekkabell at gmail dot com*}.
     > </columns>
     > <wr>
     >  <img src="media/content/project.sprite.03.gif" class='thumbnail'>
@@ -463,8 +475,8 @@ KNOTS
     > <p class='caption'>148x210mm (6x8inches) ink drawings on watercolour paper. Completed in 2018</p>
     > <h2>Nautical knot series</h2>
     & Every knot has a purpose, drawings these has helped me to memorize them. Knowing how to tie a good knot, could save your life.
-    & Some of these are still available for sale: The monkey fist (picture on the left), the constrictor knot (number 1), the overhand knot (number 2). They are <b>40$ each</b>, plus an <b>extra 5$</b> for shipping. Contact me at <b>rekkabell at gmail dot com</b> to buy the drawings.
-    & You can also buy prints of these drawings on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a>
+    & Some of these are still available for sale: The monkey fist (pictured on the left), the constrictor knot (number 1), the overhand knot (number 2). They are <b>40$ each</b>, plus an <b>extra 5$</b> for shipping. Contact me at <b>rekkabell at gmail dot com</b> to buy the drawings.
+    & You can also buy prints of these drawings on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell}}*} and {*{{Society6|https://society6.com/rekkabell}}*}.
     > </columns>
     > <wr>
     >  <img src="media/content/project.knots.03.jpg" class='thumbnail lightbox'>
@@ -484,7 +496,7 @@ FUNGI
     > <h2>Fungi series</h2>
     & Mushrooms come in a variety of shapes and sizes; attracted by their other-wordliness, I have started a fungi illustration series.</p>
     & All of the originals of this series found good homes. If you would still like a mushroom, you can request one for <b>40$ plus 5$ for shipping</b> at rekkabell at gmail dot com.</p>
-    & You can also buy prints of all of these drawings on <a href="https://www.inprnt.com/gallery/rekkabell/" target="_blank">Inprnt</a> and <a href="https://society6.com/rekkabell" target="_blank">Society6</a></p>
+    & You can also buy prints of all of these drawings on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell}}*} and {*{{Society6|https://society6.com/rekkabell}}*}.
     > </columns>
     > <wr>
     >  <img src="media/content/project.fungi.03.jpg" class='thumbnail lightbox'>
@@ -514,7 +526,7 @@ HITOBITO
     > <h2>Hitobito</h2>
     & 人々 (hitobito), or "everyone". Named thusly since the project started while I lived in Tokyo.
     & Drawings of people I see on the street, drawn on a daily basis.
-    & View the whole series on my <a href="http://hitobitobi.tumblr.com" target="_blank">Hitobito</a> tumblr.
+    & {*{{View|http://hitobitobi.tumblr.com}}*} the whole series.
     > </columns>
     > <wr>
     >  <img src="media/content/project.hitobito.03.jpg" class='thumbnail lightbox'>
@@ -538,9 +550,9 @@ BULLE
     % content/game.bulle.02.png main
     > <p class='caption'>Bulle, Tartine, Momo and other characters of the Mon ami Bulle app, travel and make discoveries in unique universes.</p>
     > <h2>Mon ami bulle</h2>
-    & Contract work for IOS app Mon ami Bulle by Tele Quebec.
+    & Contract work for IOS app {*{{Mon ami Bulle|https://itunes.apple.com/ca/app/mon-ami-bulle/id1088076963?mt=8}}*} by Tele Quebec.
     & I worked on many assets for the animated sequences, and did the artwork for 3 of the main narrated stories of the game.
-    & Visit the <a href="https://www.telequebec.tv/bulle">Tele-quebec website</a> for more information.
+    & Visit {*{{Tele-Quebec|https://www.telequebec.tv/bulle}}*} for more information.
     > </columns>
     > <wr>
     >  <img src="media/content/game.bulle.03.png" class='thumbnail lightbox'>
@@ -557,11 +569,11 @@ VENDREDI13
     > <h2>Friday the 13th</h2>
     & Push your bad luck away! Bad omens are all around you! Play your cards right to avoid bad luck. Or, risk gathering as much bad luck as possible, to pass the curse on to your adversaries and ruin their hand!
     > <ul>
-    >   <li><b>Publisher</b> Scorpion Masque</li>
-    >   <li><b>Illustrator</b> Yours truly</li>
-    >   <li><b>Designer</b> Reiner Knizia</li>
+    >   <li>{*Publisher*} Scorpion Masque</li>
+    >   <li>{*Illustrator*} Yours truly</li>
+    >   <li>{*Designer*} Reiner Knizia</li>
     > </ul>
-    & Visit <a href="https://www.scorpionmasque.com/en/friday-13th">Scorpion Masque</a> for more information about the game.
+    & Visit {*{{Scorpion Masque|https://www.scorpionmasque.com/en/friday-13th">Scorpion Masque}}*} for more information about the game.
     > </columns>
     > <wr>
     >  <img src="media/content/game.vendredi13.03.jpg" class='thumbnail lightbox'>
@@ -583,7 +595,7 @@ NOTES
 
 CHARACTERS
   LONG
-    & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them (some aren't yet clickable).
+    & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them (some aren't yet complete).
     > <gallery>
     > <a href="#sy"><img class='grey' src="media/content/oc.sy.jpg"></a>
     > <a href="#token"><img class='grey' src="media/content/oc.token.jpg"></a>
@@ -765,8 +777,6 @@ RESOURCES
     - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
     - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
     - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
-    * Writing
-    - {{Hemmingwayapp|http://www.hemingwayapp.com}}
     * Other
     - {{Haikyo|https://haikyo.org}}
     * Boats
