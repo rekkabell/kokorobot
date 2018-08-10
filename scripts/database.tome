@@ -12,90 +12,96 @@ ABOUT
     > <h2>Rekka Bellum</h2>
     &   Here, you will finds things that I've made. It is my space in the void, a room I've decorated that it is here for you visit. 
     & I'm an illustrator, from Montreal (I speak fluent french) living on a small sailboat. I enjoy {{writing|#stories}}, {{drawings mushrooms|#fungi}}, observing {{sea birds|#animals}}, cycling, {{cooking plants|#grimgrains}} and {{sailing|https://100r.co}}. 
-    &   I am co-creator of the traveling studio <a href="http://100r.co">Hundred Rabbits</a>, and manage a creative cooking blog called <a href="http://grimgrains.com">GrimGrains</a>.
+    &   I am co-creator of the traveling game and design studio {*<a href="http://100r.co">Hundred Rabbits</a>*}, and manage a creative cooking blog called {*<a href="http://grimgrains.com">GrimGrains</a>*}.
     > </columns>
-    & Living on a boat, I depend 100 percent on solar and have adapted my {{tools|#tools}} to match this restriction.
+    & Living on a boat, I depend 100% on solar and have adapted my {{tools|#tools}} to match this restriction.
     & My past work experience include working in studio for Pascal Blais animation, Tele Quebec and TonePlus animation studios. I have done contract work for Edoki Academy, Volta Creations and Scorpion Masque; and have published children's books with Editions Druide, Bayard Canada, Erpi and Editions du Boreal. 
     & I'm great at spearheading projects, and prefer work that will allow me to use my own style - keep this in mind if you wish to work with me. I do book covers, interiors, game assets and promo/concept art. I only do animation for personal projects.
-    &   Email me at {*rekkabell @ gmail dot com*} for art-related inquiries. You can also:
-    & Download my <a href="media/content/resume.rekkabellum.pdf">resume</a> or view a complete list of my {{publications|#publications}}.
+    &   Email me at {*rekkabell @ gmail dot com*} or DM me {*@rekkabell*} on twitter for art-related inquiries. 
+    & You can also:
+    & Download my {*<a href="media/content/resume.rekkabellum.pdf">resume</a>*} or view a complete list of my {*{{publications|#publications}}*}.
     > <hr/>
 
 PUBLICATIONS
   LONG
-    & My complete list of published, and released works.
+    > <gallery>
+    >   <a href="https://secondstorypress.ca/kids/skateboardsibby" target="_blank"><img class='grey' src="media/content/book.sibby.jpg"></a>
+    >   <a href="https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz" target="_blank"><img class='grey' src="media/content/book.ooz.jpg"></a>
+    >   <a href="https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html" target="_blank"><img class='grey' src="media/content/book.araignees.jpg"></a>
+    >   <a href="https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677" target="_blank"><img class='grey' src="media/content/book.rooms.jpg"></a>
+    >   <hr/>
+    > </gallery>
     & Children's books
     > <ul>
-    > <li> <b>The extraordinary eTab of Julian Newcomber</b> Michael Seese, Common deer press, TBD</li>
-    > <li> <b>{{Skateboard Sibby|https://secondstorypress.ca/kids/skateboardsibby}}</b> Clare O'Connor, Secondstory press, 2018 </li>
-    > <li> <b>{{Les araignées monstres|https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html}}</b> Édith Bourget, Éditions du Boréal, 2017</li>
-    > <li> <b>{{Thousand Rooms|https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677}}</b> Rekka Bellum and Devine Lu Linvega, 2017</li>
-    > <li> <b>{{Le Ooz - destination Monstroville|https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz}}</b>, Sophie Rondeau, Éditions Druide, 2017</li>
-    > <li> <b>Opération noel</b> Édith Bourget, Éditions du Boréal, 2015</li>
-    > <li> <b>Un vrai cauchemar</b>, Édith Bourget, Éditions du Boréal, 2015</li>
-    > <li> <b>Le laidorama - destination Monstroville</b> Sophie Rondeau, Édition Druide, 2015</li>
-    > <li> <b>La bibliopet - destination Monstroville</b> Nadine Descheneaux, Édition Druide, 2015</li>
-    > <li> <b>Une mission sans peur</b> Katia Canciani, 2015</li>
-    > <li> <b>La sorcière de notre rue</b> Édith Bourget, Éditions du Boréal, 2014</li>
-    > <li> <b>Le salon de décoiffure- Destination Monstroville</b> Sophie Rondeau, 2014</li>
-    > <li> <b>Le graffiti sanglant</b> Édith Bourget, Éditions du Boréal, 2014</li>
-    > <li> <b>Moche Café- Destination Monstroville</b> Nadine Descheneaux, Sophie Rondeau, Édition Druide, 2013</li>
-    > <li> <b>Le catalogue de robots</b> Jean-Pierre Guillet, Bayard Canada, 2013</li>
-    > <li> <b>Un grain d'or pour Nestor</b> Micheline Mercille, EPPI, 2012</li>
-    > <li> <b>Des rêves fous, fous, fous…</b> Bernadette Renaud, ERPI, 2011</li>
-    > <li> <b>La queue de l’espionne</b> Danielle Simard, Bayard Canada, 2011</li>
-    > <li> <b>Umphy the Umgum</b>, Mara D. Johnson, 2010</li>
+    > <li> {*The extraordinary eTab of Julian Newcomber*} Michael Seese, Common deer press, TBD</li>
+    > <li> {*{{Skateboard Sibby|https://secondstorypress.ca/kids/skateboardsibby}}*} Clare O'Connor, Secondstory press, 2018 </li>
+    > <li> {*{{Les araignées monstres|https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html}}*} Édith Bourget, Éditions du Boréal, 2017</li>
+    > <li> {*{{Thousand Rooms|https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677}}*} Rekka Bellum and Devine Lu Linvega, 2017</li>
+    > <li> {*{{Le Ooz - destination Monstroville|https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz}}*} Sophie Rondeau, Éditions Druide, 2017</li>
+    > <li> {*Opération noel*} Édith Bourget, Éditions du Boréal, 2015</li>
+    > <li> {*Un vrai cauchemar*} Édith Bourget, Éditions du Boréal, 2015</li>
+    > <li> {*Le laidorama - destination Monstroville*} Sophie Rondeau, Édition Druide, 2015</li>
+    > <li> {*La bibliopet - destination Monstroville*} Nadine Descheneaux, Édition Druide, 2015</li>
+    > <li> {*Une mission sans peur*} Katia Canciani, 2015</li>
+    > <li> {*La sorcière de notre rue*} Édith Bourget, Éditions du Boréal, 2014</li>
+    > <li> {*Le salon de décoiffure- Destination Monstroville*} Sophie Rondeau, 2014</li>
+    > <li> {*Le graffiti sanglant*} Édith Bourget, Éditions du Boréal, 2014</li>
+    > <li> {*Moche Café- Destination Monstroville*} Nadine Descheneaux, Sophie Rondeau, Édition Druide, 2013</li>
+    > <li> {*Le catalogue de robots*} Jean-Pierre Guillet, Bayard Canada, 2013</li>
+    > <li> {*Un grain d'or pour Nestor*} Micheline Mercille, EPPI, 2012</li>
+    > <li> {*Des rêves fous, fous, fous…*} Bernadette Renaud, ERPI, 2011</li>
+    > <li> {*La queue de l’espionne*} Danielle Simard, Bayard Canada, 2011</li>
+    > <li> {*Umphy the Umgum*} Mara D. Johnson, 2010</li>
     > </ul> <br>
     & Games
     > <ul>
-    > <li> <b>Mon ami Bulle</b> Télé-Québec, 2016, iOS/Android/TV,
-    > <li> <b>Busy water</b> Edoki Academy, 2016, iOS/Android
-    > <li> <b>Qui paire gagne</b> Scorpion Masqué 2015
-    > <li> <b>Fruit ninja Kinect 2</b> Hibernum Créations, 2015, XBOX ONE
-    > <li> <b>Oquonie</b> Hundredrabbits, 2014, iOS/PC/Mac/Linux
-    > <li> <b>Vendredi 13</b> Scorpion Masqué 2014, cardgame
-    > <li> <b>Malisse</b> TOJAM 2014, Mac
-    > <li> <b>Tu dors au gaz</b> Scorpion Masqué, 2014
-    > <li> <b>Rubber Tacos</b> Sava Transmédia, 2012, iOS/Android/Web
-    > <li> <b>Puppeteer</b> Toneplus animation studio, 2013, PS3
-    > <li> <b>Deep Realms</b> Playdrom, 2011, Facebook game
-    > <li> <b>Faerie solitaire</b> Subsoap games, 2010, PC/iOS/Mac/Linux
-    > <li> <b>Mini wheats hot milk</b> Kelloggs, 2010, TV
+    > <li> {*{{Mon ami Bulle|#bulle}}*} Télé-Québec, 2016, iOS/Android/TV,
+    > <li> {*Busy water*} Edoki Academy, 2016, iOS/Android
+    > <li> {*Qui paire gagne*} Scorpion Masqué 2015
+    > <li> {*Fruit ninja Kinect 2*} Hibernum Créations, 2015, XBOX ONE
+    > <li> {*{{Oquonie|#oquonie}}*} Hundredrabbits, 2014, iOS/PC/Mac/Linux
+    > <li> {*{{Vendredi 13|vendredi13}}*} Scorpion Masqué 2014, cardgame
+    > <li> {*{{Malisse|#malisse}}*} TOJAM 2014, Mac
+    > <li> {*Tu dors au gaz*} Scorpion Masqué, 2014
+    > <li> {*Rubber Tacos*} Sava Transmédia, 2012, iOS/Android/Web
+    > <li> {*Puppeteer*} Toneplus animation studio, 2013, PS3
+    > <li> {*Deep Realms*} Playdrom, 2011, Facebook game
+    > <li> {*Faerie solitaire*} Subsoap games, 2010, PC/iOS/Mac/Linux
     > </ul> <br>
     & TV commercials
     > <ul>
-    > <li> <b>Penguinos Fabrica</b> Marinela 2009, TV
-    > <li> <b>Mini wheats blueberry muffin</b> Kelloggs, 2009, TV
-    > <li> <b>Mini wheats strawberry</b> Kelloggs, 2010, TV
-    > <li> <b>Mini wheats little bites</b> Kelloggs, 2010, TV
-    > <li> <b>Mini wheats hot milk</b> Kelloggs, 2010, TV
+    > <li> {*Penguinos Fabrica*} Marinela 2009, TV
+    > <li> {*{{Mini wheats blueberry muffin|https://www.youtube.com/watch?v=K-VDsDCrJC8&list=PLQUA_TJO-BVLP7sQSto5u4qo7Y-BhGg9p&index=5}}*} Kelloggs, 2009, TV
+    > <li> {*{{Mini wheats strawberry|https://www.youtube.com/watch?v=ZNDrq07oZXM&list=PLQUA_TJO-BVLP7sQSto5u4qo7Y-BhGg9p}}*} Kelloggs, 2010, TV
+    > <li> {*{{Mini wheats little bites|https://www.youtube.com/watch?v=wlxeoS2mrzE}}*} Kelloggs, 2010, TV
+    > <li> {*{{Mini wheats hot milk|https://www.youtube.com/watch?v=zatSgiIGyYg}}*} Kelloggs, 2010, TV
     > </ul> <br>
     & Magazines and other
     > <ul>
-    > <li> <b>CFSL artbook 03</b> Édition Ankama, 2009
-    > <li> <b>CFSL artbook 04</b> CFSL ink, 2010
-    > <li> <b>CFSL artbook 05</b> CFSL ink, 2011
-    > <li> <b>Magnitude 9</b> CFSL ink, 2011
-    > <li> <b>CFSL artbook 06</b> CFSL ink, 2012
-    > <li> <b>Kayak Canada's history for kids</b> issue 42, 2012
-    > <li> <b>Kayak Canada's history for kids</b> issue 43, 2013
-    > <li> <b>Kayak Canada's history for kids</b> issue 44, 2013
-    > <li> <b>Kayak Canada's history for kids</b> issue 47, 2014
-    > <li> <b>Kayak Canada's history for kids</b> issue 50, 2014
-    > <li> <b>Merure: vol.1</b> Éditions MachineMachine, 2008
-    > <li> <b>Merure: vol.2</b> Éditions MachineMachine, 2009
-    > <li> <b>Erri: vol.1</b> Éditions MachineMachine, 2010
-    > <li> <b>Merure: vol.3</b> Éditions MachineMachine, 2010
+    > <li> {*CFSL artbook 03*} Édition Ankama, 2009
+    > <li> {*CFSL artbook 04*}  CFSL ink, 2010
+    > <li> {*CFSL artbook 05*}  CFSL ink, 2011
+    > <li> {*Magnitude 9*}  CFSL ink, 2011
+    > <li> {*CFSL artbook 06*}  CFSL ink, 2012
+    > <li> {*Kayak Canada's history for kids*} issue 42, 2012
+    > <li> {*Kayak Canada's history for kids*} issue 43, 2013
+    > <li> {*Kayak Canada's history for kids*} issue 44, 2013
+    > <li> {*Kayak Canada's history for kids*} issue 47, 2014
+    > <li> {*Kayak Canada's history for kids*} issue 50, 2014
+    > <li> {*Merure: vol.1*} Éditions MachineMachine, 2008
+    > <li> {*Merure: vol.2*} Éditions MachineMachine, 2009
+    > <li> {*Erri: vol.1*} Éditions MachineMachine, 2010
+    > <li> {*Merure: vol.3*} Éditions MachineMachine, 2010
     > </ul> <br>
     & Gallery
     > <ul>
-    > <li> <b>FILE GAMES RIO</b> Oi Futuro Flamengo, brazil, 2015
-    > <li> <b>Boss rush</b> Lightgrey art labs, Minneapolis, 2015
-    > <li> <b>IGF pavillion</b> Moscone center, San Francisco, 2015
-    > <li> <b>MIGS</b> Palais des congrès, Montreal, 2014
-    > <li> <b>Archaeology of the Digital: Media and Machines</b> Canadian centre for architecture, Montreal, 2014
-    > <li> <b>Pictoplasma</b> La GAÎTÉ LYRIQUE, Paris, 2011
-    > <li> <b>Tribute to Skydoll</b> La Gallerie, Montreal, 2010
+    > <li> {*FILE GAMES RIO*} Oi Futuro Flamengo, brazil, 2015
+    > <li> {*Boss rush*} Lightgrey art labs, Minneapolis, 2015
+    > <li> {*IGF pavillion*} Moscone center, San Francisco, 2015
+    > <li> {*MIGS*} Palais des congrès, Montreal, 2014
+    > <li> {*Archaeology of the Digital: Media and Machines*} Canadian centre for architecture, Montreal, 2014
+    > <li> {*Pictoplasma*} La GAÎTÉ LYRIQUE, Paris, 2011
+    > <li> {*Tribute to Skydoll*} La Gallerie, Montreal, 2010
     > </ul>
 
 PROJECTS
