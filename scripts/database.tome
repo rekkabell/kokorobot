@@ -27,6 +27,7 @@ ABOUT
 
 PUBLICATIONS
   LONG
+    > <p class='intro'> Complete list of works. Images below, is the 4 latest books I've had published.</p>
     > <gallery>
     >   <a href="https://secondstorypress.ca/kids/skateboardsibby" target="_blank"><img class='grey' src="media/content/book.sibby.jpg"></a>
     >   <a href="https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz" target="_blank"><img class='grey' src="media/content/book.ooz.jpg"></a>
@@ -128,6 +129,7 @@ PROJECTS
 
 ILLUSTRATION
   LONG
+    > <p class='intro'> A selection of personal & contract work.</p>
     > <gallery>
     > <img class='grey lightbox' src="media/content/illustration.sibby.jpg">
     > <img class='grey lightbox' src="media/content/illustration.paradise.jpg">
@@ -152,11 +154,12 @@ ILLUSTRATION
 
 STORIES
   LONG
-    & Select an image, to find out more about each story. 
+    > <p class='intro'> I write, as much as I draw. Select an image, to find out more about each story.</p> 
     > <gallery>
     >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
+    >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -221,6 +224,7 @@ CIRCA
     > <p class='caption'>"Sy Keon Cross"</p>
     > <h2>What is Circa</h2>
     & Circa is a work-in-progress. Is it the story of many, focused on the contradictory lives of {{Sy|#sy}} and {{Token|#token}}.
+    & View other {*{{characters|#characters}}*} from this story.
     > </columns>
     > <wr>
     >   <img src="media/content/project.circa.01.jpeg" class='thumbnail lightbox'>
@@ -229,6 +233,26 @@ CIRCA
     > <hr/>
   LINK
     Read the story : http://circa.kokorobot.ca
+
+BLOG
+  LONG
+    > <columns>
+    % content/project.blog.02.jpg main
+    > <p class='caption'>"Rekka loves cormorants, a lot."</p>
+    > <h2>Travel blog</h2>
+    & I travel aboard my sailboat {*{{Pino|https://100r.co/blog.html#Our+sailboat}}*}, with my partner {{Devine||http://xxiivv.com}}, and write about the places we go and the things we see and experience. 
+    & Visit the {*{{blog|https://100r.co/blog.html}}*}.
+    & As {*{{Hundred Rabbits|https://100r.co}}*}, we also produce {*{{monthly videos|https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A}}*} in which I make a drawing, resuming the month's events.
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.blog.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.04.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+  LINK
+    Read the story : https://100r.co
+
 
 THOUSANDROOMS
   LONG
@@ -588,23 +612,28 @@ VENDREDI13
 NOTES
   LONG
     & My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.
-    - {{Collection}}
-    - {{Links}}
-    - {{Quotes}}
-    - {{Resources}}
-    - {{Tools}}
-    - {{Animals}}
-    - {{Characters}}
+    - {*{{Collection}}*} - An inspiration list.
+    - {*{{Links}}*} - Doors to other worlds.
+    - {*{{Quotes}}*} - Things to remember.
+    - {*{{Tools}}*} - Specifics on tools.
+    - {*{{Animals}}*} - Observations in fauna.
+    - {*{{Characters}}*} - Original character creations.
 
 CHARACTERS
   LONG
     & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them (some aren't yet complete).
+    * CIRCA
+    & What is {*{{Circa|#circa}}*}?
     > <gallery>
     > <a href="#sy"><img class='grey' src="media/content/oc.sy.jpg"></a>
     > <a href="#token"><img class='grey' src="media/content/oc.token.jpg"></a>
     > <a href="#orion"><img class='grey' src="media/content/oc.orion.jpg"></a>
     > <a href="#seir"><img class='grey' src="media/content/oc.seir.jpg"></a>
     > <a href="#nemerald"><img class='grey' src="media/content/oc.nemerald.jpg"></a>
+    > <hr/>
+    > </gallery>
+    * GOSHIN
+    > <gallery>
     > <a href="#fenix"><img class='grey' src="media/content/oc.fenix.jpg"></a>
     > <a href="#musi"><img class='grey' src="media/content/oc.musi.jpg"></a>
     > <a href="#shock"><img class='grey' src="media/content/oc.shock.jpg"></a>
