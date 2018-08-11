@@ -36,9 +36,15 @@ function Controller()
       return;
     }
 
+    this.el.className = "loading";
     this.el.innerHTML = `<page>${new Runic(content.LONG)}</page>`;
 
-    setTimeout(()=>{ this.lightbox.update() },500)
+    setTimeout(()=>{ this.lightbox.update() },500);
+
+    setTimeout(()=>{ 
+      this.el.className = "ready"; 
+      window.scrollTo(0,0); 
+    },200)
   }
 
   this.missing = function(target)
