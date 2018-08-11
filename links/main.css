@@ -20,14 +20,16 @@ page h3 { max-width: 600px; display: block; font-size: 24px;line-height: 30px;co
 page columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
 page columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'Alegreya'}
-page columns p a:hover { text-decoration: none }
-page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px;line-height: 26px }
+page columns p a:hover { text-decoration: underline; }
+page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px; line-height: 26px }
 page columns ul li {}
+page columns a:link {text-decoration: none}
+page columns a:hover {text-decoration: underline}
 page columns list { margin-bottom:30px; }
 page list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
 page list ln { display: block; font-size:20px; }
-page list ln a { text-decoration: underline;}
-page list ln a:hover { text-decoration: none; }
+page list ln a { text-decoration: none;}
+page list ln a:hover { text-decoration: underline; }
 page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 page gallery { display: block; padding:0px 30px; }
 page gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
