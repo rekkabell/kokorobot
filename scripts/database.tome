@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   LONG
-    % content/main.jpg
+    % content/main.jpg main
 
 ABOUT
   LONG
@@ -247,7 +247,10 @@ BLOG
     > <wr>
     >   <img src="media/content/project.blog.03.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.blog.04.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.blog.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.11.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.13.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -650,7 +653,7 @@ ORION
     > <li>{*Age*}: 17</li>
     > <li>{*Alignment*}: Neutral good</li>
     > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Gender*}: Non-binary</li>
+    > <li>{*Gender*}: Cis male</li>
     > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.</li>
     > <li>{*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Has multiple piercings. </li>
     > </ul>
@@ -658,7 +661,13 @@ ORION
     > <hr/>
     & When the family split up, young Orion went with Petra to Kiev and continued school there while living with Petra's mother in the family home. Orion is a happy go-lucky kid, and can make the best of any situation. At 15, Orion went to a lot of clubs, concerts and parties, and began taking club drugs, such as LSD and ecstasy. Orion did get into trouble for it, and eventually started to take synthetic opioids and sedatives instead. With the recent crackdowns in Kiev, these were easier, and cheaper, to procure than naturally-derived drugs. Eventually, Orion began to produce and sell these locally too. After a near-arrest, Orion decided to move back to America with {{Token|#token}}. This change, did little to appease Orion's addictive nature, and began to take these same subtances there too but decided it best not to sell anymore.
     & Orion works in a bar in {*the Village*} (Montreal's gay village) in evenings and is seldom seen alone. Orion cares about everyone, and has a heart big enough to contain everyone. 
-    & Orion is confident, and wears whatever, caring little of the opinions of others. Not many show aggression towards Orion anyways, because of their genial nature. 
+    & Orion is confident, and wears whatever, caring little of the opinions of others. Not many show aggression towards Orion anyways, because of his genial nature. 
+    * Comics
+    & Orion, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
+    >  <img src="media/content/comic.chickenmen.p1.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
 
 TOKEN
   LONG
@@ -678,6 +687,8 @@ TOKEN
     & Token's parents split up when he was young, he stayed with Luciano in Lasalle while Petra brought {{Orion|#orion}} back to Kiev. Petra never did love him, she always had a preference for Orion, Token pretended to be okay with this but it did hurt. Luciano too showed favoritism, he could see Token was strong and could be a good fighter, like he was. He was trained early on, and enrolled in city tournaments, and soon participated in events all around the province and the country. 
     & Token never professed a deep love for boxing, but it was a way to exteriorize his anger, and disappointments in life. It became an addiction after a while, addicted to winning and the feeling that came with it. The incident that crippled his hands was a terrible blow to his career, and his psyche. His father, was mixed in some dark affairs, he owed money, a lot of it. A group came into the house one night, to hurt his father, Token, good with his fists fought them back but was stabbed and maimed. He did recover from this terrible incident, and his fighting, despite lacking fingers, was just as good. Token never forgave his father, and their relationship only gets more sour with time. 
     & Family aside, Token is liked by most, always smiling, his career depends on it and besides, being well-liked is very important to him. He has made a name for himself in the sport, he continues to fight professionally and will also teach kids on occasion. He trains everyday, and is mindful of his health. While he spends much energy on his physical shape, he neglects his mind's health most times. {{Sy|#sy}}, a childhood friend, brings out the worse in him, to this day he doesn't know if that is his true nature or not. Token makes friends easy, but never gets too close, in fear that they too, would find what was really hidden underneath the mask.
+    * Comics
+    & Token, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament comic|https://www.deviantart.com/mintenko/art/TDC-conclusion-192438504}}*} in 2010. 
 
 SY
   LONG
@@ -698,6 +709,8 @@ SY
     & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. One day, he tried to pick a fight with {{Token|#token}}, a boy that lived across the river. But he learned that day, that this boy was pretty good fighter, what with his father being a local boxing celebrity. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
     & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, not easy to befriend. Many try, taking pity on him, because despite his less-than-ideal personality. It is very difficult for him to care about others, and if he does, it's often because he finds joy in belittling them – or so he says. 
     & Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. 
+    * Comics
+    & Sy, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
 
 FENIX
   LONG
@@ -717,6 +730,8 @@ FENIX
     & He is best known for the scout work he does for the organization, spying on targets, and retrieving them when necessary. A loyal soldier, he does not question commandments, and will do whatever is asked of him. Out of touch with his feelings, Fenix has difficulty befriending others, or doing activities that doesn't involve training. His room is perfectly ordered, as his every aspect of his life. He keeps everything in check, his words and his emotions too. 
     & Fenix does enjoy the company of Musi, another Matrix employee. Although their relationship deteriorates greatly, when someone steps between them. Fenix then becomes cruel, and unhinged. 
     & Pokemon Team: Daedalus (Houndoom), Donov (Scolipede), Monad (Xatu), Shargon (Sharpedo and Flygon hybrid) and Swecleon (Swellow and Kecleon hybrid) 
+    * Comics
+    & Fenix appeared in a {*{{PCBC Tournament|https://www.deviantart.com/mintenko/gallery/25599460/PCBC}}*} in 2010. And in {{this one|https://www.deviantart.com/zaifon/art/PCBC2-round-3-pg-5-168297538}} by {{Zaifon|http://www.twitter.com/za1f0n}}, where he gets his ass handed to him.
 
 SEIR
   LONG
@@ -779,6 +794,13 @@ SHOCK
     & Shane has never struggled in life, he's lived a very privileged existence. What he wants, he gets, and he expects this in others. He spends most of his time playing video games, first-person shooters, all while listening to happy hardcore with a bottle of pop in hand. He knows little of the real world, and is stuck in a state of perpetual childishness. Shane likes to fight. He enjoys the challenge, it's why he enjoys being in matrix, it's like being in an IRL game. He often fails to see the harm he inflicts on others.
     & He prefers to be called by his Matrix name, and will hate anyone who fails in this.
     & Pokemon team: Ladybird (Crobat), Mister Slim (Gastrodon), Captain Planet (Seedot), Lieutenant RayRay (Raichu), Kid Flash (Elekid) and Dr. Ohm (bronzor)
+    * Comics
+    & Shock appeared in {*{{PCBC Tournament|https://www.deviantart.com/mintenko/gallery/25599460/PCBC}}*} in 2010. The full tournament comics are on my old DA page, otherwise, here's Shock's intro comic.
+    >  <img src="media/content/comic.pcbc.p1.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/comic.pcbc.p2.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/comic.pcbc.p3.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
 
 TOOLS
   LONG
