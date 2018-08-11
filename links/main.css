@@ -9,9 +9,13 @@ h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
 hr { clear:both; }
 h3 {font-size: 23px; margin-bottom: 10px}
 
-yu { background:red; }
+yu { display: block }
 
-page { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; padding-top:60px; margin-top:-300px; padding-top:345px; transition: opacity 250ms; color:white; }
+yu#main { transition: opacity 250ms;  }
+yu#main.loading { transition: opacity 0ms;  opacity: 0; }
+yu#main.ready { transition: opacity 250ms; opacity: 1; }
+
+page { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; margin-top:-300px; padding-top:345px; transition: opacity 250ms; color:white; }
 page img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 page p.caption { font-style: italic; color:#999; font-size:16px; }
 page img.thumbnail { width:33.33%; display:block; float:left; }

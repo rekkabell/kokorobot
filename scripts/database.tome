@@ -2,7 +2,7 @@ let DATABASE = `
 
 HOME
   LONG
-    % content/main.jpg
+    % content/main.jpg main
 
 ABOUT
   LONG
