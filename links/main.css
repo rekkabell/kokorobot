@@ -1,4 +1,4 @@
-body { background:#000; color:#fff; font-family: 'Alegreya', serif;  overflow-x: hidden;}
+body { background:#000; color:#fff; font-family: 'Alegreya', serif;  overflow-x: hidden}
 
 p { display: block;max-width: 600px;color: #999;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
 p.main { font-weight: bold; margin-bottom: 30px;}
@@ -15,7 +15,7 @@ yu#main { transition: opacity 250ms;  }
 yu#main.loading { transition: opacity 0ms;  opacity: 0; }
 yu#main.ready { transition: opacity 250ms; opacity: 1; }
 
-page { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; margin-top:-300px; padding-top:345px; transition: opacity 250ms; color:white; }
+page { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
 page img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 page p.caption { font-style: italic; color:#999; font-size:16px; }
 page img.thumbnail { width:33.33%; display:block; float:left; }
@@ -72,12 +72,12 @@ ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count
 ul.default li a { font-weight: bold }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
-header wr h1 { font-size: 50px; text-transform: uppercase; letter-spacing: -2px; font-weight: bold; }
+header wr h1 { font-size: 50px; text-transform: uppercase; letter-spacing: -2px; font-weight: bold; font-family: "alegreya-extrabold";}
 header wr h1:before { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
 header wr h1:after { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
-header wr h2 { font-size:30px;position: fixed;top:10px;left:20px }
+header wr h2 { font-size:30px;position: fixed;top:10px;left:20px; font-family: "alegreya-bold"; }
 header wr h2:hover { color:white; }
-header wr #menu { display: block; text-align: center; font-weight: bold; font-size:20px; padding: 20px; margin-bottom: 10px }
+header wr #menu { display: block; text-align: center; font-weight: bold; font-family: "alegreya-bold"; font-size:20px; padding: 20px; margin-bottom: 10px }
 header wr #menu a { display: inline-block;background-size: 100px;background-repeat: no-repeat;background-position: center top;padding-top:100px;min-width: 100px; transition: all 250ms }
 header wr #menu a:hover { cursor: pointer; text-decoration: underline; background-position:center -5px;}
 
