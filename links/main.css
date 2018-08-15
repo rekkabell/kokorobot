@@ -1,4 +1,4 @@
-body { background:#000; color:#fff; font-family: 'Alegreya', serif;  overflow-x: hidden}
+body { background:#000; color:#fff; font-family: 'alegreya-regular', serif;  overflow-x: hidden}
 
 p { display: block;max-width: 600px;color: #999;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
 p.main { font-weight: bold; margin-bottom: 30px;}
@@ -23,7 +23,7 @@ page p.intro {text-align: center;}
 page h3 { max-width: 600px; display: block; font-size: 24px;line-height: 30px;color:#999;font-weight: bold; margin:0px auto 30px; }
 page columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
 page columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
-page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'Alegreya'}
+page columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'alegreya-regular'}
 page columns p a:hover { text-decoration: underline; }
 page columns ul { display: block;margin-left:30px;font-size:18px;margin-bottom:30px; line-height: 26px }
 page columns ul li {}
