@@ -124,6 +124,7 @@ PROJECTS
     >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
+    >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -134,7 +135,7 @@ ILLUSTRATION
     > <img class='grey lightbox' src="media/content/illustration.sibby.jpg">
     > <img class='grey lightbox' src="media/content/illustration.paradise.jpg">
     > <img class='grey lightbox' src="media/content/illustration.markl.jpg">
-    > <img class='grey lightbox' src="media/content/illustration.jim.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.lizbird.jpg">
     > <img class='grey lightbox' src="media/content/illustration.wiktopher.jpg">
     > <img class='grey lightbox' src="media/content/illustration.oquonie2.jpg">
     > <img class='grey lightbox' src="media/content/illustration.thousandrooms.jpg">
@@ -149,6 +150,9 @@ ILLUSTRATION
     > <img class='grey lightbox' src="media/content/illustration.cabane.jpg">
     > <img class='grey lightbox' src="media/content/illustration.mirmaelle2.jpg">
     > <img class='grey lightbox' src="media/content/illustration.wedding.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.valen.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.drone.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.usagi.jpg">
     > <hr/>
     > </gallery>
 
@@ -209,6 +213,7 @@ WIKTOPHER
     >   <img src="media/content/project.wiktopher.06.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.wiktopher.07.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.wiktopher.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.wiktopher.09.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -270,6 +275,35 @@ THOUSANDROOMS
     > <img src="media/content/project.thousandrooms.05.png">
     > <hr/>
     > </gallery>
+
+
+UNO
+  LONG
+    > <columns>
+    % content/movie.uno.02.jpg main
+    > <p class='caption'>BGs in photoshop, colored and assembled in Toonboom Harmony, edited in AfterFX and Premiere.</p>
+    > <h2>Uno</h2>
+    & Completed during the years 2007 and 2008 at le cegep du vieux Montreal, "Uno" is a short 2d animation film that tells the story of a moment in Ratchet's life.
+    & Ratchet lives on an island high in the sky with her companion Hush. Disconnected from others, she finds an ususual way to communicate with her neighbours. 
+    >   <h3>Features</h3>
+    >   <ul>
+    >     <li><b>Animated traditionally
+    >     <li><b>21 scenes</b></li>
+    >     <li><b>900+ drawings (excluding shadows)</b></li>
+    >   </ul>
+    >   <a href="https://vimeo.com/1086078" class='button' target="_blank">WATCH THE MOVIE</a>
+    > </columns>
+    > <wr>
+    >   <img src="media/content/movie.uno.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/movie.uno.04.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/movie.uno.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/movie.uno.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/movie.uno.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/movie.uno.08.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+  LINK
+    Read the story : https://vimeo.com/1086078
 
 OQUONIE
   LONG
@@ -358,6 +392,8 @@ MARKL
     >  <img src="media/content/project.markl.06.gif" class='thumbnail'>
     >  <img src="media/content/project.markl.07.jpg" class='thumbnail lightbox'>
     >  <img src="media/content/project.markl.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.09.jpeg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.10.jpeg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -652,19 +688,22 @@ ORION
     > <li>{*Age*}: 18</li>
     > <li>{*Alignment*}: Neutral good</li>
     > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Gender*}: Cis gender</li>
     > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.</li>
     > <li>{*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Has multiple piercings.</li>
     > </ul>
     > </columns>
     > <hr/>
     & When the family split up, young Orion went with Petra to Kiev and continued school there while living with Petra's mother in the family home. Orion is a happy go-lucky kid, and can make the best of any situation. Orion went to a lot of clubs, concerts and parties, and began taking club drugs, such as LSD and ecstasy. Orion did get into trouble for it, and eventually started to take synthetic opioids and sedatives instead. With the recent crackdowns in Kiev, these were easier, and cheaper, to procure than naturally-derived drugs. After hearing of his brother {{Token}}'s accident, and old enough to make the decision, Orion decided to move back to Canada. He thought that this move, as well as Token's presence, would help him consume less, but this change did little to appease Orion's addictive nature.
-    & Orion now works in a bar in {*the Village*} in evenings, a perfect arena for his promiscuous ways. He is seldom seen alone. Orion cares about all he meets, even strangers, and goes out of his way to care for them if they're in trouble. While he considers himself a forever-child, he will become the adult in the room if a situation warrants it, especially when trouble-prone people like {{Sy}} are around. 
+    & Orion now works in a bar in {*the Village*} in evenings. He is seldom seen alone. Orion cares about all he meets, even strangers, and goes out of his way to care for them if they're in trouble. While he considers himself a forever-child, he will become the adult in the room if a situation warrants it, especially when trouble-prone people like {{Sy}} are around. 
     & Orion is confident and wears whatever, caring little of the opinions of others. Not many show aggression towards Orion because of his genial nature, but if threatened with violence and words are not enough to prevent an attack, he will run, if running is not possible then he will deflect most attacks - thanks to multiple training sessions with Token. That is all he will ever do, Orion will never harm another.
     & Galeru has always been part of Orion's life, a fearful creature, she worries constantly for her friend. She lacks courage, and shows aggression when cornered. Galeru takes the form of an orange dog-fish, covered in scales, with large fins and dark globulous eyes. She swims through the air, defying all gravity and logic.
     * Comics
     & Orion, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
     & Other comics: {{Dookelaylee chicken men|http://kokorobot.ca/media/content/comic.chickenmen.p1.jpg}}
+    > <wr>
+    >   <img src="media/content/project.circa.05.jpg" class='thumbnail lightbox'>
+    > </wr>
 
 TOKEN
   LONG
@@ -678,18 +717,22 @@ TOKEN
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
     > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.</li>
-    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts and loose pants, he often wears a red sports jacket. He bears a deep cut at his lip, and is missing two fingers on his left hand, with a third cut at the joint. His right hand is missing half its index finger.</li>
+    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts, jeans and running shoes; he often wears a red sports jacket overtop. He bears a deep cut at his lip, is missing two fingers on his left hand and his right hand up to the elbow is a prosthetic.</li>
     > </ul>
     > </columns>
     > <hr/>
     & Token's parents split up when he was young, he stayed with Luciano in Lasalle while Petra brought {{Orion}} back to Kiev. Petra never did love him, she always had a preference for Orion because he was better-looking, and smarter than he. Token pretended to be okay with this, but it did hurt, a lot. Luciano too showed favoritism, and could see a good fighter in Token. Early on, Luciano trained him, and later had him fight in city tournaments, all around the province and the country. 
-    & Token never professed a deep love for boxing, but it was a way to exteriorize his anger and disappointments in life. It became an addiction. Token wanted to win, and loved the feeling that came with it. The incident that crippled his hands was a terrible blow to his career, and his psyche. His father, was mixed in some dark affairs, he owed money to many important people. A group came into the house one night to hurt his father, Token, good with his fists, fought them back with much ferocity, but was stabbed, maimed and defiled – in more ways than one. Because of these events, he suffers from PTSD. He is medicated, and has sought help, but it has caused him to go off the rails at times. 
-    & He recovered from the physical damage, and his fighting, despite lacking some fingers, was just as good. In fact, it earned him quite a reputation in the fighting world, the whole ordeal propelled him to fame. He continues to fight professionally, and has become a role model for disabled fighters everywhere.
+    & Token never professed a deep love for boxing, but it was a way to exteriorize his anger and disappointments in life. It became an addiction. Token wanted to win, and loved the feeling that came with it. The incident that crippled his hand was a terrible blow to his career, and his psyche. His father, was mixed in some dark affairs, he owed money to many important people. A group came into the house one night to hurt his father, Token, good with his fists, fought them back with much ferocity, but was stabbed, maimed and defiled. Because of these events, he suffers from PTSD. He is medicated, and has sought help, but it has caused him to go off the rails at times. 
+    & He recovered from the physical damage, and his fighting, despite lacking some fingers, and having a prosthetic, he was just as good. In fact, it earned him quite a reputation in the fighting world, the whole ordeal propelled him to fame. He continues to fight professionally, and has become a role model for disabled fighters everywhere.
     & Token never forgave his father, and as of now, their relationship only gets more sour with time. This, worsened by the fact that his father has not ceased his grubby deals which continuously puts him at risk. Family aside, Token is liked by most, he his always smiling and pleasant to all he meets. Being well-liked is very important to him, and to his professional career. He trains everyday, he spends much energy on his physical shape while neglecting his mind's health. 
     & {{Sy}}, a childhood friend, brings out the worse in him, or the real him Sy would argue. Token makes friends easy, but never gets too close, in fear that they too, would find what was really hidden underneath the mask. The only other person who did get close, was {{Mari}}. They met during a fundraising event for a new sports center in town, and hit it off right away. Nowadays, they live together downtown, and frequently appear in magazines together given their reputation and good looks. 
     & {*Specter*} is Token's companion, and came to be when Orion left with Petra. Specter has a ghostly figure, a large round head attached to a smaller translucent body. Two dark pools of black for eyes, they reflect much of what he's feeling. Specter is confident most times, but is not afraid to show weakness when necessary. He is an open-book, and will tell all if asked.
     * Comics
     & Token, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament comic|https://www.deviantart.com/mintenko/art/TDC-conclusion-192438504}}*} in 2010. 
+    > <wr>
+    >   <img src="media/content/project.circa.04.jpg" class='thumbnail lightbox'>
+    > </wr>
+
 KIMA
   LONG
     > <columns>
@@ -736,16 +779,26 @@ SY
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
     > <li>{*Family*}: Tim Keon & Harlow Cross</li>
-    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of a cross and serpent on the right shoulder. Wears loose t-shirts and old jeans, often wears a cap.</li>
+    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of an inverted cross and serpent on the right shoulder. Wears loose t-shirts, old jeans, and tattered converse; often wears a cap.</li>
     > </ul>
     > </columns>
     > <hr/>
+<<<<<<< HEAD
     & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlow spent little time with Sy as a kid, thought he was wicked - given his abilities. She didn't care where he was most times. He left home early on, and never looked back.
     & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. He was brought to {{Nemerald}}'s refuge, after phasing a child halfway through a telephone pole, resulting in their death. One day, he tried to pick a fight with {{Token}}, a boy that lived across the river. But he learned that day, that this boy was a pretty good fighter, what with his father being a local boxing celebrity and not just this: both shared similar abilties. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
     & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, not easy to befriend. Many try, taking pity on him, because despite his less-than-ideal personality. It is very difficult for him to care about others, and if he does, it's often because he finds joy in belittling them – or so he says. Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. 
     & Sy possesses a "phasing" ability that allows him, as well as objects or people he has contact with, to become intangible. This power also disrupts any electrical field he passes through, causing machines to malfunction or be destroyed as he phases through them, and can induce shock and unconsciousness in living beings.
+=======
+    & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlow spent little time with Sy as a kid, she didn't care where he was most times. He left home early on, and never looked back.
+    & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. One day, he tried to pick a fight with {{Token}}, a boy that lived across the river. But he learned that day, that this boy was pretty good fighter, what with his father being a local boxing celebrity. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
+    & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, not easy to befriend. Many try, taking pity on him, because despite his less-than-ideal personality. It is very difficult for him to care about others, and if he does, it's often because he finds joy in belittling them – or so he says. Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. Sy isn't healthy, he eats little, and smokes too much. 
+    & Oscuro came to Sy, in a moment of great difficulty. A short creature, black of body with a white face that exhibits a surprising range of emotion, given its subtle features. While Sy has an angry mind and foul tongue, this being is the very opposite of that, playful, gentle and silent. 
+>>>>>>> 9a93af3eba41b2885eb1c135f03678fd5081670e
     * Comics
     & Sy, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
+    > <wr>
+    >   <img src="media/content/project.circa.03.jpg" class='thumbnail lightbox'>
+    > </wr>
 
 FENIX
   LONG
@@ -879,9 +932,9 @@ ANIMALS
   LONG
     & Notes on animals I've seen during our travel. Behaviours, facts and observations.
     * Frigatebirds
-    - The first time I spotted a frigate bird, was in San Jose Del Cabo in Baja California. I noticed two dark silhouettes aloft, long wings, a forked tail, they looked like bats. More curious, is how they rarely flap their wings, they soar on windcurrents. I later read, that these birds, like us, cross oceans, using the tradewinds as we do. How similar we are, i thought, except that we, need a vessel to match their skill. A lot of people we've met, are not so impressed with these birds, and call them 'bullies' because they steal from other birds. They harass seabirds, and follow them to the nest for a chance at their catch. They are said to be kleptoparisitic, but in fact they only do this to supplement their diet, they don't depend on it. 
-    * Pied shag (Kāruhiruhi)
-    - A type of cormorant, first seen in the Whangarei TownBasin. They liked to stand on our lines, to present their wings to the sun and air to dry them. Nature saw to make them good swimmers, but did not make their wings quick-dry. They dive into the water without disrupting the surface, their necks curving downward, and the rest of the body following, as if made of liquid. There was two living in our marina, an adult and a youngling, they sat on shore at low tide at times with other ducks, but never together. They never make a sound, except when they flap their wings on the water before taking to the skies. I wondered how they managed to find prey in the muddy water of the townbasin, as it turns out, according to this {{study|https://link.springer.com/article/10.1007%2Fs00114-017-1467-3}}, they have good underwater hearing and it is thought that this is how they locate their prey. 
+    - The first time I spotted a frigate bird, was in San Jose Del Cabo in Baja California. I noticed two dark silhouettes aloft, long wings, a forked tail, they looked like bats. More curious, is how they rarely flap their wings, they soar on windcurrents. These birds, like us, cross oceans using the tradewinds. They never land on water, because of their inability to produce enough oil to keep them from becoming sodden. Their bones are pneumatic, accounting for 5% of their body weight. A lot of people we've met, are not so impressed with these birds, and call them 'bullies' because they steal from other birds. They harass seabirds, and follow them to the nest for a chance at their catch. They are said to be kleptoparisitic, but in fact they only do this to supplement their diet, they don't depend on it. I've been seeing them regularly since we've left Mexico, everytime I see their distinctive 'W' silhouette in flight, I smile, it's like happening upon a long lost friend.
+    * Pied shag (Kawau)
+    - A type of cormorant, first seen in the Whangarei TownBasin. They liked to stand on our lines, to present their wings to the sun and air to dry them. Nature saw to make them good swimmers, but like frigate birds they can't produce enough oil to keep their feathers from getting sodden. They dive into the water without disrupting the surface, their necks curving downward, and the rest of the body following, as if made of liquid. There was two living in our marina, an adult and a youngling, they sat on shore at low tide at times with other ducks, but never together. They never make a sound, except when they flap their wings on the water before taking to the skies. I wondered how they managed to find prey in the muddy water of the townbasin, as it turns out, according to this {{study|https://link.springer.com/article/10.1007%2Fs00114-017-1467-3}}, they have good underwater hearing and it is thought that this is how they locate their prey. 
     * Pukeko
     - Pukeko is a common bird in New Zealand, seen often in fields of tall grass, their blue-feathered bodies and orange beaks made them easy to spot at a distance. The first one I saw was near the bascule bridge in Whangarei, I walked 'the loop' often and saw a Pukeko every time. They probably had a nest nearby. These birds live in permanent social groups, the eggs are laid in a single nest and raised by all. I've seen them elsewhere, in Roturua, eating leaves and roots near the mud pools. They are funny birds, if you near them they will run or hide instead of flying away, and if they do fly, they will take off and land in a way that makes it seem like they've never flown before. This is odd, considering these birds can fly great distances to offshore islands. While on land, it appears that they prefer to walk, whenever possible. Birds that don't need to fly, will indulge in more food and get fatter, making flying awkward, and over long periods of time they lose use of their wings altogether. This is what happened to the Kakapo, and many other flightless birds. 
     * Whitemargin Unicornfish 
@@ -890,11 +943,19 @@ ANIMALS
 QUOTES
   LONG
     > <columns>
-    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I live by. 
+    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I try to remember and that say a whole lot about my thinking and character.
+    @ The way you tell your story to yourself matters. | Amy Cuddy
+    @ What I do for my work is exactly what I would do if nobody paid me | Gretchen Rubin
+    @ I'm a drifter. With no profound connection to my land, my ancestors, my culture my community, my gender, or my race. | Robert Moor | On trail
     @ Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions | Unknown source
     @ Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand. | Thomas Jefferson
     @ Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others. | Unknown source
-    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius | Meditations 
+    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius  
+    @ In the unification of two minds, orientation of sexuality is irrelevant. | Abhijit Naskar
+    @ We should indeed keep calm in the face of difference, and live our lives in a state of inclusion and wonder at the diversity of humanity. | George Takei
+    @ We really must understand that the lust for affluence in contemporary society is psychotic. It is psychotic because it has completely lost touch with reality. We crave things we neither need nor enjoy. | Richard Foster
+    @ Cultivate poverty like a garden herb, like sage. Do not trouble yourself much to get new things, whether clothes or friends. Things do not change, we change. Sell your clothes and keep your thoughts. | Henry David Thoreau
+    @ Besides the noble art of getting things done, there is the noble art of leaving things undone.  The wisdom of life consists in the elimination of non-essentials. | Lin Yutang
     > </columns>
     > </wr>
     > <hr/>
