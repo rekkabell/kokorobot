@@ -445,6 +445,7 @@ CERBELLUM
     & The world through the eyes of a socially anxious skeleton named {*{{Cee|#cee}}*}. {*Cerbellum*} is a project that sheds light on the thoughts and fears of people with anxiety.
     & This is a project that I would like to expand into a book, or comic series.
     & I'm still very undecided. More updates soon.
+    & Get to know the {*{{characters}}*} of Cerbellum.
     > </columns>
     > <wr>
     >  <img src="media/content/project.cerbellum.03.jpg" class='thumbnail lightbox'>
@@ -695,6 +696,7 @@ VIKTOR
     % content/oc.viktor.main.jpg main
     > <h2>Viktor</h2>
     > <ul>
+    > <li>{*Story*}: {{Cerbellum}}
     > <li>{*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.</li>
     > <li>{*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
     > </ul>
@@ -710,12 +712,13 @@ FINN
     % content/oc.finn.main.jpg main
     > <h2>Finn</h2>
     > <ul>
+    > <li>{*Story*}: {{Cerbellum}}
     > <li>{*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.</li>
     > <li>{*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
     > </ul>
     > </columns>
     > <hr/>
-    & Finn is a mouse, and infrequent guest inside Cee's head. She likes to visit the bird Viktor, fascinated by all that plagues him. They spend entire evenings together, talking about the future and the science of bread. 
+    & Finn is a mouse, and infrequent guest inside {{Cee}}'s head. She likes to visit the bird {{Viktor}}, fascinated by all that plagues him. They spend entire evenings together, talking about the future and the science of bread. 
     & It is said that after Finn was hit by lightning, her tail split in two and she became immortal. No one if this is true, but Finn makes a point of mentionning it everytime she visits. Finn is inquisitive, wise and has some strange ideas about life, which {*{{Viktor|#viktor}}*} and her argue about for hours, over cups of peppermint tea. 
 
 POLYCAT
@@ -724,12 +727,13 @@ POLYCAT
     % content/oc.polycat.main.jpg main
     > <h2>Polycat</h2>
     > <ul>
+    > <li>{*Story*}: {{Cerbellum}}
     > <li>{*Appearance*}: A cat with one eye, and the hind and tail of a lizard.</li>
     > <li>{*Relation*}: Often hovers around {*{{Shiba KIlly|#shiba}}*}.
     > </ul>
     > </columns>
     > <hr/>
-    & Polycat is a wanderer, she doesn't speak much, but a lot can be understood by looking into her eye. She seems to always appear when Shiba Killy is alone, following after him and disappearing as soon as anyone else comes near.
+    & Polycat is a wanderer, she doesn't speak much, but a lot can be understood by looking into her eye. She seems to always appear when {{Shiba Killy}} is alone, following after him and disappearing as soon as anyone else comes near.
     & She likes to assist Shiba Killy in various tasks, like when he makes stone mandalas in the woods. She can multiply herself at will, but the others have the rear ends of other animals, like birds, vulpes and ungulates. 
 
 SHIBA
@@ -738,6 +742,7 @@ SHIBA
     % content/oc.shiba.main.jpg main
     > <h2>Shiba Killy</h2>
     > <ul>
+    > <li>{*Story*}: {{Cerbellum}}
     > <li>{*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.</li>
     > <li>{*Relation*}: Friend of {*{{Cee|#cee}}*}
     > </ul>
@@ -752,6 +757,7 @@ CEE
     % content/oc.cee.main.jpg main
     > <h2>Cee</h2>
     > <ul>
+    > <li>{*Story*}: {{Cerbellum}}
     > <li>{*Appearance*}: Cee is a skeleton, her skull has a large crack in it.</li>
     > <li>{*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
     > </ul>
@@ -766,6 +772,7 @@ ORION
     % content/oc.orion.main.jpg main
     > <h2>Orion Mintenko</h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 18</li>
     > <li>{*Alignment*}: Neutral good</li>
     > <li>{*Orientation*}: Pansexual</li>
@@ -792,6 +799,7 @@ TOKEN
     % content/oc.token.main.jpg main
     > <h2>Token Malvado</h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 22</li>
     > <li>{*Nickname*}: Pen</li>
     > <li>{*Alignment*}: Lawful neutral</li>
@@ -820,6 +828,7 @@ KIMA
     % content/oc.kima.main.jpg main
     > <h2>Kima Horizon </h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 22</li>
     > <li>{*Gender*}: Cis female</li>
     > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li>
@@ -838,6 +847,7 @@ MARI
     % content/oc.mari.main.jpg main
     > <h2>Mariana Covas </h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 23</li>
     > <li>{*Gender*}: Cis female</li>
     > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
@@ -855,6 +865,7 @@ SY
     % content/oc.sy.main.jpg main
     > <h2>Sy Keon-Cross</h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 21</li>
     > <li>{*Alignment*}: Chaotic evil</li>
     > <li>{*Gender*}: Cis male</li>
@@ -884,6 +895,7 @@ FENIX
     % content/oc.fenix.main.jpg main
     > <h2>Fenton 'Fenix' Drayer</h2>
     > <ul>
+    > <li>{*Story*}: Goshin
     > <li>{*Age*}: 20</li>
     > <li>{*Alignment*}: Lawful neutral</li>
     > <li>{*Gender*}: Cis male</li>
@@ -905,6 +917,7 @@ SEIR
     % content/oc.seir.main.jpg main
     > <h2>Seir</h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: irrelevant</li>
     > <li>{*Alignment*}: Neutral evil</li>
     > <li>{*Gender*}: Agender</li>
@@ -924,6 +937,7 @@ NEMERALD
     % content/oc.nemerald.main.jpg main
     > <h2>Nemerald</h2>
     > <ul>
+    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 35</li>
     > <li>{*Nickname*}: Nemo, Nemesis
     > <li>{*Alignment*}: True neutral</li>
@@ -942,6 +956,7 @@ MUSI
     % content/oc.musi.main.jpg main
     > <h2>Monty 'Musi' Quintero</h2>
     > <ul>
+    > <li>{*Story*}: Goshin
     > <li>{*Age*}: 24</li>
     > <li>{*Alignment*}: True neutral</li>
     > <li>{*Gender*}: Cis male</li>
@@ -960,6 +975,7 @@ SHOCK
     % content/oc.shock.main.jpg main
     > <h2>Shane 'Shock' Evans</h2>
     > <ul>
+    > <li>{*Story*}: Goshin
     > <li>{*Age*}: 17</li>
     > <li>{*Alignment*}: Chaotic neutral</li>
     > <li>{*Gender*}: Cis male</li>
