@@ -125,6 +125,7 @@ PROJECTS
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
     >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
+    >   <a href='#space'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -304,6 +305,21 @@ UNO
     > <hr/>
   LINK
     Read the story : https://vimeo.com/1086078
+
+SPACE
+  LONG
+    > <columns>
+    % content/project.space.jpg main
+    > <p class='caption'>Space racer Kidd Kosmo</p>
+    > <h2>Space race</h2>
+    & A story of a band of teens who take part in interplanetary races. Racers include Kidd Kosmo, Straw Surfer and Space Panda.
+    & Ongoing project. 
+    > </columns>
+    > <gallery class='thumbnails lightbox'>
+    >  <img src="media/content/project.space.01.jpg">
+    >  <img src="media/content/project.space.02.jpg">
+    > <hr/>
+    > </gallery>
 
 OQUONIE
   LONG
