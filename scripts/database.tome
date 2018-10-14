@@ -702,6 +702,8 @@ CHARACTERS
     > <a href="#fenix"><img class='grey' src="media/content/oc.fenix.jpg"></a>
     > <a href="#musi"><img class='grey' src="media/content/oc.musi.jpg"></a>
     > <a href="#shock"><img class='grey' src="media/content/oc.shock.jpg"></a>
+    > <a href="#mika"><img class='grey' src="media/content/oc.mika.jpg"></a>
+    > <a href="#caden"><img class='grey' src="media/content/oc.caden.jpg"></a>
     > <hr/>
     > </gallery>
     > </wr>
@@ -875,6 +877,42 @@ MARI
     & Mari is confident, in body and in mind. While aware of Token's problems, she deals with his panic attacks well enough, and can always calm him right down. 
     & Kusari, a ragged bird, keeps with Mari at all times and often does clash with {{Specter|#token}}. The bird is always chatting away, speaking in riddles, being purposely deceitful and putting ideas into people's heads. 
 
+CADEN
+  LONG
+    > <columns>
+    % content/oc.caden.main.jpg main
+    > <h2>Caden Canepa</h2>
+    > <ul>
+    > <li>{*Story*}: Goshin
+    > <li>{*Age*}: 22</li>
+    > <li>{*Gender*}: Cis male</li>
+    > <li>{*Orientation*}: Homosexual</li>
+    > <li>{*Family*}: {{Mika Canepa|#mika}}</li>
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Caden, like his sister Mika, was raised in Sunnyshore city and is the manager of Vista resort. It's very difficult for him to tear away from his work, he feels like if he isn't there that things will not get done, or go to shit. Caden spends countless hours in the resort, walking the grounds and making sure everyone is doing what they're supposed to. He is an amiable person, but his controlling nature sometimes makes it difficult for him to befriend others. 
+    & Caden suffers from mysophobia (fear of dirt), as well as algophobia (fear of pain). He takes little risks in life, and rarely leaves the resort, in fact, he lives in one the rooms on the uppermost floor. 
+    & Mika tries to get him to try new things, to expand his horizons and to be less fearful, but Caden doesn't share his sister's love of the ocean. 
+
+MIKA
+  LONG
+    > <columns>
+    % content/oc.mika.main.jpg main
+    > <h2>Mika Canepa</h2>
+    > <ul>
+    > <li>{*Story*}: Goshin
+    > <li>{*Age*}: 26</li>
+    > <li>{*Gender*}: Cis female</li>
+    > <li>{*Orientation*}: Bisexual</li>
+    > <li>{*Family*}: Caden Canepa</li>
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Mika and her brother Caden were raised in Sunnyshore City, and help manage Vista resort, situated on a beach on the east of the city. Mika is a kite surfer, and operates a kite shop called that rents out equipment to the many visitors to the beach, and the resort. 
+    & She spends all of her days outdoors, and loves to spend time on the ocean. If she's not kite-surfing, she teaches dinghy sailing to the local kids. Mika wants to pass down her love of ocean sports, and to teach the younger generations to respect the creatures that live in the water. She is kind-hearted, strong of head and body and will not let anyone keep her down. 
+    & Mika has a team of pokemon, she's often seen sailing with her Lucario "Keelo".
+
 SY
   LONG
     > <columns>
@@ -912,7 +950,7 @@ FENIX
     > <h2>Fenton 'Fenix' Drayer</h2>
     > <ul>
     > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 20</li>
+    > <li>{*Age*}: 22</li>
     > <li>{*Alignment*}: Lawful neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
@@ -973,7 +1011,7 @@ MUSI
     > <h2>Monty 'Musi' Quintero</h2>
     > <ul>
     > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 24</li>
+    > <li>{*Age*}: 25</li>
     > <li>{*Alignment*}: True neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Bisexual</li>
@@ -992,7 +1030,7 @@ SHOCK
     > <h2>Shane 'Shock' Evans</h2>
     > <ul>
     > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 17</li>
+    > <li>{*Age*}: 18</li>
     > <li>{*Alignment*}: Chaotic neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Asexual</li>
