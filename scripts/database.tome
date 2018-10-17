@@ -312,13 +312,14 @@ SPACE
     % content/project.space.jpg main
     > <p class='caption'>Space racer Kidd Kosmo</p>
     > <h2>Space race</h2>
-    & A story of a band of teens who take part in interplanetary races. Racers include Kidd Kosmo, Straw Surfer and Space Panda.
+    & A story of a band of teens who take part in interplanetary races. Racers include Luna Leap (and partner Chacha), Space Panda, Straw surfer and Kidd Kosmo.
     & Ongoing project. 
     > </columns>
     > <gallery class='thumbnails lightbox'>
     >  <img src="media/content/project.space.01.jpg">
     >  <img src="media/content/project.space.02.jpg">
     >  <img src="media/content/project.space.03.jpg">
+    >  <img src="media/content/project.space.05.jpg">
     > <hr/>
     > </gallery>
 
