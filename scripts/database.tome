@@ -310,10 +310,12 @@ SPACE
   LONG
     > <columns>
     % content/project.space.jpg main
-    > <p class='caption'>Space racer Kidd Kosmo</p>
+    > <p class='caption'></p>
     > <h2>Space race</h2>
-    & A story of a band of teens who take part in interplanetary races. Racers include Luna Leap (and partner Chacha), Space Panda, Straw surfer and Kidd Kosmo.
-    & Ongoing project. 
+    & Encela Leap, grandparent of Luna Leap, is expelled from the league of interplanery racing for breaking rules relating to vehicle race technique and style. The sport of racing has been poisoned by greed, and is overly regulated.
+    & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild cyklomedusas - forms her own league of racer dedicated not to form and rules, but to the simple test of superior speed. This league of misfits, referred to as the true 'speed racers' includes Luna herself, Space Panda, Straw Surfer and Kidd Kosmo.
+    & In these races, the participants race through the Austral system - which consists of a multitude of tiny planets and moons - and use the relative movement and gravity of the planets or other astronomical object to increase their speed. 
+    & Their movement aims to dismantle the official racing regulations that has been strangling racers for many cycles now. They want to bring the sport back to the people.
     > </columns>
     > <gallery class='thumbnails lightbox'>
     >  <img src="media/content/project.space.01.jpg">
