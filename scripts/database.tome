@@ -125,7 +125,6 @@ PROJECTS
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
     >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
-    >   <a href='#space'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -165,6 +164,7 @@ STORIES
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
+    >   <a href='#space'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <hr/>
     > </gallery>
 
