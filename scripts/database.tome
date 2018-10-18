@@ -164,7 +164,7 @@ STORIES
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
-    >   <a href='#space'><img class='grey' src="media/content/project.space.jpg"></a>
+    >   <a href='#medussa'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -306,7 +306,7 @@ UNO
   LINK
     Read the story : https://vimeo.com/1086078
 
-SPACE
+MEDUSSA
   LONG
     > <columns>
     % content/project.space.main.jpg main
@@ -314,15 +314,14 @@ SPACE
     > <h2>Medussa's four</h2>
     > <ul>
     > <li> <b>Story:</b> Medussa's 4
-    > <li> <b>Characters:</b> Luna Leap, Space Panda, Straw Surfer and Kidd Kosmo.
-    > <li> <b>Location:</b> Austral system
-    > <li> <b>Summary:</b> A story about a league of misfits called "Medussa's four", who race through the system using non-regulated means of propulsion. 
+    > <li> <b>Characters:</b>  {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
+    > <li> <b>Summary:</b> A story about a league of misfits called "Medussa's four", who race through the Austral system using non-regulated means of propulsion. 
     > </ul>
     > </columns>
-    & Encela Leap, grandparent of Luna Leap, is expelled from the league of interplanery racing for breaking rules relating to race technique and style. The sport of racing, Encela claims, has been poisoned by greed and is overly regulated. 
-    & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild cyclomedussas - forms her own league dedicated not to form and rules, but to the simple test of superior speed. This league of misfits, referred to as 'Medussa's four' includes Luna Leap, Space Panda, Straw Surfer and Kidd Kosmo.
+    & {*Encela Leap*}, grandparent of {*Luna Leap*}, is banned from the "Belt Championship" by the IFS (interplanetary federation of ships) for breaking rules relating to race technique and style. The IFS has been poisoned by greed, their monopoly of transport and racing that spans many systems, Encela feels, is downright disgusting.  
+    & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild {*cyclomedussas*} - forms her own league dedicated not to form and rules, but to the simple test of superior speed. The group also advocates for the 'right to build and use one's own transport', a thing the IFS has made illegal. This league of misfits, referred to as {*'Medussa's four'*} includes {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
     & In these races, the participants race through the Austral system - which consists of a multitude of tiny planets and moons - and use the relative movement and gravity of the planets or other astronomical object to increase their speed. 
-    & Their movement aims to dismantle the unfair regulations that has been strangling racers for many cycles now. They want to bring the sport back to the people. 
+    & Their movement aims to dismantle the unfair regulations that has been strangling the habitants of the {*Belt systems*} for many cycles now. 
     > <gallery class='thumbnails lightbox'>
     >  <img src="media/content/project.space.01.jpg">
     >  <img src="media/content/project.space.02.jpg">
@@ -695,6 +694,14 @@ CHARACTERS
     > <a href="#polycat"><img class='grey' src="media/content/oc.polycat.jpg"></a>
     > <hr/>
     > </gallery>
+    * MEDUSSA'S FOUR
+    > <gallery>
+    > <a href="#luna"><img class='grey' src="media/content/oc.lunaleap.jpg"></a>
+    > <a href="#kidd"><img class='grey' src="media/content/oc.kiddkosmo.jpg"></a>
+    > <a href="#straw"><img class='grey' src="media/content/oc.strawsurfer.jpg"></a>
+    > <a href="#panda"><img class='grey' src="media/content/oc.spacepanda.jpg"></a>
+    > <hr/>
+    > </gallery>
     * CIRCA
     & What is {*{{Circa|#circa}}*}?
     > <gallery>
@@ -719,6 +726,78 @@ CHARACTERS
     > <hr/>
     > </gallery>
     > </wr>
+
+KIDD
+  LONG
+    > <columns>
+    % content/oc.kiddkosmo.main.jpg main
+    > <h2>Kidd Kosmo</h2>
+    > <ul>
+    > <li>{*Story*}: {{medussa}}
+    > <li>{*Family*}: Dorohea
+    > <li>{*Homeworld*}: Liminik, in the Isles system
+    > <li>{*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
+    > <li>{*Propulsion*}: Shoes
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Kidd Kosmo is a Dorohe, born and raised on the planet Liminik in the Isles system. The Isles system is out of the IFS's jurisdiction, which means they can travel by their own means. Dorohe have a custom of leaving home when they come of age, to a planet and system of their choice. Dorohe practice ascetism, they dedicate ther life to serving all other living beings, they believe in simplicity and regard gender, extravagance and religion as obstacles to mental clarity. Dorohe are given a set of thruster shoes on leave, which they use to travel through space. Kidd sets of to Retna, in search of a cause.
+    & The people of Retna struggle with money, it is a junk planet, filled with refuse and old parts, most habitants have never left the planet and use recycled objects to create something new to sell to off-planet visitors at the grand bazaar. Kidd hopes to help these people, to try and find ways for them to need 'less', to lessen their dependence on the economy and in turn, their need for money. 
+    & Kidd is skilled, tey don't race for glory, but to disrupt and inspire in hopes of opening interplanetary travel to everyone. Tey and Panda like to teach younglings to build, and repair their own transport at the hackspaces on Retna.
+
+LUNA
+  LONG
+    > <columns>
+    % content/oc.lunaleap.main.jpg main
+    > <h2>Kidd Kosmo</h2>
+    > <ul>
+    > <li>{*Story*}: {{medussa}}
+    > <li>{*Family*}: Leporid
+    > <li>{*Homeworld*}: Centricis, in the Austral system.
+    > <li>{*Appearance*}: Long ears, green-ish skin with light patterns, strong build, dark eyes.</li>
+    > <li>{*Propulsion*}: Cyclomedussa named "ChaCha"
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Luna Leap is a Leporid, born and raised on the planet Cencitris in the Austral system. She's calm, composed, and very head strong, others have much confidence in her so when Luna acts without word, others will blindly follow. 
+    & No one else can tame and train cyclomedussas, these rare soft-bodied creatures of speed. ChaCha is friend to Luna, they're perfectly attuned to each other's thoughts and feelings. ChaCha's underside has tentacles that twist and turn with incredible speed, pushing the air to propel itself forward. Despite the presence of a rider on its back, ChaCha doesn't lose much speed, because the bones of the Leporid are pneumatic, making them very light. 
+    & As a young Lepori, Luna developed an interest for racing because of Encela, grandparent and racer extraordinaire. She developed a great dislike for the IFS, because of their affluence and rigidity. After Encela was forcibly removed from the "Belt Championship" for using a non-authorized style of ship, Luna set out to form her own league, a group of racers dedicated not to form or rules, but to speed and accessibility. 
+
+PANDA
+  LONG
+    > <columns>
+    % content/oc.spacepanda.main.jpg main
+    > <h2>Space Panda</h2>
+    > <ul>
+    > <li>{*Story*}: {{medussa}}
+    > <li>{*Family*}: Ursadae
+    > <li>{*Homeworld*}: Omoretus, in the Tuamoto system.
+    > <li>{*Appearance*}: Round fuzzy ears, dark nose, light skin, dark attire.</li>
+    > <li>{*Propulsion*}: Baton that fans out into a disc, powered by the sun. 
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Panda is an Ursada, born on the planet Omoretus in the Tuamoto system and raised on Retna in the Australs. After Omoretus suffered ecological collapse - after the Highway system over-cultivated the planet - the Ursidae emigrated to other systems and Panda's family ended up on Retna. No other of her kind had come here, because of the absence of plant, essential to their diet, her family opted for a synthesized equivalent to stay healthy. 
+    & Panda is a maverick, and doesn't need others to be happy, she likes parkour, to create her own paths in the world, and this is what led her to race through the Australs. Her family never had the money to board a shop to travel offplanet, and so Panda decided to find her own path.
+    & Her time in hackspaces on Retna, earned her the skills to build her solar disc. The disc retracts into a baton for easy carrying, and fans out into a translucent circle, with solar cells embedded in the material. One end of the baton is equipped with a thruster, enabling her to get some momentum, so she can reach the gravity of a near astronomical object to propel herself onward. 
+
+STRAW
+  LONG
+    > <columns>
+    % content/oc.strawsurfer.main.jpg main
+    > <h2>Straw Surfer</h2>
+    > <ul>
+    > <li>{*Story*}: {{medussa}}
+    > <li>{*Family*}: Hominini
+    > <li>{*Homeworld*}: Balavados, in the Highway system.
+    > <li>{*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
+    > <li>{*Propulsion*}: A long hollow cyclinder that elongates at will.
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Straw is a Hominini, born on the planet Baladavos in the Highway system. This system belongs to the IFS "the interplanetary federation of Ships" who have a monopoly on transportation, and that organize the yearly "Belt Championship". Like everyone in the Highway system, her family is well-off, permitting her to have a ship of her own. She has taken part in the Belt Championship many times, but aches for the freedom and creativity to design her own transport. When in the Australs for the Belt Championship, she hears of Encela's ban from racing. Curious, Straw decides to make a permanent home on Centricis to learn more about cyclomedussas.
+    & Straw is privileged, in the sense that she can go wherever she likes, and uses this to help others who are less fortunate than herself. She is a jovial being, high-energy and always looking for something to do. Straw used to be oblivious to a lot of the bad in the Belt, now she does all she can to right this and inform herself.   
+    & Unable to tame a cyclomedussa, lacking the patience mostly, Straw tries and find her own transport. Back in her homeworld of Baladavos, she finds a like-minded invidiual who helps her to build the tech for a cylinder that elongates in perpetuity, or "infinite straw" that now uses to travel through space. 
 
 VIKTOR
   LONG
