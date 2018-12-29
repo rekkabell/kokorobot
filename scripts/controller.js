@@ -16,11 +16,10 @@ function Controller()
     this.load(window.document.location.hash == "" ? 'Home' : window.document.location.hash);
   }
 
-  this.load = function(target = "Home")
+  this.load = function(input = window.location.hash)
   {
-    target = target.substr(0,1) == "#" ? target.substr(1,target.length-1) : target
-    target = target.trim() == "" ? "Home" : target
-
+    const target = input.to_url() === '' ? 'Home' : input.to_url()
+    
     if(target === ''){
       window.history.replaceState(undefined, undefined, "#" + target)
     }
@@ -31,13 +30,9 @@ function Controller()
     console.info(`Loading ${target}.`)
 
     var content = this.database[target.toUpperCase()];
-    if(!content){
-      this.missing(target);
-      return;
-    }
 
     this.el.className = "loading";
-    this.el.innerHTML = `<page>${new Runic(content.LONG)}</page>`;
+    this.el.innerHTML = content ? `<page>${new Runic(content.LONG)}</page>` : `<page><p>Could not find page ${target}</p></page>`;
 
     setTimeout(()=>{ this.lightbox.update() },500);
 
@@ -45,12 +40,6 @@ function Controller()
       this.el.className = "ready"; 
       window.scrollTo(0,0); 
     },200)
-  }
-
-  this.missing = function(target)
-  {
-    console.warn(`Could not find ${target}.`)
-    this.el.innerHTML = `<page><p>Could not find page ${target}</p></page>`;
   }
 
   this.touch = function(target)
