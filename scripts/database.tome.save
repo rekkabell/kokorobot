@@ -10,7 +10,7 @@ ABOUT
     % interface/profile.jpg main
     > <p class='caption'>I am Rekka Bellum, I work on games and children's books.</p>
     > <h2>Rekka Bellum</h2>
-    & Here, you will finds things that I've made. It is my space in the void, a room I've decorated that it is here for you visit.
+    &   Here, you will finds things that I've made. It is my space in the void, a room I've decorated that it is here for you visit.
     > <ul>
     > <li> Writes both {*{{fiction|#stories}}*} and {*{{non-fiction|https://100r.co/blog.html}}*}.</li>
     > <li> Lives nowhere, and {*<a href="http://100r.co">everywhere</a>*}.
@@ -20,7 +20,7 @@ ABOUT
     > </columns>
     & My past work experience include working in studio for {*Pascal Blais animation*}, {*Télé-Québec*} and {*TonePlus animation studios*}. I have done contract work for {*Edoki Academy*}, {*Volta Creations*} and {*Scorpion Masqué*}; and have published children's books with {*Éditions Druide*}, {*Bayard Canada*}, {*Erpi*} and {*Éditions du Boréal*}. 
     & I'm great at spearheading projects, and prefer work that will allow me to use my own style - keep this in mind if you wish to work with me. I do book covers, interiors, game assets and promo/concept art. I only do animation for personal projects.
-    & Email me at {*rekkabell @ gmail dot com*} or DM me {*@rekkabell*} on twitter for art-related inquiries (I speak fluent french). You can also find me on Mastodon {*@rek@merveilles.town*}. 
+    & Email me at {*rekkabell @ gmail dot com*} or DM me {*@rekkabell*} on twitter for art-related inquiries (I speak fluent french).
     & You can also:
     & Download my {*<a href="media/content/resume.rekkabellum.pdf">resume</a>*}. <br> View a complete list of my {*{{publications|#publications}}*}.
     > <hr/>
@@ -29,15 +29,15 @@ PUBLICATIONS
   LONG
     > <p class='intro'> Complete list of works. Images below, is the 4 latest books I've had published.</p>
     > <gallery>
-    >   <a href="https://www.commondeerpress.com/extraordinary-etab-of-julian" target="_blank"><img class='grey' src="media/content/book.etab.jpg"></a>
     >   <a href="https://secondstorypress.ca/kids/skateboardsibby" target="_blank"><img class='grey' src="media/content/book.sibby.jpg"></a>
     >   <a href="https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz" target="_blank"><img class='grey' src="media/content/book.ooz.jpg"></a>
     >   <a href="https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html" target="_blank"><img class='grey' src="media/content/book.araignees.jpg"></a>
+    >   <a href="https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677" target="_blank"><img class='grey' src="media/content/book.rooms.jpg"></a>
     >   <hr/>
     > </gallery>
     * Children's books
     > <ul>
-    > <li> {*{{The extraordinary eTab of Julian Newcomber|https://www.commondeerpress.com/extraordinary-etab-of-julian}}*} Michael Seese, Common deer press, TBD</li>
+    > <li> {*The extraordinary eTab of Julian Newcomber*} Michael Seese, Common deer press, TBD</li>
     > <li> {*{{Skateboard Sibby|https://secondstorypress.ca/kids/skateboardsibby}}*} Clare O'Connor, Secondstory press, 2018 </li>
     > <li> {*{{Les araignées monstres|https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html}}*} Édith Bourget, Éditions du Boréal, 2017</li>
     > <li> {*{{Thousand Rooms|https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677}}*} Rekka Bellum and Devine Lu Linvega, 2017</li>
@@ -124,7 +124,6 @@ PROJECTS
     >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
-    >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -135,7 +134,7 @@ ILLUSTRATION
     > <img class='grey lightbox' src="media/content/illustration.sibby.jpg">
     > <img class='grey lightbox' src="media/content/illustration.paradise.jpg">
     > <img class='grey lightbox' src="media/content/illustration.markl.jpg">
-    > <img class='grey lightbox' src="media/content/illustration.lizbird.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.jim.jpg">
     > <img class='grey lightbox' src="media/content/illustration.wiktopher.jpg">
     > <img class='grey lightbox' src="media/content/illustration.oquonie2.jpg">
     > <img class='grey lightbox' src="media/content/illustration.thousandrooms.jpg">
@@ -150,8 +149,6 @@ ILLUSTRATION
     > <img class='grey lightbox' src="media/content/illustration.cabane.jpg">
     > <img class='grey lightbox' src="media/content/illustration.mirmaelle2.jpg">
     > <img class='grey lightbox' src="media/content/illustration.wedding.jpg">
-    > <img class='grey lightbox' src="media/content/illustration.valen.jpg">
-    > <img class='grey lightbox' src="media/content/illustration.drone.jpg">
     > <hr/>
     > </gallery>
 
@@ -163,7 +160,6 @@ STORIES
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
-    >   <a href='#medussa'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -181,11 +177,13 @@ STORE
     > </ul>
     > </columns>
     * ITEMS FOR SALE
-    & All drawings are {*40$ each*}, plus an {*extra 5$*} for shipping. Contact me at {*rekkabell at gmail dot com*} if interested.    > <wr>
+    & All drawings are {*40$ each*}, plus an {*extra 5$*} for shipping. Contact me at {*rekkabell at gmail dot com*} if interested.
+    > <wr>
+    >   <img src="media/content/project.knots.02.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.knots.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.knots.04.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
-
 WIKTOPHER
   BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
   LONG
@@ -213,8 +211,6 @@ WIKTOPHER
     >   <img src="media/content/project.wiktopher.06.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.wiktopher.07.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.wiktopher.08.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.09.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.10.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -226,10 +222,9 @@ CIRCA
     % content/project.circa.jpg main
     > <p class='caption'>"Sy Keon Cross"</p>
     > <h2>What is Circa</h2>
-    & History: When the french settlers arrived on the shores of Quebec, all of those years ago, they found the land was already occupied by natives, the {*Iroquois*}. The Iroquois warned them of the {*Asgina*} or “a-sgi-na” - native word which roughly translates to 'ghost', 'demon' or 'devil' - who also occupy this land. Asgina have special abilities, feared by the Iroquois. Reluctantly, both nations make room for these new visitors, provided they respect the land and obey their laws. Today, the settlers have broken these laws, multiplied and spread and the native and Asgina influence has been greatly reduced, despite their best efforts. This break in trust has given rise to Asgina criminal factions such as the {*Ars Goetia*}. They now wield influence through intimidation, threats, vandalism and racketeering. The bulk of the Asgina and the natives live on reserves, skirting the main cities. 
-    > </columns>
-    & {*{{Sy}}*} lives in Tuscarora, one of the more prominent native and Asgina settlements in Quebec. After being forced into therapy for hurting someone, he meets {*{{Kima}}*}, a girl he becomes involved with and that is deeply-rooted in Asgina affairs. This is how Sy gets mixed up into this mess, tangled into the dealings of the Ars Goetia - to his great discontent. 
+    & Circa is a work-in-progress. Is it the story of many, focused on the contradictory lives of {{Sy|#sy}} and {{Token|#token}}.
     & View other {*{{characters|#characters}}*} from this story.
+    > </columns>
     > <wr>
     >   <img src="media/content/project.circa.01.jpeg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.02.jpg" class='thumbnail lightbox'>
@@ -275,63 +270,6 @@ THOUSANDROOMS
     > <img src="media/content/project.thousandrooms.03.png">
     > <img src="media/content/project.thousandrooms.04.png">
     > <img src="media/content/project.thousandrooms.05.png">
-    > <hr/>
-    > </gallery>
-
-
-UNO
-  LONG
-    > <columns>
-    % content/movie.uno.02.jpg main
-    > <p class='caption'>BGs in photoshop, colored and assembled in Toonboom Harmony, edited in AfterFX and Premiere.</p>
-    > <h2>Uno</h2>
-    & Completed during the years 2007 and 2008 at le cegep du vieux Montreal, "Uno" is a short 2d animation film that tells the story of a moment in Ratchet's life.
-    & Ratchet lives on an island high in the sky with her companion Hush. Disconnected from others, she finds an ususual way to communicate with her neighbours. 
-    >   <h3>Features</h3>
-    >   <ul>
-    >     <li><b>Animated traditionally
-    >     <li><b>21 scenes</b></li>
-    >     <li><b>900+ drawings (excluding shadows)</b></li>
-    >   </ul>
-    >   <a href="https://vimeo.com/1086078" class='button' target="_blank">WATCH THE MOVIE</a>
-    > </columns>
-    > <wr>
-    >   <img src="media/content/movie.uno.03.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/movie.uno.04.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/movie.uno.05.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/movie.uno.06.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/movie.uno.07.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/movie.uno.08.jpg" class='thumbnail lightbox'>
-    > </wr>
-    > <hr/>
-  LINK
-    Read the story : https://vimeo.com/1086078
-
-MEDUSSA
-  LONG
-    > <columns>
-    % content/project.space.main.jpg main
-    > <p class='caption'></p>
-    > <h2>Medussa's four</h2>
-    > <ul>
-    > <li> <b>Story:</b> Medussa's 4
-    > <li> <b>Characters:</b>  {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
-    > <li> <b>Summary:</b> A story about a league of misfits called "Medussa's four", who race through the Austral system using non-regulated means of propulsion. 
-    > </ul>
-    > </columns>
-    & {*Encela*}, grandparent of {*Luna Leap*}, is banned from the "Belt Championship" by the IFS (interplanetary federation of ships) for breaking rules relating to race technique and style. The IFS has been poisoned by greed, their monopoly of transport and racing that spans many systems, Encela feels, is downright disgusting. 
-    & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild {*cyclomedussas*} - forms her own league dedicated not to form and rules, but to the simple test of superior speed. The group also advocates for the 'right to build and use one's own transport', a thing the IFS has made illegal. This league of misfits, referred to as {*'Medussa's four'*} includes {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
-    & In these races, the participants race through the Austral system - which consists of a multitude of tiny planets and moons - and use the relative movement and gravity of the planets or other astronomical object to increase their speed.
-    & Their movement aims to dismantle the unfair regulations that has been strangling the habitants of the {*Australs*} for many cycles now. 
-    & HISTORY
-    & The Lepori, Denurith and Ursada all stem from the Homini, from ships that left their homeplanet Retna to explore the grandioseness that is their universe (The Australs). They lived aboard their ships for thousands of years, keeping some contact, while evolving as separate species. Many years later, they resolved to live near one another again, with the stars growing dark togetherness and harmony has never been so important. They steered their ships back over to Retna, the only planet capable of sustaining life, now a center of exchange of goods and knowledge and the place where all 4 races can go to live as equals.
-    & 2 now orbit the planet in their ships, all, but the Ursada's ship "The Arkto" that was decommissioned due to various technical problems. Now, the Ursada live on Retna's soil. 
-    & {*Medussa*} was the name of the station orbitting Retna, the base model for the 3 generational travel ships that departed long ago, the 3 being {*The Santoshi Mata*}, {*Arkto*} and {*the Leveret*}. 
-    > <gallery class='thumbnails lightbox'>
-    >  <img src="media/content/project.space.01.jpg">
-    >  <img src="media/content/project.space.02.jpg">
-    >  <img src="media/content/project.space.03.jpg">
-    >  <img src="media/content/project.space.05.jpg">
     > <hr/>
     > </gallery>
 
@@ -422,8 +360,6 @@ MARKL
     >  <img src="media/content/project.markl.06.gif" class='thumbnail'>
     >  <img src="media/content/project.markl.07.jpg" class='thumbnail lightbox'>
     >  <img src="media/content/project.markl.08.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.markl.09.jpeg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.markl.10.jpeg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -472,19 +408,24 @@ CERBELLUM
     > <columns>
     % content/project.cerbellum.02.gif main
     > <h2>Cerbellum</h2>
-    & The world through the eyes of a socially anxious skeleton named {*{{Cee|#cee}}*}. {*Cerbellum*} is a project that sheds light on the thoughts and fears of people with anxiety.
+    & The world through the eyes of a socially anxious skeleton named C. {*Cerbellum*} is a project that sheds light on the thoughts and fears of people with anxiety.
     & This is a project that I would like to expand into a book, or comic series.
     & I'm still very undecided. More updates soon.
-    & Get to know the {*{{characters}}*} of Cerbellum.
     > </columns>
     > <wr>
-    >  <img src="media/content/project.cerbellum.001.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.002.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.003.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.004.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.005.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.006.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.007.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.14.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.15.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.16.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.cerbellum.17.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -677,32 +618,12 @@ NOTES
     - {*{{Links}}*} - Doors to other worlds.
     - {*{{Quotes}}*} - Things to remember.
     - {*{{Tools}}*} - Specifics on tools.
-    - {*{{Resources}}*} - Articles and websites.
+    - {*{{Animals}}*} - Observations in fauna.
     - {*{{Characters}}*} - Original character creations.
 
 CHARACTERS
   LONG
     & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them, note that some characters were not created by me.
-    * CERBELLUM
-    & What is {*{{Cerbellum|#cerbellum}}*}?
-    > <gallery>
-    > <a href="#shiba"><img class='grey' src="media/content/oc.shiba.jpg"></a>
-    > <a href="#cee"><img class='grey' src="media/content/oc.cee.jpg"></a>
-    > <a href="#viktor"><img class='grey' src="media/content/oc.viktor.jpg"></a>
-    > <a href="#finn"><img class='grey' src="media/content/oc.finn.jpg"></a>
-    > <a href="#polycat"><img class='grey' src="media/content/oc.polycat.jpg"></a>
-    > <a href="#adeka"><img class='grey' src="media/content/oc.adeka.jpg"></a>
-    > <hr/>
-    > </gallery>
-    * MEDUSSA'S FOUR
-    & What is {*{{Medussa's 4|#medussa}}*}?
-    > <gallery>
-    > <a href="#luna"><img class='grey' src="media/content/oc.lunaleap.jpg"></a>
-    > <a href="#kidd"><img class='grey' src="media/content/oc.kiddkosmo.jpg"></a>
-    > <a href="#straw"><img class='grey' src="media/content/oc.strawsurfer.jpg"></a>
-    > <a href="#panda"><img class='grey' src="media/content/oc.spacepanda.jpg"></a>
-    > <hr/>
-    > </gallery>
     * CIRCA
     & What is {*{{Circa|#circa}}*}?
     > <gallery>
@@ -716,204 +637,13 @@ CHARACTERS
     > <hr/>
     > </gallery>
     * GOSHIN
-    & Original characters and story, set in the world of pokemon.
     > <gallery>
     > <a href="#fenix"><img class='grey' src="media/content/oc.fenix.jpg"></a>
     > <a href="#musi"><img class='grey' src="media/content/oc.musi.jpg"></a>
     > <a href="#shock"><img class='grey' src="media/content/oc.shock.jpg"></a>
-    > <a href="#mika"><img class='grey' src="media/content/oc.mika.jpg"></a>
-    > <a href="#caden"><img class='grey' src="media/content/oc.caden.jpg"></a>
-    > <a href="#casey"><img class='grey' src="media/content/oc.casey.jpg"></a>
-    > <a href="#ferris"><img class='grey' src="media/content/oc.ferris.jpg"></a>
     > <hr/>
     > </gallery>
     > </wr>
-
-KIDD
-  LONG
-    > <columns>
-    % content/oc.kiddkosmo.main.jpg main
-    > <h2>Kaddali Viti Sarayu</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Kidd Kosmo
-    > <li>{*Family*}: Denurith
-    > <li>{*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
-    > <li>{*Propulsion*}: Shoes
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Kaddali is a {*Denurith*}, living on Bahrit, one of Retna's moons. The Denurith practice ascetism, they dedicate ther life to serving all other living beings, they believe in simplicity and regard gender, extravagance and religion as obstacles to mental clarity. Denurith are given a set of thruster shoes on leave, which they use to travel through space. Kaddali sets of to Retna, in search of a cause.
-    & The people of Retna struggle with money, it is a junk planet, filled with refuse and old parts, most habitants have never left the planet and use recycled objects to create something new to sell to off-planet visitors at the grand bazaar. Kaddali hopes to help these people, to try and find ways for them to need 'less', to lessen their dependence on the economy and in turn, their need for money. 
-    & Kaddali is skilled, tey don't race for glory, but to disrupt and inspire in hopes of opening interplanetary travel to everyone. Tey and {*{{Padna|#panda}}*} like to teach younglings to build, and repair their own transport at the hackspaces on Retna. 
-    > <gallery class='thumbnails lightbox'>
-    >  <img src="media/content/project.space.02.jpg">
-    >  <img src="media/content/oc.kiddkosmo2.jpg">
-    > <hr/>
-    > </gallery>
-
-LUNA
-  LONG
-    > <columns>
-    % content/oc.lunaleap.main.jpg main
-    > <h2>Lun-di</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Luna Leap
-    > <li>{*Family*}: Lepori
-    > <li>{*Sex*}: Female
-    > <li>{*Appearance*}: Long ears, green-ish skin with light patterns, strong build, dark eyes.</li>
-    > <li>{*Propulsion*}: Cyclomedussa named "ChaCha"
-    > </ul>
-    > </columns>
-    > <hr/>{
-        & Lun-di is a {*Lepori*}. She's calm, composed, and very head strong, others have much confidence in her so when Lun-di acts without word, others will blindly follow. 
-    & No one else can tame and train {*cyclomedussas*}, these rare soft-bodied creatures of speed. {*ChaCha*} is friend to Lun-di, they're perfectly attuned to each other's thoughts and feelings. ChaCha's underside has tentacles that twist and turn with incredible speed, pushing the air to propel itself forward. 
-    & As a young Lepori, Lun-di developed an interest for racing because of {*Encela*}, grandparent and racer extraordinaire. She developed a great dislike for the {*IFS*} (interplanetary federation of ships), because of their affluence and rigidity. After Encela was forcibly removed from the {*Belt Championship*} for using a non-authorized style of ship, Lun-di set out to form her own league, a group of racers dedicated not to form or rules, but to speed and accessibility. 
-
-PANDA
-  LONG
-    > <columns>
-    % content/oc.spacepanda.main.jpg main
-    > <h2>Padna</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Space Panda
-    > <li>{*Family*}: Ursada
-    > <li>{*Appearance*}: Round fuzzy ears, dark nose, light skin, dark attire.</li>
-    > <li>{*Propulsion*}: Baton that fans out into a disc, powered by the sun. 
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Padna is an {*Ursada*}. After Arkto was decommissioned, the Ursada emigrated on Retna. 
-    & Padna is a maverick, and doesn't need others to be happy, she likes parkour, to create her own paths in the world, and this is what led her to race through the Australs. Her family never had the money to board a ship to travel offplanet, and so Padna decided to create her own path.
-    & Her time in hackspaces on Retna, earned her the skills to build her solar disc. The disc retracts into a baton for easy carrying, and fans out into a translucent circle, with solar cells embedded in the material. One end of the baton is equipped with a thruster, enabling her to get some momentum, so she can reach the gravity of a near astronomical object to propel herself onward. 
-
-STRAW
-  LONG
-    > <columns>
-    % content/oc.strawsurfer.main.jpg main
-    > <h2>Klo Starawin</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Straw Surfer
-    > <li>{*Family*}: Homini
-    > <li>{*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
-    > <li>{*Propulsion*}: A long hollow cyclinder that elongates at will.
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Klo is a {*Homini*}, born on the Retna, now under the jurisdiction of the {*IFS*} "the interplanetary federation of Ships" (who have a monopoly on transportation). Her family is well-off, permitting her to have a ship of her own. She has taken part in the Belt Championships many times, but aches for the freedom and creativity to design her own transport. Her sibling Lef is an Enforcer in the IFS, they have little contact, in fact, she cares little to know what he's up to given the dark nature of his work.
-    & She heard of Encela's ban from racing, curious, Klo makes a trip to The Leveret to learn more about {*cyclomedussas*}. Klo is privileged, in the sense that she can go wherever she likes, and uses this to help others who are less fortunate than herself. She is a jovial being, high-energy and always looking for something to do. Klo used to be oblivious to a lot of the bad happenings on Retna, now she does all she can to right this and inform herself.   
-    & Unable to tame a cyclomedussa, lacking the patience mostly, Klo tries and find her own DIY transport. Back on Retna, she finds a like-minded invidiual who helps her to build the tech for a cylinder that elongates in perpetuity, or "infinite straw" that she now uses to travel through space. 
-
-LEF
-  LONG
-    > <columns>
-    % content/oc.lef.main.jpg main
-    > <h2>Lef Starawin</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Title*}: Enforcer Lef
-    > <li>{*Family*}: Hominini
-    > <li>{*Appearance*}: Tall, upper half of face is dark, deep scar along chin and front of neck.</li>
-    > <li>{*Propulsion*}: A highway system corvette
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Lef is an Enforcer, employed by the IFS (the interplanetary federation of ships) and responsible for ensuring the laws regarding the use and fabrication of ships are being followed. Many accuse the Enforcers of having another more controversial role, of making sure that undesirables (low income citizens) never leave their home planets. Lef is sibbling to {{Klo|#straw}}, both lead very difference lives and are unaware of what the other is doing, due to Lef leaving home to join the federation at a young age.
-    & Lef has never seen eye to eye with his parents, and believes that space travel isn't for everyone. This is a belief shared by his grandmother, who has a high-ranking position at the IFS. 
-
-ADEKA
-  LONG
-    > <columns>
-    % content/oc.adeka.main.jpg main
-    > <h2>Adé</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: No visible arms, legs of any kind, just a long serpent-like body with a face that some would argue to be both beautiful and horrifying.</li>
-    > <li>{*Relation*}: Tormenter of {*{{Cee|#cee}}*}
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Adé is feared by many who share {*{{Cee|#cee}}*}'s anxieties. She is a creature most fearsome, that draws you in when you're at your lowest of lows, and refuses to let go. It is possible to escape her grip, but not without losing something important. Adé will stop at nothing to keep you in her world.
-
-VIKTOR
-  LONG
-    > <columns>
-    % content/oc.viktor.main.jpg main
-    > <h2>Viktor</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.</li>
-    > <li>{*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Viktor entered {*{{Cee|#cee}}*}'s head a long time ago, he now lives there and won't be persuaded to leave. The bird is said to be the source of Cee's anxieties, a whisperer, and teller of fears and lies. 
-    & He questions everything, all the time, and makes a habit of overthinking every situation. Viktor thinks he can see bad things before they happen, and uses this to prevent Cee from taking risks, and from trying new things.
-    & Viktor likes falafel, and the sound of rain as it falls onto Cee's skull.
-
-FINN
-  LONG
-    > <columns>
-    % content/oc.finn.main.jpg main
-    > <h2>Finn</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.</li>
-    > <li>{*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Finn is a mouse, and infrequent guest inside {{Cee}}'s head. She likes to visit the bird {{Viktor}}, fascinated by all that plagues him. They spend entire evenings together, talking about the future and the science of bread. 
-    & It is said that after Finn was hit by lightning, her tail split in two and she became immortal. No one if this is true, but Finn makes a point of mentionning it everytime she visits. Finn is inquisitive, wise and has some strange ideas about life, which {*{{Viktor|#viktor}}*} and her argue about for hours, over cups of peppermint tea. 
-
-POLYCAT
-  LONG
-    > <columns>
-    % content/oc.polycat.main.jpg main
-    > <h2>Polycat</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: A cat with one eye, and the hind and tail of a lizard.</li>
-    > <li>{*Relation*}: Often hovers around {*{{Shiba Killy|#shiba}}*}.
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Polycat is a wanderer, she doesn't speak much, but a lot can be understood by looking into her eye. She seems to always appear when {{Shiba Killy}} is alone, following after him and disappearing as soon as anyone else comes near.
-    & She likes to assist Shiba Killy in various tasks, like when he makes stone mandalas in the woods. She can multiply herself at will, but the others have the rear ends of other animals, like aves, vulpes and ungulates. 
-    & Want to {*{{play|https://neauoire.github.io/polycat/}}*} with Polycat?
-
-SHIBA
-  LONG
-    > <columns>
-    % content/oc.shiba.main.jpg main
-    > <h2>Shiba Killy</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.</li>
-    > <li>{*Relation*}: Friend of {*{{Cee|#cee}}*}
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Shiba Killy is a genial hound, a stoic, and the cure to {*{{Cee|#cee}}*}'s anxieties. Killy is outgoing, and never fails to bring Cee along, and to protect her. He often puts her into situations that are difficult, he is her link to society, her bridge to the world.
-    & Killy likes pickled foods and to wear ridiculously long scarves. 
-
-CEE
-  LONG
-    > <columns>
-    % content/oc.cee.main.jpg main
-    > <h2>Cee</h2>
-    > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
-    > <li>{*Appearance*}: Cee is a skeleton, her skull has a large crack in it.</li>
-    > <li>{*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Cee is a jittery character, plagued and paralyzed by fear and anxiety, due to the precense of a bird in her head. {*{{Viktor|#viktor}}*}, the bird, took up residence in Cee's head early in her life, and cannot be persuaded to leave. 
-    & Cee likes to grow plants, and spends a lot of time alone or with {*{{Shiba Killy|#shiba}}*}, her most trusted friend. Another comes to nest into her head on occasion, an immortal mouse named {*{{Finn|#finn}}*}. 
 
 ORION
   LONG
@@ -921,25 +651,22 @@ ORION
     % content/oc.orion.main.jpg main
     > <h2>Orion Mintenko</h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 18</li>
     > <li>{*Alignment*}: Neutral good</li>
     > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Gender*}: Cis gender</li>
+    > <li>{*Gender*}: Cis male</li>
     > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.</li>
     > <li>{*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Has multiple piercings.</li>
     > </ul>
     > </columns>
     > <hr/>
     & When the family split up, young Orion went with Petra to Kiev and continued school there while living with Petra's mother in the family home. Orion is a happy go-lucky kid, and can make the best of any situation. Orion went to a lot of clubs, concerts and parties, and began taking club drugs, such as LSD and ecstasy. Orion did get into trouble for it, and eventually started to take synthetic opioids and sedatives instead. With the recent crackdowns in Kiev, these were easier, and cheaper, to procure than naturally-derived drugs. After hearing of his brother {{Token}}'s accident, and old enough to make the decision, Orion decided to move back to Canada. He thought that this move, as well as Token's presence, would help him consume less, but this change did little to appease Orion's addictive nature.
-    & Orion now works in a bar in {*the Village*} in evenings. He is seldom seen alone. Orion cares about all he meets, even strangers, and goes out of his way to care for them if they're in trouble. While he considers himself a forever-child, he will become the adult in the room if a situation warrants it, especially when trouble-prone people like {{Sy}} are around. 
+    & Orion now works in a bar in {*the Village*} in evenings, a perfect arena for his promiscuous ways. He is seldom seen alone. Orion cares about all he meets, even strangers, and goes out of his way to care for them if they're in trouble. While he considers himself a forever-child, he will become the adult in the room if a situation warrants it, especially when trouble-prone people like {{Sy}} are around. 
     & Orion is confident and wears whatever, caring little of the opinions of others. Not many show aggression towards Orion because of his genial nature, but if threatened with violence and words are not enough to prevent an attack, he will run, if running is not possible then he will deflect most attacks - thanks to multiple training sessions with Token. That is all he will ever do, Orion will never harm another.
+    & Galeru has always been part of Orion's life, a fearful creature, she worries constantly for her friend. She lacks courage, and shows aggression when cornered. Galeru takes the form of an orange dog-fish, covered in scales, with large fins and dark globulous eyes. She swims through the air, defying all gravity and logic.
     * Comics
     & Orion, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
     & Other comics: {{Dookelaylee chicken men|http://kokorobot.ca/media/content/comic.chickenmen.p1.jpg}}
-    > <wr>
-    >   <img src="media/content/project.circa.05.jpg" class='thumbnail lightbox'>
-    > </wr>
 
 TOKEN
   LONG
@@ -947,46 +674,41 @@ TOKEN
     % content/oc.token.main.jpg main
     > <h2>Token Malvado</h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 22</li>
     > <li>{*Nickname*}: Pen</li>
     > <li>{*Alignment*}: Lawful neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
     > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.</li>
-    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts, jeans and running shoes; he often wears a red sports jacket overtop. He bears a deep cut at his lip, is missing two fingers on his left hand and his right hand up to the elbow is a prosthetic.</li>
+    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts and loose pants, he often wears a red sports jacket. He bears a deep cut at his lip, and is missing two fingers on his left hand, with a third cut at the joint. His right hand is missing half its index finger.</li>
     > </ul>
     > </columns>
     > <hr/>
     & Token's parents split up when he was young, he stayed with Luciano in Lasalle while Petra brought {{Orion}} back to Kiev. Petra never did love him, she always had a preference for Orion because he was better-looking, and smarter than he. Token pretended to be okay with this, but it did hurt, a lot. Luciano too showed favoritism, and could see a good fighter in Token. Early on, Luciano trained him, and later had him fight in city tournaments, all around the province and the country. 
-    & Token never professed a deep love for boxing, but it was a way to exteriorize his anger and disappointments in life. It became an addiction. Token wanted to win, and loved the feeling that came with it. The incident that crippled his hand was a terrible blow to his career, and his psyche. His father, was mixed in some dark affairs, he owed money to a Tuscarorian demon organization. They came into the house one night to hurt his father's prize: his son Token. The attackers sliced fingers off his right hand, and cut off his left, cauterizing the wound. Their aim was not to kill him, because for demons who live between life and death, they know that life is more painful. Because of these events, he suffers from PTSD. He is medicated, and has sought help, but it has caused him to go off the rails at times. 
-    & He recovered from the physical damage, and his fighting, despite lacking some fingers, and having a prosthetic, he was just as good. In fact, it earned him quite a reputation in the fighting world, the whole ordeal propelled him to fame. He continues to fight professionally, and has become a role model for disabled fighters everywhere.
+    & Token never professed a deep love for boxing, but it was a way to exteriorize his anger and disappointments in life. It became an addiction. Token wanted to win, and loved the feeling that came with it. The incident that crippled his hands was a terrible blow to his career, and his psyche. His father, was mixed in some dark affairs, he owed money to many important people. A group came into the house one night to hurt his father, Token, good with his fists, fought them back with much ferocity, but was stabbed, maimed and defiled – in more ways than one. Because of these events, he suffers from PTSD. He is medicated, and has sought help, but it has caused him to go off the rails at times. 
+    & He recovered from the physical damage, and his fighting, despite lacking some fingers, was just as good. In fact, it earned him quite a reputation in the fighting world, the whole ordeal propelled him to fame. He continues to fight professionally, and has become a role model for disabled fighters everywhere.
     & Token never forgave his father, and as of now, their relationship only gets more sour with time. This, worsened by the fact that his father has not ceased his grubby deals which continuously puts him at risk. Family aside, Token is liked by most, he his always smiling and pleasant to all he meets. Being well-liked is very important to him, and to his professional career. He trains everyday, he spends much energy on his physical shape while neglecting his mind's health. 
-    & {{Sy}}, a childhood friend, brings out the worse in him, or the real him Sy would argue. They met back when Token was forced to go door to door, to get money to fund his fights in other provinces. Token went to the Cross home in Tuscarora, and Harlow agreed to give him money and Sy, who gets nothing, thought this was most unfair and followed Token to try and steal the money he'd earned. Unfortunately, Sy didn't know he was a boxer, and he had his ass handed to him. Token could see that Sy truthfully was struggling in life, and offered to spend the money his mother gave him so they could buy chips and soft drinks to share - they became friends after that. Token makes friends easy, but never gets too close, in fear that they too, would find what was really hidden underneath the mask. The only other person who did get close, was {{Mari}}. They met during a fundraising event for a new sports center in town, and hit it off right away. Nowadays, they live together downtown, and frequently appear in magazines together given their reputation and good looks. 
+    & {{Sy}}, a childhood friend, brings out the worse in him, or the real him Sy would argue. Token makes friends easy, but never gets too close, in fear that they too, would find what was really hidden underneath the mask. The only other person who did get close, was {{Mari}}. They met during a fundraising event for a new sports center in town, and hit it off right away. Nowadays, they live together downtown, and frequently appear in magazines together given their reputation and good looks. 
+    & {*Specter*} is Token's companion, and came to be when Orion left with Petra. Specter has a ghostly figure, a large round head attached to a smaller translucent body. Two dark pools of black for eyes, they reflect much of what he's feeling. Specter is confident most times, but is not afraid to show weakness when necessary. He is an open-book, and will tell all if asked.
     * Comics
     & Token, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament comic|https://www.deviantart.com/mintenko/art/TDC-conclusion-192438504}}*} in 2010. 
-    > <wr>
-    >   <img src="media/content/project.circa.04.jpg" class='thumbnail lightbox'>
-    > </wr>
-
 KIMA
   LONG
     > <columns>
     % content/oc.kima.main.jpg main
     > <h2>Kima Horizon </h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 22</li>
     > <li>{*Gender*}: Cis female</li>
     > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li>
     > </ul>
     > </columns>
     > <hr/>
-    & Kim's mother owned a small cafe, {*the Sotto Voce*}, while her father worked as a crime scene investigator. Growing up, occasionally there would be trouble from her father's court cases, but other than that their lives then were simple and happy - that is, until {{Seir}} came into the picture. The demon's presence in her life shifted all of that around, and soon, Kim's crowd mostly consisted of these strange beings. 
+    & Kim's mother owned a small restaurant, {*the Sotto Voce*}, while her father worked as a CSI. Growing up, occasionally there would be trouble from her father's court cases, but other than that their lives then were simple and happy - that is, until {{Seir}} came into the picture. The creature's presence in her life shifted all of that around, and soon, Kim's crowd mostly consisted of these strange beings. 
     & Nowadays, Kim runs Sotto Voce almost on her own, due to her mother's advanced age. After many years of living with Seir, her mind was able to see past this veil of confusion, and she distanced herself from that life. A lot of it remains a blur in her brain, and that creature still lingers, but there's little to be done about this. Kim is no longer innocent, and has a stronger mind now, and can fend off most of his advances. 
     & Kim is relatively easy-going, mostly relaxed, and tries to not burden herself with worry and fear. She is hot-headed at times, and will act without thinking, especially if someone tells her not to do something. In dangerous situations, she can fend for herself all while protecting the ones she cares about. {{Orion}} is practically a brother to her and they are very close, they often go out together, to unwind.
     & Her on and off relationship with {{Sy}} is a difficult one, while realizing he's bad for her, and her for him, it's like they can't help but be mixed into dark affairs together. 
-    & Gelert, a loyal two-headed canine beast and gift of the Asgina is always at her heels. Gelert is generally kind, and likes to joke around,  but often contradicts himself - the two heads are to be blamed for this. 
+    & Gelert, a loyal two-headed canine beast is always at her heels. Gelert is generally kind, and likes to joke around,  but often contradicts himself - the two heads are to be blamed for this. 
 
 MARI
   LONG
@@ -994,7 +716,6 @@ MARI
     % content/oc.mari.main.jpg main
     > <h2>Mariana Covas </h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 23</li>
     > <li>{*Gender*}: Cis female</li>
     > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
@@ -1004,104 +725,7 @@ MARI
     & Mari grew up with her grandmother across town in an apartment, the rest of her family residing in spain. 
     & A natural leader, she keeps people together and makes sure that everyone is doing what they're supposed to. Growing up, she herself, decided to take on more hands-on sports, like kickboxing and wrestling. This comes naturally to Mari, she enjoys a good fight, and it's why she gets along with {{Token}} so well. She spends much of her time training. Being so athletic, authors of sports magazines approach her as well as {{Pen|#token}}, asking her about doing some photo shoots. Many times Token and Mari would end up in full page spreads together. 
     & Mari is confident, in body and in mind. While aware of Token's problems, she deals with his panic attacks well enough, and can always calm him right down. 
-
-CASEY
-  LONG
-    > <columns>
-    % content/oc.casey.main.jpg main
-    > <h2>Casey St. Claire</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 18</li>
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
-    > </ul>
-    > </columns>
-    > <hr/>
-    & As a child Casey grew up in Azalea Town in Johto. Her life was somewhat unnatural. Casey grew up without a mother in the family and her father was always away from home on business; Most of the time she was with her brother.
-    & Because her brother worked for a Pokémon researcher, Casey learned a lot about Pokémon from him. Her brother raised particularly large Pokémon, and she quickly grew fond of the large and intimidating breeds. She would rather choose a gigantic and grumpy Nidoking over a cute and friendly Pikachu.
-    & For some reason, her brother started to stay away from home for days on end; it was then that Casey decided to go off on her own journey. She got her first Pokémon from her father. It was a young Totodile. Along her journey Casey saw and fought many Pokémon, catching the ones she favored. Now her party is large and consists mostly of heavy and intimidating Pokémon. Because of her researcher background and knowledge of Pokémon, Casey has chosen to follow the breeder’s life. She excels in breeding ‘monster’ egg type Pokémon, but is not limited to that.
-    & Pokemon Team: Harvey (garchomp), Verg (charizard), Fu (arcanine), Andre (feraligart), Lance (dragonite) and Atlas (nidoking).
-
-FERRIS
-  LONG
-    > <columns>
-    % content/oc.ferris.main.jpg main
-    > <h2>Ferris Doyle</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 16</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
-    > </ul>
-    > </columns>
-    > <hr/>
-    & To an untrained eye Ferris would look rather ‘average’ mainly because he doesn't stand out, but there is one thing that makes him different from most teenagers; he is blind.
-    & Ferris was born in Saffron city but was raised in Fuchsia city, the city known for the first Safari Zone. Because the city was always full of Pokémon, Ferris learned about these creatures at a very young age. Since Pokémon were always around him he never thought of them as interesting monsters, he thought they were normal. Pokémon generally bored Ferris until he reached the age of 10, where he found out that you could explore the world just by saying you were a trainer. Infatuated with the idea of hitchhiking wherever he wanted, Ferris finally decided to get his own Pokémon. He wandered deep into the safari zone and saw several different types of Pokémon, but wasn’t happy with any of them. It wasn’t until he illegally snuck into the zone after dark when he found the Pokémon he wanted, Scyther. After a long struggle Ferris finally caught the bug Pokémon and started his adventure.
-    & In the beginning of his adventure Ferris thought that it would only be him and Scyther the whole time, but it didn’t take long for him to yearn for more Pokémon. As he filled his pokédex the condition of his Pokémon worsened. He started treating them more like tools than actually living creatures, and his sour attitude towards his Pokémon changed many of them. His Golduck Mosa, which he had gotten from his father, had changed from a loyal loving Pokémon to a stubborn grump who had a hard time trusting strangers. As he traveled around, Ferris was known for his harsh training and stern attitude and it wasn’t long until people started avoiding him.
-    & Alone, he continued on to Hoenn. Up until now he caught Pokémon just to collect them, but when he encountered Eevee he finally realized that these creatures were important and had to be treated fairly. He named the Eevee, Deidra, after his mother and vowed to take good care of any other Pokémon he caught.
-    & Pokemon Team: Blaine (scyther), Mosa (golduck), Deidra (espeon), Hyde (muk), Cael (steelix) and Abaddon (dusknoir).
-
-
-CADEN
-  LONG
-    > <columns>
-    % content/oc.caden.main.jpg main
-    > <h2>Caden Canepa</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 17</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Homosexual</li>
-    > <li>{*Family*}: {{Mika Canepa|#mika}}</li>
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Caden, like his sister {{Mika}}, was raised in Sunnyshore city and is the manager of Vista resort. It's very difficult for him to tear away from his work, he feels like if he isn't there that things will not get done, or go to shit. Caden spends countless hours in the resort, walking the grounds and making sure everyone is doing what they're supposed to. He is an amiable person, but his controlling nature sometimes makes it difficult for others to befriend him.
-    & Caden suffers from mysophobia (fear of dirt), as well as algophobia (fear of pain). He takes little risks in life, and rarely leaves the resort, it's only until he meets {{Ferris}} that he finally steps out into the world.
-    & He is becoming more and brave each day, but his fears still linger.
-    & Pokemon: Juturna (milotic) and Jean (lucario)
-
-MIKA
-  LONG
-    > <columns>
-    % content/oc.mika.main.jpg main
-    > <h2>Mika Canepa</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 25</li>
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Orientation*}: Bisexual</li>
-    > <li>{*Family*}: Caden Canepa</li>
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Mika and her brother Caden were raised in Sunnyshore City. She is a kite surfer, and operates a kite shop that rents out equipment to the many visitors to the beach, and the Vista resort owned by the Canepas.
-    & She spends all of her days outdoors, and loves to spend time on the ocean. If she's not kite-surfing, she teaches dinghy sailing to the local kids. Mika wants to pass down her love of ocean sports, and to teach the younger generations to respect the creatures that live in the water. She is kind-hearted, strong of head and body and will not let anyone keep her down. 
-    & Mika has a team of pokemon, she's often seen sailing with her Lucario "Keelo".
-    & Pokemon: Boomer (typhlosion), Keelo (lucario) and Salari (froslass).
-    > <wr>
-    >   <img src="media/content/project.goshin.01.jpg" class='thumbnail lightbox'>
-    > </wr>
-
-ADE
-  LONG
-    > <columns>
-    % content/oc.ade.main.jpg main
-    > <h2>Adélie</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Race*}: Asgina</li>
-    > <li>{*Gender*}: One who changes</li>
-    > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Appearance*}: 
-    > </ul>
-    > </columns>
-    > <hr/>
-    & Adélie, or Adé, is a face stealer, an Asgina that takes the appearances of others and claims them for his own. This being can collect as many as 10 faces, and may discard them over time as he forgets or loses interest in them. Adé must always have more than 3, less than this, and he becomes voracious and will take the face of the first person in sight. 
-    & Adé doesn't 'become' his victims, rather, he bears their faces and is a keeper of their memories until he decides to let go of them. He doesn't speak as them, he uses their memories as a guide on how to think or how to live, like one can draw inspiration from a character in a movie or in a book. He has his own base personality, which comes out the same with every impersonation. One who knows him well, will see the differences in behaviour, and will be able to pick him out of a crowd no matter what. If he is stripped of his faces, Adé's mind is a blank, he cannot conjure thoughts and becomes an empty shell... he cannot live without the voices of others in his head. 
-    & Despite his unique talents Adé is a genial and kind being, he has much love for humans and is liked by all that he meets. Because he gets to see life through the eyes of many, he has grown wise, many turn to him for advice although he is reluctant to give it... believing people must experience things for themselves. 
+    & Kusari, a ragged bird, keeps with Mari at all times and often does clash with {{Specter|#token}}. The bird is always chatting away, speaking in riddles, being purposely deceitful and putting ideas into people's heads. 
 
 SY
   LONG
@@ -1109,26 +733,21 @@ SY
     % content/oc.sy.main.jpg main
     > <h2>Sy Keon-Cross</h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 21</li>
     > <li>{*Alignment*}: Chaotic evil</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
     > <li>{*Family*}: Tim Keon & Harlow Cross</li>
-    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of an inverted cross and serpent on the right shoulder. Wears loose t-shirts, old jeans, and tattered converse; often wears a cap.</li>
+    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of a cross and serpent on the right shoulder. Wears loose t-shirts and old jeans, often wears a cap.</li>
     > </ul>
     > </columns>
     > <hr/>
-    & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlow spent little time with Sy as a kid, she didn't care where he was most times, even knowing all-too-well that a lot of strays in town get caught up in demon affairs. Tuscarora is known for its protected community of demons, one that predates the colonisation of the land by the french.
-    & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. One day, he tried to pick a fight with {{Token}}, a boy that lived across the river. But he learned that day, that this boy was a pretty good fighter, what with his father being a local boxing celebrity. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
-    & When older, after stabbing someone, Sy is forced to go in to therapy with {{Nemerald}} in Montreal and to live with his uncle for a while. He and his uncle don't get along, Sy just wants to be left alone but he keeps trying to set him up with jobs around town to help keep him in line. He meets {{Kim}} during one of these interviews, at Sotto Voce, a local coffee shop owned by Kim's parents. 
-    & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, but honest and doesn't like to lie. Many try to stick by him, taking pity on him, despite his less-than-ideal personality. He feels everyone is pretending to be something they're not and buying into a system that doesn't advantage them in any way, Sy desperately wants out of this system. Sy gets along with those who too, are honest, and genuine in the way that they live. He gets along with those who suffer, those who see the darker, and more feral side of life. 
-    & Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. 
+    & Sy's father died young of brain cancer, and his mother still lives on the Kahnawake reserve in Tuscarora, but they never speak. Harlow spent little time with Sy as a kid, thought he was wicked - given his abilities. She didn't care where he was most times. He left home early on, and never looked back.
+    & In his youth, Sy lived on his own terms, and liked to pick fights with the local kids. He was brought to {{Nemerald}}'s refuge, after phasing a child halfway through a telephone pole, resulting in their death. One day, he tried to pick a fight with {{Token}}, a boy that lived across the river. But he learned that day, that this boy was a pretty good fighter, what with his father being a local boxing celebrity and not just this: both shared similar abilties. They became friends then, although their relationship was not the healthiest. Most instances of conversation ended in a fist-fight, which evidently, Sy always lost.
+    & Older Sy has an explosive temper, it doesn't take much to set him off. He is callous, not easy to befriend. Many try, taking pity on him, because despite his less-than-ideal personality. It is very difficult for him to care about others, and if he does, it's often because he finds joy in belittling them – or so he says. Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character. This last trait, does mean he will try and protect others, but mostly because of his impulsivity. 
+    & Sy possesses a "phasing" ability that allows him, as well as objects or people he has contact with, to become intangible. This power also disrupts any electrical field he passes through, causing machines to malfunction or be destroyed as he phases through them, and can induce shock and unconsciousness in living beings.
     * Comics
     & Sy, who used to be one of my digimon OCs, appeared in a {*{{TDC Tournament|https://www.deviantart.com/mintenko/gallery/25599471/digimon}}*} in 2010. 
-    > <wr>
-    >   <img src="media/content/project.circa.03.jpg" class='thumbnail lightbox'>
-    > </wr>
 
 FENIX
   LONG
@@ -1136,8 +755,7 @@ FENIX
     % content/oc.fenix.main.jpg main
     > <h2>Fenton 'Fenix' Drayer</h2>
     > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 19</li>
+    > <li>{*Age*}: 20</li>
     > <li>{*Alignment*}: Lawful neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Gynesexual</li>
@@ -1158,18 +776,16 @@ SEIR
     % content/oc.seir.main.jpg main
     > <h2>Seir</h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: irrelevant</li>
-    > <li>{*Race*}: Asgina</li>
     > <li>{*Alignment*}: Neutral evil</li>
-    > <li>{*Gender*}: One who changes</li>
+    > <li>{*Gender*}: Agender</li>
     > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Appearance*}: Effeminate, very tall, broad-shouldered, thin of waist and strong of body. Hair is dark, with a vivid blue hue. Lines on the face and body, tell of the status of this being, amongst the others. Seir has sharp ears, and dark eyes.
+    > <li>{*Appearance*}: Very tall, broad-shouldered with an overall strong build. Has skin like porcelain, just as pale and just as cold. Hair is dark, with a vivid blue hue. Lines on the face and body, tell of the status of this being, amongst the others. Seir has sharp ears, and dark eyes.
     > </ul>
     > </columns>
     > <hr/>
-    & Seir is an Asgina (pronounced 'a-sgi-na'), but bears a close resemblance to human males – although shares little with them. This being is a creature of greed, and can lull anyone into a false sense of security and happiness. This was not always so. In the past, Seir was kinder, less burdened by the pressure of his peers and culture. Seir's spirit has been darkened by this, clouded by obligation. 
-    & {{Nemerald}} consider Seir too reckless, but Seir loves to defy him and to change the rules. Seir thrives on it, always looking for new ways to piss him off. Seir lives in luxury amongst mortals, with multiple opulent houses scattered about Quebec and the world. These riches, are used to lure unsuspecting victims. Mischievous, this creature loves to play tricks on humans, and loves to spoil and twist their minds and thoughts.
+    & Seir is not of this reality, but bears a close resemblance to human males – although shares little with them. This being is a creature of greed, and can lull anyone into a false sense of security and happiness.
+    & {{Nemerald}} consider Seir too reckless, too attached to humans, but Seir loves to defy him and to change the rules. Seir thrives on it, always looking for new ways to piss him off. Seir lives in luxury amongst mortals, with mutliple opulent houses scattered about the city and the world. These riches, are used to lure unsuspecting victims. Mischievous, this creature loves to play tricks on humans, and loves to spoil and twist their minds and thoughts.
     & Seir can see more colours than humans can, and can also see further, with more detail. As for hearing, all sounds are sharper, Seir can hear (and see) through vibrations in the environment. This skill, almost means that humans can have no secrets, this too, can be felt through their skin and the subtle expressions in their eyes and faces. Seir has a strong body, and moves fast - human eyes can't keep up. Many of this being's words are lies, it is difficult to befriend such a creature, but it is not impossible. Seir enjoys tricking people, but will get discouraged if there is no reaction, which is often the case for someone as stoic as Nemerald. Beings like Seir, need a strong reaction to validate their actions, otherwise there is no fun in it and therefore, no point to it. 
     & There is some sadness in Seir, a desire to be close to others, but this can only be achieved with trickery which only serves to deepen this being's growing anguish. Lack of validation, will only increase the damaging acts of this creature, Seir will go to great lengths to avoid feeling this way. 
 
@@ -1177,21 +793,19 @@ NEMERALD
   LONG
     > <columns>
     % content/oc.nemerald.main.jpg main
-    > <h2>Némérald</h2>
+    > <h2>Nemerald</h2>
     > <ul>
-    > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: 35</li>
-    > <li>{*Nickname*}: Némo, Némésis
+    > <li>{*Nickname*}: Nemo, Nemesis
     > <li>{*Alignment*}: True neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Demisexual</li>
-    > <li>{*Appearance*}: Némérald is grey haired and purple-eyed. He is of short stature, not especially strong, but has a thick build. He wears glasses, but does not need them.</li>
+    > <li>{*Appearance*}: Nemerald is pale, grey haired and purple-eyed. He is of short stature, not especially strong, but has a thick build. He wears glasses, but does not need them.</li>
     > </ul>
     > </columns>
     > <hr/>
-    & Némérald believes in science and is an avid bio-hacker. Not much is known of his past, but native blood runs through his veins. Having worked Asgina genes into his being, he does not suffer the woes of the world that plague normal humans. He likes to experiment, to find ways to understand, learn and interact with the space around him. Benevolent, he feels the need to teach others, but not all who come to learn return this kindness. Making an enemy of Némérald is a dangerous thing. While he is kind, he does not like to be deceived.
-    & He has some standing amongst devils, some seek his council when it comes to human dealings. Némérald welcomes this, it is preferable to the alternative since conflicts between humans and Asgina rarely end well. 
-    & Not much is known of his past, but those close to him will say that he has been alive for many, many years. He has an old mind, made young by the look of his face and body. Némérald possesses great knowledge, he can cure almost all that ails his patients, all, except aging, which he has been working on curing for some time – with little success. His clinic downtown is well-known, as is the fact that money there has no real value. Némérald refuses most applicants to the clinic, unless he thinks they can be useful to him somehow, or that he can learn something from them. He employs an Asgina named Jak, and a human assistant named Caleb. 
+    & Nemerald is a man of science and an avid bio-hacker. Living inbetween worlds, he does not suffer the woes of the world and other realities. He likes to experiment, to find ways to understand, learn and interact with the space around him. Benevolent, he feels the need to teach others, but not all who come to learn return this kindness. Making an enemy of Nemerald is a dangerous thing. While he is kind, he does not like to be deceived.
+    & Not much is known of his past, but those close to him will say that he has been alive for many, many years. He has an old mind, made young by the look of his face and body. Nemerald possesses great knowledge, he can cure almost all that ails his patients, all, except aging, which he has been working on curing for some time – with little success. Nemerald has granted passage to beings into the world, ageless creations such as {{Seir}}, Jak and Oscuro, in the hopes they can be studied and learned from.
 
 MUSI
   LONG
@@ -1199,8 +813,7 @@ MUSI
     % content/oc.musi.main.jpg main
     > <h2>Monty 'Musi' Quintero</h2>
     > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 23</li>
+    > <li>{*Age*}: 24</li>
     > <li>{*Alignment*}: True neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Bisexual</li>
@@ -1218,8 +831,7 @@ SHOCK
     % content/oc.shock.main.jpg main
     > <h2>Shane 'Shock' Evans</h2>
     > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 16</li>
+    > <li>{*Age*}: 17</li>
     > <li>{*Alignment*}: Chaotic neutral</li>
     > <li>{*Gender*}: Cis male</li>
     > <li>{*Orientation*}: Asexual</li>
@@ -1269,9 +881,9 @@ ANIMALS
   LONG
     & Notes on animals I've seen during our travel. Behaviours, facts and observations.
     * Frigatebirds
-    - The first time I spotted a frigate bird, was in San Jose Del Cabo in Baja California. I noticed two dark silhouettes aloft, long wings, a forked tail, they looked like bats. More curious, is how they rarely flap their wings, they soar on windcurrents. These birds, like us, cross oceans using the tradewinds. They never land on water, because of their inability to produce enough oil to keep them from becoming sodden. Their bones are pneumatic, accounting for 5% of their body weight. A lot of people we've met, are not so impressed with these birds, and call them 'bullies' because they steal from other birds. They harass seabirds, and follow them to the nest for a chance at their catch. They are said to be kleptoparisitic, but in fact they only do this to supplement their diet, they don't depend on it. I've been seeing them regularly since we've left Mexico, everytime I see their distinctive 'W' silhouette in flight, I smile, it's like happening upon a long lost friend.
-    * Pied shag (Kawau)
-    - A type of cormorant, first seen in the Whangarei TownBasin. They liked to stand on our lines, to present their wings to the sun and air to dry them. Nature saw to make them good swimmers, but like frigate birds they can't produce enough oil to keep their feathers from getting sodden. They dive into the water without disrupting the surface, their necks curving downward, and the rest of the body following, as if made of liquid. There was two living in our marina, an adult and a youngling, they sat on shore at low tide at times with other ducks, but never together. They never make a sound, except when they flap their wings on the water before taking to the skies. I wondered how they managed to find prey in the muddy water of the townbasin, as it turns out, according to this {{study|https://link.springer.com/article/10.1007%2Fs00114-017-1467-3}}, they have good underwater hearing and it is thought that this is how they locate their prey. 
+    - The first time I spotted a frigate bird, was in San Jose Del Cabo in Baja California. I noticed two dark silhouettes aloft, long wings, a forked tail, they looked like bats. More curious, is how they rarely flap their wings, they soar on windcurrents. I later read, that these birds, like us, cross oceans, using the tradewinds as we do. How similar we are, i thought, except that we, need a vessel to match their skill. A lot of people we've met, are not so impressed with these birds, and call them 'bullies' because they steal from other birds. They harass seabirds, and follow them to the nest for a chance at their catch. They are said to be kleptoparisitic, but in fact they only do this to supplement their diet, they don't depend on it. 
+    * Pied shag (Kāruhiruhi)
+    - A type of cormorant, first seen in the Whangarei TownBasin. They liked to stand on our lines, to present their wings to the sun and air to dry them. Nature saw to make them good swimmers, but did not make their wings quick-dry. They dive into the water without disrupting the surface, their necks curving downward, and the rest of the body following, as if made of liquid. There was two living in our marina, an adult and a youngling, they sat on shore at low tide at times with other ducks, but never together. They never make a sound, except when they flap their wings on the water before taking to the skies. I wondered how they managed to find prey in the muddy water of the townbasin, as it turns out, according to this {{study|https://link.springer.com/article/10.1007%2Fs00114-017-1467-3}}, they have good underwater hearing and it is thought that this is how they locate their prey. 
     * Pukeko
     - Pukeko is a common bird in New Zealand, seen often in fields of tall grass, their blue-feathered bodies and orange beaks made them easy to spot at a distance. The first one I saw was near the bascule bridge in Whangarei, I walked 'the loop' often and saw a Pukeko every time. They probably had a nest nearby. These birds live in permanent social groups, the eggs are laid in a single nest and raised by all. I've seen them elsewhere, in Roturua, eating leaves and roots near the mud pools. They are funny birds, if you near them they will run or hide instead of flying away, and if they do fly, they will take off and land in a way that makes it seem like they've never flown before. This is odd, considering these birds can fly great distances to offshore islands. While on land, it appears that they prefer to walk, whenever possible. Birds that don't need to fly, will indulge in more food and get fatter, making flying awkward, and over long periods of time they lose use of their wings altogether. This is what happened to the Kakapo, and many other flightless birds. 
     * Whitemargin Unicornfish 
@@ -1280,18 +892,11 @@ ANIMALS
 QUOTES
   LONG
     > <columns>
-    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I try to remember and that say a whole lot about my thinking and character.
-    @ The way you tell your story to yourself matters. | Amy Cuddy
-    @ What I do for my work is exactly what I would do if nobody paid me | Gretchen Rubin
-    @ I'm a drifter. With no profound connection to my land, my ancestors, my culture my community, my gender, or my race. | Robert Moor | On trail
+    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I live by. 
     @ Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions | Unknown source
+    @ Never put off until tomorrow what you can do today. Never force someone else to do anything which you can do yourself. Stop being tormented by the thoughts of things which might happen, but which in fact have not happened. If you feel angry about something, count to ten before doing or saying anything. If you still feel angry, count up to a hundred, and then, if necessary, up to a thousand. | Thomas Jefferson
     @ Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others. | Unknown source
-    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius  
-    @ In the unification of two minds, orientation of sexuality is irrelevant. | Abhijit Naskar
-    @ We should indeed keep calm in the face of difference, and live our lives in a state of inclusion and wonder at the diversity of humanity. | George Takei
-    @ We really must understand that the lust for affluence in contemporary society is psychotic. It is psychotic because it has completely lost touch with reality. We crave things we neither need nor enjoy. | Richard Foster
-    @ Cultivate poverty like a garden herb, like sage. Do not trouble yourself much to get new things, whether clothes or friends. Things do not change, we change. Sell your clothes and keep your thoughts. | Henry David Thoreau
-    @ Besides the noble art of getting things done, there is the noble art of leaving things undone. The wisdom of life consists in the elimination of non-essentials. | Lin Yutang
+    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius | Meditations 
     > </columns>
     > </wr>
     > <hr/>
@@ -1299,25 +904,18 @@ QUOTES
 RESOURCES
   LONG
     & Articles and blogs that I go back to often, to help in projects.
-    * Gender
-    - {{In which I resolve one long-standing insecurity and propose another|http://agenderist.blogspot.com/2011/04/in-which-i-resolve-one-long-standing.html}}
-    * Languages
+    * Research
     - {{La gomera|http://www.francescaphillips.com/whistling-language-la-gomera/}}
     * Design
     - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
-    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
-    * DIY
-    - {{Building a dinghy |http://www.woodenwidget.com/index.html}}
     - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
-    - {{Oat-gurt|http://www.laurapeill.com/2016/02/15/oat-yogurt/}}
-    - {{Insulating your boat|http://www.frugal-mariner.com/Insulating.html}}
-    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
-    - {{Cheap watermaker plans|https://www.sail-world.com/Australia/DIY-–-The-Worlds-Cheapest-Watermaker/-33568?source=google}}
+    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
     * Other
     - {{Haikyo|https://haikyo.org}}
     * Boats
     - {{Bosun Bird|http://www.bosunbird.com}}
     - {{Sunstone sailing|https://www.sunstonesailing.com/}}
+    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
 
 LINKS
   LONG
@@ -1368,16 +966,16 @@ LINKS
 COLLECTION
   LONG
     & Books, films and other things that I like.
-    - Death, the duck and the tulip by Wolf Erlbruch
+    * Death positivity
+    -  Death, the duck and the tulip by Wolf Erlbruch
+    * Mental and body health
     - The red tree by Shaun Tan
-    - Ishmael by Daniel Quinn
+    - How not to die by Michael Greger
+    * Travel
     - North into the night by Alvah Simon
     - Ojingogo by Matthew Forsythe
     - Box wine sailors by Amy McCullough
-    - Walden by Thoreau
     - Last chance to see- by Douglas Adams and Mark Cowardine
-    * Series
-    - Trigun
     * Films
     - Mindgame
     - Catsoup
