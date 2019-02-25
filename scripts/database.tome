@@ -684,6 +684,13 @@ NOTES
 
 SAILINGJAPAN
   LONG
+    > <columns>
+    % content/sailingjapan.1.jpg main
+    > <p class='caption'>Pino at the dock in Chichijima</p>
+    > <h2>Japan by sea</h2>
+    & Sailing to Japan was a dream for me and Devine. The entry procedures were scary at first, but once you start digging it all comes together and starts making sense so worry not. From a bureaucratic point of view, sailing here is easier than it used to be! Here is a collection of notes on entry procedures, the papers required for entry as well as information on provisioning, ports and more...
+    > </columns>
+
     * Useful nautical words
     - ふね (fune) Boat
     - ヨット(yotto) Sailboat
@@ -725,7 +732,7 @@ SAILINGJAPAN
     * Arrival in port
     & At this point, the coastguard should be aware of your arrival and will likely be waiting for you on the pier. It is possible to arrive at night, if this is the case, there will be someone there to greet you anyway and to make sure you don't step on land (you're not supposed to until you're checked in). It's possible that the group of officials will be there already waiting, if so, they will take turns boarding your boat and giving you documents to fill. You'll be visited by customs, quarantine and immigration. Don't expect them to speak english, although their forms are often written in both languages. 
     - Quarantine
-    & They will ask if you have any plants, meat or other fresh items on board. They may or may not confiscate them, I had none aboard when they came and so they took nothing. I had many dried legumes, grains aboard in jars that they saw, but they didn't care to take them. 
+    & They will ask if you have any plants, meat or other fresh items on board. They may or may not confiscate them, I had none aboard when they came and so they took nothing. I had many dried legumes, grains aboard in jars that they saw, but they didn't care to take them. You can see a list of prohibited items {{here|https://www.la.us.emb-japan.go.jp/e_web/e_m02_08.htm}}.
     - Customs
     & The officials will ask you about your last and future ports, they will ask for precise dates. Because making a long list of planned ports is no longer necessary, you only need to give them a general list. 
     & They will give you a {*Closed port permit*}, that will give you blanket permission to visit all “closed ports” (which basically means everywhere in Japan that is not an open port, including anchorages) for as long as you are in Japan. 
@@ -751,11 +758,25 @@ SAILINGJAPAN
     - Small harbours
     & If you plan to sail extensively through Japan, chances are you'll be mooring in many small fishing harbours and usually, this means you'll need to dock onto a concrete pier. The walls may, or may not have big rubber bits, and some will have gaps that make it difficult to protect your boat using only fenders. In all cases, having a fender board is useful, it will keep your fenders from going into the gaps of the dock (if any) and will protect them from the rough concrete pier. The big rubber bits that many ports have can help to protect your boat, but will leave marks.
     & In many cases, you'll be able to dock onto a small pontoon. The places reserved for visitors will be marked by yellow and black stripes. If there is no more room, find any place you can and ask if it's okay to stay there, otherwise, it may be necessary to tie to another boat; although, again, it's best to ask because not all boats will appreciate you tying to their yacht.
-    - Provisioning
+    - Trash and Recycling
+    & Trash and recycling correctly is very important in Japan. All refuse and recyclable products are washed, and separated. As a visitor, you should try to inform yourself as much as you can. 
+    - Grocery stores
     & Japanese groceries are usually well-stocked, and prices can be good depending on the time of year (whether or not the veggies or fruit are in season). In general, fruit and veg may be a bit more pricy, because their production is regulated and their output of the highest quality. Many types of fruit, like cherries, watermelon or strawberries are available but are very expensive, they are prized and when bought it is usually as a special treat or to be given as a gift. If you want to buy fruit, it is best to aim for mikan (japanese oranges) and seasonal fruit (like perssimmon - kaki). Some cities have farmer's markets, but the items are not cheap.
-    & Otherwise, for dried goods, you can find almost anything in Japan. The exception to that rule, is oats, cereal, nut butters, whole wheat flour, dried legumes etc... these products can be found, but are very rare and not available in most grocery stores. Many carry the peanut butter brand "Skippy", but it is expensive and not the best quality. They also carry other 'sweet' brands of nut butters that are overly sweet and that taste more like caramel. For oats, they sometimes carry "Quaker Oats", but the sort sold in individual packages with sugar and other unwanted additives. It is possible to order some goods online. If at a marina for a while, this method of provisioning should be considered. Amazon Japan is amazing, and the shipping is very fast and cheap. Oats and good peanut butter are available on both {{iherb|www.iherb.com}} and the amazon store {{Alishan|https://www.amazon.co.jp/アリサン有限会社-オートミール-1kg/dp/B007OPEI3E/ref=sr_1_1_sspa?s=food-beverage&ie=UTF8&qid=1551056959&sr=1-1-spons&keywords=オートミール&psc=1&smid=A2YIIVSNGIUGVA}}. It is possible to also find a lot of imported products at {{Kaldi|https://www.kaldi.co.jp/english/friends.php}}.
+    & The groceries in Japan always include the tax in the labelled price on the shelf.
+    - Provisioning online
+    & For dried goods, you can find almost anything in Japan. The exception to that rule, is oats, cereal, nut butters, whole wheat flour, dried legumes etc... these products can be found, but are very rare and not available in most grocery stores. Many carry the peanut butter brand "Skippy", but it is expensive and not the best quality. They also carry other 'sweet' brands of nut butters that are overly sweet and that taste more like caramel. For oats, they sometimes carry "Quaker Oats", but the sort sold in individual packages with sugar and other unwanted additives. 
+    & It is possible to order some goods online. If at a marina for a while, this method of provisioning should be considered. Amazon Japan is amazing, and the shipping is very fast and cheap. Oats and good peanut butter are available on both {{iherb|www.iherb.com}} and the amazon store {{Alishan|https://www.amazon.co.jp/アリサン有限会社-オートミール-1kg/dp/B007OPEI3E/ref=sr_1_1_sspa?s=food-beverage&ie=UTF8&qid=1551056959&sr=1-1-spons&keywords=オートミール&psc=1&smid=A2YIIVSNGIUGVA}}. It is possible to also find a lot of imported products at {{Kaldi|https://www.kaldi.co.jp/english/friends.php}}.
+    - Restaurants
+    & Many restaurants have menu with pictures, that you can use if you're not very good with kanji, katakana or hiragana (3 japanese alphabets). It may be worth learning katakana at least, since it is often used for english terms which are sounded out in japanese, for example: ビール (Biiru) means "Beer", and sounds like it too. スパゲティ (Supagetti) is "Spaghetti". 
+    & Restaurants where there are many tourists, will often have an english menu. They will likely offer it you on arrival if they've got one, otherwise you can ask for it with: "英語のメニュありますか" (Eigo no menyuu arimasu ka?) Do you have an english menu? "Eigo" is the word for english, and "Menyuu" for menu. If they don't have an english menu, you can always ask them for a recommendation by saying "おすすめおねがいします" (Osusume onegaishimasu) "Your recommendations please!" Osusume is a magic word, and can help in a bind. 
+    & Know that there is no tipping in Japan in restaurants.
+    - Food restrictions
+    & If you have food restrictions, like if you don't eat meat, refer to my vegan in japan guide {{here|veganjapan}}. 
+    & If you have allergies, the word is ”アレルギー" (aregugii), view {{this guide|https://livejapan.com/en/article-a0001856/}} for more information on allergies and reading labels in Japan. If you've got serious allergies, it is best to print an {{international allergy card|www.foodallergy.org}} to show restaurants or shop owners. The card can be made on the website in any language.
     - Water
     & Not all ports can supply water, especially small fishing ports, though it is always good to ask. "Yotto ni wa, mizu arimasu ka?" "Is there water for my yacht?". They'll likely ask you how much you need, the word for "litre" is "Ritta". So if you need 100L, you can say, "Hyaku Ritta onegai ishimasu" "100L please". Writing the quantity on paper is also a helpful and stress-free option.
+    - Money
+    & ATMs generally allow you to use your credit card to take out money, otherwise post offices (郵便局 yuubinkyoku) - recognizable by the large red T logo - also have machines that you can use to get cash. In populated cities like Tokyo, many convenience stores (コンビニ konbini) often have ATMs inside that you can use (Family mart, 7eleven).
     - Internet
     & Softbank offers a pocket wifi for rent with unlimited data. ¥14,510 for a month, and it gets cheaper the long you rent it for or if you pay for time up front. The unit can be received by mail, for more information, check out {{this page|https://rental.cdjapan.co.jp/index_en_jpy_7.html?gclid=CjwKCAjw85zdBRB6EiwAov3RiskdJZFssliJTX_Q9uyhN21Werd9_2SZeJwBdGhcheKIPARicjS8JRoCXTIQAvD_BwE}}.
     - Currents
