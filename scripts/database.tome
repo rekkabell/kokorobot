@@ -717,6 +717,7 @@ CHARACTERS
     > <a href="#seir"><img class='grey' src="media/content/oc.seir.jpg"></a>
     > <a href="#nemerald"><img class='grey' src="media/content/oc.nemerald.jpg"></a>
     > <a href="#adelie"><img class='grey' src="media/content/oc.adelie.jpg"></a>
+    > <a href="#yegon"><img class='grey' src="media/content/oc.yegon.jpg"></a>
     > <hr/>
     > </gallery>
     * GOSHIN
@@ -1198,22 +1199,22 @@ SEIR
 YEGON
   LONG
     > <columns>
-    % content/oc.seir.main.jpg main
-    > <h2>Seir</h2>
+    % content/oc.yegon.main.jpg main
+    > <h2>Yegon</h2>
     > <ul>
     > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: irrelevant</li>
     > <li>{*Race*}: 1/2 Asgina</li>
     > <li>{*Alignment*}: -</li>
     > <li>{*Gender*}: One who changes</li>
-    > <li>{*Orientation*}: Homosexual</li>
-    > <li>{*Appearance*}: Dark-skinned, with red hair brushed back and standing on end. Pointed ears, dark eyes, with one sown shut. Face has other scars, including a band running horizontally across his face.
+    > <li>{*Orientation*}: Pansexual</li>
+    > <li>{*Appearance*}: Red-haired brushed back and standing on end. Dark eyes, with one missing. Face has other scars, including a band running horizontally across his face. 
     > </ul>
     > </columns>
     > <hr/>
-    & Yegon is part of the {*Ars Goetia*}, a group of rebellious Asgina. He is one of the main grunts of {Seir|#seir}, and is a flame-wielder. His skin can be inflamed, but does not burn or cause pain. Yegon's core can generate immense heat, and he dispense of it through various means, in the form of steam and fire.
-    & Yegon is a trickster, he likes to play games, and has much difficulty being serious. He is a kind creature, but not all care for his tricks.
-    & This being was mistreated as a child, was considered dangerous and kept from others. He was part of a notoriously violent Tuscarorian gang called the "Solomon's Devils", or the "Solo devs" when Seir first met him, with his help he left this dangerous group and became a member of the Ars Goetia instead. Since then, his tempestuous nature has calmed, and has now chosen to laugh at the world.
+    & Yegon is part of the {*Ars Goetia*}, a group of rebellious Asgina. He is one of the main grunts of {{Seir}}, and is a flame-wielder. His skin can be inflamed, but it does not burn or cause pain. Yegon's core can generate immense heat, and he dispenses of it through various means, in the form of steam and fire.
+    & Yegon is a trickster, he likes to play games and has much difficulty being serious. He is a kind creature, but not all care for his tricks.
+    & This being was mistreated as a child, he was considered dangerous and kept from others. Growing up he joined a notoriously violent Tuscarorian gang called the "Solomon's Devils", or the "Solo devs". With help of Seir, he left this dangerous group and became a member of the Ars Goetia instead. Since then, his tempestuous nature has calmed and he's now chosen to laugh at the world.
 
 CALEB
   LONG
@@ -1231,7 +1232,7 @@ CALEB
     > </ul>
     > </columns>
     > <hr/>
-    & Caleb is a clever, and studious girl, she loves to absorb information and never seems to forget anything. She is {Nemerald|#nemerald}'s second hand, she helps him run the clinic. She left school early on, feeling that she didn't learn all she needed there, and preferring to learn by herself. She taught herself how to repair computers and electronics, and can speak spanish, french, english, mandarin and russian. She is Nemo's mentee, and is learning to care for humans, and hopes to someday get into bio-hacking.
+    & Caleb is a clever, and studious girl, she loves to absorb information and never seems to forget anything. She is {{Nemerald}}'s second hand and helps him run the clinic. She left school early on, feeling that she didn't learn all she needed there, and preferring to learn by herself. She taught herself how to repair computers and electronics, and can speak spanish, french, english, mandarin and russian. She is Nemo's mentee, and is learning to care for humans, and hopes to someday get into bio-hacking.
     & Cal spends most of her time in the clinic, having little interest in those her age. Like Nemo, she is smart beyond her years.
 
 NEMERALD
