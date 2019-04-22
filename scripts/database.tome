@@ -719,6 +719,7 @@ CHARACTERS
     > <a href="#adelie"><img class='grey' src="media/content/oc.adelie.jpg"></a>
     > <a href="#yegon"><img class='grey' src="media/content/oc.yegon.jpg"></a>
     > <a href="#caleb"><img class='grey' src="media/content/oc.caleb.jpg"></a>
+    > <a href="#dante"><img class='grey' src="media/content/oc.dante.jpg"></a>
     > <hr/>
     > </gallery>
     * GOSHIN
@@ -1098,7 +1099,7 @@ ADELIE
     > <ul>
     > <li>{*Story*}: {{Circa}}
     > <li>{*Age*}: irrelevant</li>
-    > <li>{*Race*}: 5/8th Asgina</li>
+    > <li>{*Race*}: Near pure blood Asgina</li>
     > <li>{*Gender*}: Cisgender female</li>
     > <li>{*Orientation*}: Pansexual</li>
     > <li>{*Appearance*}: Has short dark hair, skin is a charcoal colour, while the face is pale. Very tall (10 feet tall) and strong, she has no visible breasts. Overall friendly countenance. 
@@ -1113,20 +1114,20 @@ ADELIE
 DANTE
   LONG
     > <columns>
-    % content/oc.ade.main.jpg main
-    > <h2>Dante Aliguero-Derille</h2>
+    % content/oc.dante.main.jpg main
+    > <h2>Dante</h2>
     > <ul>
     > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 23</li>
+    > <li>{*Age*}: 26</li>
     > <li>{*Race*}: 5/8th Asgina</li>
     > <li>{*Gender*}: Cis gender male</li>
     > <li>{*Orientation*}: Bisexual</li>
-    > <li>{*Appearance*}: Mid-length hair, draping over his face, long in the front but short in the back. His face is angular, he's got large green eyes and a hooked nose. He is short, with an athletic build. Wears loose jeans, a t-shirt with a thick overcoat. 
+    > <li>{*Appearance*}: Mid-length black hair, draping over his face. He is short for a near pure blood, with an athletic build. Wears loose jeans, a t-shirt with a thick overcoat. 
     > </ul>
     > </columns>
     > <hr/>
-    & Dante's past is unknown, but he was adopted as a child by Jean-Pierre Derille, the long-standing leader of the conservative party in Quebec. He was raised into a world of politics, and later hired to work for the Quebec government, to keep tabs on the happenings and movements of the Asgina groups. His function is classified, and is presence scarce in the public. Dante shows himself to few, and in fact, doesn't possess a birth certificate, nor is he known to be Derille's adopted son.
-    & He knows little of his own people, he was raised to hate them, to consider them anomalies in this world. Dante is a very strong Asgina, born of a union between a human and an ancient in recent years. He can create pockets of pressure in the air, which he launches upon his enemies, which can crush bones and throw his opponents off their feet. 
+    & Dante was raised into a world of politics, and later hired to work in the private sector to keep tabs on the happenings and movements of the Asgina factions. His function is classified, and his presence scarce in the public. Dante shows himself to few, and in fact, doesn't possess a birth certificate.
+    & He knows little of his own people, he was raised to hate them, to consider them anomalies in this world. Dante is a very strong Asgina, few have won against him.
 
 SY
   LONG
