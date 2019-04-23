@@ -87,6 +87,7 @@ header wr #menu a.illustration { background-image: url(../media/interface/menu/i
 header wr #menu a.stories { background-image: url(../media/interface/menu/stories.png);  }
 header wr #menu a.store { background-image: url(../media/interface/menu/store.png);  }
 header wr #menu a.notes { background-image: url(../media/interface/menu/notes.png);  }
+header wr #menu a.characters { background-image: url(../media/interface/menu/characters.png);  }
 
 footer { display: block; background:white; color:black; padding-bottom:5px; padding:0px 30px; }
 .footer_url { float: left; }
