@@ -90,7 +90,6 @@ header wr #menu a.notes { background-image: url(../media/interface/menu/notes.pn
 header wr #menu a.characters { background-image: url(../media/interface/menu/characters.png);  }
 
 .footer_social { padding:7px; }
-.footer_social img { width:20px; filter: invert(100%); }
 .footer_social:hover { opacity: 0.5 }
 footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px;}
 footer a.kofi:hover { background:pink; color:black; }
