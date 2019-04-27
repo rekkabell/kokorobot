@@ -89,10 +89,10 @@ header wr #menu a.store { background-image: url(../media/interface/menu/store.pn
 header wr #menu a.notes { background-image: url(../media/interface/menu/notes.png);  }
 header wr #menu a.characters { background-image: url(../media/interface/menu/characters.png);  }
 
-footer a.social { display: inline-block;float: right;padding:7px;margin-left:5px;height:17px; vertical-align: top;}
-footer a.social img { width:20px; filter: invert(100%); }
-footer a.social:hover { opacity: 0.5 }
-footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px; display: inline-block; float:right; margin-left:10px;}
+.footer_social { padding:7px; }
+.footer_social img { width:20px; filter: invert(100%); }
+.footer_social:hover { opacity: 0.5 }
+footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px;}
 footer a.kofi:hover { background:pink; color:black; }
 footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer a.about:hover { text-decoration: underline; }
@@ -103,19 +103,29 @@ footer a.about:hover { text-decoration: underline; }
 #lightbox:hover { background:rgba(0,0,0,0.6); cursor: pointer; }
 
 /*
- * Responsive — https://github.com/friederjanmoerman
+ * Hardcodepunk's styling — https://hardcodepunk.be
  */
 
-.footer {
-  display: flex;
-  width: 100%;
-  display: block;
-  background: #fff;
-  color: #000;
-}
+.footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
+.footer_social { width: 20px; height: 20px; position: relative; }
+.footer_item_sub-item { display: flex; justify-content: flex-end; }
+.footer_item { width: 50%; }
+.footer_left { margin-left: 30px; }
+.footer_right { margin-right: 30px; display: flex; justify-content: flex-end; align-items: center; }
 
-@media (max-width: 640px) {
+.footer_social_twitter::before { background: url("../media/interface/icon.twitter.png"); }
+.footer_social_patreon::before { background: url("../media/interface/icon.patreon.png"); }
+.footer_social_webring::before { background: url("../media/interface/icon.webring.png"); }
+.footer_social_100r::before { background: url("../media/interface/icon.100r.png"); }
+.footer_social_github::before { background: url("../media/interface/icon.github.png"); }
+.footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
 
+@media only screen and (max-width: 740px) {
+  .footer { flex-wrap: wrap; justify-content: center; }
+  .footer_left, .footer_right { margin: 0 10px 10px; }
+  .footer_left { text-align: center; }
+  .footer_right { justify-content: center; flex-wrap: wrap; }
+  .footer_item_sub-item { width: 100%; justify-content: center; }
 }
 
 @media (max-width: 470px) {
