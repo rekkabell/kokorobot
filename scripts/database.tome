@@ -113,6 +113,7 @@ PROJECTS
   LONG
     > <p class='intro'>Select an image, to find out more about these projects. There is a mix of drawn works and games.</p>
     > <gallery>
+    >   <a href='#markl'><img class='grey' src="media/content/project.markl.jpg"></a>
     >   <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg"></a>
     >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
     >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
