@@ -726,6 +726,7 @@ CHARACTERS
     > <a href="#bru"><img class='grey' src="media/content/oc.bru.jpg"></a>
     > <a href="#caleb"><img class='grey' src="media/content/oc.caleb.jpg"></a>
     > <a href="#dante"><img class='grey' src="media/content/oc.dante.jpg"></a>
+    > <a href="#kaddali"><img class='grey' src="media/content/oc.kaddali.jpg"></a>
     > <hr/>
     > </gallery>
     * GOSHIN
@@ -746,7 +747,7 @@ KIDD
   LONG
     > <columns>
     % content/oc.kiddkosmo.main.jpg main
-    > <h2>Kaddali Viti Sarayu</h2>
+    > <h2>Kaddali Veesarayu</h2>
     > <ul>
     > <li>{*Story*}: {{medussa}}
     > <li>{*Racing name*}: Kidd Kosmo
@@ -1106,7 +1107,7 @@ DANTE
     > <h2>Dante</h2>
     > <ul>
     > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 26</li>
+    > <li>{*Age*}: irrelevant</li>
     > <li>{*Race*}: Hegata</li>
     > <li>{*Gender*}: Cis gender male</li>
     > <li>{*Orientation*}: Bisexual</li>
@@ -1159,6 +1160,24 @@ FENIX
     & Pokemon Team: Daedalus (Houndoom), Donov (Scolipede), Monad (Xatu), Shargon (Sharpedo and Flygon hybrid) and Swecleon (Swellow and Kecleon hybrid) 
     * Comics
     & Fenix appeared in a {*{{PCBC Tournament|https://www.deviantart.com/mintenko/gallery/25599460/PCBC}}*} in 2010. And in {{this one|https://www.deviantart.com/zaifon/art/PCBC2-round-3-pg-5-168297538}} by {{Zaifon|http://www.twitter.com/za1f0n}}, where he gets his ass handed to him.
+
+KADDALI
+  LONG
+    > <columns>
+    % content/oc.kaddali.main.jpg main
+    > <h2>Kaddali</h2>
+    > <ul>
+    > <li>{*Story*}: {{Circa}}
+    > <li>{*Age*}: irrelevant</li>
+    > <li>{*Gang*}: Ars Goetia
+    > <li>{*Race*}: Hegata</li>
+    > <li>{*Gender*}: One who changes</li>
+    > <li>{*Orientation*}: Asexual</li>
+    > <li>{*Appearance*}: Tall, blue-haired, red-eyed, pale-skinned.
+    > </ul>
+    > </columns>
+    > <hr/>
+    & Soon.
 
 SEIR
   LONG
@@ -1424,12 +1443,13 @@ COLLECTION
     - Ishmael by Daniel Quinn
     - North into the night by Alvah Simon
     - Ojingogo by Matthew Forsythe
-    - Box wine sailors by Amy McCullough
     - Walden by Thoreau
     - Last chance to see- by Douglas Adams and Mark Cowardine
     * Series
     - Trigun
     * Films
+    - The breakfast club
+    - Akira
     - Mindgame
     - Catsoup
     - Nausicaa
