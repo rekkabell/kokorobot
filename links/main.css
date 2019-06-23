@@ -30,12 +30,13 @@ page columns ul li {}
 page columns a:link {text-decoration: none}
 page columns a:hover {text-decoration: underline}
 page columns list { margin-bottom:30px; }
+page > wr { padding:0px !important; }
 page list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
 page list ln { display: block; font-size:20px; }
 page list ln a { text-decoration: none;}
 page list ln a:hover { text-decoration: underline; }
 page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
-page gallery { display: block; padding:0px 30px; }
+page gallery { display: block; }
 page gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
 page gallery hr { margin-bottom:30px; }
 page quote { display: block }
@@ -43,9 +44,8 @@ page quote p.text { font-size:20px; font-style: italic; color:white;}
 page quote p.attrib { font-size:16px; padding-left:30px; }
 page quote p.attrib:before { content:"— "; }
 
-
-img.grey { -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%);transition: all 0.5s ease;}
-img.grey:hover {-webkit-filter: grayscale(0%);-moz-filter: grayscale(0%);filter: grayscale(0%);}
+img.grey { -webkit-filter: grayscale(100%);filter: grayscale(100%);transition: all 0.5s ease;}
+img.grey:hover {-webkit-filter: grayscale(0%);filter: grayscale(0%);}
 
 img.lightbox { cursor: pointer; transition: opacity 500ms}
 img.lightbox:hover { opacity: 0.8 }
@@ -72,9 +72,7 @@ ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count
 ul.default li a { font-weight: bold }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
-header wr h1 { font-size: 50px; text-transform: uppercase; letter-spacing: -2px; font-weight: bold; font-family: "alegreya-extrabold";}
-header wr h1:before { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
-header wr h1:after { content:"–"; display: inline-block; padding:0px 10px; font-weight: normal; }
+header wr h1 { font-size: 40px; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; font-family: "alegreya-extrabold"; margin-bottom:15px;}
 header wr h2 { font-size:30px;position: fixed;top:10px;left:20px; font-family: "alegreya-bold"; }
 header wr h2:hover { color:white; }
 header wr #menu { display: block; text-align: center; font-weight: bold; font-family: "alegreya-bold"; font-size:20px; padding: 20px; margin-bottom: 10px }
@@ -91,7 +89,8 @@ header wr #menu a.characters { background-image: url(../media/interface/menu/cha
 
 .footer_social { padding:7px; }
 .footer_social:hover { opacity: 0.5 }
-footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px;}
+
+footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px; margin-left:15px;}
 footer a.kofi:hover { background:pink; color:black; }
 footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer a.about:hover { text-decoration: underline; }
@@ -100,10 +99,6 @@ footer a.about:hover { text-decoration: underline; }
 #lightbox.active { opacity: 1; display: block }
 #lightbox.active img { display: block; margin:0px auto; max-height: calc(100vh - 60px); border-radius: 3px; max-height: 90%; max-width: 90%; position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%); }
 #lightbox:hover { background:rgba(0,0,0,0.6); cursor: pointer; }
-
-/*
- * Hardcodepunk's styling — https://hardcodepunk.be
- */
 
 .footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
 .footer_social { width: 20px; height: 20px; position: relative; }
@@ -119,19 +114,19 @@ footer a.about:hover { text-decoration: underline; }
 .footer_social_github::before { background: url("../media/interface/icon.github.png"); }
 .footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 840px) {
+  #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
+  #banner div.microsite { width: 100%; float: left; margin: 0; }
+  #banner div.microsite img { width: 100%; border-radius: 3px; margin-bottom: 15px; }
+  header { padding-top:15px; }
+  header wr h1 { font-size: 34px; }
+  header wr h2 { display: none }
+  page gallery img { max-width: calc(50% - 20px); }
+  page columns { columns: auto; padding:0px; margin:0px; }
   .footer { flex-wrap: wrap; justify-content: center; }
   .footer_left, .footer_right { margin: 0 10px 10px; }
   .footer_left { text-align: center; }
   .footer_right { justify-content: center; flex-wrap: wrap; }
   .footer_item_sub-item { width: 100%; justify-content: center; }
-}
-
-@media (max-width: 470px) {
-  #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
-  #banner div.microsite { width: 100%; float: left; margin: 0; }
-  #banner div.microsite img { width: 100%; border-radius: 3px; margin-bottom: 15px; }
-  header wr h1 { font-size: 34px; }
-  page gallery img { max-width: calc(50% - 20px); }
-  page columns { columns: auto; }
+  footer a.kofi { margin-top: 15px; margin-left:0px; }
 }
