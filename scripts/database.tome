@@ -241,6 +241,8 @@ CIRCA
     & The city of Montore is known for its hegata population, people descended from Eidola, a class of creatures whose existence predates that of humans. Eidola have a deep respect for nature, but this link has been severed. The current governement's agenda, many believe, only serves to widen the growing divide between the two groups. There is a growing anti-eidola sentiment in the city, this has given rise to underground hegata factions, such as the {*Ars Goetia*} and the {*Solomon's Devils*}.
     & Tension in Montore is high, Sy thrives in climates like this, but things change when the fight hits a little too close to home. 
     > <wr>
+    >   <img src="media/content/project.circa.15.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.09.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.14.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.12.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.11.jpg" class='thumbnail lightbox'>
@@ -248,8 +250,6 @@ CIRCA
     >   <img src="media/content/project.circa.06.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.07.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.08.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.circa.09.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.circa.02.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
@@ -1508,6 +1508,7 @@ COLLECTION
     - Ernst Haeckel
     - Matthew Forsythe
     - Emily Caroll
+    - Kate Beaton
     - Yoshitaka Amano
     - Kazu Kibuishi
     > <hr/>
@@ -1529,7 +1530,7 @@ BOOKS
     - Persepolis — Marjane Satrapi
     - The one-straw revolution - Masanobu Fukuoka
     - On the road to Babadag - Andrzej Stasiuk
-    - Petit manuel de resistance contemporaire - Cyril Dion
+    - Petit manuel de resistance contemporaine - Cyril Dion
     - The dispossessed - Ursula Le Guin
     - A letter to my 14-year-old self - Lyra Mckee
     - The Twits - Roald Dahl
