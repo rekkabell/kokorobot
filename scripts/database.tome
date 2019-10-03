@@ -242,6 +242,7 @@ CIRCA
     & The city of Montore is known for its hegata population, people descended from Eidola, a class of creatures whose existence predates that of humans. Eidola have a deep respect for nature, but this link has been severed. The current governement's agenda, many believe, only serves to widen the growing divide between the two groups. There is a growing anti-eidola sentiment in the city, this has given rise to underground hegata factions, such as the {*Ars Goetia*} and the {*Solomon's Devils*}.
     & Tension in Montore is high, Sy thrives in climates like this, but things change when the fight hits a little too close to home. 
     > <wr>
+    >   <img src="media/content/project.circa.17.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.16.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.15.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.09.jpg" class='thumbnail lightbox'>
@@ -717,6 +718,7 @@ NOTES
     - {*{{Books}}*} - A list of my current and past readings.
     - {*{{Links}}*} - Doors to other worlds.
     - {*{{Quotes}}*} - Things to remember.
+    - {*{{Thinking}}*} - Issues I consider important
     - {*{{Tools}}*} - Specifics on tools.
     - {*{{Resources}}*} - Articles and websites.
     - {*{{Characters}}*} - Original character creations.
@@ -1513,6 +1515,16 @@ COLLECTION
     - Kazu Kibuishi
     > <hr/>
 
+THINKING
+  LONG
+    & Resisting the attention economy
+    - {{How to do nothing|https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb}}, Jenny Odell, Medium.
+    - {Walking|https://www.theatlantic.com/magazine/archive/1862/06/walking/304674/}}, Henry David Thoreau, The Atlantic.
+    & Climate knowledge base
+    - {{The Origins of anti-litter campaigns|https://www.motherjones.com/politics/2006/05/origins-anti-litter-campaigns/}}, Bradford Plumer, Mother Jones.
+    - {{Heated: for people who are pissed off about the climate crisis|https://heated.world/}}, Emily Atkins.
+    - {{https://www.designlife-cycle.com/|Design life cycle}}, University of California, Davis, Department of Design.
+
 BOOKS
   LONG
     & 2019 reading list
@@ -1521,12 +1533,14 @@ BOOKS
     - Sailing alone around the world - Joshua Slocum
     - Don't even think about it: why our brains are wired to ignore climate change - George Marshall
     * Want to read
+    - Made to break - Giles Slade
     - The Genius of birds - Jennifer Ackerman
     - Growing up absurd: problem of youth in the organized system - Paul Goodman
     - Contemplation in a world of action - Thomas Merton
     - Black Skin, White Masks - Franzt Fanon
     - The ecology of freedom - Murray Bookchin
     * Read this year
+    - {{Walking|https://www.theatlantic.com/magazine/archive/1862/06/walking/304674/}} - Henry David Thoreau
     - Persepolis — Marjane Satrapi
     - The one-straw revolution - Masanobu Fukuoka
     - On the road to Babadag - Andrzej Stasiuk
