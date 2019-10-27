@@ -127,7 +127,6 @@ PROJECTS
     >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
     >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
-    >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -163,11 +162,13 @@ STORIES
   LONG
     > <p class='intro'> I write, as much as I draw. Select an image, to find out more about each story.</p> 
     > <gallery>
-    >   <a href="#wiktopher"><img class='grey' src="media/content/project.wiktopher.jpg"></a>
+    >   <a href="#wiktopher"><img class='grey' src="media/content/wiktopher/project.wiktopher.jpg"></a>
     >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
     >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
     >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
     >   <a href='#medussa'><img class='grey' src="media/content/project.space.jpg"></a>
+    >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
+    >   <a href='#merure'><img class='grey' src="media/content/story.merure.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -202,7 +203,7 @@ WIKTOPHER
   BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
   LONG
     > <columns>
-    >   <img src="media/content/project.wiktopher.02.jpg" class='main'>
+    >   <img src="media/content/wiktopher/project.wiktopher.02.jpg" class='main'>
     >   <p class='caption'>"Wiktopher is the story of Lupin and Eka, together they travel the deserts and learn the ways of the world."</p>
     >   <h2>What is Wiktopher</h2>
     >   <p>Wiktopher is a fiction story published online, taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and its people.</p>
@@ -217,18 +218,44 @@ WIKTOPHER
     >   <a href="http://wiktopher.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
     > </columns>
     > <wr>
-    >   <img src="media/content/project.wiktopher.03.png" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.04.png" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.05.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.06.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.07.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.08.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.09.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/project.wiktopher.10.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.03.png" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.04.png" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.09.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.10.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
   LINK
     Read the story : http://wiktopher.kokorobot.ca
+
+MERURE
+  LONG
+    > <columns>
+    % content/merure/project.merure.jpg main
+    > <p class='caption'>"The Right Color"</p>
+    > <h2>What is Merure?</h2>
+    & Merure is a comic anthology published by Drownspire, a non-profit collective created by myself and Devine. The collective published 3 full-colour volumes from 2008 to 2010, with short comics by 10-15 artists from Montreal. The comics below are the ones I made that were included in the first two volumes. The physical volumes are now out of print.
+    > </columns>
+    > <h3> All The Lights </h3>
+    & Published in Merure vol. I, it's the story of a girl who lives outside of time.
+    > <wr>
+    >   <img src="media/content/merure/atl.page1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.page2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.page3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.study1.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+    > <h3> The Right Color</h3>
+    & Published in Merure vol. II, a girl who can change her eye color by interacting with objects meets her ultimate rival.
+    > <wr>
+    >   <img src="media/content/merure/rc.page1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.page2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.page3.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
 
 CIRCA
   LONG
