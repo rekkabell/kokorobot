@@ -169,6 +169,7 @@ STORIES
     >   <a href='#medussa'><img class='grey' src="media/content/project.space.jpg"></a>
     >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
     >   <a href='#merure'><img class='grey' src="media/content/story.merure.jpg"></a>
+    >   <a href='#spinespincers'><img class='grey' src="media/content/story.spinespincers.jpg"></a>
     >   <hr/>
     > </gallery>
 
@@ -200,14 +201,13 @@ STORE
     > <hr/>
 
 WIKTOPHER
-  BREF : Wiktopher begins with a fall, living on the back of a giant desert creature can be dangerous like that. Lupin has never left home, and wouldnt have if it hadnt been for that accident. Being alone in a new place is scary, but not if you have Eka with you to light the way. Together, they learn the innumerable ways of the world. They traverse deserts and villages, meeting their inhabitants and discovering their customs.
   LONG
     > <columns>
     >   <img src="media/content/wiktopher/project.wiktopher.02.jpg" class='main'>
     >   <p class='caption'>"Wiktopher is the story of Lupin and Eka, together they travel the deserts and learn the ways of the world."</p>
-    >   <h2>What is Wiktopher</h2>
-    >   <p>Wiktopher is a fiction story published online, taking place in a fantasy world. The novel will have a number of added content that will permit the reader to learn more of the world and its people.</p>
-    >   <h3>Features</h3>
+    >   <h2>Desert Tales</h2>
+    &  Wiktopher is a fiction story published online. The story follows two characters, Lupin and Eka, as they navigate the barren lands of the Soronan Desert after an accident that leaves Lupin without home or family, they seek food, company and supplies while living day-to-day. 
+    & The novel has a number of added content that permits the reader to learn more of the world and its people.
     >   <ul>
     >     <li><b>An illustrated glossary of plants</b></li>
     >     <li><b>An illustrated glossary of animals</b></li>
@@ -224,17 +224,21 @@ WIKTOPHER
     >   <img src="media/content/wiktopher/project.wiktopher.06.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/wiktopher/project.wiktopher.07.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/wiktopher/project.wiktopher.08.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/wiktopher/project.wiktopher.09.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/wiktopher/project.wiktopher.10.jpg" class='thumbnail lightbox'>
     > </wr>
+    > <hr/>
     > <br>
     > <h3>History of project</h3>
-    & The story of Wiktopher is an elaboration of a short film I did in 2008 called {*{{Uno|#uno}}*}. This project was supposed expand into a {{comic|https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing}}, which included many of the Wiktopher characters like Eka, Uno, Zucca, Lupin and Thirteen. I produced a lot of exploratory art for the project but the comic was never completed. Here is some art from that time, that may serve to give some context for the current version of Wiktopher:
+    & The story of Wiktopher is an elaboration of a short film I did in 2008 called {*{{Uno|#uno}}*}. This project was supposed to expand into a {{comic|https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing}}, which included many of the Wiktopher characters like Eka, Uno, Zucca, Lupin and Thirteen. I produced a lot of exploratory art for the project but the comic was never completed. Here is some art from that time, that may serve to give some context for the current version of Wiktopher:
     > <wr>
     >   <img src="media/content/wiktopher/wiktopher.babies.jpg" class='thumbnail lightbox'>
-    >   <img src="media/content/wiktopher/project.wiktopher.04.png" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.flutterfly.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.upthere.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.09.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.soap.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.hush.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.friends.jpg" class='thumbnail lightbox'>
     > </wr>
-    > <hr/>
   LINK
     Read the story : http://wiktopher.kokorobot.ca
 
@@ -262,6 +266,31 @@ MERURE
     >   <img src="media/content/merure/rc.page2.jpg" class='thumbnail lightbox nopreview'>
     >   <img src="media/content/merure/rc.page3.jpg" class='thumbnail lightbox nopreview'>
     >   <img src="media/content/merure/rc.study1.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+
+SPINESPINCERS
+  LONG
+    > <columns>
+    % content/spinespincers/story.spinespincers.jpg main
+    > <p class='caption'>"Spines and Pincers"</p>
+    > <h2>Spines and Pincers</h2>
+    & Spines and Pincers is a small series of illustrations and comics about my struggles with my gender and appearance growing up, and how it warped my view of myself.
+    > </columns>
+    > <h3> I've never told anyone </h3>
+    & A short comic about how I started to feel bad about my looks.
+    > <wr>
+    >   <img src="media/content/spinespincers/sp.comic.1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.4.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+    > <br>
+    > <h3> Misc </h3>
+    & Girls that look different.
+    > <wr>
+    >   <img src="media/content/spinespincers/sp.project.2.jpg" class='thumbnail lightbox nopreview'>
     > </wr>
     > <hr/>
 
@@ -1076,6 +1105,9 @@ KIMA
     > </columns>
     > <hr/>
     & Kim runs Sotto Voce almost on her own, due to her mother's advanced age. Kim is relatively easy-going, mostly relaxed, and tries to not burden herself with worry and fear. She is hot-headed at times, and will act without thinking, especially if someone tells her not to do something. In dangerous situations, she can fend for herself all while protecting the ones she cares about. 
+    > <wr>
+    >   <img src="media/content/circa/circa.07.jpg" class='thumbnail lightbox'>
+    > </wr>
 
 MARI
   LONG
@@ -1330,6 +1362,9 @@ SEIR
     > <hr/>
     & He is the founder of the {*Ars Goetia*}, a rebel group composed of Hegatas. 
     & Seir loves to defy others and to change the rules, he thrives on it, always looking for new ways to piss others off. Seir lives in luxury amongst humans, with multiple opulent houses scattered around town and the world. Mischievous, this creature loves to twist the minds and thoughts of humans.
+    > <wr>
+    >   <img src="media/content/circa/circa.07.jpg" class='thumbnail lightbox'>
+    > </wr>
 
 YEGON
   LONG
@@ -1461,6 +1496,8 @@ SHOCK
     >   <img src="media/content/goshin/story.goshin.10.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/goshin/story.goshin.22.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.23.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.24.jpg" class='thumbnail lightbox'>
     > </wr>
 TOOLS
   LONG
