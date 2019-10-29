@@ -115,7 +115,7 @@ PROJECTS
     > <gallery>
     >   <a href="#fasciation"><img class='grey' src="media/content/project.fasciation.jpg"></a>
     >   <a href='#markl'><img class='grey' src="media/content/project.markl.jpg"></a>
-    >   <a href="#cerbellum"><img class='grey' src="media/content/project.cerbellum.jpg"></a>
+    >   <a href="#mindbird"><img class='grey' src="media/content/mindbird/project.mindbird.jpg"></a>
     >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
     >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
     >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
@@ -568,24 +568,24 @@ MISC
     > </wr>
     > <hr/>
 
-CERBELLUM
+MINDBIRD
   LONG
     > <columns>
-    % content/project.cerbellum.02.gif main
-    > <h2>Cerbellum</h2>
-    & The world through the eyes of a socially anxious skeleton named {*{{Cee|#cee}}*}. {*Cerbellum*} is a project that sheds light on the thoughts and fears of people with anxiety.
+    % content/mindbird/project.mindbird.02.gif main
+    > <h2>mindbird</h2>
+    & The world through the eyes of a socially anxious skeleton named {*{{Cee|#cee}}*}. {*mindbird*} is a project that sheds light on the thoughts and fears of people with anxiety.
     & This is a project that I would like to expand into a book, or comic series.
     & I'm still very undecided. More updates soon.
-    & Get to know the {*{{characters}}*} of Cerbellum.
+    & Get to know the {*{{characters}}*} of mindbird.
     > </columns>
     > <wr>
-    >  <img src="media/content/project.cerbellum.001.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.002.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.003.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.004.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.005.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.006.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.cerbellum.007.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.001.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.002.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.003.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.004.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.005.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.006.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.007.jpg" class='thumbnail lightbox'>
     > </wr>
     > <hr/>
 
@@ -825,8 +825,8 @@ CHARACTERS
     > <a href="#kaddali"><img class='grey' src="media/content/oc.kaddali.jpg"></a>
     > <hr/>
     > </gallery>
-    * CERBELLUM
-    & What is {*{{Cerbellum|#cerbellum}}*}?
+    * mindbird
+    & What is {*{{mindbird|#mindbird}}*}?
     > <gallery>
     > <a href="#shiba"><img class='grey' src="media/content/oc.shiba.jpg"></a>
     > <a href="#cee"><img class='grey' src="media/content/oc.cee.jpg"></a>
@@ -959,7 +959,7 @@ ADEKA
     % content/oc.adeka.main.jpg main
     > <h2>Adeka</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: No visible arms, legs of any kind, just a long serpent-like body with a face that some would argue to be both beautiful and horrifying.</li>
     > <li>{*Relation*}: Tormenter of {*{{Cee|#cee}}*}
     > </ul>
@@ -973,7 +973,7 @@ VIKTOR
     % content/oc.viktor.main.jpg main
     > <h2>Viktor</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.</li>
     > <li>{*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
     > </ul>
@@ -989,7 +989,7 @@ FINN
     % content/oc.finn.main.jpg main
     > <h2>Finn</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.</li>
     > <li>{*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
     > </ul>
@@ -1004,7 +1004,7 @@ POLYCAT
     % content/oc.polycat.main.jpg main
     > <h2>Polycat</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: A cat with one eye, and the hind and tail of a lizard.</li>
     > <li>{*Relation*}: Often hovers around {*{{Shiba Killy|#shiba}}*}.
     > </ul>
@@ -1025,7 +1025,7 @@ SHIBA
     % content/oc.shiba.main.jpg main
     > <h2>Shiba Killy</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.</li>
     > <li>{*Relation*}: Friend of {*{{Cee|#cee}}*}
     > </ul>
@@ -1040,7 +1040,7 @@ CEE
     % content/oc.cee.main.jpg main
     > <h2>Cee</h2>
     > <ul>
-    > <li>{*Story*}: {{Cerbellum}}
+    > <li>{*Story*}: {{mindbird}}
     > <li>{*Appearance*}: Cee is a skeleton, her skull has a large crack in it.</li>
     > <li>{*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
     > </ul>
