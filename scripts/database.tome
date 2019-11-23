@@ -301,12 +301,10 @@ CIRCA
     % content/project.circa.jpg main
     > <p class='caption'>"Sy Keon Cross"</p>
     > <h2>What is Circa</h2>
-    & This comic tells the story of an unruly character named Sy, in the city of Montore during a time of conflict. With gangs feuding without end, tensions are high. Sy thrives in climates like this, but things change when the fight hits a little too close to home. 
-    & View other {*{{characters|#characters}}*} from this story.
+    & Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.
     >   <a href="http://circacomic.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
     > </columns>
     > <wr>
-    >   <img src="media/content/project.circa.16.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.15.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.09.jpg" class='thumbnail lightbox'>
     >   <img src="media/content/project.circa.14.jpg" class='thumbnail lightbox'>
