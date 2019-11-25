@@ -31,8 +31,9 @@ page columns a:link {text-decoration: none}
 page columns a:hover {text-decoration: underline}
 page columns list { margin-bottom:30px; }
 page > wr { padding:0px !important; display: block; padding:0px 30px; }
-page > wr > .third { display: block;float: left;width: 33.33%; text-align: center;}
+page > wr > .third { display: block;float: left;width: 33.33%; text-align: center; margin-bottom: 15px;}
 page > wr > .third img { width: calc(100% - 15px);display: block;margin: 0px auto 20px;border-radius: 3px; }
+page > wr > .third h2 {font-family: 'alegreya-regular';font-size: 20px;margin-bottom: 10px; padding: 20px; }
 page list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
 page list ln { display: block; font-size:20px; }
 page list ln a { text-decoration: none;}
@@ -107,7 +108,7 @@ footer a.about:hover { text-decoration: underline; }
 
 .footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
 .footer_social { width: 20px; height: 20px; position: relative; }
-.footer_item_sub-item { c }
+.footer_item_sub-item { display: flex; justify-content: flex-end; }
 .footer_item { width: 50%; }
 .footer_left { margin-left: 30px; }
 .footer_right { margin-right: 30px; display: flex; justify-content: flex-end; align-items: center; }
@@ -120,7 +121,7 @@ footer a.about:hover { text-decoration: underline; }
 .footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
 
 @media only screen and (max-width: 840px) {
-
+  page > wr > .third {width: 100%;}
   #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
   #banner div.microsite { width: 100%; float: left; margin: 0; }
   #banner div.microsite img { width: 100%; border-radius: 3px; margin-bottom: 15px; }
