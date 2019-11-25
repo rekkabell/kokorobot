@@ -81,7 +81,7 @@ header { display: block;background: #eee;text-align: center;color:#111;padding:4
 header wr h1 { font-size: 40px; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; font-family: "alegreya-extrabold"; margin-bottom:15px;}
 header wr h2 { font-size:30px;position: fixed;top:10px;left:20px; font-family: "alegreya-bold"; }
 header wr h2:hover { color:white; }
-header wr #menu { display: block; text-align: center; font-weight: bold; font-family: "alegreya-bold"; font-size:20px; padding: 20px; margin-bottom: 10px }
+header wr #menu { display: block; text-align: center; font-family: "alegreya-bold"; font-size:20px; padding: 20px; margin-bottom: 10px }
 header wr #menu a { display: inline-block;background-size: 100px;background-repeat: no-repeat;background-position: center top;padding-top:100px;min-width: 100px; transition: all 250ms }
 header wr #menu a:hover { cursor: pointer; text-decoration: underline; background-position:center -5px;}
 
