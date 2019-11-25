@@ -187,18 +187,16 @@ STORE
     > </ul>
     > </columns>
     * ITEMS FOR SALE
-    & All drawings are {*50$ each*}, plus an amount for shipping (depending on location). Contact me at {*rekkabell at gmail dot com*} if interested.    
+    & All drawings are {*45USD$ each*}, plus {*2USD$*} for shipping. Contact me at {*rekkabell at gmail dot com*} if you have any questions.    
     > <wr>
-    >  <img src="media/content/project.fasciation.zinnia.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.rudbeckia.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.euphorbia.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.oleria.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.veronicastrum.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.odontonema.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.digitalis.jpg" class='thumbnail lightbox'>
-    >  <img src="media/content/project.fasciation.delphinium.jpg" class='thumbnail lightbox'>
-    > </wr>
-    > <hr/>
+    > <div class='third'><img src="media/content/project.fasciation.zinnia.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R4J88WXBDG97J&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.rudbeckia.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8TU54VWMDQ3Y4&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.euphorbia.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XJZ9WV7XFT222&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.oleria.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7MMNQ3E5DBG5W&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.veronicastrum.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L5ARJP3YFK4YG&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.odontonema.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F4U7QRSVL8MPQ&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.digitalis.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=95CV3PL4NLAUN&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.delphinium.jpg" class='lightbox'><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V5ZYHTY25CE6J&source=url" class='buybutton' target="_blank">BUY</a></div>
 
 WIKTOPHER
   LONG
@@ -265,7 +263,8 @@ MERURE
     >   <img src="media/content/merure/rc.page1.jpg" class='thumbnail lightbox nopreview'>
     >   <img src="media/content/merure/rc.page2.jpg" class='thumbnail lightbox nopreview'>
     >   <img src="media/content/merure/rc.page3.jpg" class='thumbnail lightbox nopreview'>
-    >   <img src="media/content/merure/rc.study1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.study1.jpg" class='thumbnail lightbox nopreview'>\
+    >   <img src="media/content/merure/rc.study2.jpg" class='thumbnail lightbox nopreview'>
     > </wr>
     > <hr/>
 

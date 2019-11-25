@@ -14,12 +14,12 @@ function Controller () {
   }
 
   this.load = function (input = window.location.hash) {
-    const target = input.to_url() === '' ? 'Home' : input.to_url()
+    const target = input.toUrl() === '' ? 'Home' : input.toUrl()
 
     if (target === '') {
       window.history.replaceState(undefined, undefined, '#' + target)
     } else {
-      window.location.hash = target.to_url()
+      window.location.hash = target.toUrl()
     }
 
     console.info(`Loading ${target}.`)
@@ -27,7 +27,7 @@ function Controller () {
     var content = this.database[target.toUpperCase()]
 
     this.el.className = 'loading'
-    this.el.innerHTML = content ? `<page>${new Runic(content.LONG)}</page>` : `<page><p>Could not find page ${target}</p></page>`
+    this.el.innerHTML = content ? `<page class='${target.toUrl()}'>${new Runic(content.LONG)}</page>` : `<page><p>Could not find page ${target}</p></page>`
 
     setTimeout(() => { this.lightbox.update() }, 500)
 
