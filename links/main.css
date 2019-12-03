@@ -49,6 +49,7 @@ page quote p.attrib:before { content:"— "; }
 
 page a.buybutton { font-family: "alte_haas_grotesk_bold";font-size: 15px;border-radius: 100px;background:#e85b46;color:white;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
 page a.buybutton:hover { background:#555; color:black; }
+page a.soldbutton { font-family: "alte_haas_grotesk_bold";font-size: 15px;border-radius: 100px;background:#555; color:black;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
 
 img.grey { -webkit-filter: grayscale(100%);filter: grayscale(100%);transition: all 0.5s ease;}
 img.grey:hover {-webkit-filter: grayscale(0%);filter: grayscale(0%);}
