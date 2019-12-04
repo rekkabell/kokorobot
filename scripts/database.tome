@@ -200,7 +200,7 @@ STORE
 
     > <div class='third'><img src="media/content/project.fasciation.veronicastrum.jpg" class='lightbox'><h2>Veronicastrum Virginicum, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
 
-    > <div class='third'><img src="media/content/project.fasciation.odontonema.jpg" class='lightbox'><h2>Odontonema Cuspidatum, 6x8" ink drawing</h2><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F4U7QRSVL8MPQ&source=url" class='buybutton' target="_blank">BUY</a></div>
+    > <div class='third'><img src="media/content/project.fasciation.odontonema.jpg" class='lightbox'><h2>Odontonema Cuspidatum, 6x8" ink drawing</h2><a href="" class='soldbutton' target="_blank">SOLD</a></div>
 
     > <div class='third'><img src="media/content/project.fasciation.digitalis.jpg" class='lightbox'><h2>Digitalis Ferruginea, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
     
@@ -1546,29 +1546,6 @@ QUOTES
     > </wr>
     > <hr/>
 
-RESOURCES
-  LONG
-    & Articles and blogs that I go back to often, to help in projects.
-    * Gender
-    - {{In which I resolve one long-standing insecurity and propose another|http://agenderist.blogspot.com/2011/04/in-which-i-resolve-one-long-standing.html}}
-    * Languages
-    - {{La gomera|http://www.francescaphillips.com/whistling-language-la-gomera/}}
-    * Design
-    - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
-    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
-    * DIY
-    - {{Building a dinghy |http://www.woodenwidget.com/index.html}}
-    - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
-    - {{Oat-gurt|http://www.laurapeill.com/2016/02/15/oat-yogurt/}}
-    - {{Insulating your boat|http://www.frugal-mariner.com/Insulating.html}}
-    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
-    - {{Cheap watermaker plans|https://www.sail-world.com/Australia/DIY-–-The-Worlds-Cheapest-Watermaker/-33568?source=google}}
-    * Other
-    - {{Haikyo|https://haikyo.org}}
-    * Boats
-    - {{Bosun Bird|http://www.bosunbird.com}}
-    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
-
 LINKS
   LONG
     & A list of links to the blogs and websites of people that I admire.
@@ -1668,34 +1645,55 @@ COLLECTION
 
 THINKING
   LONG
-    & Resisting the attention economy
+    & A collection or articles, on a variety of subjects.
+    * Resisting the attention economy
     - {{How to do nothing|https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb}}, Jenny Odell, Medium.
     - {{Walking|https://www.theatlantic.com/magazine/archive/1862/06/walking/304674/}}, Henry David Thoreau, The Atlantic.
-    & Technology
+    * Technology
     - {{What progress means|https://www.vox.com/the-highlight/2019/10/1/20887003/tech-technology-evolution-natural-inevitable-ethics}}
-    & Climate knowledge base
+    * Climate knowledge
     - {{The Origins of anti-litter campaigns|https://www.motherjones.com/politics/2006/05/origins-anti-litter-campaigns}}, Bradford Plumer, Mother Jones.
     - {{Heated: for people who are pissed off about the climate crisis|https://heated.world/}}, Emily Atkins.
     - {{Design life cycle|https://www.designlife-cycle.com}}, University of California, Davis, Department of Design.
-    & Drawing
+    * Drawing
     - {{Tips for bgs|https://kotaku.com/tips-for-drawing-backgrounds-1759168924}}
     - {{Manben|https://www.dailymotion.com/video/x72dy3c}}
-    & Nature
+    * Gender
+    - {{In which I resolve one long-standing insecurity and propose another|http://agenderist.blogspot.com/2011/04/in-which-i-resolve-one-long-standing.html}}
+    * Nature
     - {{Prey to a crocodile|http://www.aislingmagazine.com/aislingmagazine/articles/TAM30/ValPlumwood.html}}
+    * Design
+    - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
+    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
+    * DIY
+    - {{Building a dinghy |http://www.woodenwidget.com/index.html}}
+    - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
+    - {{Oat-gurt|http://www.laurapeill.com/2016/02/15/oat-yogurt/}}
+    - {{Insulating your boat|http://www.frugal-mariner.com/Insulating.html}}
+    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
+    - {{Cheap watermaker plans|https://www.sail-world.com/Australia/DIY-–-The-Worlds-Cheapest-Watermaker/-33568?source=google}}
+    * Boats
+    - {{Bosun Bird|http://www.bosunbird.com}}
+    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
+    * Non-profit organizations
+    - {{Breadfruit Institute|https://ntbg.org/breadfruit/donate}}
+    - {Stand earth|https://www.stand.earth/}
+    - {{Trevor project|https://www.thetrevorproject.org/}}
+    - {{Give Well|https://www.givewell.org/charities/top-charities}}
+    - {{Scimoms|https://scimoms.com/who-are-we/funding/}}
 
 BOOKS
   LONG
     & 2019 reading list
     * Currently reading
     - Made to break - Giles Slade
-    - The Genius of birds - Jennifer Ackerman
-    - Sailing alone around the world - Joshua Slocum
     - Growing up absurd: problem of youth in the organized system - Paul Goodman
     * Want to read
     - Contemplation in a world of action - Thomas Merton
     - Black Skin, White Masks - Franzt Fanon
     - The ecology of freedom - Murray Bookchin
     * Read this year
+    - The Genius of birds - Jennifer Ackerman
     - Don't even think about it: why our brains are wired to ignore climate change - George Marshall
     - Bartleby the Scrivener - Herman Melville
     - How to do nothing: resisting the attention economy - Jenny Odell
