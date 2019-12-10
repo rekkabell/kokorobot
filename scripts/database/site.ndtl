@@ -166,11 +166,11 @@ STORE
     > <columns>
     % content/store.jpg main
     * Support my work
-    -Buy prints on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} or {*{{Society6|https://society6.com/rekkabell}}*}
-    -Buy me a {*{{Coffee|http://ko-fi.com/rekkabellum}}*}
-    -Become a {*{{Patron|https://www.patreon.com/100}}*}
-    -Buy my {*{{Games|https://hundredrabbits.itch.io}}*}
-    -Ask for a {*{{paid commission|#ink}}*}
+    - Buy prints on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} or {*{{Society6|https://society6.com/rekkabell}}*}
+    - Buy me a {*{{Coffee|http://ko-fi.com/rekkabellum}}*}
+    - Become a {*{{Patron|https://www.patreon.com/100}}*}
+    - Buy my {*{{Games|https://hundredrabbits.itch.io}}*}
+    - Ask for a {*{{paid commission|#ink}}*}
     > </columns>
     * ITEMS FOR SALE
     & All drawings are originals 148x210mm (6x8inches) ink drawings, as part of a series on {*{{Fasciation|#fasciation}}*}.
@@ -200,13 +200,11 @@ WIKTOPHER
     >   <h2>Desert Tales</h2>
     &  Wiktopher is a fiction story published online. The story follows two characters, Lupin and Eka, as they navigate the barren lands of the Soronan Desert after an accident that leaves Lupin without home or family, they seek food, company and supplies while living day-to-day. 
     & The novel has a number of added content that permits the reader to learn more of the world and its people.
-    >   <ul>
-    >     <li><b>An illustrated glossary of plants</b></li>
-    >     <li><b>An illustrated glossary of animals</b></li>
-    >     <li><b>Recipes</b> (made with plants of that world)</li>
-    >     <li><b>A language alphabet</b> (with songs)</li>
-    >     <li><b>An illustrated world map</b></li>
-    >   </ul>
+    - {*An illustrated glossary of plants*}
+    - {*An illustrated glossary of animals*}
+    - {*Recipes*}
+    - {*A language alphabet*}
+    - {*An illustrated world map*}
     >   <a href="http://wiktopher.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
     > </columns>
     > <wr>
@@ -345,7 +343,6 @@ THOUSANDROOMS
     > <hr/>
     > </gallery>
 
-
 UNO
   LONG
     > <columns>
@@ -358,7 +355,7 @@ UNO
     > </columns>  
     & The story of Uno is the predecessor to my fiction story {*{{wiktopher|#wiktopher}}*}. Ratchet is Eka, and her neighbour on another island is Uno (character in wiktopher shares that same name).
     & There is much more to this project than the film itself, a lot of research went into it. Here is some additional content:
-    & <p><a href="https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing">Short Comic</a> | <a href="https://drive.google.com/file/d/1TqmS9W9ugOKunJBjglU6NSwZVu5kiMMd/view?usp=sharing">Model Pack</a> | <a href="https://drive.google.com/file/d/1lJIlsuaJ7xg1PqeB12OG9MTr87evboTH/view?usp=sharing">Storyboard</a> | <a href="media/content/uno/poster2.jpg">Poster</a></p>
+    & {{Short comic|https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing}} | {{Model Pack|https://drive.google.com/file/d/1TqmS9W9ugOKunJBjglU6NSwZVu5kiMMd/view?usp=sharing}} | {{Storyboard|https://drive.google.com/file/d/1lJIlsuaJ7xg1PqeB12OG9MTr87evboTH/view?usp=sharing}} | {{Poster|https://kokorobot.ca/media/content/uno/poster2.jpg}}
     > <h3>STUDIES:</h3>
     > <wr>
     >   <img src="media/content/uno/study.1.jpg" class='thumbnail lightbox nopreview'>
@@ -397,9 +394,9 @@ MEDUSSA
     % content/project.space.main.jpg main
     > <p class='caption'></p>
     > <h2>Medussa's four</h2>
-    - <b>Story:</b> Medussa's 4
-    - <b>Characters:</b>  {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
-    - <b>Summary:</b> A story about a league of misfits called "Medussa's four", who race through the Austral system using non-regulated means of propulsion. 
+    - {*Story:*} Medussa's 4
+    - {*Characters:*} {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
+    - {*Summary:*} A story about a league of misfits called "Medussa's four", who race through the Austral system using non-regulated means of propulsion. 
     > </columns>
     & {*Encela*}, grandparent of {*Luna Leap*}, is banned from the "Belt Championship" by the IFS (interplanetary federation of ships) for breaking rules relating to race technique and style. The IFS has been poisoned by greed, their monopoly of transport and racing that spans many systems, Encela feels, is downright disgusting. 
     & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild {*cyclomedussas*} - forms her own league dedicated not to form and rules, but to the simple test of superior speed. The group also advocates for the 'right to build and use one's own transport', a thing the IFS has made illegal. This league of misfits, referred to as {*'Medussa's four'*} includes {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
@@ -465,10 +462,10 @@ INK
     > <p class='caption'>Currently, the drawings are 6x8in (148x210mm), although depending on the paper available to me the size may vary. They are drawn on 300 gsm watercolour paper, and sold for 40$ (with an extra 5$ for shipping).</p>
     > <h2>Original art</h2>
     & Once in a while, I illustrate and sell original ink drawings. The subjects vary, but often include plants. Below is a list of my current series:</p>
-    - <b><a href="#fungi">Fungi</a></b>
-    - <b><a href="#knots">Knots</a></b>
-    - <b><a href="#ginger">Ginger roots</a></b>
-    - <b><a href="#fasciation">Fasciation</a></b>
+    - {*{{Fungi|#fungi}}*}
+    - {*{{Knots|#knots}}*}
+    - {*{{Ginger roots|#ginger}}*}
+    - {*{{Fasciation|#fasciation}}*}
     > <h3>Make a request</h3>
     &  Email me at {*rekkabell at gmail dot com*} to request an original custom drawing.
     &  Also, if you don't mind a reproduction, these drawings are sold as print copies on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} and  {*{{Society6|https://society6.com/rekkabell}}*}.
@@ -758,11 +755,9 @@ VENDREDI13
     > <p class='caption'>Friday the 13th card game for 3 to 6 players, ages 8 and up.</p>
     > <h2>Friday the 13th</h2>
     & Push your bad luck away! Bad omens are all around you! Play your cards right to avoid bad luck. Or, risk gathering as much bad luck as possible, to pass the curse on to your adversaries and ruin their hand!
-    > <ul>
-    >   <li>{*Publisher*} Scorpion Masque</li>
-    >   <li>{*Illustrator*} Yours truly</li>
-    >   <li>{*Designer*} Reiner Knizia</li>
-    > </ul>
+    - {*Publisher*} Scorpion Masque
+    - {*Illustrator*} Me
+    - {*Designer*} Reiner Knizia
     & Visit {*{{Scorpion Masque|https://www.scorpionmasque.com/en/friday-13th">Scorpion Masque}}*} for more information about the game.
     > </columns>
     > <wr>
@@ -863,14 +858,12 @@ LUNA
     > <columns>
     % content/oc.lunaleap.main.jpg main
     > <h2>Lun-di</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Luna Leap
-    > <li>{*Family*}: Lepori
-    > <li>{*Sex*}: Female
-    > <li>{*Appearance*}: Long ears, green-ish skin with light patterns, strong build, dark eyes.</li>
-    > <li>{*Propulsion*}: Cyclomedussa named "ChaCha"
-    > </ul>
+    - {*Story*}: {{medussa}}
+    - {*Racing name*}: Luna Leap
+    - {*Family*}: Lepori
+    - {*Sex*}: Female
+    - {*Appearance*}: Long ears, green-ish skin with light patterns, strong build, dark eyes.
+    - {*Propulsion*}: Cyclomedussa named "ChaCha"
     > </columns>
     > <hr/>{
         & Lun-di is a {*Lepori*}. She's calm, composed, and very head strong, others have much confidence in her so when Lun-di acts without word, others will blindly follow. 
@@ -882,13 +875,11 @@ PANDA
     > <columns>
     % content/oc.spacepanda.main.jpg main
     > <h2>Padna</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Space Panda
-    > <li>{*Family*}: Ursada
-    > <li>{*Appearance*}: Round fuzzy ears, dark nose, light skin, dark attire.</li>
-    > <li>{*Propulsion*}: Baton that fans out into a disc, powered by the sun. 
-    > </ul>
+    {*Story*}: {{medussa}}
+    {*Racing name*}: Space Panda
+    {*Family*}: Ursada
+    {*Appearance*}: Round fuzzy ears, dark nose, light skin, dark attire.
+    {*Propulsion*}: Baton that fans out into a disc, powered by the sun. 
     > </columns>
     > <hr/>
     & Padna is an {*Ursada*}. After Arkto was decommissioned, the Ursada emigrated on Retna. 
@@ -900,13 +891,11 @@ STRAW
     > <columns>
     % content/oc.strawsurfer.main.jpg main
     > <h2>Klo Starawin</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Racing name*}: Straw Surfer
-    > <li>{*Family*}: Homini
-    > <li>{*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
-    > <li>{*Propulsion*}: A long hollow cyclinder that elongates at will.
-    > </ul>
+    - *Story*}: {{medussa}}
+    - *Racing name*}: Straw Surfer
+    - *Family*}: Homini
+    - *Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.
+    - {*Propulsion*}: A long hollow cyclinder that elongates at will.
     > </columns>
     > <hr/>
     & Klo is a {*Homini*}, born on the Retna, now under the jurisdiction of the {*IFS*} "the interplanetary federation of Ships" (who have a monopoly on transportation). Her family is well-off, permitting her to have a ship of her own. She has taken part in the Belt Championships many times, but aches for the freedom and creativity to design her own transport. Her sibling Lef is an Enforcer in the IFS, they have little contact, in fact, she cares little to know what he's up to given the dark nature of his work.
@@ -918,13 +907,11 @@ LEF
     > <columns>
     % content/oc.lef.main.jpg main
     > <h2>Lef Starawin</h2>
-    > <ul>
-    > <li>{*Story*}: {{medussa}}
-    > <li>{*Title*}: Enforcer Lef
-    > <li>{*Family*}: Hominini
-    > <li>{*Appearance*}: Tall, upper half of face is dark, deep scar along chin and front of neck.</li>
-    > <li>{*Propulsion*}: A highway system corvette
-    > </ul>
+    - {*Story*}: {{medussa}}
+    - {*Title*}: Enforcer Lef
+    - {*Family*}: Hominini
+    - {*Appearance*}: Tall, upper half of face is dark, deep scar along chin and front of neck
+    - {*Propulsion*}: A highway system corvette
     > </columns>
     > <hr/>
     & Lef is an Enforcer, employed by the IFS (the interplanetary federation of ships) and responsible for ensuring the laws regarding the use and fabrication of ships are being followed. Many accuse the Enforcers of having another more controversial role, of making sure that undesirables (low income citizens) never leave their home planets. Lef is sibbling to {{Klo|#straw}}, both lead very difference lives and are unaware of what the other is doing, due to Lef leaving home to join the federation at a young age.
@@ -935,11 +922,9 @@ ADEKA
     > <columns>
     % content/oc.adeka.main.jpg main
     > <h2>Adeka</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: No visible arms, legs of any kind, just a long serpent-like body with a face that some would argue to be both beautiful and horrifying.</li>
-    > <li>{*Relation*}: Tormenter of {*{{Cee|#cee}}*}
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: No visible arms, legs of any kind, just a long serpent-like body with a face that some would argue to be both beautiful and horrifying.
+    - {*Relation*}: Tormenter of {*{{Cee|#cee}}*}
     > </columns>
     > <hr/>
     & Adeka is feared by many who share {*{{Cee|#cee}}*}'s anxieties. She is a creature most fearsome, that draws you in when you're at your lowest of lows, and refuses to let go. It is possible to escape her grip, but not without losing something important. Adeka will stop at nothing to keep you in her world.
@@ -949,11 +934,9 @@ VIKTOR
     > <columns>
     % content/oc.viktor.main.jpg main
     > <h2>Viktor</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.</li>
-    > <li>{*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.
+    - {*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
     > </columns>
     > <hr/>
     & Viktor entered {*{{Cee|#cee}}*}'s head a long time ago, he now lives there and won't be persuaded to leave. The bird is said to be the source of Cee's anxieties, a whisperer, and teller of fears and lies. 
@@ -965,11 +948,9 @@ FINN
     > <columns>
     % content/oc.finn.main.jpg main
     > <h2>Finn</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.</li>
-    > <li>{*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.
+    - {*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
     > </columns>
     > <hr/>
     & Finn is a mouse, and infrequent guest inside {{Cee}}'s head. She likes to visit the bird {{Viktor}}, fascinated by all that plagues him. They spend entire evenings together, talking about the future and the science of bread. 
@@ -980,11 +961,9 @@ POLYCAT
     > <columns>
     % content/oc.polycat.main.jpg main
     > <h2>Polycat</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: A cat with one eye, and the hind and tail of a lizard.</li>
-    > <li>{*Relation*}: Often hovers around {*{{Shiba Killy|#shiba}}*}.
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: A cat with one eye, and the hind and tail of a lizard.
+    - {*Relation*}: Often hovers around {*{{Shiba Killy|#shiba}}*}.
     > </columns>
     > <hr/>
     & Polycat is a wanderer, she doesn't speak much, but a lot can be understood by looking into her eye. She seems to always appear when {{Shiba Killy}} is alone, following after him and disappearing as soon as anyone else comes near.
@@ -1001,11 +980,9 @@ SHIBA
     > <columns>
     % content/oc.shiba.main.jpg main
     > <h2>Shiba Killy</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.</li>
-    > <li>{*Relation*}: Friend of {*{{Cee|#cee}}*}
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.
+    - {*Relation*}: Friend of {*{{Cee|#cee}}*}
     > </columns>
     > <hr/>
     & Shiba Killy is a genial hound, a stoic, and the cure to {*{{Cee|#cee}}*}'s anxieties. Killy is outgoing, and never fails to bring Cee along, and to protect her. He often puts her into situations that are difficult, he is her link to society, her bridge to the world.
@@ -1016,11 +993,9 @@ CEE
     > <columns>
     % content/oc.cee.main.jpg main
     > <h2>Cee</h2>
-    > <ul>
-    > <li>{*Story*}: {{mindbird}}
-    > <li>{*Appearance*}: Cee is a skeleton, her skull has a large crack in it.</li>
-    > <li>{*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
-    > </ul>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Cee is a skeleton, her skull has a large crack in it.
+    - {*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
     > </columns>
     > <hr/>
     & Cee is a jittery character, plagued and paralyzed by fear and anxiety, due to the precense of a bird in her head. {*{{Viktor|#viktor}}*}, the bird, took up residence in Cee's head early in her life, and cannot be persuaded to leave. 
@@ -1031,15 +1006,13 @@ ORION
     > <columns>
     % content/oc.orion.main.jpg main
     > <h2>Orion Mintenko</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 18</li>
-    > <li>{*Alignment*}: Neutral good</li>
-    > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Gender*}: Cisgender</li>
-    > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.</li>
-    > <li>{*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Multiple piercings.</li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 18
+    - {*Alignment*}: Neutral good
+    - {*Orientation*}: Pansexual
+    - {*Gender*}: Cisgender
+    - {*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.
+    - {*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Multiple piercings.
     > </columns>
     > <hr/>
     & Orion is a club kid, a forever child, he likes to go out and to get high. He works in a bar in Montore in evenings and is seldom seen alone, in fact, he cares about all he meets, even strangers. 
@@ -1053,16 +1026,14 @@ TOKEN
     > <columns>
     % content/oc.token.main.jpg main
     > <h2>Token Malvado</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 22</li>
-    > <li>{*Nickname*}: Pen</li>
-    > <li>{*Alignment*}: Lawful neutral</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Gynesexual</li>
-    > <li>{*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.</li>
-    > <li> {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts, jeans and running shoes; he often wears a red sports jacket overtop. He bears a deep cut at his lip, is missing two fingers on his left hand and his right hand up to the elbow is a prosthetic.</li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 22
+    - {*Nickname*}: Pen
+    - {*Alignment*}: Lawful neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Gynesexual
+    - {*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.
+    - {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts, jeans and running shoes; he often wears a red sports jacket overtop. He bears a deep cut at his lip, is missing two fingers on his left hand and his right hand up to the elbow is a prosthetic.
     > </columns>
     > <hr/>
     & Token is a professional boxer, known country-wide for his exceptional skills. He is generous and well-liked, but doesn't make friends easy, there is a certain relunctance in him. 
@@ -1073,13 +1044,11 @@ KIMA
     > <columns>
     % content/oc.kima.main.jpg main
     > <h2>Kima Horizon </h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 22</li>
-    > <li>{*Gang*}: Ars Goetia
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 22
+    - {*Gang*}: Ars Goetia
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
     > </columns>
     > <hr/>
     & Kim runs Sotto Voce almost on her own, due to her mother's advanced age. Kim is relatively easy-going, mostly relaxed, and tries to not burden herself with worry and fear. She is hot-headed at times, and will act without thinking, especially if someone tells her not to do something. In dangerous situations, she can fend for herself all while protecting the ones she cares about. 
@@ -1092,12 +1061,10 @@ MARI
     > <columns>
     % content/oc.mari.main.jpg main
     > <h2>Mariana Covas </h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 23</li>
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 23
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
     > </columns>
     > <hr/>
     & Mari is a natural leader, she keeps people together and makes sure that everyone is doing what they're supposed to. Growing up, she herself, decided to take on more hands-on sports, like kickboxing and wrestling. This comes naturally to Mari, she enjoys a good fight.
@@ -1107,12 +1074,10 @@ CASEY
     > <columns>
     % content/oc.casey.main.jpg main
     > <h2>Casey St. Claire</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 18</li>
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 18
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
     > </columns>
     > <hr/>
     & As a child Casey grew up in Azalea Town in Johto. Her life was somewhat unnatural. Casey grew up without a mother in the family and her father was always away from home on business; Most of the time she was with her brother.
@@ -1134,12 +1099,10 @@ FERRIS
     > <columns>
     % content/oc.ferris.main.jpg main
     > <h2>Ferris Doyle</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 16</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.</li></li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 16
+    - {*Gender*}: Cis male
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
     > </columns>
     > <hr/>
     & To an untrained eye Ferris would look rather ‘average’ mainly because he doesn't stand out, but there is one thing that makes him different from most teenagers; he is blind.
@@ -1158,13 +1121,11 @@ CADEN
     > <columns>
     % content/oc.caden.main.jpg main
     > <h2>Caden Canepa</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 17</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Homosexual</li>
-    > <li>{*Family*}: {{Mika Canepa|#mika}}</li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 17
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Homosexua
+    - {*Family*}: {{Mika Canepa|#mika}}
     > </columns>
     > <hr/>
     & Caden, like his sister {{Mika}}, was raised in Sunnyshore city and is the manager of Vista resort. It's very difficult for him to tear away from his work, he feels like if he isn't there that things will not get done, or go to shit. Caden spends countless hours in the resort, walking the grounds and making sure everyone is doing what they're supposed to. He is an amiable person, but his controlling nature sometimes makes it difficult for others to befriend him.
@@ -1187,13 +1148,11 @@ MIKA
     > <columns>
     % content/oc.mika.main.jpg main
     > <h2>Mika Canepa</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 25</li>
-    > <li>{*Gender*}: Cis female</li>
-    > <li>{*Orientation*}: Bisexual</li>
-    > <li>{*Family*}: Caden Canepa</li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 25
+    - {*Gender*}: Cis female
+    - {*Orientation*}: Bisexual
+    - {*Family*}: Caden Canepa
     > </columns>
     > <hr/>
     & Mika and her brother Caden were raised in Sunnyshore City. She is a kite surfer, and operates a kite shop that rents out equipment to the many visitors to the beach, and the Vista resort owned by the Canepas.
@@ -1213,15 +1172,13 @@ ADELIE
     > <columns>
     % content/oc.adelie.main.jpg main
     > <h2>Adélie</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Gang*}: Ars Goetia
-    > <li>{*Race*}: Hegata</li>
-    > <li>{*Gender*}: Cisgender female</li>
-    > <li>{*Orientation*}: Asexual</li>
-    > <li>{*Appearance*}: Has short dark hair, skin is a charcoal colour, while the face is pale. Very tall (10 feet tall) and strong, she has no visible breasts. Overall friendly countenance. 
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Has short dark hair, skin is a charcoal colour, while the face is pale. Very tall (10 feet tall) and strong, she has no visible breasts. Overall friendly countenance. 
     > </columns>
     > <hr/>
     & Adélie, or Adé, is a strong Hegata that can take the appearances of others.
@@ -1232,14 +1189,12 @@ DANTE
     > <columns>
     % content/oc.dante.main.jpg main
     > <h2>Dante</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Race*}: Hegata</li>
-    > <li>{*Gender*}: Cis gender male</li>
-    > <li>{*Orientation*}: Bisexual</li>
-    > <li>{*Appearance*}: Mid-length black hair. He is short for a near pure blood, with an athletic build. 
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Race*}: Hegata</li>
+    - {*Gender*}: Cis gender male
+    - {*Orientation*}: Bisexual
+    - {*Appearance*}: Mid-length black hair. He is short for a near pure blood, with an athletic build. 
     > </columns>
     > <hr/>
     & Dante is a Hegata but doesn't live with the others, never has. He shows himself to few and speaks little of himself. 
@@ -1250,16 +1205,14 @@ SY
     > <columns>
     % content/oc.sy.main.jpg main
     > <h2>Sy Keon-Cross</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 21</li>
-    > <li>{*Gang*}: Tusky Bruisers
-    > <li>{*Alignment*}: Chaotic evil</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Cis male</li>
-    > <li>{*Family*}: Tim Keon & Harlow Cross</li>
-    > <li>{*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of an inverted cross and serpent on the right shoulder. Wears loose t-shirts, old jeans, and tattered converse; often wears a cap.</li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 21
+    - {*Gang*}: Tusky Bruisers
+    - {*Alignment*}: Chaotic evil
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Cis male</li>
+    - {*Family*}: Tim Keon & Harlow Cross
+    - {*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of an inverted cross and serpent on the right shoulder. Wears loose t-shirts, old jeans, and tattered converse; often wears a cap.
     > </columns>
     > <hr/>
     & Sy is known in the community, and gets along well enough with those in Tusky but not with anyone outside of this circle. Sy is often mixed in turf wars, between his city and those that share its border.
@@ -1271,14 +1224,12 @@ FENIX
     > <columns>
     % content/oc.fenix.main.jpg main
     > <h2>Fenton 'Fenix' Drayer</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 19</li>
-    > <li>{*Alignment*}: Lawful neutral</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Gynesexual</li>
-    > <li>{*Appearance*}: Fenix has black hair with blue hues. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side. </li>
-    > </ul> 
+    - {*Story*}: Goshin
+    - {*Age*}: 19
+    - {*Alignment*}: Lawful neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Fenix has black hair with blue hues. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side.
     > </columns>
     > <hr/>
     & Fenix says little of his past, even when asked, he will tell you it's of no interest. What is known, is that he has with Matrix for some time, and that his long service has granted him two Pokemon hybrids: Shargon and Swecleon.
@@ -1304,15 +1255,13 @@ KADDALI
     > <columns>
     % content/oc.kaddali.main.jpg main
     > <h2>Kaddali</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Gang*}: Ars Goetia
-    > <li>{*Race*}: Hegata</li>
-    > <li>{*Gender*}: One who changes</li>
-    > <li>{*Orientation*}: Asexual</li>
-    > <li>{*Appearance*}: Tall, blue-haired, red-eyed, pale-skinned.
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Tall, blue-haired, red-eyed, pale-skinned.
     > </columns>
     > <hr/>
     & Kaddali is the tinkerer of the group, one whose brain never seems to go off — not even in sleep. Kaddali, also known as "kidd", hates being indoors, preferring a contact with the sky and the earth, always. In fact, Kidd is very attuned with nature, constantly observing patterns in the living world and translating this into new creations. 
@@ -1326,16 +1275,14 @@ SEIR
     > <columns>
     % content/oc.seir.main.jpg main
     > <h2>Seir</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Gang*}: Ars Goetia
-    > <li>{*Race*}: Hegata</li>
-    > <li>{*Alignment*}: Neutral evil</li>
-    > <li>{*Gender*}: One who changes</li>
-    > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Appearance*}: Very tall, broad-shouldered, thin of waist and strong of body. Hair is dark, with a vivid blue hue. Lines on the face and body. Seir has sharp ears, and dark eyes.
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Alignment*}: Neutral evil
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Pansexual
+    - {*Appearance*}: Very tall, broad-shouldered, thin of waist and strong of body. Hair is dark, with a vivid blue hue. Lines on the face and body. Seir has sharp ears, and dark eyes.
     > </columns>
     > <hr/>
     & He is the founder of the {*Ars Goetia*}, a rebel group composed of Hegatas. 
@@ -1349,16 +1296,14 @@ YEGON
     > <columns>
     % content/oc.yegon.main.jpg main
     > <h2>Yegon</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: irrelevant</li>
-    > <li>{*Gang*}: Ars Goetia, Solo Devs (former)
-    > <li>{*Race*}: Hegata</li>
-    > <li>{*Alignment*}: Neutral evil </li>
-    > <li>{*Gender*}: One who changes</li>
-    > <li>{*Orientation*}: Pansexual</li>
-    > <li>{*Appearance*}: Red hair that stands on end, dark eyes with one missing. Face has other scars, including a band running horizontally across his face. 
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia, Solo Devs (former)
+    - {*Race*}: Hegata
+    - {*Alignment*}: Neutral evil
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Pansexual
+    - {*Appearance*}: Red hair that stands on end, dark eyes with one missing. Face has other scars, including a band running horizontally across his face. 
     > </columns>
     > <hr/>
     & Yegon is part of the {*Ars Goetia*}, he is one of {{Seir}}'s main grunts. Yegon's core can generate immense heat, and he dispenses of it through various means, like in the form of steam or fire.
@@ -1369,15 +1314,13 @@ BRU
     > <columns>
     % content/oc.bru.main.jpg main
     > <h2>Gabrielle Bruyère</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 18</li>
-    > <li>{*Gang*}: Tusky Bruisers
-    > <li>{*Alignment*}: -</li>
-    > <li>{*Gender*}: Cisgender female</li>
-    > <li>{*Orientation*}: Gynesexual</li>
-    > <li>{*Appearance*}: Short, hair shaved short on one side and bound into blonde locks on the other. 
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 18
+    - {*Gang*}: Tusky Bruisers
+    - {*Alignment*}: -
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Short, hair shaved short on one side and bound into blonde locks on the other. 
     > </columns>
     > <hr/>
 
@@ -1386,14 +1329,12 @@ CALEB
     > <columns>
     % content/oc.caleb.main.jpg main
     > <h2>Caleb Espinosa</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 20</li>
-    > <li>{*Alignment*}: -</li>
-    > <li>{*Gender*}: Cisgender female</li>
-    > <li>{*Orientation*}: Gynesexual</li>
-    > <li>{*Appearance*}: Dark haired in a bowl cut, round glasses, very tall, thin torso, larger at the hips and thick-legged. Enjoys being barefoot.
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 20
+    - {*Alignment*}: -
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Dark haired in a bowl cut, round glasses, very tall, thin torso, larger at the hips and thick-legged. Enjoys being barefoot.
     > </columns>
     > <hr/>
     & Caleb is a clever and studious girl, she loves to absorb information and never seems to forget anything. She is {{Nemerald}}'s second hand and helps him run the clinic. She taught herself how to repair computers and electronics and speaks many languages. 
@@ -1405,15 +1346,13 @@ NEMERALD
     > <columns>
     % content/oc.nemerald.main.jpg main
     > <h2>Nemerald Kozielec</h2>
-    > <ul>
-    > <li>{*Story*}: {{Circa}}
-    > <li>{*Age*}: 35</li>
-    > <li>{*Nickname*}: Nemo, Nemesis
-    > <li>{*Alignment*}: True neutral</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Demisexual</li>
-    > <li>{*Appearance*}: Nemerald is grey haired and purple-eyed. He is of short stature, not especially strong, but has a thick build. He wears glasses, but does not need them.</li>
-    > </ul>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 35
+    - {*Nickname*}: Nemo, Nemesis
+    - {*Alignment*}: True neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Demisexual
+    - {*Appearance*}: Nemerald is grey haired and purple-eyed. He is of short stature, not especially strong, but has a thick build. He wears glasses, but does not need them.
     > </columns>
     > <hr/>
     & Nemerald is a physician and known supporter of the local Eidola and Hegata community. He has some standing amongst them, some seek his council when it comes to human dealings.
@@ -1425,14 +1364,12 @@ MUSI
     > <columns>
     % content/oc.musi.main.jpg main
     > <h2>Monty 'Musi' Quintero</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 23</li>
-    > <li>{*Alignment*}: True neutral</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Bisexual</li>
-    > <li>Physical appearance: Musi has light, and long brown hair. He is of thick build, not especially muscular but would perform well enough in a fight. He dresses casually, a light blouse and shorts as well as a mariner's cap will do. Musi is 6'1, he has two birth marks under one eye.  </li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 23
+    - {*Alignment*}: True neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Bisexual
+    - Physical appearance: Musi has light, and long brown hair. He is of thick build, not especially muscular but would perform well enough in a fight. He dresses casually, a light blouse and shorts as well as a mariner's cap will do. Musi is 6'1, he has two birth marks under one eye.
     > </columns>
     > <hr/>
     & Musi has always been a mariner, his family has always lived at sea. Growing up, they had no property, they always lived on the dock. His father Archie still travels on the ocean, while Musi stayed behind doing odd jobs for Matrix. Musi didn't intend on working for them, but he needed cash and the organization needed a skilled sailor to get their people on the offshore island of Goshin. He doesn't get involved in much of the happenings of Matrix, but does need to bring captives to the island, to his great displeasure. Musi doesn't like it, but doesn't do much against it either, it's just how it is. He considers himself lucky to be where he is.
@@ -1450,14 +1387,12 @@ SHOCK
     > <columns>
     % content/oc.shock.main.jpg main
     > <h2>Shane 'Shock' Evans</h2>
-    > <ul>
-    > <li>{*Story*}: Goshin
-    > <li>{*Age*}: 16</li>
-    > <li>{*Alignment*}: Chaotic neutral</li>
-    > <li>{*Gender*}: Cis male</li>
-    > <li>{*Orientation*}: Asexual</li>
-    > <li>{*Appearance*}: Shane lost a front tooth during a violent altercation with {{Fenix}}, this gives him a childish look. His hair is grey, cut into a thick mohawk and shaved on the sides, his eyes at this same colour. Often seen wearing baggy bright-coloured pants, a white shirt with a black undershirt. </li>
-    > </ul>
+    - {*Story*}: Goshin
+    - {*Age*}: 16</li>
+    - {*Alignment*}: Chaotic neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Shane lost a front tooth during a violent altercation with {{Fenix}}, this gives him a childish look. His hair is grey, cut into a thick mohawk and shaved on the sides, his eyes at this same colour. Often seen wearing baggy bright-coloured pants, a white shirt with a black undershirt.
     > </columns>
     > <hr/>
     & Shane was raised in Sunnyshore city, born in a wealthy family. The Evans operate a solar plant as well as a gym in town. His parents, Volitia and Elivire, are collectors of electric pokemon. He has two older siblings, brother Olliber and sister Bektra, they all train together, and never fail to make fun of Shane because he angers so very easily. 
@@ -1484,14 +1419,12 @@ TOOLS
     > <p class='caption'>My writing work station</p>
     & <h2>Writing</h2>
     & These days, I've been writing as much as I've been drawing. I write using {{Left|https://hundredrabbits.itch.io/left}} on my {{Raspberry Pi|https://www.raspberrypi.org/}}.
-    > <ul>
-    >   <li>Raspberry Pi {{3B+|https://www.raspberrypi.org/}}</li>
-    >   <li>Raspberry Pi {{Touch 7"|https://www.raspberrypi.org/products/raspberry-pi-touch-display/}}, 800x480</li>
-    >   <li>SmartiPi Touch 7" Case</li>
-    >   <li>32GB usb stick</li>
-    >   <li>TADA68 mechanical keyboard</li>
-    >   <li>Bluetooth mouse</li>
-    > </ul>
+    - Raspberry Pi {{3B+|https://www.raspberrypi.org/}}
+    - Raspberry Pi {{Touch 7"|https://www.raspberrypi.org/products/raspberry-pi-touch-display/}}, 800x480
+    - SmartiPi Touch 7" Case
+    - 32GB usb stick
+    - TADA68 mechanical keyboard
+    - Bluetooth mouse
     > </columns>
 
     > <columns>
@@ -1499,10 +1432,9 @@ TOOLS
     > <p class='caption'>My drawing setup</p>
     & <h2>Drawing</h2>
     & My primary computer is an old 2010 macbook pro, an amassement of recycled parts. I use the mac if I need to finish illustrations in ClipStudioEX or Photoshop CS6. Otherwise, to sketch artwork, or to do simple works I draw on my Ipad 2 using autodesk sketchbook and index finger as a pen. 
-    > <ul>
-    >   <li>Wacom intuos 4 tablet</li>
-    >   <li>Macbook Pro 2010</li>
-    >   <li>Ipad 2</li>
+    - Wacom intuos 4 tablet
+    - Macbook Pro 2010
+    - Ipad 2
     > </columns>
 
 QUOTES
