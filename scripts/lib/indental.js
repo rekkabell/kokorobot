@@ -1,3 +1,5 @@
+'use strict'
+
 function Indental (data) {
   this.data = data
 
@@ -6,7 +8,7 @@ function Indental (data) {
     // Assoc lines
     var stack = {}
     var target = lines[0]
-    for (id in lines) {
+    for (const id in lines) {
       var line = lines[id]
       if (line.skip) { continue }
       target = stack[line.indent - 2]
@@ -16,7 +18,7 @@ function Indental (data) {
 
     // Format
     var h = {}
-    for (id in lines) {
+    for (const id in lines) {
       var line = lines[id]
       if (line.skip || line.indent > 0) { continue }
       var key = line.content.toUpperCase()
@@ -28,7 +30,7 @@ function Indental (data) {
   function format (line) {
     var a = []
     var h = {}
-    for (id in line.children) {
+    for (const id in line.children) {
       var child = line.children[id]
       if (child.key) { h[child.key.toUpperCase()] = child.value } else if (child.children.length == 0 && child.content) { a.push(child.content) } else { h[child.content.toUpperCase()] = format(child) }
     }

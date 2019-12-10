@@ -26,11 +26,13 @@
   <link rel="stylesheet" href="links/reset.css"/>
   <link rel="stylesheet" href="links/fonts.css"/>
   <link rel="stylesheet" href="links/main.css"/>
-  <script src="scripts/database.tome"></script>
+  <script src="scripts/lib/indental.js"></script>
+  <script src="scripts/lib/runic.js"></script>
   <script src="scripts/controller.js"></script>
-  <script src="scripts/indental.js"></script>
-  <script src="scripts/runic.js"></script>
+  <script src="scripts/helpers.js"></script>
   <script src="scripts/lightbox.js"></script>
+  <script src="scripts/runic.library.js"></script>
+  <script src="scripts/database/site.ndtl"></script>
 </head>
 <body>
   <header>
@@ -90,9 +92,11 @@
   </footer>
 
   <script type="text/javascript">
-    var controller = new Controller();
-    controller.install();
-    controller.start();
+    'use strict'
+    const runic = new Runic(runicLibrary)
+    const controller = new Controller()
+    controller.install()
+    controller.start()
   </script>
 </body>
 </html>

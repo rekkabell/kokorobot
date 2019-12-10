@@ -1,3 +1,5 @@
+'use strict'
+
 function Controller () {
   this.el = null
   this.database = null
@@ -27,7 +29,7 @@ function Controller () {
     var content = this.database[target.toUpperCase()]
 
     this.el.className = 'loading'
-    this.el.innerHTML = content ? `<page class='${target.toUrl()}'>${new Runic(content.LONG)}</page>` : `<page><p>Could not find page ${target}</p></page>`
+    this.el.innerHTML = content ? `<page class='${target.toUrl()}'>${runic.run(content.LONG)}</page>` : `<page><p>Could not find page ${target}</p></page>`
 
     setTimeout(() => { this.lightbox.update() }, 500)
 
@@ -38,7 +40,7 @@ function Controller () {
   }
 
   this.touch = function (target) {
-    var link = target.getAttribute('href') ? target.getAttribute('href') : target.parentNode.getAttribute('href')
+    var link = target.getAttribute('href') ? target.getAttribute('href') : target.parentNode.getAttribute ? target.parentNode.getAttribute('href') : undefined
 
     if (!link) { return }
     if (link.substr(0, 1) != '#') { return }
@@ -50,8 +52,8 @@ function Controller () {
 }
 
 var detectBackOrForward = function (onBack, onForward) {
-  hashHistory = [window.location.hash]
-  historyLength = window.history.length
+  let hashHistory = [window.location.hash]
+  let historyLength = window.history.length
 
   return function () {
     var hash = window.location.hash; var length = window.history.length

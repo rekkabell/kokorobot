@@ -1,3 +1,3 @@
-# markl.hundredrabbits
+# Kokorobot
 
-Open site with [https://xxiivv.github.io/markl.hundredrabbits/](https://xxiivv.github.io/markl.hundredrabbits/).
+Sources for the site https://kokorobot.ca.

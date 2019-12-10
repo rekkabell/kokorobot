@@ -1,3 +1,5 @@
+'use strict'
+
 function Lightbox () {
   this.el = document.createElement('div')
   this.el.id = 'lightbox'
@@ -21,7 +23,7 @@ function Lightbox () {
   this.show = function (e) {
     var target = e.target
     if (!target) { return }
-    var path = target.className.indexOf('nopreview') > -1 ? target.src : target.src.replace('.jpg', '.full.jpg') 
+    var path = target.className.indexOf('nopreview') > -1 ? target.src : target.src.replace('.jpg', '.full.jpg')
     console.info(`Loading lightbox ${path}`)
     controller.lightbox.el.className = 'active'
     controller.lightbox.image.src = path

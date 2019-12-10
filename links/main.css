@@ -38,6 +38,9 @@ page list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30p
 page list ln { display: block; font-size:20px; }
 page list ln a { text-decoration: none;}
 page list ln a:hover { text-decoration: underline; }
+page > ul { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
+page > ul li { font-size:18px;}
+page > ul li a { font-family: 'alegreya-bold'}
 page img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 page gallery { display: block; }
 page gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
