@@ -1422,7 +1422,7 @@ TOOLS
     & These days, I've been writing as much as I've been drawing. I write using {{Left|https://hundredrabbits.itch.io/left}} on my {{Raspberry Pi|https://www.raspberrypi.org/}}.
     - Raspberry Pi {{3B+|https://www.raspberrypi.org/}}
     - Raspberry Pi {{Touch 7"|https://www.raspberrypi.org/products/raspberry-pi-touch-display/}}, 800x480
-    - SmartiPi Touch 7" Case
+    - SmartPi Touch 7" Case
     - 32GB usb stick
     - TADA68 mechanical keyboard
     - Bluetooth mouse
@@ -1432,7 +1432,7 @@ TOOLS
     % interface/workstation2.jpg main
     > <p class='caption'>My drawing setup</p>
     & <h2>Drawing</h2>
-    & My primary computer is an old 2010 macbook pro, an amassement of recycled parts. I use the mac if I need to finish illustrations in ClipStudioEX or Photoshop CS6. Otherwise, to sketch artwork, or to do simple works I draw on my Ipad 2 using autodesk sketchbook and index finger as a pen. 
+    & My primary computer is an old 2010 macbook pro with the {{ElementaryOS|https://elementary.io/}} Linux operating system. I use ClipStudioEX (on {{Wine|https://www.winehq.org/}}) and {{Krita|https://krita.org/en}}. Otherwise, to sketch artwork, or to do simple works I draw on my Ipad 2 using autodesk sketchbook. 
     - Wacom intuos 4 tablet
     - Macbook Pro 2010
     - Ipad 2
