@@ -7,7 +7,7 @@ HOME
 ABOUT
   LONG
     > <columns>
-    % interface/profile.jpg main
+    % interface/profile.png main
     > <p class='caption'>I am Rekka Bellum, I work on games and children's books.</p>
     > <h2>Rekka Bellum</h2>
     & Here, you will finds things that I've made. It is my space in the void, a room I've decorated that it is here for you visit.
@@ -101,10 +101,10 @@ PROJECTS
   LONG
     > <p class='intro'>Select an image, to find out more about these projects. There is a mix of drawn works and games.</p>
     > <gallery>
-    >   <a href="#fasciation"><img class='grey' src="media/content/project.fasciation.jpg"></a>
-    >   <a href='#markl'><img class='grey' src="media/content/project.markl.jpg"></a>
-    >   <a href="#mindbird"><img class='grey' src="media/content/mindbird/project.mindbird.jpg"></a>
-    >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.jpg"></a>
+    >   <a href="#fasciation"><img class='grey' src="media/content/project.fasciation.png"></a>
+    >   <a href='#markl'><img class='grey' src="media/content/project.markl.png"></a>
+    >   <a href="#mindbird"><img class='grey' src="media/content/mindbird/project.mindbird.png"></a>
+    >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.png"></a>
     >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
     >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
     >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
@@ -113,7 +113,7 @@ PROJECTS
     >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
     >   <a href='#vendredi13'><img class='grey' src="media/content/game.vendredi13.jpg"></a>
     >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
-    >   <a href='#oquonie'><img src="media/content/game.oquonie.jpg"></a>
+    >   <a href='#oquonie'><img src="media/content/game.oquonie.png"></a>
     >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
     >   <hr/>
     > </gallery>
@@ -1416,7 +1416,7 @@ SHOCK
 TOOLS
   LONG
     > <columns>
-    % interface/workstation.jpg main
+    % interface/workstation.png main
     > <p class='caption'>My writing work station</p>
     & <h2>Writing</h2>
     & These days, I've been writing as much as I've been drawing. I write using {{Left|https://hundredrabbits.itch.io/left}} on my {{Raspberry Pi|https://www.raspberrypi.org/}}.
@@ -1429,7 +1429,7 @@ TOOLS
     > </columns>
 
     > <columns>
-    % interface/workstation2.jpg main
+    % interface/workstation2.png main
     > <p class='caption'>My drawing setup</p>
     & <h2>Drawing</h2>
     & My primary computer is an old 2010 macbook pro with the {{ElementaryOS|https://elementary.io/}} Linux operating system. I use ClipStudioEX (on {{Wine|https://www.winehq.org/}}) and {{Krita|https://krita.org/en}}. Otherwise, to sketch artwork, or to do simple works I draw on my Ipad 2 using autodesk sketchbook. 
@@ -1460,12 +1460,10 @@ QUOTES
 LINKS
   LONG
     & A list of links to the blogs and websites of people that I admire.
-    * Artists & blogs
-    - {{Villainette|http://villainette.com/}}
+    * Artists and projects
     - {{The sad ghost club|https://thesadghostclub.com/}}
     - {{Matthew Forsythe|http://www.comingupforair.net}}
     - {{Q Hayashida|http://qby9.squarespace.com/q-hayashida/}}
-    - {{Pol Clarissou|http://www.polclarissou.com}}
     - {{Fran Krause|http://www.frankrause.com}}
     - {{Etter studio|http://etterstudio.com}}
     - {{Ko-op studio|http://www.ko-opmode.com}}
@@ -1474,8 +1472,12 @@ LINKS
     - {{Emily Carroll|http://emcarroll.com}}
     - {{Kazu Kibuishi|https://www.boltcityproductions.com}}
     - {{Hamlet Machine|http://starfightercomic.com}}
-    - {{Kara stone|https://karastonesite.com}}
-    - {{Taylor Bai-Woo|https://fromsmiling.com}}
+    - {{Feminist sticker club|https://www.feministstickerclub.com}}
+    - {{Nervous system|https://n-e-r-v-o-u-s.com/}}
+    - {{Breadfruit Institute|https://ntbg.org/breadfruit/donate}}
+    - {{Bosun Bird|http://www.bosunbird.com}}
+    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
+
     * Friends
     - {{Sailing with Bloom|http://sailingwithbloom.com/}}
     - {{Tokyo by bike|http://www.tokyobybike.com}}
@@ -1583,17 +1585,6 @@ THINKING
     - {{Insulating your boat|http://www.frugal-mariner.com/Insulating.html}}
     - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
     - {{Cheap watermaker plans|https://www.sail-world.com/Australia/DIY-–-The-Worlds-Cheapest-Watermaker/-33568?source=google}}
-    * Boats
-    - {{Bosun Bird|http://www.bosunbird.com}}
-    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
-    * Projects I like
-    - {{Feminist sticker club|https://www.feministstickerclub.com}}
-    - {{Sad ghost club|https://thesadghostclub.com/}}
-    - {{Nervous system|https://n-e-r-v-o-u-s.com/}}
-    * Non-profit organizations
-    - {{Breadfruit Institute|https://ntbg.org/breadfruit/donate}}
-    - {{Give Well|https://www.givewell.org/charities/top-charities}}
-    - {{Scimoms|https://scimoms.com/who-are-we/funding/}}
 
 BOOKS
   LONG
