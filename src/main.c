@@ -1,123 +1,65 @@
+#include <dirent.h> 
 #include <ctype.h>
-#include <stdio.h>
+#include <stdio.h> 
 #include <string.h>
 
-int chapters[] = {11};
+#define STR_BUF_LEN 64
 
-char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Circa follows Montores booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@RekkaBell'><meta name='twitter:title' content='Circa Comic'><meta name='twitter:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta name='twitter:creator' content='@RekkaBell'><meta name='twitter:image' content='http://circacomic.kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='Circa Comic'><meta property='og:type' content='article'><meta property='og:url' content='http://circacomic.kokorobot.ca/'><meta property='og:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta property='og:site_name' content='Circa Comic'><title>Circa — Chapter %d Page %d</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
+// int chapters[] = {11};
 
-char *html_header = "<header><a href='%s.html'><img src='../media/interface/circa.logo.jpg'></a></header>";
+char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Circa follows Montores booming gang culture, during a time when tensions between humans and hegatas, descendants of beings whose existence predates that of humans, are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@RekkaBell'><meta name='twitter:title' content='Circa Comic'><meta name='twitter:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta name='twitter:creator' content='@RekkaBell'><meta name='twitter:image' content='http://circacomic.kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='Circa Comic'><meta property='og:type' content='article'><meta property='og:url' content='http://circacomic.kokorobot.ca/'><meta property='og:image' content='https://grimgrains.com/media/services/icon.jpg'><meta property='og:description' content='Circa follows Montores booming gang culture, of tensions between humans and hegatas.'><meta property='og:site_name' content='Circa Comic'><title>Kokorobot — %.*s</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
 
-char *html_nav = "<nav><ul><li><a href='%s.html'>back</a></li><li><a href='chapter_01_page_01.html'>first</a></li><li><a href='%s.html'>latest</a></li><li><a href='%s.html'>next</a></li></ul></nav>";
+char *html_header = "<header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Notes</a></li></ul></header>";
 
-char *html_entry = "<img src='../media/content/%s.png' class='pages'/>";
+char *html_footer = "<footer class='footer'><div class='footer_item footer_left'><a href='about.html' class='about'>Rekka Bellum </a> © 2020</div><div class='footer_item footer_right'><div class='footer_item_sub-item'><a href='https://twitter.com/RekkaBell' class='footer_social footer_social_twitter' target='_blank'></a><a href='https://www.patreon.com/100' class='footer_social footer_social_patreon' target='_blank'></a><a href='http://webring.xxiivv.com/#random' class='footer_social footer_social_webring' target='_blank'></a><a href='http://100r.co' class='footer_social footer_social_100r' target='_blank'></a><a href='https://github.com/rekkabell' class='footer_social footer_social_github' target='_blank'></a></div><div class='footer_item_sub-item'><a href='https://ko-fi.com/D1D86UM6' class='kofi' target='_blank'>Buy Me Coffee</a></div></div></footer></body></html>";
 
-char *html_story = "<div><p>\"Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas — descendants of beings whose existence predates that of humans — are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.\"</p></div>";
+void build_page(char *name) {
+  if(strcmp(name,".") == 0){ return; }
+  if(strcmp(name,"..") == 0){ return; }
 
-char *html_characters = "<div><img src='../media/content/yegon.png' class='characters'><img src='../media/content/seir.png' class='characters'><img src='../media/content/adelie.png' class='characters'></div>";
+  printf("Building %s\n", name);
 
-char *html_about = "<div><p>This website has been designed to <a href='https://solar.lowtechmagazine.com/about.html#why_website'>reduce the energy use</a> associated with accessing online content. To do this, it was made into a static website (requires less processing power), and uses an image compression technique called “dithering” to reduce file size. It's drawn by hand, scanned and edited digitally using open-source software (<a href='https://www.gimp.org/'>GIMP</a> & <a href='https://krita.org/en/'>Krita</a>) on Linux.</p></div>";
+  char *filename = name;
+  char filepath[STR_BUF_LEN];
+  snprintf(filepath, STR_BUF_LEN, "../site/%sl", filename);
+  FILE *f = fopen(filepath, "w");
 
-char *html_footer = "<footer><a href='about.html'>Circa</a> © 2019—2020<br><a href='http://kokorobot.ca/' target='_blank'>Rekka Bellum</a></footer></body></html>";
+  char incpath[STR_BUF_LEN];
+  snprintf(incpath, STR_BUF_LEN, "inc/%s", filename);
 
-//
+  fprintf(f, html_head, (int)(strlen(filename)-4), filename);
+  fputs(html_header, f);
 
-int find_prev_chapter(int ch, int pg) {
-  if (ch == 0 && pg == 0) {
-    return 0;
-  }
-  if (ch > 0 && pg == 0) {
-    return ch - 1;
-  }
-  return ch;
-}
+    fprintf(f, "<main class='%.*s'>", (int)(strlen(filename)-4), filename);
+    char buffer[4096];
+    FILE *fp = fopen(incpath, "r");
+    if(fp == NULL){ return; }
 
-int find_prev_page(int ch, int pg) {
-  if (ch == 0 && pg == 0) {
-    return 0;
-  }
-  if (ch > 0 && pg == 0) {
-    return chapters[ch - 1] - 1;
-  }
-  return pg - 1;
-}
+    for (;;) {
+      size_t sz = fread(buffer, 1, sizeof(buffer), fp);
+      if (sz) {
+        fwrite(buffer, 1, sz, f);
+      } else if (feof(fp) || ferror(fp)) {
+        break;
+      }
+    }   
+    fclose(fp);
+    fputs("</main>", f);
 
-int find_next_chapter(int ch, int pg) {
-  int ch_last = (sizeof chapters / sizeof chapters[0]) - 1;
-  int pg_last = chapters[ch];
-  if (ch == ch_last && pg == pg_last) {
-    return ch_last;
-  }
-  if (ch < ch_last && pg == pg_last - 1) {
-    return ch + 1;
-  }
-  return ch;
-}
+  fputs(html_footer, f);
 
-int find_next_page(int ch, int pg) {
-  int ch_last = (sizeof chapters / sizeof chapters[0]) - 1;
-  int pg_last = chapters[ch];
-  if (ch == ch_last && pg == pg_last - 1) {
-    return pg_last - 1;
-  }
-  if (ch < ch_last && pg == pg_last - 1) {
-    return 0;
-  }
-  return pg + 1;
-}
-
-void build_page(int ch, int pg, char *filename) {
-  int ch_prev = find_prev_chapter(ch, pg);
-  int pg_prev = find_prev_page(ch, pg);
-  int ch_next = find_next_chapter(ch, pg);
-  int pg_next = find_next_page(ch, pg);
-
-  printf("%s [%d %d < - > %d %d]\n", filename, ch_prev, pg_prev, ch_next, pg_next);
-
-  char filepath[32];
-  snprintf(filepath, 32, "../site/%s.html", filename);
-  FILE *myfile = fopen(filepath, "w");
-
-  int ch_home = (sizeof chapters / sizeof chapters[0]) - 1;
-  int pg_home = chapters[ch_home] - 1;
-
-  char here_link[32];
-  snprintf(here_link, 32, "chapter_%02d_page_%02d", ch + 1, pg + 1);
-  char prev_link[32];
-  snprintf(prev_link, 32, "chapter_%02d_page_%02d", ch_prev + 1, pg_prev + 1);
-  char home_link[32];
-  snprintf(home_link, 32, "chapter_%02d_page_%02d", ch_home + 1, pg_home + 1);
-  char next_link[32];
-  snprintf(next_link, 32, "chapter_%02d_page_%02d", ch_next + 1, pg_next + 1);
-
-  fprintf(myfile, html_head, ch + 1, pg + 1);
-  fprintf(myfile, html_header, home_link);
-  fprintf(myfile, html_nav, prev_link, home_link, next_link);
-
-  fputs("<main>", myfile);
-  fprintf(myfile, html_entry, here_link);
-  fputs(html_story, myfile);
-  fputs(html_characters, myfile);
-  fputs(html_about, myfile);
-  fputs("</main>", myfile);
-
-  fputs(html_footer, myfile);
-  fclose(myfile);
+  fclose(f);
 }
 
 int main(void) {
-  int chapters_len = sizeof chapters / sizeof chapters[0];
-  printf("%d\n", chapters_len);
+  DIR *d = opendir("./inc");
+  struct dirent *dir;
+  if (!d) { return (0); }
 
-  for (int ch = 0; ch < chapters_len; ++ch) {
-    for (int pg = 0; pg < chapters[ch]; ++pg) {
-      char filename[32];
-      snprintf(filename, 32, "chapter_%02d_page_%02d", ch + 1, pg + 1);
-      build_page(ch, pg, filename);
-    }
+  while ((dir = readdir(d)) != NULL) {
+    build_page(dir->d_name);
   }
+  closedir(d);
   
-  build_page(chapters_len - 1, chapters[chapters_len - 1] - 1, "home");
-
   return (0);
 }
