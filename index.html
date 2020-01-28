@@ -1,102 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <link rel="shortcut icon" href="media/services/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="media/services/favicon.ico" type="image/x-icon">
-  <meta name="description" content="The art of Rek Bellum, games, animations and monsters.">
-  <!-- Meta -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rekka Bellum — Kokorobot</title>
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@RekkaBell">
-  <meta name="twitter:title" content="Kokorobot">
-  <meta name="twitter:description" content="The art of Rekka Bellum, games, animations and monsters.">
-  <meta name="twitter:creator" content="@RekkaBell">
-  <meta name="twitter:image" content="https://kokorobot.ca/media/services/icon.jpg">
-  <!-- Facebook -->
-  <meta property="og:title" content="Kokorobot" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="http://kokorobot.ca/" />
-  <meta property="og:image" content="https://kokorobot.ca/media/services/icon.jpg" />
-  <meta property="og:description" content="The art of Rekka Bellum, games, animations and monsters." />
-  <meta property="og:site_name" content="Kokorobot" />
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="links/reset.css"/>
-  <link rel="stylesheet" href="links/fonts.css"/>
-  <link rel="stylesheet" href="links/main.css"/>
-  <script src="scripts/lib/indental.js"></script>
-  <script src="scripts/lib/runic.js"></script>
-  <script src="scripts/controller.js"></script>
-  <script src="scripts/helpers.js"></script>
-  <script src="scripts/lightbox.js"></script>
-  <script src="scripts/runic.library.js"></script>
-  <script src="scripts/database/site.ndtl"></script>
+  <meta charset='utf-8'>
+  <meta name='author' content='Devine Lu Linvega'>
+  <meta name='description' content='The Nataniev Library.'/>
+  <meta name='keywords' content='Aliceffekt, Devine Lu Linvega, Lietal, Oquonie, Verreciel, Oscean, Solarpunk' />
+  <meta name='license' content='name=BY-NC-SA(4.0), url=https://creativecommons.org/licenses/by-nc-sa/4.0/'/>
+  <meta name='thumbnail' content='https://wiki.xxiivv.com/media/services/thumbnail.jpg' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name='twitter:card' content='summary'>
+  <meta name='twitter:site' content='@neauoire'>
+  <meta name='twitter:title' content='The Nataniev Library'>
+  <meta name='twitter:description' content='The digital playground and documentation for the projects of Devine Lu Linvega.'>
+  <meta name='twitter:creator' content='@neauoire'>
+  <meta name='twitter:image' content='https://wiki.xxiivv.com/media/services/rss.jpg'>
+  <meta property='og:title' content='The Nataniev Library' />
+  <meta property='og:type' content='article' />
+  <meta property='og:url' content='http://wiki.xxiivv.com/' />
+  <meta property='og:image' content='https://wiki.xxiivv.com/media/services/rss.jpg' />
+  <meta property='og:description' content='The digital playground and documentation for the projects of Devine Lu Linvega.' /> 
+  <meta property='og:site_name' content='XXIIVV' />
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=site/home.html" />
+  </noscript>
+  <link rel='alternate'  type='application/rss+xml' title='Feed' href='links/rss.xml' />
+  <link rel='icon' type='image/x-icon' href='media/services/favicon.ico'>
+  <link rel='icon' type='image/png' href='media/services/rss.jpg'>
+  <link rel='apple-touch-icon' href='media/services/rss.jpg' />
+  <title>Oscean</title>
 </head>
 <body>
-  <header>
-    <wr>
-      <h1><a href='#home'>Rekka Bellum</a></h1>
-      <h2><a href='#home'>⬟</a></h2>
-      <div id='menu'>
-        <a class='about' href='#about'>About</a>
-        <a class='projects' href='#projects'>Projects</a>
-        <a class='illustration' href='#illustration'>Illustration</a>
-        <a class='stories' href='#stories'>Stories</a>
-        <a class='store' href='#store'>Store</a>
-        <a class='characters' href='#characters'>Characters</a>
-        <a class='notes' href='#notes'>Notes</a>
-      </div>
-    </wr>
-  </header>
-
-  <yu id='main'></yu>
-  <yu id='lightbox'></yu>
-
-  <hr class='stroke'/>
-
-  <div id='banner' align="center">
-    <h2>What I'm working on</h2>
-    <div class='microsite'>
-      <a href="#wiktopher"><img class='grey' src="../media/content/banner.wiktopher.png"></a>
-      <p>A novel I'm writing named Wiktopher, that will feature an illustrated glossary, songs and recipes.</p>
-    </div>
-    <div class='microsite'>
-      <a href="#ink" ><img class='grey' src="../media/content/banner.prints.png" alt="sometext" ></a>
-      <p>I regularly make hand-drawn ink drawings of plants, fungi and other organic shapes. These drawings are unique, and made to order.</p>
-    </div>
-    <div class='microsite'>
-      <a href="#circa"><img class='grey' src="../media/content/banner.circa.png" alt="sometext" ></a>
-      <p>This comic tells the story of an unruly character named Sy, in the city of Montore during a time of conflict. With gangs feuding without end, tensions are high. Sy thrives in climates like this, but things change when the fight hits a little too close to home. </p>
-    </div>
-    <hr/>
-  </div>
-
-  <footer class="footer">
-    <div class="footer_item footer_left">
-      <a href='#about' class='about'>Rekka Bellum </a> &copy; 2020
-    </div>
-    <div class="footer_item footer_right">
-      <div class="footer_item_sub-item">
-        <a href="https://twitter.com/RekkaBell" class='footer_social footer_social_twitter' target='_blank'></a>
-        <a href="https://www.patreon.com/100" class='footer_social footer_social_patreon' target='_blank'></a>
-        <a href='http://webring.xxiivv.com/#random' class='footer_social footer_social_webring' target='_blank'></a>
-        <a href='http://100r.co' class='footer_social footer_social_100r' target='_blank'></a>
-        <a href='https://github.com/rekkabell' class='footer_social footer_social_github' target='_blank'></a>
-      </div>
-      <div class="footer_item_sub-item">
-        <a href='https://ko-fi.com/D1D86UM6' class='kofi' target='_blank'>Buy Me Coffee</a>
-      </div>
-    </div>
-  </footer>
-
-  <script type="text/javascript">
+  <p>Continue to <a href='site/home.html' target='_blank'>home page</a>.</p>
+  <script>
     'use strict'
-    const runic = new Runic(runicLibrary)
-    const controller = new Controller()
-    controller.install()
-    controller.start()
+
+    if(window.location.hash !== ''){
+      window.location.replace(`./site/${toFilename(window.location.hash)}.html`)
+    }
+    else{
+      window.location.replace(`./site/home.html`)
+    }
+
+    function toFilename(str){
+      return str.replace('#','').replace(/[\W_]+/g,"_").trim()
+    }
   </script>
 </body>
 </html>
