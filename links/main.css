@@ -89,8 +89,6 @@ main a.soldbutton { font-family: "alte_haas_grotesk_bold";font-size: 15px;border
 main gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
 
 footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
-footer a.kofi { border-radius: 100px; background:#111; color:white; padding:0px 15px; line-height: 30px; margin-left:15px;}
-footer a.kofi:hover { background:pink; color:black; }
 footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
 footer a.about:hover { text-decoration: underline; }
 footer .footer_social { padding:7px; width: 20px; height: 20px; position: relative; }
@@ -104,6 +102,7 @@ footer .footer_social_patreon::before { background: url("../media/interface/icon
 footer .footer_social_webring::before { background: url("../media/interface/icon.webring.png"); }
 footer .footer_social_100r::before { background: url("../media/interface/icon.100r.png"); }
 footer .footer_social_github::before { background: url("../media/interface/icon.github.png"); }
+footer .footer_social_mastodon::before { background: url("../media/interface/icon.mastodon.png"); }
 footer .footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
 
 /* To Clean */
