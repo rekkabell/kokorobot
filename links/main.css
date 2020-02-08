@@ -47,7 +47,7 @@ header ul li a.store { background-image: url(../media/interface/menu/store.png);
 header ul li a.notes { background-image: url(../media/interface/menu/notes.png);  }
 header ul li a.characters { background-image: url(../media/interface/menu/characters.png);  }
 
-main { max-width: 900px; margin: 0px auto; }
+main { max-width: 800px; margin: 0px auto; }
 
 main { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
 main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
@@ -55,7 +55,7 @@ main p.caption { font-style: italic; color:#999; font-size:16px; }
 main img.thumbnail { width:33.33%; display:block; float:left; }
 main p.intro {text-align: center;}
 main h3 { max-width: 600px; display: block; font-size: 24px;line-height: 30px;color:#999;font-weight: bold; margin:0px auto 30px; }
-main columns { display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
+main columns { max-width: 800px; display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
 main columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 main columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'alegreya-regular'}
 main columns p a:hover { text-decoration: underline; }
@@ -72,9 +72,9 @@ main list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30p
 main list ln { display: block; font-size:20px; }
 main list ln a { text-decoration: none;}
 main list ln a:hover { text-decoration: underline; }
-main > ul { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
-main > ul li { font-size:18px;}
-main > ul li a { font-family: 'alegreya-bold'}
+main ul { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; font-size: 18px;line-height: 26px}
+main ul li {}
+main ul li a { font-family: 'alegreya-bold'}
 main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 main gallery { display: block; }
 main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
@@ -121,14 +121,6 @@ img.lightbox:hover { opacity: 0.8 }
 
 #home img { max-width: 100% }
 
-#banner { max-width: 900px;margin:0px auto 60px; padding:0px 30px;}
-#banner h2 { margin-bottom: 30px;font-size:30px; }
-#banner div.microsite { width: calc(33.33% - 20px);float: left;margin:10px }
-#banner div.microsite p { text-align: justify;font-size: 14px;font-weight: normal;line-height: 20px;max-width: 400px;color: #999;margin-right: 10px}
-#banner div.microsite img { max-width: 100%; border-radius: 3px;margin-bottom: 15px }
-#games .button {display: block;width: 160px;background: #000;border: 3px solid #fff;border-radius: 80px;text-decoration: none; ; text-align: center; padding-bottom: 10px; padding-top: 10px }
-#games .button:hover {background-color: #fff; color: black; cursor: pointer;}
-
 a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
 a.button:hover { background:pink; color:black; }
 
@@ -143,7 +135,16 @@ ul.default li a { font-weight: bold }
 @media only screen and (max-width: 840px) {
   header { padding-top:15px; }
   header wr h1 { font-size: 34px; }
+  main columns { columns:1; }
   header wr h2 { display: none }
+  .footer { flex-wrap: wrap; justify-content: center; }
+  .footer_left, .footer_right { margin: 0 10px 10px; }
+  .footer_left { text-align: center; }
+  .footer_right { justify-content: center; flex-wrap: wrap; }
+  .footer_item_sub-item { width: 100%; justify-content: center; }*/
+  main columns { columns: auto; padding:0px; margin:0px; }
+  main gallery img {width: 50%;}
+  main > wr > .third {width: 100%;}
 
  /* main > wr > .third {width: 100%;}
   #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
