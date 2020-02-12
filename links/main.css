@@ -50,6 +50,7 @@ header ul li a.characters { background-image: url(../media/interface/menu/charac
 main { max-width: 800px; margin: 0px auto; }
 
 main { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
+main img.tools { width: 80%; max-width: 100% !important; border-radius: 3px; margin-bottom: 30px;}
 main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 main p.caption { font-style: italic; color:#999; font-size:16px; }
 main img.thumbnail { width:33.33%; display:block; float:left; }
@@ -121,8 +122,8 @@ img.lightbox:hover { opacity: 0.8 }
 
 #home img { max-width: 100% }
 
-a.button { font-size: 20px; border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
-a.button:hover { background:pink; color:black; }
+a.button { font-size: 15px; font-weight: bold;border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px;}
+a.button:hover { background:#808080 ; color:black; }
 
 ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
 ul.default li a { font-weight: bold }
