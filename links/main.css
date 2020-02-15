@@ -10,7 +10,7 @@ body { background:#000; color:#fff;  overflow-x: hidden}
 
 p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
 p.main { font-weight: bold; margin-bottom: 30px;}
-p a { color:white; text-decoration: underline; }
+p a { color:white; text-decoration: underline; font-weight: bold}
 b { font-weight: bold }
 table { margin-bottom: 30px}
 h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
@@ -63,8 +63,8 @@ main ul li { max-width:600px; margin-bottom:10px; padding-left:30px; font-size:1
 main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; }
 main ul li b { font-weight: bold; }
 main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
-main gallery { display: block; }
-main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
+main gallery { display: block; text-align: center}
+main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
 main gallery hr { margin-bottom:30px; }
 
 main quote { display: block }
