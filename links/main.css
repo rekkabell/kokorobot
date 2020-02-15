@@ -55,7 +55,7 @@ main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; marg
 main p.caption { font-style: italic; color:#999; font-size:16px; }
 main img.thumbnail { width:33.33%; display:block; float:left; }
 main p.intro {text-align: center;}
-main h3 { max-width: 600px; display: block; font-size: 24px;line-height: 30px;color:#999;font-weight: bold; margin:0px auto 30px; }
+main h3 { max-width: 600px; display: block; font-size: 30px;line-height: 30px;color:#ccc;font-weight: bold; margin:0px auto 30px; }
 main columns { max-width: 800px; display: block;columns: 2;column-gap: 30px;margin-bottom: 45px;margin:0px 10px 30px; padding: 0px 30px }
 main columns h2 { display: block;font-size: 30px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
 main columns p { font-size: 20px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;font-family: 'alegreya-regular'}
@@ -73,21 +73,25 @@ main list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30p
 main list ln { display: block; font-size:20px; }
 main list ln a { text-decoration: none;}
 main list ln a:hover { text-decoration: underline; }
-main ul { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; font-size: 18px;line-height: 26px}
-main ul li {}
-main ul li a { font-family: 'alegreya-bold'}
+main ul { display: block;max-width: 600px;color: white;font-size: 23px;margin: 0px auto 30px auto;line-height: 32px;}
+main ul li { max-width:600px; margin-bottom:15px; font-size:18px; padding-left:30px; line-height: 20px; font-size:18px; position: relative;}
+main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; font-family: 'alegreya-bold'}
+main ul li b { font-weight: bold; }
 main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 main gallery { display: block; }
 main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: block;float: left;}
 main gallery hr { margin-bottom:30px; }
 main quote { display: block }
 main quote p.text { font-size:20px; font-style: italic; color:white;}
-main quote p.attrib { font-size:16px; padding-left:30px; }
+main quote p.attrib { font-size:16px; padding-left:30px; color: #ccc; }
 main quote p.attrib:before { content:"— "; }
 main a.buybutton { font-family: "alte_haas_grotesk_bold";font-size: 15px;border-radius: 100px;background:#e85b46;color:white;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
 main a.buybutton:hover { background:#555; color:black; }
 main a.soldbutton { font-family: "alte_haas_grotesk_bold";font-size: 15px;border-radius: 100px;background:#555; color:black;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
 main gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
+
+.col2 { columns: 2 }
+.bullet { padding-left: 30px; border-left: 1.5px solid black }
 
 footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
 footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
@@ -146,6 +150,7 @@ ul.default li a { font-weight: bold }
   main columns { columns: auto; padding:0px; margin:0px; }
   main gallery img {width: 50%;}
   main > wr > .third {width: 100%;}
+  .col2 { columns: 1 }
 
  /* main > wr > .third {width: 100%;}
   #banner { max-width: 900px; margin: 0px auto 60px; padding: 0 5%; }
