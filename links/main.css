@@ -8,9 +8,6 @@
 
 body { background:#000; color:#fff;  overflow-x: hidden}
 
-p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
-p.main { font-weight: bold; margin-bottom: 30px;}
-p a { color:white; text-decoration: underline; font-weight: bold}
 b { font-weight: bold }
 table { margin-bottom: 30px}
 h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
@@ -66,7 +63,9 @@ main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margi
 main gallery { display: block; text-align: center}
 main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
 main gallery hr { margin-bottom:30px; }
-
+main p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
+main p.main { font-weight: bold; margin-bottom: 30px;}
+main p a { color:white; text-decoration: underline; font-weight: bold}
 main quote { display: block }
 main quote p.text { font-size:18px; font-style: italic; color:white;}
 main quote p.attrib { font-size:16px; padding-left:30px; color: #ccc; }
@@ -79,22 +78,7 @@ main gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
 main ul.col2 { columns: 2 }
 main.bullet {  }
 
-footer { display: flex; width: 100%; background: #fff; color: #000; padding: 30px 0; }
-footer a.about { font-weight: bold; display: inline-block; margin-top:5px; }
-footer a.about:hover { text-decoration: underline; }
-footer .footer_social { padding:7px; width: 20px; height: 20px; position: relative; }
-footer .footer_social:hover { opacity: 0.5 }
-footer .footer_item_sub-item { display: flex; justify-content: flex-end; }
-footer .footer_item { width: 50%; }
-footer .footer_left { margin-left: 30px; }
-footer .footer_right { margin-right: 30px; display: flex; justify-content: flex-end; align-items: center; }
-footer .footer_social_twitter::before { background: url("../media/interface/icon.twitter.png"); }
-footer .footer_social_patreon::before { background: url("../media/interface/icon.patreon.png"); }
-footer .footer_social_webring::before { background: url("../media/interface/icon.webring.png"); }
-footer .footer_social_100r::before { background: url("../media/interface/icon.100r.png"); }
-footer .footer_social_github::before { background: url("../media/interface/icon.github.png"); }
-footer .footer_social_mastodon::before { background: url("../media/interface/icon.mastodon.png"); }
-footer .footer_social::before { content: ''; position: absolute; height: 20px; width: 20px; background-size: 100%; background-position: center; filter: invert(100%); left: 50%; transform: translate(-50%); }
+footer { width: 100%; background: #fff; color: #000; padding: 30px; font-size: 14px;}
 
 /* To Clean */
 
@@ -128,11 +112,7 @@ ul.default li a { font-weight: bold }
   header wr h1 { font-size: 34px; }
   main columns { columns:1; }
   header wr h2 { display: none }
-  .footer { flex-wrap: wrap; justify-content: center; }
-  .footer_left, .footer_right { margin: 0 10px 10px; }
-  .footer_left { text-align: center; }
-  .footer_right { justify-content: center; flex-wrap: wrap; }
-  .footer_item_sub-item { width: 100%; justify-content: center; }*/
+  .footer {max-width: 830px}
   main columns { columns: auto; padding:0px; margin:0px; }
   main gallery img {width: 50%;}
   main > wr > .third {width: 100%;}
