@@ -15,6 +15,8 @@ h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
 hr { clear:both; }
 h3 {font-size: 20px; margin-bottom: 10px}
 
+a[href^="http://"]:not([href*="kokorobot.ca"]):after,
+a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
 header h2 { font-size:30px;position: fixed;top:10px;left:20px; }
