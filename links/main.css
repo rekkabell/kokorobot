@@ -34,6 +34,7 @@ header ul li a.store { background-image: url(../media/interface/menu/store.png);
 header ul li a.notes { background-image: url(../media/interface/menu/notes.png);  }
 header ul li a.characters { background-image: url(../media/interface/menu/characters.png);  }
 
+main > pre { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre}
 main > code { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre}
 main > code comment { color:#777}
 main { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
