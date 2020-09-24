@@ -3,7 +3,31 @@
 <code>sudo apt-get install imagemagick</code>
 <p>Convert your files, that's it.</p>
 <code>convert -reverse document.mng document.pdf</code>
+<h3>Make appimage executable</h3>
+<code>chmod +u <AppImage File></code>
 <h3>How to format USB on Linux</h3>
-<p>Insert the USB flash drive or SD card into your Linux machine and find the device name using this command:</p>
-<code>lsblk -fp</code>
-<p>The command will print a list of all available block devices:</p></main><footer><p><a href='about.html'>Rekka Bellum </a> © 2020 <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/hundredrabbits'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>
+<p>Insert the USB flash drive or SD card into your Linux machine and find the device name using the <b>lsblk -fp</b> command:</p>
+<code>$ lsblk -fp
+NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
+/dev/sda
+└─/dev/sda1                     LVM2_member             c52... 
+  ├─/dev/mapper/mint--vg-root   ext4                    183...   /
+  └─/dev/mapper/mint--vg-swap_1 swap                    337...   [SWAP]
+/dev/sdb
+└─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</code>
+<p>In the example above, the USB drive is recognized by the operating system as a disk named /dev/sdb with a single partition /dev/sdb1 mounted on /media/user/usb0. Unmount the USB drive if it is mounted:</p>
+<code>sudo umount /media/user/usb0</code>
+<p>Formatting types:</p>
+<ul>
+	<li>NTFS: The NT File System (NTFS) is the file system that modern Windows versions use by default.</li>
+    <li>HFS+: The Hierarchical File System (HFS+) is the file system modern macOS versions use by default.</li>
+    <li>APFS: The proprietary Apple file system developed as a replacement for HFS+, with a focus on flash drives, SSDs, and encryption. APFS was released with iOS 10.3 and macOS 10.13, and will become the mandatory file system for those operating systems.</li>
+    <li>FAT32: The File Allocation Table 32 (FAT32) was the standard Windows file system before NTFS.</li>
+    <li>exFAT: The extended File Allocation Table (exFAT) builds on FAT32 and offers a lightweight system without all the overhead of NTFS.</li>
+    <li>EXT 2, 3, & 4: The extended file system (EXT) was the first file system created specifically for the Linux kernel.</li>
+</ul>
+<p>To convert to FAT32, enter desired label name (optional):</p>
+<code>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</code>
+<h3>Launch Kristall via terminal</h3>
+<p>Type the following:</p>
+<code>./kristall</code></main><footer><p><a href='about.html'>Rekka Bellum </a> © 2020 <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/hundredrabbits'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>
