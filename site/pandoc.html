@@ -1,0 +1,143 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — pandoc</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Notes</a></li></ul></header><main class='pandoc'><h3><a id='content'>Contents</a></h3>
+
+<ul>
+	<li><a href='#whatispandoc'>What is Pandoc?</a></li>
+	<li><a href='#markdown'>Pandoc Markdown</a></li>
+	<li><a href='#install'>Installing Pandoc</a></li>
+	<li><a href='#latex'>Installing XeLaTeX, LaTeX</a></li>
+	<li><a href='#txtpdf'>From .txt to pdf</a></li>
+	<li><a href='#extensions'>Using Pandoc Markdown Extensions</a></li>
+	<li><a href='#papersize'>Changing papersize</a></li>
+	<li><a href='#addext'>Adding Extensions</a></li>
+</ul>
+
+<h3><a id='whatispandoc'>What is Pandoc?</a></h3>
+
+<p>Pandoc <a href='https://pandoc.org/index.html' target="_blank">converts files</a> from one markup format into another. You can convert an HTML page to Markdown, Markdown to PDF, Markdown to EPUB etc. It's a useful tool to create articles, scientific papers, and books.</p>
+
+<p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content.</p> 
+
+<p>This is a list of notes I've compiled when came time to learn how to generate PDFs with Pandoc. I am new to both Linux, and to using the command line (terminal). The Linux distribution I use is <a href='https://elementary.io' target="_blank">Elementary OS</a>, which comes with a variety of tools, it is very intuitive and a good transitory OS for beginners. My main workstation is a Macbook Pro 2011, I made the switch to Linux from MacOS in 2019, since my computer is an older, nonsupported machine.</p>
+
+<p>On Elementary OS, you can install apps via the AppCentre, but I prefer to get them using the terminal and command line. The command-line is used to enter commands to the operating system, you can browse folders, move files, or install and/or uninstall apps with it, instead of using a graphical user interface, or of 'physically' moving items around.</p>
+
+<p>Pandoc is used entirely in the terminal with the command line.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='markdown'>Pandoc Markdown</a></h3>
+
+<p>Make sure that the text you want turned into a PDF has a <b>.txt</b> extension, and take note of the path to your project file, as you'll need that to generate your PDF later. The next step is to add Pandoc Markdown syntax to the text</p>
+
+<p><a href='https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html%23raw-tex' target="_blank">Pandoc Markdown</a> is an extended and slightly revised version of John Gruber’s <a href='https://daringfireball.net/projects/markdown/' target="_blank">Markdown syntax</a>. Markdown is a simple, and easy-to-use markup language that can format any document. This language is used to annotate a document in a way that is syntactically distinguishable from the text.</p>
+
+<p>If you use a regular word processor, you can enlargen text to make 'headings', and add 'bold' to specific words for emphasis. Markdown is a way to do that, but instead of letting the word processor do the work, you've got to annotate the text yourself. To make text <b>bold</b>, add two asterisks on each side of the word:</p>
+
+<code>In January 2016, we bought our first sailboat, a **Yamaha 33**.</code>
+
+<p>Hash symbols preceding a word or phrase make a heading. Be sure to add a space between the hash and the first word:</p>
+
+<code>## Introduction</code>
+
+<img src="../media/interface/markdown.jpg" loading='lazy' class='tools'>
+
+<p>One hash would make the title bigger, three would make the heading smaller, four even smaller, five even smaller etc.</p>
+
+<p>For a complete syntax list, see <a href='https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html%23raw-tex' target="_blank">Pandoc Markdown</a>.</p>
+
+<p>Once your text file has Markdown syntax, it is time to install Pandoc.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='install'>Installing Pandoc on Linux</a></h3>
+
+<p>To install pandoc on Linux, you can generally use your package manager:</p>
+
+<code>sudo apt-get install Pandoc</code>
+
+<p><b>Sudo</b> is short for "superuser do", which is used when performing tasks that require root privileges (such as installing a new package). <b>Apt-get</b> is for installing, upgrading, and cleaning packages.</p>
+
+<p>Elementary OS uses the <b>dpkg packaging system</b>, and <b>apt</b> is a way to interact with it. I am using Elementary OS in this tutorial, but you can use any other Ubuntu-based Linux distribution, such as <b>Linux Mint</b>, <b>Linux Lite</b>, etc.</p>
+
+<p>After entering the above sudo command, you'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc.</p>
+
+<p>If you're using Elementary OS, know that it has out-dated packages, which means you'll get errors when you try to run it. The best thing to do is to download the <a href='https://github.com/jgm/pandoc/releases/tag/2.11.2' target="_">latest version</a> from the website directly. You'll want to get <b>pandoc-2.11.2-linux-amd64.tar.gz</b>. When you've downloaded it, unzip the file, and move the folder (named pandoc-2.11.1) to your Applications folder.</p>
+
+<p>You've got Pandoc, but it's not usable yet. You've got to use the terminal to 'unpack' the files:</p>
+
+<code>sudo dpkg -i ./Applications/pandoc-2.11.1</code>
+
+<p>You should have the latest version of Pandoc installed, to verify the version, type the following in the command line:</p>
+
+<code>pandoc --version</code>
+
+<p>You'll see the name of the version on top, which in this case, is version <b>2.11.1.</b></p>
+
+<code>pandoc 2.11.2
+Compiled with pandoc-types 1.22, texmath 0.12.0.3, skylighting 0.10.0.3,
+citeproc 0.2, ipynb 0.1.0.1
+User data directory: /home/rek/.local/share/pandoc or /home/rek/.pandoc
+Copyright (C) 2006-2020 John MacFarlane. Web:  https://pandoc.org
+This is free software; see the source for copying conditions. There is no
+warranty, not even for merchantability or fitness for a particular purpose.
+</code>
+
+<p>You now have Pandoc installed on your computer.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='latex'>Installing Tex Live</a></h3>
+
+<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the rendering engine. This is what will make your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
+
+<code>$ sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</code>
+
+<h3><a id='txtpdf'>From .txt. to pdf</a></h3>
+
+<p>To generate a PDF from your .txt file (written in Pandoc Markdown), locate your project file using the terminal. Use <b>cd</b> — which stands for 'change directory' to <b>cd</b> to navigate to your project folder. The example below is if you'd saved your .txt file to Documents, under a folder named "myproject". Remember, caps matter when using <b>cd</b></p>
+
+<code>cd Documents/myproject/</code>
+
+<p>Enter the following command, replacing "filename" with the name of your .txt file, and "filename_export" with for the final exported PDF file:</p>
+
+<code>filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
+
+<p>In that same folder where you had your .txt file saved, you'll find your Pandoc-generated PDF!</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='extensions'>Using Pandoc Markdown Extensions</a></h3>
+
+<p>In Pandoc, you can use Extensions (see below) to specify the output of your PDF more granularly, say if you want to change the paper size, add tables or footnotes etc.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='papersize'>Changing papersize</a></h3>
+
+<p>By default, the Pandoc PDF format is a4. If you want to change it, you'll have to add the following when generating the PDF in the command line:</p>
+
+<code>--variable=geometry:a5paper</code>
+
+<p>Appended with the rest, to generate the PDF from a .txt file, it'll look like this:</p>
+
+<code>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='addext'>Adding extensions</a></h3>
+
+<p>If you want add tables, you'll have to add an Extension. Extensions are specified in the command line when generating a PDF. In the example below, after <b>-- from markdown</b>, I've added a <b>+</b> followed by the extension <b>simple tables</b>. If the extension name has two words, adding an underscore between them is necessary.</p>
+
+<code>--from markdown+simple_tables</code>
+
+<p>You can add more extensions, adding a <b>+</b> inbetween each one. In the example below, I've added both <b>simple tables</b> and <b>citations</b>.</p>
+
+<code>--from markdown+simple_tables+citations</code>
+
+<p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
+
+<code>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</code>
+
+<img src='../media/interface/pandocpdf.png' loading='lazy' class="tools">
+
+<p>Back to <a href='#content'>top</a>.</p></main><footer><p><a href='about.html'>Rekka Bellum </a> © 2020 <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/hundredrabbits'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>
