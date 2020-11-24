@@ -5,7 +5,7 @@
 	<li><a href='#markdown'>Pandoc Markdown</a></li>
 	<li><a href='#install'>Installing Pandoc</a></li>
 	<li><a href='#latex'>Installing XeLaTeX, LaTeX</a></li>
-	<li><a href='#txtpdf'>From .txt to pdf</a></li>
+	<li><a href='#txtpdf'>From Markdown to PDF</a></li>
 	<li><a href='#extensions'>Using Pandoc Markdown Extensions</a></li>
 	<li><a href='#papersize'>Changing papersize</a></li>
 	<li><a href='#addext'>Adding Extensions</a></li>
@@ -17,11 +17,11 @@
 
 <p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content.</p> 
 
-<p>This is a list of notes I've compiled when came time to learn how to generate PDFs with Pandoc. This guide was made and tested on the <a href='https://elementary.io' target="_blank">Elementary</a> Linux distribution</p>
+<p>This is a list of notes I've compiled when came time to learn how to generate PDFs with Pandoc. This guide was made and tested on the <a href='https://elementary.io' target="_blank">Elementary</a> Linux distribution. It is for people with limited command-line experience.</p>
 
 <h3><a id='markdown'>Pandoc Markdown</a></h3>
 
-<p>Make sure that the text you want turned into a PDF has a <b>.txt</b> extension, and take note of the path to your project file, as you'll need that to generate your PDF later. The next step is to add Pandoc Markdown syntax to the text.</p>
+<p>Make sure that the file you want turned into a PDF has a <b>.txt</b> or <b>.md</b> (if you want syntax highlighting) extension, and take note of the path to your project file, as you'll need that to generate your PDF later. The next step is to add Pandoc Markdown syntax to the text.</p>
 
 <p><a href='https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html%23raw-tex' target="_blank">Pandoc Markdown</a> is an extended and slightly revised version of John Gruber’s <a href='https://daringfireball.net/projects/markdown/' target="_blank">Markdown syntax</a>. Markdown is a simple, and easy-to-use markup language to format plain-text content. This language is used to annotate a document in a way that is syntactically distinguishable from the text.</p>
 
@@ -41,16 +41,15 @@
 
 <h3><a id='install'>Installing Pandoc on Linux</a></h3>
 
-<p>To install pandoc on Linux, you can generally use your package manager or download the <a href='https://github.com/jgm/pandoc/releases/tag/2.11.2' target="_">latest version</a> from the website directly. You'll want to get <b>pandoc-2.11.2-linux-amd64.tar.gz</b>. When you've downloaded it, unzip the file, and move the folder (named pandoc-x.xx.x) to your Applications folder.</p>
+<p>To install pandoc on Linux, you can generally use your package manager, or download the <a href='https://github.com/jgm/pandoc/releases/tag/2.11.2' target="_">latest version</a> from the website directly. You'll want to get <b>pandoc-2.11.2-linux-amd64.tar.gz</b>. When you've downloaded it, unzip the file, and move the folder (named pandoc-x.xx.x) to your Applications folder.</p>
 
-<p>You've got Pandoc, but it's not usable yet. You've got to use the terminal to 'unpack' the files:</p>
+<p>You've got Pandoc, but it's not usable yet. You've got to use the terminal to 'unpack' the files. Write the path to Pandoc package, followed by the sudo command:</p>
 
-<code>
-cd ~/Applications
+<code>cd ~/Applications
 sudo dpkg -i ./pandoc-2.11.1
 </code>
 
-<p>After entering the above sudo command, you'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc.</p>
+<p>You'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc.</p>
 
 <p>You should have the latest version of Pandoc installed, to verify the version, type the following in the command line:</p>
 
@@ -61,7 +60,7 @@ sudo dpkg -i ./pandoc-2.11.1
 <code>pandoc 2.11.2
 Compiled with pandoc-types 1.22, texmath 0.12.0.3, skylighting 0.10.0.3,
 citeproc 0.2, ipynb 0.1.0.1
-User data directory: /home/rek/.local/share/pandoc or /home/rek/.pandoc
+User data directory: /home/user/.local/share/pandoc or /home/user/.pandoc
 Copyright (C) 2006-2020 John MacFarlane. Web:  https://pandoc.org
 This is free software; see the source for copying conditions. There is no
 warranty, not even for merchantability or fitness for a particular purpose.
@@ -75,13 +74,13 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <code>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</code>
 
-<h3><a id='txtpdf'>From .txt. to pdf</a></h3>
+<h3><a id='txtpdf'>From Markdown to pdf</a></h3>
 
-<p>To generate a PDF from your .txt file (written in Pandoc Markdown), locate your project file using the terminal. Use <b>cd</b> — which stands for 'change directory' to <b>cd</b> to navigate to your project folder. The example below is if you'd saved your .txt file to Documents, under a folder named "myproject". Remember, caps matter when using <b>cd</b></p>
+<p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the terminal. Use <b>cd</b> to navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named "myproject". Remember, caps matter when using <b>cd</b>:</p>
 
 <code>cd Documents/myproject/</code>
 
-<p>Enter the following command, replacing "filename" with the name of your .txt file, and "filename_export" with for the final exported PDF file:</p>
+<p>Enter the following command, replacing "filename" with the name of your project file, and "filename_export" with for the final exported PDF file:</p>
 
 <code>pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
 
@@ -97,9 +96,11 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <code>--variable=geometry:a5paper</code>
 
-<p>Appended with the rest, to generate the PDF from a .txt file, it'll look like this:</p>
+<p>Appended with the rest, to generate the PDF from a Markdown file, it'll look like this:</p>
 
 <code>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
+
+<p>If you're file is a <b>.md</b>, change the extension of your project file.</p>
 
 <h3><a id='addext'>Adding extensions</a></h3>
 
@@ -113,6 +114,6 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
 
-<code>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</code>
+<code>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</code>
 
 <img src='../media/interface/pandocpdf.png' loading='lazy' class="tools">
