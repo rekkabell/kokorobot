@@ -23,11 +23,11 @@
 <p><b>GIMP</b>. Open image with GIMP, go to File > Export As, click on Export and in the export options, expand the Advanced Options panel and uncheck Save EXIF data and/or Save XMP data.</p>
 <p><b>For Linux users</b></p>
 <p>Install ExifTool if you don't have it.</p>
-<code>$ sudo apt-get install libimage-exiftool-perl</code>
+<pre>$ sudo apt-get install libimage-exiftool-perl</pre>
 <p>Remove all metadata from an image or photo:</p>
-<code>$ exiftool -all= image.jpeg</code>
+<pre>$ exiftool -all= image.jpeg</pre>
 <p>To remove all metadata from multiple images or photos, go into the directory with the images. Execute the following command to remove all metadata from all images in the current directory:</p>
-<code>$ exiftool -all= *</code>
+<pre>$ exiftool -all= *</pre>
 
 <h3><a id='sprites'>CSS sprites</a></h3>
 <p>Another way to optimize images is to use CSS sprites. This refers to combining several images into a single image and then applying CSS to display an individual image as required. This saves bandwidth because fewer requests are sent for the images.</p>

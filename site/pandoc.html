@@ -27,11 +27,11 @@
 
 <p>For example, to make text <b>bold</b>, add two asterisks on each side of the word:</p>
 
-<code>In January 2016, we bought our first sailboat, a **Yamaha 33**.</code>
+<pre>In January 2016, we bought our first sailboat, a **Yamaha 33**.</pre>
 
 <p>Hash symbols preceding a word or phrase make a heading. Be sure to add a space between the hash and the first word:</p>
 
-<code>## Introduction</code>
+<pre>## Introduction</pre>
 
 <img src="../media/interface/markdown.jpg" loading='lazy' class='tools'>
 
@@ -45,26 +45,26 @@
 
 <p>You've got Pandoc, but it's not usable yet. You've got to use the terminal to 'unpack' the files. Write the path to Pandoc package, followed by the sudo command:</p>
 
-<code>cd ~/Applications
+<pre>cd ~/Applications
 sudo dpkg -i ./pandoc-2.11.1
-</code>
+</pre>
 
 <p>You'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc.</p>
 
 <p>You should have the latest version of Pandoc installed, to verify the version, type the following in the command line:</p>
 
-<code>pandoc --version</code>
+<pre>pandoc --version</pre>
 
 <p>You'll see the name of the version on top, which in this case, is version <b>2.11.1.</b></p>
 
-<code>pandoc 2.11.2
+<pre>pandoc 2.11.2
 Compiled with pandoc-types 1.22, texmath 0.12.0.3, skylighting 0.10.0.3,
 citeproc 0.2, ipynb 0.1.0.1
 User data directory: /home/user/.local/share/pandoc or /home/user/.pandoc
 Copyright (C) 2006-2020 John MacFarlane. Web:  https://pandoc.org
 This is free software; see the source for copying conditions. There is no
 warranty, not even for merchantability or fitness for a particular purpose.
-</code>
+</pre>
 
 <p>You now have Pandoc installed on your computer.</p>
 
@@ -72,17 +72,17 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the rendering engine. This is what will make your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
 
-<code>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</code>
+<pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
 
 <h3><a id='txtpdf'>From Markdown to pdf</a></h3>
 
 <p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the terminal. Use <b>cd</b> to navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named "myproject". Remember, caps matter when using <b>cd</b>:</p>
 
-<code>cd Documents/myproject/</code>
+<pre>cd Documents/myproject/</pre>
 
 <p>Enter the following command, replacing "filename" with the name of your project file, and "filename_export" with for the final exported PDF file:</p>
 
-<code>pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
+<pre>pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf</pre>
 
 <p>In that same folder where you had your .txt file saved, you'll find your Pandoc-generated PDF!</p>
 
@@ -94,11 +94,11 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <p>By default, the Pandoc PDF format is a4. If you want to change it, you'll have to add the following when generating the PDF in the command line:</p>
 
-<code>--variable=geometry:a5paper</code>
+<pre>--variable=geometry:a5paper</pre>
 
 <p>Appended with the rest, to generate the PDF from a Markdown file, it'll look like this:</p>
 
-<code>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex -o filename_export.pdf</code>
+<pre>--variable=geometry:a5paper filename.txt --pdf-engine=xelatex -o filename_export.pdf</pre>
 
 <p>If you're file is a <b>.md</b>, change the extension of your project file.</p>
 
@@ -106,15 +106,15 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <p>If you want add tables, you'll have to add an Extension. Extensions are specified in the command line when generating a PDF. In the example below, after <b>-- from markdown</b>, I've added a <b>+</b> followed by the extension <b>simple tables</b>. If the extension name has two words, adding an underscore between them is necessary.</p>
 
-<code>--from markdown+simple_tables</code>
+<pre>--from markdown+simple_tables</pre>
 
 <p>You can add more extensions, adding a <b>+</b> inbetween each one. In the example below, I've added both <b>simple tables</b> and <b>citations</b>.</p>
 
-<code>--from markdown+simple_tables+citations</code>
+<pre>--from markdown+simple_tables+citations</pre>
 
 <p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
 
-<code>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</code>
+<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</pre>
 
 <img src='../media/interface/pandocpdf.png' loading='lazy' class="tools">
 </main><footer><p><a href='about.html'>Rekka Bellum </a> © 2020 <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/hundredrabbits'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>

@@ -1,22 +1,22 @@
 <h3>Export images to pdf with GIMP</h3>
 <p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
-<code>sudo apt-get install imagemagick</code>
+<pre>sudo apt-get install imagemagick</pre>
 <p>Convert your files, that's it.</p>
-<code>convert -reverse document.mng document.pdf</code>
+<pre>convert -reverse document.mng document.pdf</pre>
 <h3>Make appimage executable</h3>
-<code>chmod +u <AppImage File></code>
+<pre>chmod +u <AppImage File></pre>
 <h3>How to format USB on Linux</h3>
 <p>Insert the USB flash drive or SD card into your Linux machine and find the device name using the <b>lsblk -fp</b> command:</p>
-<code>$ lsblk -fp
+<pre>$ lsblk -fp
 NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 /dev/sda
 └─/dev/sda1                     LVM2_member             c52... 
   ├─/dev/mapper/mint--vg-root   ext4                    183...   /
   └─/dev/mapper/mint--vg-swap_1 swap                    337...   [SWAP]
 /dev/sdb
-└─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</code>
+└─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</pre>
 <p>In the example above, the USB drive is recognized by the operating system as a disk named /dev/sdb with a single partition /dev/sdb1 mounted on /media/user/usb0. Unmount the USB drive if it is mounted:</p>
-<code>sudo umount /media/user/usb0</code>
+<pre>sudo umount /media/user/usb0</pre>
 <p>Formatting types:</p>
 <ul>
 	<li>NTFS: The NT File System (NTFS) is the file system that modern Windows versions use by default.</li>
@@ -27,7 +27,7 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
     <li>EXT 2, 3, & 4: The extended file system (EXT) was the first file system created specifically for the Linux kernel.</li>
 </ul>
 <p>To convert to FAT32, enter desired label name (optional):</p>
-<code>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</code>
+<pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
 <h3>Launch Kristall via terminal</h3>
 <p>Type the following:</p>
-<code>./kristall</code>
+<pre>./kristall</pre>
