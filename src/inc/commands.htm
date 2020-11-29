@@ -1,11 +1,53 @@
-<h3>Export images to pdf with GIMP</h3>
+<h3><a id='content'>Contents</a></h3>
+
+<ul>
+	<li><a href='#brokenpipe'>How to fix broken pipe in an SSH session</a></li>
+	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
+	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
+	<li><a href='#formatusb'>How to format USB on Linux</a></li>
+	<li><a href='#kristalllaunch'>Launch Kristall</a></li>
+</ul>
+
+<p>I use <a href='https://fishshell.com/' target="_blank">fish</a>, a command line shell, commands may vary because of this.</p>
+
+<h3>A list of some useful commands:</h3>
+
+<ul>
+    <li><b>cd</b>, change the current directory</li>
+    <li><b>ls</b>, list files and directories</li>
+    <li><b>man</b>, display a manual page on the screen</li>
+    <li><b>mv</b>, move (rename) files</li>
+    <li><b>cp</b>, copy files</li>
+    <li><b>open</b>, open files with the default application associated with each filetype</li>
+    <li><b>less</b>, list the contents of files</li>
+</ul>
+
+<h3><a id='brokenpipe'>How to fix broken pipe in an SSH session</a></h3>
+<p>Sometimes session disconnects with a <b>write failed: broken pipe</b> message. My server closed the connections because they were idling for too long. To fix it, update your your client <b>(ServerAliveInterval)</b> or your server <b>(ClientAliveInterval)</b>.</p>
+<p><b>ServerAliveInterval</b>. Sets a timeout interval in seconds after which if no data has been received from the server, ssh(1) will send a message through the encrypted channel to request a response from the server. The default is 0, indicating that these messages will not be sent to the server.  This option applies to protocol version 2 only.</p>
+<p><b>ClientAliveInterval</b>. Sets a timeout interval in seconds after which if no data has been received from the client, sshd(8) will send a message through the encrypted channel to request a response from the
+client. The default is 0, indicating that these messages will not be sent to the client.  This option applies to protocol version 2 only.</p>
+<p>To update your server (and restart your sshd)</p>
+<pre>echo "ClientAliveInterval 60" | sudo tee -a /etc/ssh/sshd_config</pre>
+<p>Or client-side:</p>
+<pre>echo "ServerAliveInterval 60" >> ~/.ssh/config</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='exportimagesgimp'>Export images to pdf with GIMP</a></h3>
 <p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
 <pre>sudo apt-get install imagemagick</pre>
 <p>Convert your files, that's it.</p>
 <pre>convert -reverse document.mng document.pdf</pre>
-<h3>Make appimage executable</h3>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='appimagesexecute'>Make appimage executable</a></h3>
 <pre>chmod +u <AppImage File></pre>
-<h3>How to format USB on Linux</h3>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='formatusb'>How to format USB on Linux</a></h3>
 <p>Insert the USB flash drive or SD card into your Linux machine and find the device name using the <b>lsblk -fp</b> command:</p>
 <pre>$ lsblk -fp
 NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
@@ -28,6 +70,11 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 </ul>
 <p>To convert to FAT32, enter desired label name (optional):</p>
 <pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
-<h3>Launch Kristall via terminal</h3>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='kristalllaunch'>Launch Kristall</a></h3>
 <p>Type the following:</p>
 <pre>./kristall</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
