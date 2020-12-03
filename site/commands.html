@@ -6,6 +6,7 @@
 	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
 	<li><a href='#formatusb'>How to format USB on Linux</a></li>
 	<li><a href='#kristalllaunch'>Launch Kristall</a></li>
+    <li><a href='#terminaldict'>Install terminal dictionary</li>
 </ul>
 
 <p>I use <a href='https://fishshell.com/' target="_blank">fish</a>, a command line shell, commands may vary because of this.</p>
@@ -76,5 +77,31 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 <h3><a id='kristalllaunch'>Launch Kristall</a></h3>
 <p>Type the following:</p>
 <pre>./kristall</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='terminaldict'>Install a terminal dictionary</h3>
+
+<p>Half of the online searches I make are for word definitions, or synonyms. A good physical dictionary is useful, but there are times when searching online is quicker. I didn't want to use anything with an interface, as they tend to be messy, and in this case, my needs are very simple. A terminal dictionary as for me, the better option. Enter SDCV.</p>
+
+<p>SDCV, or StarDict Console Version, is the terminal utility version of StarDict extensible GUI dictionary application. Here's how to install it:</p>
+
+<pre>sudo apt-get install sdcv</pre>
+
+<p>SDCV is now installed, but has no dictionaries to search from yet. SDCV requires files in a DICT format. You can pick the ones you want from the list <a href='http://www.huzheng.org/stardict/' target="_blank">here</a>, recommended by StarDict. To start, you can download the <a href='http://download.huzheng.org/dict.org/stardict-dictd_www.dict.org_gcide-2.4.2.tar.bz2' target="_blank">Collaborative International Dictionary of English</a>.</p>
+
+<p>Next, navigate to the folder where you will place your dictionary.</p>
+
+<pre>cd /usr/share</pre>
+
+<p>Make a directory named 'stardict', and another in it named 'dic'. To make a directory, use <b>sudo mkdir</b> followed by the name of your new directory.</p>
+
+<p>Next, we'll uncompress and move the dictionary in one go, using the following command. Modify <b>INSERTNAME</b> with the name of the file you've downloaded.</p>
+
+<pre>sudo tar -xjvf INSERTNAME -C /usr/share/stardict/dic</pre>
+
+<p>Enter your password, and voila! To use SDCV, type <b>sdcv</b> followed by the word you're looking for, for example:</p>
+
+<pre>sdcv tortilla</pre>
 
 <p>Back to <a href='#content'>top</a>.</p></main><footer><p><a href='about.html'>Rekka Bellum </a> © 2020 <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/hundredrabbits'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>
