@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?><rss version='2.0' xmlns:dc='http://purl.org/dc/elements/1.1/'><channel>
+
+
+<title>Kokorobot</title>
+<link><![CDATA[https://100r.co/]]></link>
+<description>Kokorobot— personal site of Rekka Bellum</description>
+ <image>
+<url>https://kokorobot.ca/media/services/rss.jpg</url>
+<title>Kokorobot</title>
+<link>https://kokorobot.ca</link>
+</image>
+<item>
+  <title>Conversion charts</title>
+  <link>https://kokorobot.ca/site/conversion.html</link>
+  <guid isPermaLink='false'>Conversion charts</guid>
+  <pubDate>Mon, 14 Dec 2020 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+<![CDATA[<p>Metrication in Canada began in 1970, but today, there is still use of non-metric units in everyday life. The reason for this, is due to the country's historical ties to the UK, and because of its proximity to the US.</p>
+
+<p>Much of the english content on the internet is by American users who use the Imperial system. I find myself converting recipe volumes, and measurements almost everyday. I saved this table to help me convert with ease, without resorting to online calculators.</p><a href='https://kokorobot.ca/site/conversion.html'>Continue Reading</a></p>]]>
+  </description>
+</item>
+</channel></rss>
