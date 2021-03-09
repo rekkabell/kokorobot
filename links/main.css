@@ -17,6 +17,7 @@ h3 {font-size: 20px; margin-bottom: 10px}
 
 a[href^="http://"]:not([href*="kokorobot.ca"]):after,
 a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
+a.noglyph:after { content:"" !important; }
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
 header h2 { font-size:30px;position: fixed;top:10px;left:20px; }
@@ -51,7 +52,7 @@ main columns p a:hover { text-decoration: underline; }
 main columns a:link {text-decoration: none}
 main columns a:hover {text-decoration: underline}
 main columns list { margin-bottom:30px; }
-main > wr { padding:0px; display: block; padding:0px 30px; }
+main > wr { padding:0px; float;left;display: block; padding:0px 30px; }
 main > wr { padding:0px !important; display: block; padding:0px 30px; }
 main > wr > .third { display: block;float: left;width: 33.33%; text-align: center; margin-bottom: 15px;}
 main > wr > .third img { width: calc(10text-align:center0% - 15px);display: block;margin: 0px auto 20px;border-radius: 3px; }
