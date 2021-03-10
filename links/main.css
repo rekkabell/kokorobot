@@ -52,10 +52,10 @@ main columns p a:hover { text-decoration: underline; }
 main columns a:link {text-decoration: none}
 main columns a:hover {text-decoration: underline}
 main columns list { margin-bottom:30px; }
-main > wr { padding:0px; float;left;display: block; padding:0px 30px; }
+main > wr { padding:0px; display: block; padding:0px 30px; }
 main > wr { padding:0px !important; display: block; padding:0px 30px; }
 main > wr > .third { display: block;float: left;width: 33.33%; text-align: center; margin-bottom: 15px;}
-main > wr > .third img { width: calc(10text-align:center0% - 15px);display: block;margin: 0px auto 20px;border-radius: 3px; }
+main > wr > .third img { width: calc(10text-align:center0% - 15px);display: block;margin: 0px auto 5px;border-radius: 3px; }
 main > wr > .third img {max-width: calc((100% - 80px) - 20px);display: block;margin: 0px auto 20px;border-radius: 3px; }
 
 main list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
@@ -68,11 +68,8 @@ main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; }
 main ul li b { font-weight: bold; }
 main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 main gallery { display: block; text-align: center}
-main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block; }
+main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
 main gallery hr { margin-bottom:30px; }
-main .container {position: relative; text-align: center;}
-main .centered {position: absolute;bottom: 2px;right: 2px;}
-
 main p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
 main p.main { font-weight: bold; margin-bottom: 30px;}
 main p a { color:white; text-decoration: underline; font-weight: bold}
