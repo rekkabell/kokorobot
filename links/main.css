@@ -68,8 +68,11 @@ main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; }
 main ul li b { font-weight: bold; }
 main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
 main gallery { display: block; text-align: center}
-main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
+main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block; }
 main gallery hr { margin-bottom:30px; }
+main .container {position: relative; text-align: center;}
+main .centered {position: absolute;bottom: 2px;right: 2px;}
+
 main p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
 main p.main { font-weight: bold; margin-bottom: 30px;}
 main p a { color:white; text-decoration: underline; font-weight: bold}
