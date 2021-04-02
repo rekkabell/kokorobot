@@ -9,6 +9,7 @@
 	<li><a href='#extensions'>Using Pandoc Markdown Extensions</a></li>
 	<li><a href='#papersize'>Changing papersize</a></li>
 	<li><a href='#addext'>Adding Extensions</a></li>
+	<li><a href='#bookcover'>Book cover for PDF</a></li>
 	<li><a href='#epub'>Making Epubs</a></li>
 	<li><a href='#mobi'>Mobi conversion</a></li>
 </ul>
@@ -118,6 +119,20 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</pre>
 
+<h3><a id='bookcover'>Book cover PDF</a></h3>
+
+<p>Adding a book cover for a PDF with pandoc is not straightforward, or maybe there is something I am missing? I could not figure out how to add images as full-page covers, BUT—I found a workaround to do it...and again, another big BUT! It requires the download, and installation of <a href='https://imagemagick.org/index.php' target="_blank">ImageMagick</a>.</p>
+
+<p>If you don't have ImageMagick, I highly recommend it. It's great to create, edit, compose, or convert digital images in tons of formats. We will use ImageMagick to convert the cover image into a pdf, which in turn, we will combine together into yet another pdf.</p>
+
+<p>Once you've installed ImageMagick, save your cover image in your project folder. If you put it in a seperate folder, be sure to specify it. Now, use this ImageMagick command to convert the image to a pdf:</p>
+
+<pre>convert cover.jpg cover.pdf</pre>
+
+<p>To combine the cover pdf with the main text pdf use the following command, note that the combined.pdf is the name of your final, merged pdf:</p>
+
+<pre>pdfunite cover.pdf filename.pdf combined.pdf</pre>
+
 <h3><a id='epub'>Making epubs</a></h3>
 
 <p>Epub is a popular ebook format, but if you convert your markdown file it may break some of your formatting. For example, Epubs ignore the <b>\newpage</b> Markdown tag, but adding a page break to a header with css fixes that problem. It's possible to control the final look of the document with css. First step is to create a blank text file, and to save it as <b>epub.css</b>.</p>
@@ -168,9 +183,11 @@ table-of-contents: true
 
 <pre>--epub-metadata=metadata.yaml</pre>
 
-<p>To add a cover, save the file to the folder with the rest of your text, and pass it to pandoc as an argument:</p>
+<p><b>Book cover</b>: To add a cover, save the file to the folder with the rest of your text, and pass it to pandoc as an argument:</p>
 
 <pre>--epub-cover-image=cover.jpg</pre>
+
+<p>
 
 <p>The final pandoc command to convert a file from Markdown to Epub would look like this (with variations, depending on the extensions you choose):</p>
 
