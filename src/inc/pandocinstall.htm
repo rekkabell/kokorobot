@@ -1,0 +1,65 @@
+<p>Here is how to install the various tools required to make PDFs, EPUBs and MOBIs with Pandoc. If you only have plans to make PDFs, only install Pandoc and LateX.</p>
+
+<h3><a id='content'>Contents</a></h3>
+<ul>
+	<li><a href='#install'>Installing Pandoc</a></li>
+	<li><a href='#latex'>Installing XeLaTeX, LaTeX</a></li>
+	<li><a href='#calibre'>Installing Calibre</a></li>
+	<li><a href='#magick'>Installing ImageMagick</a></li>
+</ul>
+
+<h3><a id='install'>Installing Pandoc on Linux</a></h3>
+
+<p>To install Pandoc on Linux, you can generally use your package manager, or download the <a href='https://github.com/jgm/pandoc/releases/tag/2.11.2' target="_">latest version</a> from the website directly. You'll want to get <b>pandoc-2.11.2-linux-amd64.tar.gz</b>. When you've downloaded it, unzip the file, and move the folder (named pandoc-x.xx.x) to your Applications folder.</p>
+
+<p>You've got Pandoc, but it's not usable yet, you've got to use the terminal to unpack the files. Write the path to the Pandoc package, followed by the sudo command:</p>
+
+<pre>cd ~/Applications
+sudo dpkg -i ./pandoc-2.11.1
+</pre>
+
+<p>You'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc. You should have the latest version of Pandoc installed, to verify the version, type the following in the command line:</p>
+
+<pre>pandoc --version</pre>
+
+<p>You'll see the name of the version on top, which in this case, is version <b>2.11.1.</b></p>
+
+<pre>pandoc 2.11.2
+Compiled with pandoc-types 1.22, texmath 0.12.0.3, skylighting 0.10.0.3,
+citeproc 0.2, ipynb 0.1.0.1
+User data directory: /home/user/.local/share/pandoc or /home/user/.pandoc
+Copyright (C) 2006-2020 John MacFarlane. Web:  https://pandoc.org
+This is free software; see the source for copying conditions. There is no
+warranty, not even for merchantability or fitness for a particular purpose.
+</pre>
+
+<p>You now have the latest version of Pandoc installed on your computer.</p>
+
+<h3><a id='latex'>Installing Tex Live</a></h3>
+
+<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
+
+<pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
+
+<h3><a id='calibre'>Calibre</a></h3>
+
+<p><a href='https://calibre-ebook.com/download_linux' target='_blank'>Calibre</a> is a free and open-source e-book manager. It allows users to manage e-book collections as well as to create, edit, and read e-books.</p>
+
+<p>Next step, install Calibre. Beware that the distribution provided calibre package are often buggy/outdated. It is better to get it with this command:</p>
+
+<pre>sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"</pre>
+
+<p>Since I use <a href='https://fishshell.com/docs/current/index.html' target='_blank'>fish</a>, I have to use the <b>bash</b> command with the <b>-c</b> switch to read from a string:</p>
+
+<pre>bash -c 'sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin'
+</pre>
+
+<p>Voila, you have Calibre.</p>
+
+<h3><a id='magick'>ImageMagick</a></h3>
+
+<p>If you don't have <a href='https://imagemagick.org/script/download.php' target='_blank'>ImageMagick</a>, I highly recommend it. It's great to create, edit, compose, or convert digital images in tons of formats.</p>
+
+<p>Install the app using the following command:</p>
+
+<pre>sudo apt install imagemagick</pre>
