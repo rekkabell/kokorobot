@@ -10,6 +10,16 @@
 <link>https://kokorobot.ca</link>
 </image>
 <item>
+  <title>Pandoc notes</title>
+  <link>https://kokorobot.ca/site/pandoc.html</link>
+  <guid isPermaLink='false'>Pandoc</guid>
+  <pubDate>Thu, 01 Apr 2021 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+    <![CDATA[<p>I updated my notes on using pandoc to publish e-books to include exports to Epubs and Mobi.<a href='https://kokorobot.ca/site/pandoc.html'>Continue Reading</a></p><img src="https://kokorobot/media/interface/pandocpdf.png">]]>
+  </description>
+</item>
+<item>
   <title>Wunderland Rabbits</title>
   <link>https://kokorobot.ca/site/wunderrabbits.html</link>
   <guid isPermaLink='false'>Wunderland Rabbits</guid>
