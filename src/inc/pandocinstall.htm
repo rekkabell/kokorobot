@@ -44,13 +44,13 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='calibre'>Calibre</a></h3>
 
-<p><a href='https://calibre-ebook.com/download_linux' target='_blank'>Calibre</a> is a free and open-source e-book manager. It allows users to manage e-book collections as well as to create, edit, and read e-books.</p>
+<p><a href='https://calibre-ebook.com/download_linux' target='_blank'>Calibre</a> is an e-book manager. It allows users to manage e-book collections as well as to create, edit, and read e-books. It's not a light tool. In fact, it requires a LOT of dependencies to work, but hey... it's open source, and free, and it works well.</p>
 
-<p>Next step, install Calibre. Beware that the distribution provided calibre package are often buggy/outdated. It is better to get it with this command:</p>
+<p>You can install it using <b>apt-get</b>, but beware that the distribution provided calibre package are often buggy and outdated. It is better to use the binary install:</p>
 
 <pre>sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"</pre>
 
-<p>Since I use <a href='https://fishshell.com/docs/current/index.html' target='_blank'>fish</a>, I have to use the <b>bash</b> command with the <b>-c</b> switch to read from a string:</p>
+<p>Since I use <a href='https://fishshell.com/docs/current/index.html' target='_blank'>fish</a>, I have to use the <b>bash</b> command with the <b>-c</b> switch to read from a string. Ignore if you're not using fish:</p>
 
 <pre>bash -c 'sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin'
 </pre>
@@ -67,7 +67,7 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='pdfunite'>PDF unite</a></h3>
 
-<p>Pdfunite does what its name suggests it does, merge pdfs. It is part of the poppler-utils package, install it using the following command:</p>
+<p>Pdfunite does what its name suggests it does: merge pdfs. It is part of the poppler-utils package, install it using the following command:</p>
 
 <pre>sudo apt-get install poppler-utils</pre>
 
