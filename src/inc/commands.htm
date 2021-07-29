@@ -3,6 +3,7 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#remote'>Update remote from http(s) to ssh</li>
 	<li><a href='#brokenpipe'>How to fix broken pipe in an SSH session</a></li>
 	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
 	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
@@ -23,6 +24,11 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
+
+<p>Look inside .git/config in your repo, and change the relevant remotes to look like:</p>
+<pre>url = git@github.com:<user>/<repo>.git</pre>
 
 <h3><a id='brokenpipe'>How to fix broken pipe in an SSH session</a></h3>
 <p>Sometimes session disconnects with a <b>write failed: broken pipe</b> message. My server closed the connections because they were idling for too long. To fix it, update your your client <b>(ServerAliveInterval)</b> or your server <b>(ClientAliveInterval)</b>.</p>
