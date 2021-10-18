@@ -1,11 +1,27 @@
 <p>The use of images increases the size of a web page which considerably lowers the load speed of the page. To improve the speed of your website it is important to consider compressing or resizing images.</p>
 
 <ul>
+	<li><a href='#compression'>Compression parameters</a></li>
 	<li><a href='#lazy'>Lazy loading</a></li>
 	<li><a href='#dithering'>Dithering</a></li>
 	<li><a href='#meta'>Metadata</a></li>
 	<li><a href='#sprites'>Css sprites</a></li>
 </ul>
+
+<h3><a id='compression'>Compression parameters</h3>
+<p>Convert arguments/parameters to balance quality with file size using <a href='https://imagemagick.org/index.php' target="_blank">ImageMagick</a>:</p>
+
+<pre>convert image.input.jpg \
+-sampling-factor 4:2:0 \
+-strip \
+-quality 85 \
+-interlace JPEG \
+-colorspace RGB \
+image.output.jpg </pre>
+
+<p>To process multiple files, use <b>mogrify</b>. This overwrites all existing files with a jpg extension:</p>
+
+<pre>mogrify -format jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB *.jpg</pre>
 
 <h3><a id='lazy'>Lazy loading</a></h3>
 <p>Lazy Loading is a set of techniques in web and application development that defers the loading of resources on a page to a later point in time—when those resources are actually needed instead of loading them up front. These techniques help in improving performance, better utilization of the device’s resources and reducing associated costs.</p>
