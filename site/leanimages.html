@@ -67,8 +67,8 @@ image.output.jpg </pre>
 <p><b>ImageMagick</b></p>
 <p>To process a single image:</p>
 <pre>convert -strip "[path to image]"</pre>
-<p>To process a directory:</p>
-<pre>mogrify -strip /example/directory/*</pre>
+<p>To process a directory of jpegs, navigate to directly and enter:</p>
+<pre>mogrify -strip *.jpg</pre>
 
 <h3><a id='sprites'>CSS sprites</a></h3>
 <p>Another way to optimize images is to use CSS sprites. This refers to combining several images into a single image and then applying CSS to display an individual image as required. This saves bandwidth because fewer requests are sent for the images.</p>
