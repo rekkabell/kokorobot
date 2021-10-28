@@ -1,13 +1,9 @@
 <h3>Spellbook</h3>
 
-<h2><a id='content'>Contents</a></h2>
-
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
-    <li><a href='#massresize'>Mass image resize</li>
     <li><a href='#remote'>Update remote from http(s) to ssh</li>
-	<li><a href='#brokenpipe'>How to fix broken pipe in an SSH session</a></li>
 	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
 	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
 	<li><a href='#formatusb'>How to format USB on Linux</a></li>
@@ -28,35 +24,10 @@
     <li><b>less</b>, list the contents of files</li>
 </ul>
 
-<h3><a id='massresize'>Mass image resize</a></h3>
-
-<p>Using ImageMagick resize an entire folder. These commands overwrite existing files:</p>
-
-<p>To resize to a specific size:</p>
-<pre>mogrify -resize 1200x679 *.jpg
-</pre>
-
-<p>To specify just an image height, this will preserve the aspect ratio of the images:</p>
-
-<pre>mogrify -geometry x679 *.jpg
-</pre>
-
 <h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
 
 <p>Look inside .git/config in your repo, and change the relevant remotes to look like:</p>
 <pre>url = git@github.com:<user>/<repo>.git</pre>
-
-<h3><a id='brokenpipe'>How to fix broken pipe in an SSH session</a></h3>
-<p>Sometimes session disconnects with a <b>write failed: broken pipe</b> message. My server closed the connections because they were idling for too long. To fix it, update your your client <b>(ServerAliveInterval)</b> or your server <b>(ClientAliveInterval)</b>.</p>
-<p><b>ServerAliveInterval</b>. Sets a timeout interval in seconds after which if no data has been received from the server, ssh(1) will send a message through the encrypted channel to request a response from the server. The default is 0, indicating that these messages will not be sent to the server.  This option applies to protocol version 2 only.</p>
-<p><b>ClientAliveInterval</b>. Sets a timeout interval in seconds after which if no data has been received from the client, sshd(8) will send a message through the encrypted channel to request a response from the
-client. The default is 0, indicating that these messages will not be sent to the client.  This option applies to protocol version 2 only.</p>
-<p>To update your server (and restart your sshd)</p>
-<pre>echo "ClientAliveInterval 60" | sudo tee -a /etc/ssh/sshd_config</pre>
-<p>Or client-side:</p>
-<pre>echo "ServerAliveInterval 60" >> ~/.ssh/config</pre>
-
-<p>Back to <a href='#content'>top</a>.</p>
 
 <h3><a id='exportimagesgimp'>Export images to pdf with GIMP</a></h3>
 <p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
