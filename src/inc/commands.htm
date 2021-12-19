@@ -3,6 +3,7 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
     <li><a href='#remote'>Update remote from http(s) to ssh</li>
 	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
 	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
@@ -23,6 +24,31 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='desktopfile'>Creating a working .desktop file</a></h3>
+
+<p>Open a text editor. Paste and edit the following:</p>
+
+<pre>
+[Desktop Entry]
+Version=x.y
+Name=ProgramName
+Comment=This is my comment
+Exec=/home/alex/Documents/exec.sh
+Icon=/home/alex/Pictures/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;</pre>
+
+<p><b>Version</b> is the version of the file. <br><b>Name</b> is the application name, for example "krita" or "thunderbird". <br><b>Comment</b> is a short description of said application. <br><b>Exec</b> is the path to the executable application. <b>Icon</b> is the path to the icon you wish to use for the application. <br><b>Terminal</b> is whether you want the application to run in a terminal window or not. <br><b>Type</b> specifies the type of launcher file (other examples include link, or directory). <br><b>Categories</b> is used to categorize applications.</p>
+
+<p>Save the .desktop file. While in the same folder, open the terminal window and type the following to move the .desktop file to /usr/share/applications, or write the path to the .desktop file:</p>
+
+<pre>
+sudo mv programname.desktop /usr/share/applications
+</pre>
+
+<p>Navigate to usr/share/applications, find the file you just moved, select and drag it onto the launcher panel. Now your launcher (.desktop file) is locked on your launcher dash.</p>
 
 <h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
 
