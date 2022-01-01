@@ -67,7 +67,8 @@ main ul { display: block;max-width: 600px;color: white;margin: 0px auto 30px aut
 main ul li { max-width:600px; margin-bottom:10px; padding-left:30px; font-size:15px; position: relative;}
 main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; }
 main ul li b { font-weight: bold; }
-main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px}
+main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px; }
+main img.inlinethumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin-left: 10px; }
 main gallery { display: block; text-align: center}
 main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
 main gallery hr { margin-bottom:30px; }
