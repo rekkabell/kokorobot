@@ -11,6 +11,20 @@
 </image>
 
 <item>
+  <title>Morse logo</title>
+  <link>https://kokorobot.ca/site/illustration.html</link>
+  <guid isPermaLink='false'>Le Morse</guid>
+  <pubDate>Tue, 18 Jan 2022 00:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rekka Bellum]]></dc:creator>
+  <description>
+    <![CDATA[<img src="https://kokorobot.ca/media/content/illustration/lemorseweb.jpg" width="516"><p>I just finished a Morse(walrus) logo for <a href='https://lemorse.quebec/' target='_blank'>Le Morse</a>(French), an ethical web design studio (Studio de conception web éthique). The logo was conceptualized on paper, and then drawn in <a href='https://100r.co/site/nasu'>Nasu</a>. The logo base is small, but because it is pixel art it is lossless and can be scaled up to infinity without losing resolution (fun!). I process my images in GIMP, and when scaling up at image I make sure to scale it using multiples of 8 and to select 'none' in the interpolation dropdown menu. It was my first time making a logo destined for print in Nasu. The final image is a PNG, which is lighter than an SVG and still works on older browsers. I also handed them a <a href='https://wiki.xxiivv.com/site/chr_format.html' target='_blank'>.CHR file</a>, so the art can be edited in any NES editor.</p>
+    <img src="https://kokorobot.ca/media/content/illustration/lemorseweb.2.jpg" width="624">
+    <p>I am so glad Hugo asked me to collaborate, because I care a lot about energy-use online, as well as content clarity, and accessibility on the internet. The studio website is not finished yet, but soon!</p>
+    <p>Another similar project I like is <a href='https://www.pikselkraft.com/' target='_blank'>Pikselkraft</a>(French).</p>]]>
+  </description>
+  </item>
+
+<item>
   <title>Vancouver Island Mushrooms</title>
   <link>https://kokorobot.ca/site/vanislandmushroom.html</link>
   <guid isPermaLink='false'>Vancouver island mushroom</guid>
