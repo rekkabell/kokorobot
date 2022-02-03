@@ -3,6 +3,7 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#batteryhealth'>Battery health</a></li>
     <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
     <li><a href='#remote'>Update remote from http(s) to ssh</li>
 	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
@@ -24,6 +25,32 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='batteryhealth'>Checking battery health</a></h3>
+
+<p>To check battery health on your laptop time the following command:</p>
+
+<pre>
+    upower -e
+</pre>
+
+<p>You'll see the following:</p>
+
+<pre>
+    /org/freedesktop/UPower/devices/line_power_ADP1
+    /org/freedesktop/UPower/devices/battery_BAT0
+    /org/freedesktop/UPower/devices/DisplayDevice
+</pre>
+
+<p>Enter:</p>
+
+<pre>
+    upower -i /org/freedesktop/UPower/devices/battery_BAT0
+</pre>
+
+<p>Check energy-full and energy-full-design to see the performance of your battery. To know if the battery needs to be replaced, divide the number next to “Energy when full” by “Energy (design)”, and multiply the result by 100. You’ll get a percentage.</p>
+
+<p>The percentage you get is how much your battery holds of its original capacity. If the number is >50%, it might be time to replace the battery.</p>
 
 <h3><a id='desktopfile'>Creating a working .desktop file</a></h3>
 
