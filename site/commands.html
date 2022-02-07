@@ -3,6 +3,8 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#pandoc'>Pandoc commands</a></li>
+    <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
     <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
     <li><a href='#remote'>Update remote from http(s) to ssh</li>
@@ -25,6 +27,25 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='pandoc'>pandoc commands</a></h3>
+
+<p>To export a text file formatted in html to markdown (as a .txt file).</p>
+
+<pre>
+    pandoc -o filename.txt filename.html
+</pre>
+
+<p>To export mardown text file into a styled pdf (see how to <a href='pandocinstall.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
+
+<pre>
+    pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
+</pre>
+
+<h3><a id='sublime'>Sublime shortcuts</a></h3>
+
+<p>To select the space before the first character on every line in a paragraph.</p>
+<p>shift+right, then crtl+d (repeat d key to select additional lines).</p>
 
 <h3><a id='batteryhealth'>Checking battery health</a></h3>
 
