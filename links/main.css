@@ -84,7 +84,7 @@ main a.buybutton:hover { background:#555; color:black; }
 main a.soldbutton { font-size: 15px;border-radius: 100px;background:#555; color:black;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
 main gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
 
-/*main ul.col2 { columns: 2 }*/
+main ul.col2 { columns: 2 }
 main.bullet {  }
 
 footer { width: 100%; background: #fff; color: #000; padding: 30px; font-size: 14px;}
