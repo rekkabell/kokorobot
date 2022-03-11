@@ -9,7 +9,7 @@ char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><m
 
 char *html_header = "<header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header>";
 
-char *html_footer = "<footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/rekkabell/kokorobot'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p></footer></body></html>";
+char *html_footer = "<footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://github.com/rekkabell/kokorobot'>Github</a> <a href='https://merveilles.town/@rek'>Mastodon</a></p><p>[Fascists Fork Off]</p></footer></body></html>";
 
 void build_page(char *name) {
   if(strcmp(name,".") == 0){ return; }
