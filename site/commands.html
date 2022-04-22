@@ -3,6 +3,7 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
     <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
@@ -27,6 +28,14 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='youtubedl'>Ripping audio from YouTube videos</a></h3>
+
+<p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
+
+<pre>youtube-dl --audio-format mp3 -x 'youtube url'</pre>
+
+<p>[-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a.</p>
 
 <h3><a id='pandoc'>pandoc commands</a></h3>
 
