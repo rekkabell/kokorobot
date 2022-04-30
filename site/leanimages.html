@@ -13,11 +13,11 @@
 
 <p>Using <a href='https://imagemagick.org/index.php' target='_blank'>ImageMagick</a> to resize images in a folder. Specify output size. A warning, this command will overwrite existing files:</p>
 
-<p>To resize to a specific size:</p>
+<p>To resize to a specific size (using example size):</p>
 <pre>mogrify -resize 1200x679 *.jpg
 </pre>
 
-<p>To specify just an image height, this will preserve the aspect ratio of the images:</p>
+<p>Specifying just an image height or width, will preserve the aspect ratio of the images:</p>
 
 <pre>mogrify -geometry x679 *.jpg</pre>
 
@@ -29,13 +29,13 @@
 -sampling-factor 4:2:0 \
 -strip \
 -quality 85 \
--interlace JPEG \
+-interlace line \
 -colorspace RGB \
 image.output.jpg </pre>
 
 <p>To process multiple files, use <b>mogrify</b>. This overwrites all existing files with a jpg extension:</p>
 
-<pre>mogrify -format jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace RGB *.jpg</pre>
+<pre>mogrify -format jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace line -colorspace RGB *.jpg</pre>
 
 <p>Try <b>JpegOptim</b> as an alternative to ImageMagick (although apparently it doesn't optimize as well as IM) and <b>OptiPNG</b> for PNGs.</p>
 

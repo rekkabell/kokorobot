@@ -51,9 +51,25 @@
 
 <p>One hash would make the title bigger, three would make the heading smaller, four even smaller, five even smaller etc. Headings are important too for creating epubs, as Pandoc will use the headers to generate the table of contents of your e-book.</p>
 
+<p>There is no easy equivalent to adding indents in the text, but it is possible by adding a bunch of spaces using <b>&nbsp;</b>. It is <b>very</b> hacky though. I've not yet found a solution for this, not an easy one anyway.</p>
+
+<p>When writing paragraphs, <b>always add two spaces after each one</b> if you want spacing between them.</p>
+
+<p><b>Footnotes.</b> To add footnotes to the text, add a number between square brackets after a specific word, like so: <b>[^1]</b>. An example text:</p>
+
+<pre>Licky root[^1] is a popular herb because...</pre>
+
+<p>The <b>[^1]</b> will render as a small '1' in the exported version of the text. Then in the document (end, beginning, doesn't matter), add the same number between square brackets again, followed with the footnotes you wish to have (directly following the number). For example:</p>
+
+<pre>[^1]: Licky root is a plant that is often brewed as tea.</pre>
+
+<p>That text won't appear in the document end, it'll appear on the same page where with the marker. This is what it will look like in the text:</p>
+
+<img src="../media/interface/footnotes.jpg" loading='lazy' class='tools'>
+
 <h3><a id='txtpdf'>From Markdown to PDF</a></h3>
 
-<p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the terminal. Use <b>cd</b> to navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named <b>myproject</b>. Remember, caps matter when using <b>cd</b>:</p>
+<p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the terminal. Navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named <b>myproject</b>.:</p>
 
 <pre>cd Documents/myproject/</pre>
 
@@ -142,20 +158,18 @@ img { max-width: 100% }
 
 <pre>
 ---
-title:
-- type: main
-  text: Book title
-- type: subtitle
-  text: My sub book title (if any)
-creator:
-- role: author
-  text: Your name
-publisher: Your publisher's name
+title: Busy Doing Nothing
+subtitle: 51 days from Canada to Japan
+author: Rekka Bellum
+publisher: Hundredrabbits
+table-of-contents: true
 lang: en-CA
 rights: © 2021 MyCompany, *your chosen license*
-table-of-contents: true
+documentclass: book
 ...
 </pre>
+
+<p><b>**NOTE</b>: The three most commonly used standard document-classes in LaTeX include: article, report and book. Different document-classes have different default settings. The first time I published a book I omitted adding a document class entirely, and the text renders fine. Adding a "book" class will add settings that make the text more pleasant to read, like it'll align text on either the left, or right, to account for the book binding, it'll also add the chapter name at the top of the page.</p>
 
 <p>The text in the .yaml file need to be delimited by a line of three hyphens (---) at the top and a line of three hyphens (---) or three dots (...) at the bottom. Metadata will be taken from the fields of the YAML object and added to any existing document metadata. See more about <a href='https://pandoc.org/MANUAL.html#metadata-blocks' target="_blank">metadata files</a>. Next, pass it to Pandoc as an argument:</p>
 
@@ -183,6 +197,13 @@ table-of-contents: true
 
 <p>Calibre doubles as a book viewer, so you can test your book on that. Note that like with an EPUB, test the file on as many devices as you can.</p>
 
-<p>Now, all that's left is to publish your e-book! I personally choose not to use Amazon, and publish on <a href='https://itch.io/' target="_blank">itch.io</a>. There are no publishing fees, and with it, it's possible to automate uploads using <a href='https://itch.io/docs/butler/' target="_blank">Butler</a> (itch.io's command line tools) if say, you want to publish changes to your book fast. If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
+<p>Now, all that's left is to publish your e-book! I personally choose not to use Amazon, and publish on <a href='https://itch.io/' target="_blank">itch.io</a>. There are no publishing fees, and with it, it's possible to automate uploads using <a href='https://itch.io/docs/butler/' target="_blank">Butler</a> (itch.io's command line tools) if say, you want to publish changes to your book fast.</p>
 
 <img src='../media/interface/pandocpdf.png' loading='lazy' class="tools">
+
+<p>I have seen published the book from this tutorial, <a href='busydoingnothing.html'>Busy Doing Nothing</a> as a paperback book. I published it with Lulu, see it <a href='https://www.lulu.com/en/us/shop/rekka-bellum-and-devine-lu-linvega/busy-doing-nothing/paperback/product-rqgmdj.html?page=1&pageSize=4' target='_blank'>here(Lulu.com link)</a>.</p>
+
+<img src='../media/content/stories/busydoingnothing/busy_doing_nothing_paperback2.jpg
+.png' loading='lazy' class="tools">
+
+<p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
