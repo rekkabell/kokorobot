@@ -111,7 +111,7 @@ ul.default li a { font-weight: bold }
   header wr h2 { display: none }
   .footer {max-width: 830px}
   main columns { columns: auto; padding:0px; margin:0px; }
-  main gallery img {width: 50%;}
+  main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block }
   main > wr > .third {width: 100%;}
   .col2 { columns: 1 }
 
