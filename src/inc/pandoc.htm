@@ -1,4 +1,6 @@
-<p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software. This guide was made and tested on the <a href='https://elementary.io' target="_blank">Elementary</a> Linux distribution.</p>
+<p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software. This tutorial is aimed at people who don't have too much command-line experience (like me, when I started out), and so it includes a lot of explanation text on how to enter specific commands, or how to use the terminal.</p>
+
+<p>If you are an absolute beginner, seek the help of someone who can be there in the same room with you to teach you the basics. It is still possible to figure things out on your own, but it takes more time and having help can save you some frustration, at least, it did for me. Seeking help online through tutorials can be tricky as a beginner because you don't yet know the right terminology for everything, and unless the tutorial is very thorough (explaining the why's and how's of everything) it will not be easy to follow.</p>
 
 <h3><a id='content'>Contents</a></h3>
 
@@ -37,7 +39,7 @@
 
 <p>Make sure that the file you want turned into a PDF has an <b>.md</b> extension, and take note of the path to your project file, as you'll need that to generate your PDF later. The next step is to add Pandoc Markdown syntax to the text.</p>
 
-<p><a href='https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html%23raw-tex' target="_blank">Pandoc Markdown</a> is an extended and slightly revised version of John Gruber’s <a href='https://daringfireball.net/projects/markdown/' target="_blank">Markdown syntax</a>. Markdown is a simple, and easy-to-use markup language to format plain-text content. This language is used to annotate a document in a way that is syntactically distinguishable from the text.</p>
+<p><a href='https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html%23raw-tex' target="_blank">Pandoc Markdown</a> is an extended and slightly revised version of John Gruber’s <a href='https://daringfireball.net/projects/markdown/' target="_blank">Markdown syntax</a>. Markdown is a markup language to format plain-text content. This language is used to annotate a document in a way that is syntactically distinguishable from the text.</p>
 
 <p>For example, to make text <b>bold</b>, add two asterisks on each side of the word:</p>
 
@@ -69,11 +71,11 @@
 
 <h3><a id='txtpdf'>From Markdown to PDF</a></h3>
 
-<p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the terminal. Navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named <b>myproject</b>.:</p>
+<p>To generate a PDF from your <b>.md</b> or <b>.txt</b> file, locate your project file using the command-line (the terminal). Navigate to your project folder. The example below is if you'd saved your project file to Documents, under a folder named <b>myproject</b> (remember, capital letters matter). <b>cd</b> stands for 'change directory', it is the command used to point to a specific directory(folder):</p>
 
 <pre>cd Documents/myproject/</pre>
 
-<p>Enter the following command, replacing <b>filename</b> with the name of your project file, and <b>filename_export</b> with for the final exported PDF file:</p>
+<p>Copy the following text, replacing <b>filename</b> with the name of your project file, and <b>filename_export</b> with for the final exported PDF file, and paste it into the terminal window:</p>
 
 <pre>pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf</pre>
 
@@ -127,11 +129,11 @@
 
 <h3><a id='epub'>Making epubs</a></h3>
 
-<p>EPUB is a popular ebook format, but if you convert a Markdown file to an epub it may break some of your formatting. For example, EPUBs ignore the <b>\newpage</b> Markdown tag, but assigning a <b>page break</b> to a specific level of header with css fixes that problem. For EPUBs it is a good idea to use css to control the final look of the document.</p>
+<p>EPUB is a popular ebook format, but if you convert a Markdown file to an epub it may break some of your formatting. For example, EPUBs ignore the <b>\newpage</b> Markdown tag, but assigning a <b>page break</b> to a specific level of header with CSS (a way to style text) fixes that problem. For EPUBs it is a good idea to use css to control the final look of the document.</p>
 
 <p>First step is to create a blank text file, and to save it as <b>epub.css</b>.</p>
 
-<p>I prefer not to modify the look too much, so I keep my css to minimum. For example:</p>
+<p>I prefer not to modify the look too much, so I keep my CSS to minimum. For example:</p>
 
 <pre>
 body {font-size: 14px}
@@ -154,12 +156,12 @@ img { max-width: 100% }
 
 <pre>--toc-depth=2</pre>
 
-<p><b>Metadata file:</b> A metadata file includes all the author, rights and publishing information. Create a new file and save it as <b>metadata.yaml</b>. Then, add the following:</p>
+<p><b>Metadata file:</b> A metadata file includes all the author, rights and publishing information. Create a new file and save it as <b>metadata.yaml</b>. Then, add the following, changing the info below for your own:</p>
 
 <pre>
 ---
-title: Busy Doing Nothing
-subtitle: 51 days from Canada to Japan
+title: This is a book title
+subtitle: I am a subtitle
 author: Rekka Bellum
 publisher: Hundredrabbits
 table-of-contents: true
