@@ -8,7 +8,7 @@
 
 body { background:#000; color:#fff;  overflow-x: hidden}
 
-p { padding: 5px; }
+p { padding: 5px;}
 b { font-weight: bold }
 table { margin-bottom: 30px}
 h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
