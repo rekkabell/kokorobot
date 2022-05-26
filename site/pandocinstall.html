@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — pandocinstall</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header><main class='pandocinstall'><p>Here is how to install the various tools required to make PDFs, EPUBs and MOBIs with Pandoc. If you only have plans to make PDFs, only install Pandoc and LateX.</p>
 
+<p>I've tried to install these on both Elementary OS, and Manjaro with much success. I've tried to describe how to install everything in detail. If you don't have command-line experience, don't get discouraged! It is very tricky (it gets easier, with time). Seek the help of someone you know who can sit with you to help you install these, I find it easier to learn with someone in person, especially someone who knows you well (knows your level, how you learn best etc). Otherwise, ask me and I will try my best to assist you (rekkabell at gmail dot com). If I don't answer right away, it may be because I am sailing and away from a cell tower. I will return your email as soon as I can!</p>
+
 <h3><a id='content'>Contents</a></h3>
 <ul>
 	<li><a href='#install'>Installing Pandoc</a></li>
@@ -34,6 +36,10 @@ This is free software; see the source for copying conditions. There is no
 warranty, not even for merchantability or fitness for a particular purpose.
 </pre>
 
+<p>If you are on Manjaro, you can get the package using Pacman:</br>
+
+<pre>sudo pacman -S pandoc</pre>
+
 <p>You now have the latest version of Pandoc installed on your computer.</p>
 
 <h3><a id='latex'>Installing Tex Live</a></h3>
@@ -41,6 +47,12 @@ warranty, not even for merchantability or fitness for a particular purpose.
 <p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
 
 <pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
+
+<p>On Manjaro:</p>
+
+<pre>sudo pacman -S textlive-most</pre>
+
+<p>Texlive-most contains every package you may need. You'll be asked to choose a repository, I opted for 7 (texlive-latex-extra). </p>
 
 <h3><a id='calibre'>Calibre</a></h3>
 
