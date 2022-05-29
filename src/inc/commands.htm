@@ -33,9 +33,9 @@
 
 <p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
 
-<pre>youtube-dl --audio-format mp3 -x 'youtube url'</pre>
+<pre>youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" video_URL</pre>
 
-<p>[-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a.</p>
+<p>Specifying "%(title)s.%(ext)s" just means that the video name will be the same as the title of the video. [-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a. To download a playlist of videos, just click on the playlist name and use that as an URL.</p>
 
 <h3><a id='pandoc'>pandoc commands</a></h3>
 
