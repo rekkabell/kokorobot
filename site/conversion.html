@@ -11,6 +11,7 @@
 	<li><a href='#volume'>Volume</a></li>
 	<li><a href='#mass'>Mass</a></li>
 	<li><a href='#temperature'>Temperature</a></li>
+	<li><a href='#position'>Position</a></li>
 </ul>
 
 <h3><a id='conversion'>Converting from one system to the other</a></h3>
@@ -132,4 +133,25 @@ US Measure             Imperial          Metric
 
 <p>Back to <a href='#top'>top</a>.</p>
 
-<p>Pierce, Rod,  2017, 'Metric - US/Imperial Conversion Charts'. <a href='http://www.mathsisfun.com/metric-imperial-conversion-charts.html' target="_blank"></a>.</p></main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://merveilles.town/@rek'>Mastodon</a> <a href='politics.html'>Politics</a></p></footer></body></html>
+<p>Pierce, Rod,  2017, 'Metric - US/Imperial Conversion Charts'. <a href='http://www.mathsisfun.com/metric-imperial-conversion-charts.html' target="_blank"></a>.</p>
+
+<h3><a id='position'>Position</a></h3>
+
+<p>Navionics, the navigation software, will list GPS positions in degrees minutes seconds. The below formula is useful to convert this position to decimal degrees.</p>
+<pre>
+.d = M.m / 60
+Decimal Degrees = Degrees + .d
+</pre>
+
+<p>Examples</p>
+<p>124° 44.740 (DMS) to DD (Decimal Degrees)</p>
+
+<pre>
+44.740(m.m) / 60 = 0.74566667
+124(degrees) + 0.74566667(.d) = 124.0.74566667
+</pre>
+
+<p>And so 124° 44.740 is 124.0.74566667 in Decimal Degrees.</p>
+
+
+<p>Back to <a href='#top'>top</a>.</p></main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://merveilles.town/@rek'>Mastodon</a> <a href='politics.html'>Politics</a></p></footer></body></html>
