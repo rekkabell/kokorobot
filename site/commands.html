@@ -3,7 +3,8 @@
 <p>These are personal notes to remind myself how to do certain types of installations via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
-    <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
+<li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
+<li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
     <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
@@ -14,8 +15,6 @@
 	<li><a href='#formatusb'>How to format USB on Linux</a></li>
     <li><a href='#terminaldict'>Install terminal dictionary</li>
 </ul>
-
-<p>I use <a href='https://fishshell.com/' target="_blank">fish</a>, a command line shell, commands may vary because of this.</p>
 
 <h3>A list of some useful commands:</h3>
 
@@ -28,6 +27,24 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='killprogram'>How to kill an unresponsive program</a></h3>
+
+<pre>
+    pstree -p
+</pre>
+
+<p>Identify parent process.</p>
+
+<pre>
+   kill 1234
+</pre>
+
+<p>Where 1234 is the process ID I found using pstree. If application has not been terminated, do this:</p>
+
+<pre>
+kill -9 1234
+</pre>
 
 <h3><a id='youtubedl'>Ripping audio from YouTube videos</a></h3>
 
