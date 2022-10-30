@@ -56,6 +56,20 @@
     <li><b>D</b>, remove track</li>
 </ul>
 
+<p>To modify the metadata of a song, it is necessary to install <b>eyeD3</b>:</p>
+
+<pre>
+sudo pacman -S python-eyed3
+</pre>
+
+<p>Then run:</p>
+
+<pre>
+eyeD3 -a 'Artist name' -A 'Album name' -t 'Song name' song.mp3
+</pre>
+
+<p>Artist (-a/--artist), album (-A/--album), title (-t/--title), and track number (-n/--track-num).</p>
+
 <p>List sourced from <a href='https://nchrs.xyz/cmus.html' target='_blank'>Rostiger's website</a>.</p>
 
 <h3><a id='killprogram'>How to kill an unresponsive program</a></h3>
