@@ -3,9 +3,10 @@
 <p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
-<li><a href='#cmus'>Using cmus</a></li> 
-<li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
-<li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
+	<li><a href='#mastermain'>Change repo from master to main</a></li>
+	<li><a href='#cmus'>Using cmus</a></li> 
+	<li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
+	<li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
     <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
@@ -29,7 +30,23 @@
     <li><b>less</b>, list the contents of files</li>
 </ul>
 
-<h3><a id='cmus'>using cmus</a></h3>
+<h3><a id='mastermain'>Change repo from master to main</a></h3>
+
+<p>Master is an antiquated and innapropriate term. To change the repository branch to main, navigate to the correct repository, then enter:</p>
+
+<pre>
+git branch -m master main
+
+git push -u origin main
+
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# change default branch
+
+git push origin --delete master
+</pre>
+
+<h3><a id='cmus'>Using Cmus</a></h3>
 
 <p><b>Control</b></p>
 <ul>
