@@ -3,18 +3,19 @@
 <p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
-	<li><a href='#mastermain'>Change repo from master to main</a></li>
-	<li><a href='#cmus'>Using cmus</a></li> 
-	<li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
-	<li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
+    <li><a href='#wget'>Download a webpage with wget</a></li>
+    <li><a href='#mastermain'>Change repo from master to main</a></li>
+    <li><a href='#cmus'>Using cmus</a></li> 
+    <li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
+    <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
     <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
     <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
     <li><a href='#remote'>Update remote from http(s) to ssh</li>
-	<li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
-	<li><a href='#appimagesexecute'>Make appimage executable</a></li>
-	<li><a href='#formatusb'>How to format USB on Linux</a></li>
+    <li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
+    <li><a href='#appimagesexecute'>Make appimage executable</a></li>
+    <li><a href='#formatusb'>How to format USB on Linux</a></li>
     <li><a href='#terminaldict'>Install terminal dictionary</li>
 </ul>
 
@@ -29,6 +30,23 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='wget'>Download webpage with wget</a></h3>
+
+<p>To download a website for local viewing:</p>
+
+<pre>
+wget --page-requisites --convert-links --span-hosts --no-directories https://www.example.com
+</pre>
+
+<ul>
+<li>--page-requisites downloads the images, css and js files</li>
+<li>--convert-links makes the links suitable for local viewing.</li>
+<li>--span-hosts tells wget to download the files from different hosts like the CDN</li>
+<li>--no-directories downloads the files into a single flat and messy directory</li>
+</ul>
+
+<p>Sourced from <a href='https://tinkerlog.dev/journal/downloading-a-webpage-and-all-of-its-assets-with-wget' target='_blank'>Tyler Smith</a>.</p>
 
 <h3><a id='mastermain'>Change repo from master to main</a></h3>
 
