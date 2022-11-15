@@ -114,5 +114,6 @@ ul.default li a { font-weight: bold }
   main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block }
   main > wr > .third {width: 100%;}
   .col2 { columns: 1 }
+  img.tools { max-width: 100%; }
 
 }
