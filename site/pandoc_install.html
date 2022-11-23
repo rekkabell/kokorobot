@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — pandoc_install</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header><main class='pandoc_install'><p>Here is how to install the various tools required to make PDFs, EPUBs and MOBIs with Pandoc. If you only have plans to make PDFs, only install Pandoc and LateX.</p>
+
+<p>I've tried to install these on both Elementary OS, and Manjaro with much success. I've tried to describe how to install everything in detail. If you don't have command-line experience, don't get discouraged! It is very tricky (it gets easier, with time). Seek the help of someone you know who can sit with you to help you install these, I find it easier to learn with someone in person, especially someone who knows you well (knows your level, how you learn best etc). Otherwise, ask me and I will try my best to assist you (rekkabell at gmail dot com). If I don't answer right away, it may be because I am sailing and away from a cell tower. I will return your email as soon as I can!</p>
+
+<h3><a id='content'>Contents</a></h3>
+<ul>
+	<li><a href='#install'>Installing Pandoc</a></li>
+	<li><a href='#latex'>Installing XeLaTeX, LaTeX</a></li>
+	<li><a href='#calibre'>Installing Calibre</a></li>
+	<li><a href='#magick'>Installing ImageMagick</a></li>
+	<li><a href='#pdfunite'>Installing Pdfunite</a></li>
+</ul>
+
+<h3><a id='install'>Installing Pandoc on Linux</a></h3>
+
+<p>To install Pandoc on Linux, you can generally use your package manager, or download the <a href='https://github.com/jgm/pandoc/releases/tag/2.11.2' target="_">latest version</a> from the website directly. You'll want to get <b>pandoc-2.11.2-linux-amd64.tar.gz</b>. When you've downloaded it, unzip the file, and move the folder (named pandoc-x.xx.x) to your Applications folder.</p>
+
+<p>You've got Pandoc, but it's not usable yet, you've got to use the terminal to unpack the files. Write the path to the Pandoc package, followed by the sudo command:</p>
+
+<pre>cd ~/Applications
+sudo dpkg -i ./pandoc-2.11.1
+</pre>
+
+<p>You'll be asked for your <b>password</b>. Enter your password, and press enter to install Pandoc. You should have the latest version of Pandoc installed, to verify the version, type the following in the command line:</p>
+
+<pre>pandoc --version</pre>
+
+<p>You'll see the name of the version on top, which in this case, is version <b>2.11.1.</b></p>
+
+<pre>pandoc 2.11.2
+Compiled with pandoc-types 1.22, texmath 0.12.0.3, skylighting 0.10.0.3,
+citeproc 0.2, ipynb 0.1.0.1
+User data directory: /home/user/.local/share/pandoc or /home/user/.pandoc
+Copyright (C) 2006-2020 John MacFarlane. Web:  https://pandoc.org
+This is free software; see the source for copying conditions. There is no
+warranty, not even for merchantability or fitness for a particular purpose.
+</pre>
+
+<p>If you are on Manjaro, you can get the package using Pacman:</br>
+
+<pre>sudo pacman -S pandoc</pre>
+
+<p>You now have the latest version of Pandoc installed on your computer.</p>
+
+<h3><a id='latex'>Installing Tex Live</a></h3>
+
+<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
+
+<pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
+
+<p>On Manjaro:</p>
+
+<pre>sudo pacman -S textlive-most</pre>
+
+<p>Texlive-most contains every package you may need. You'll be asked to choose a repository, I opted for 7 (texlive-latex-extra). </p>
+
+<h3><a id='calibre'>Calibre</a></h3>
+
+<p><a href='https://calibre-ebook.com/download_linux' target='_blank'>Calibre</a> is an e-book manager. It allows users to manage e-book collections as well as to create, edit, and read e-books. It's not a light tool. In fact, it requires a LOT of dependencies to work, but hey... it's open source, and free, and it works well.</p>
+
+<p>You can install it using <b>apt-get</b>, but beware that the distribution provided calibre package are often buggy and outdated. It is better to use the binary install:</p>
+
+<pre>sudo -v && wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | sudo python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"</pre>
+
+<p>Since I use <a href='https://fishshell.com/docs/current/index.html' target='_blank'>fish</a>, I have to use the <b>bash</b> command with the <b>-c</b> switch to read from a string. Ignore if you're not using fish:</p>
+
+<pre>bash -c 'sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin'
+</pre>
+
+<p>Voila, you have Calibre.</p>
+
+<h3><a id='magick'>ImageMagick</a></h3>
+
+<p>If you don't have <a href='https://imagemagick.org/script/download.php' target='_blank'>ImageMagick</a>, I highly recommend it. It's great to create, edit, compose, or convert digital images in tons of formats. If you install Calibre first, you might not have to install ImageMagick</p>
+
+<p>Install the app using the following command:</p>
+
+<pre>sudo apt-get install imagemagick</pre>
+
+<p>I recommend keeping the recipes you discover for ImageMagick on file somewhere, so you don't always have to look up how to do them. See my <a href='magickrecipes.html'>recipes</a>.</p>
+
+<h3><a id='pdfunite'>PDF unite</a></h3>
+
+<p>Pdfunite does what its name suggests it does: merge pdfs. It is part of the poppler-utils package, install it using the following command:</p>
+
+<pre>sudo apt-get install poppler-utils</pre>
+
+<p>Now, you'll be able to use it.</p></main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://merveilles.town/@rek'>Mastodon</a> <a href='politics.html'>Politics</a></p></footer></body></html>

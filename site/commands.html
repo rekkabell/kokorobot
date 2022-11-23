@@ -17,6 +17,7 @@
     <li><a href='#appimagesexecute'>Make appimage executable</a></li>
     <li><a href='#formatusb'>How to format USB on Linux</a></li>
     <li><a href='#terminaldict'>Install terminal dictionary</li>
+		<li><a href='#spritegif'>Spritesheet conversion to GIF</li>
 </ul>
 
 <h3>A list of some useful commands:</h3>
@@ -142,7 +143,7 @@ kill -9 1234
     pandoc -o filename.txt filename.html
 </pre>
 
-<p>To export mardown text file into a styled pdf (see how to <a href='pandocinstall.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
+<p>To export mardown text file into a styled pdf (see how to <a href='pandoc_install.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
 
 <pre>
     pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
@@ -271,5 +272,22 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 <p>Enter your password, and voila! To use SDCV, type <b>sdcv</b> followed by the word you're looking for, for example:</p>
 
 <pre>sdcv tortilla</pre>
+
+<h3><a id='spritegif'>Spritesheet conversion to GIF</a></h3>
+
+<p>ImageMagick can convert spritesheets to gif animations, here is the recipe I used:</p>
+
+<pre>convert -dispose 3 -delay 20 -loop 0 input.png -crop 64x64 +repage output.gif</pre>
+
+<p>Here is a breakdown of the recipe:</p>
+
+<p><b>-dispose 3</b> 'dispose" defines the way the displayed image is modified after the current frame of an animation has gone past, and before another frame is overlaid.<br />
+<b>3</b> refers to 'previous', which clears to the image prior to the current frame's overlay.<br /> 
+<b>-delay 20</b> displays the next image after pausing for a number of seconds.<br />
+<b>-loop 0</b> set to zero the animation repeats an infinite number of times.<br />
+<b>input.png</b> is my starting spritesheet.<br />
+<b>-crop</b> cuts out one or more rectangular regions of my image to 64x64 pixels. For my animation, I had 5 frames, 64 is the width/height of the bounding box of the sprite (full width 320px / 5).<br />
+<b>+repage</b> adjusts the canvas and offset information of the image.<br />
+<b>output.gif</b> is the resulting, assembled gif image.</p>
 
 <p>Back to <a href='#content'>top</a>.</p></main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://merveilles.town/@rek'>Mastodon</a> <a href='politics.html'>Politics</a></p></footer></body></html>

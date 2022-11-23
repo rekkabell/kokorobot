@@ -1,0 +1,76 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — lean_images</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header><main class='lean_images'><p>The use of images increases the size of a web page which considerably lowers the load speed of the page. To improve the speed of your website it is important to consider compressing or resizing images.</p>
+
+<ul>
+	<li><a href='#massresize'>Mass image resize</li>
+	<li><a href='#compression'>Compression parameters</a></li>
+	<li><a href='#lazy'>Lazy loading</a></li>
+	<li><a href='#dithering'>Dithering</a></li>
+	<li><a href='#meta'>Metadata</a></li>
+	<li><a href='#sprites'>Css sprites</a></li>
+</ul>
+
+<h3><a id='massresize'>Mass image resize</a></h3>
+
+<p>Using <a href='https://imagemagick.org/index.php' target='_blank'>ImageMagick</a> to resize images in a folder. Specify output size. A warning, this command will overwrite existing files:</p>
+
+<p>To resize to a specific size (using example size):</p>
+<pre>mogrify -resize 1200x679 *.jpg
+</pre>
+
+<p>Specifying just an image height or width, will preserve the aspect ratio of the images:</p>
+
+<pre>mogrify -geometry x679 *.jpg</pre>
+
+<h3><a id='compression'>Compression parameters</a></h3>
+
+<p>Convert arguments/parameters to balance quality with file size using <a href='https://imagemagick.org/index.php' target='_blank'>ImageMagick</a>:</p>
+
+<pre>convert image.input.jpg \
+-sampling-factor 4:2:0 \
+-strip \
+-quality 85 \
+-interlace line \
+-colorspace RGB \
+image.output.jpg </pre>
+
+<p>To process multiple files, use <b>mogrify</b>. This overwrites all existing files with a jpg extension:</p>
+
+<pre>mogrify -format jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace line -colorspace RGB *.jpg</pre>
+
+<p>Try <b>JpegOptim</b> as an alternative to ImageMagick (although apparently it doesn't optimize as well as IM) and <b>OptiPNG</b> for PNGs.</p>
+
+<h3><a id='lazy'>Lazy loading</a></h3>
+<p>Lazy Loading is a set of techniques in web and application development that defers the loading of resources on a page to a later point in time—when those resources are actually needed instead of loading them up front. These techniques help in improving performance, better utilization of the device’s resources and reducing associated costs.</p>
+<p><b>Lazy loading images in an image tag. </b>You can use the loading attribute to completely defer the loading of offscreen images that can be reached by scrolling:</p>
+<pre>&lt;img src="image.png" loading="lazy" alt="…" width="200" height="200"&gt;</pre>
+<p>While the browser loads an image, it does not immediately know the image's dimensions, unless these are explicitly specified. To enable the browser to reserve sufficient space on a page for images, it is recommended that all &lt;img&gt; tags include both width and height attributes.</p><p>Without dimensions specified, layout shifts can occur, which are more noticeable on pages that take some time to load. Specifying dimensions decreases the chance of layout shift. [<a href='https://web.dev/native-lazy-loading/'>source</a>]</p>
+
+<h3><a id='dithering'>Dithering</a></h3>
+<p>Dithering is a useful technique for reducing images with high color counts to lower color counts, reducing file size (and bandwidth) without harming quality. Dithered images are roughly ten times less resource-intensive.</p>
+<p><b>Gain better control</b>. On a modern LCD or LED screen, a full-color image can be displayed without any problems. But consider an older PC, one that only supports a limited palette. The image will be restricted to a websafe palette, and will likely destroy your image. Problems arise any time an image is displayed on a device that supports less colors than the image contains. Subtle gradients in the original image may be replaced with blobs of uniform color, and depending on the restrictions of the device, the original image may become unrecognizable.</p><p>Dithering is an attempt to solve this problem. Dithering works by approximating unavailable colors with available colors, by mixing and matching available colors in a way that mimicks unavailable ones. Dithering is an extremely powerful technique, and it can be used in ANY situation where data has to be represented at a lower resolution than it was originally created for. [<a href='https://tannerhelland.com/2012/12/28/dithering-eleven-algorithms-source-code.html'>source</a>]</p><p>Dithering algorithms include Sierra, Two Sierra, Floyd Steinberg, Atkinson, Jarvis/Judice&Ninke, Stucki and Burkes, all produce slightly difference results.</p>
+<p>To learn the effects of each algorithm on images, test them with <a href='https://ditherit.com/'>Dither-it</a>, an online tool.</p>
+
+<h3><a id='meta'>Metadata</a></h3>
+<p>Most cameras embed hidden information (called metadata) into every image or photograph. There are different formats which can be used to store metadata in JPEG images. The most common ones include: EXIF, XMP, 8BIM, IPTC and ICC [<a href='https://wp-rocket.me/blog/image-metadata-can-impact-web-performance-security/'>source</a>]. On average, image metadata makes up 16% of a typical JPEG file on the web.</p><p>It's possible to remove this extra information by using <a href='https://www.gimp.org/'>GIMP</a>, or using <a href='https://exiftool.org/'>ExifTool</a> or Imagemagick.</p>
+
+<p><b>GIMP</b></p>
+<p>Open image with GIMP, go to File > Export As, click on Export and in the export options, expand the Advanced Options panel and uncheck Save EXIF data and/or Save XMP data.</p>
+
+<p><b>ExifTool</b></p>
+<p>Install ExifTool if you don't have it.</p>
+<pre>$ sudo apt-get install libimage-exiftool-perl</pre>
+<p>Remove all metadata from an image or photo:</p>
+<pre>$ exiftool -all= image.jpeg</pre>
+<p>To remove all metadata from multiple images or photos, go into the directory with the images. Execute the following command to remove all metadata from all images in the current directory:</p>
+<pre>$ exiftool -all= *</pre>
+
+<p><b>ImageMagick</b></p>
+<p>To process a single image:</p>
+<pre>convert -strip "[path to image]"</pre>
+<p>To process a directory of jpegs, navigate to directly and enter:</p>
+<pre>mogrify -strip *.jpg</pre>
+
+<h3><a id='sprites'>CSS sprites</a></h3>
+<p>Another way to optimize images is to use CSS sprites. This refers to combining several images into a single image and then applying CSS to display an individual image as required. This saves bandwidth because fewer requests are sent for the images.</p>
+<p>Instead of using say, three separate images, it's possible to use one image, and with CSS, we can show just the part of the image we need. View a <a href='https://www.w3schools.com/css/css_image_sprites.asp' target='_blank'>tutorial</a>.</p>
+</main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>Webring</a> <a href='https://merveilles.town/@rek'>Mastodon</a> <a href='politics.html'>Politics</a></p></footer></body></html>

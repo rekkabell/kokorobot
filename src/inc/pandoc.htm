@@ -1,4 +1,4 @@
-<p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software. This guide was made and tested on the <a href='https://elementary.io' target="_blank">Elementary</a> Linux distribution.</p>
+<p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software.</p>
 
 <p>I have built books on Elementary OS and Manjaro with much success. I've tried to describe how to install everything in detail. If you don't have command-line experience, don't get discouraged! It is very tricky (it gets easier, with time). Seek the help of someone you know who can sit with you to help you install these, I find it easier to learn with someone in person, especially someone who knows you well (knows your level, how you learn best etc). Otherwise, ask me and I will try my best to assist you (rekkabell at gmail dot com). If I don't answer right away, it may be because I am sailing and away from a cell tower. I will return your email as soon as I can!</p>
 
@@ -25,7 +25,7 @@
 	<li><a href='https://poppler.freedesktop.org/' target='_blank'>PDFunite</a></li>
 </ul>
 
-<p>Some of these are tricky to install, please refer to my <a href='pandocinstall.html'>install tutorial</a> if you have problems. If you only have plans to export a PDF, only install Pandoc, Pdfunite and LateX. To generate MOBIs and EPUBs with Pandoc, install Pandoc, ImageMagick and Calibre.</p>
+<p>Some of these are tricky to install, please refer to my <a href='pandoc_install.html'>install tutorial</a> if you have problems. If you only have plans to export a PDF, only install Pandoc, Pdfunite and LateX. To generate MOBIs and EPUBs with Pandoc, install Pandoc, ImageMagick and Calibre.</p>
 
 <p>Now that you've installed all necessary tools, let's begin:</p>
 
@@ -121,7 +121,7 @@
 
 <p>We will use ImageMagick to convert the cover image into a PDF, which in turn, we will combine together into yet another PDF.</p>
 
-<p>Once you've installed ImageMagick (see <a href='pandocinstall.html'>tutorial</a> for install), save your cover image in your project folder. If you put it in a separate folder, be sure to specify it. Now, use this ImageMagick command to convert the image to a PDF:</p>
+<p>Once you've installed ImageMagick (see <a href='pandoc_install.html'>tutorial</a> for install), save your cover image in your project folder. If you put it in a separate folder, be sure to specify it. Now, use this ImageMagick command to convert the image to a PDF:</p>
 
 <pre>convert cover.jpg cover.pdf</pre>
 
@@ -193,7 +193,7 @@ documentclass: book
 
 <h3><a id='mobi'>MOBI</a></h3>
 
-<p>Pandoc cannot convert files to MOBI, but it's possible to convert it using <b>Calibre</b>. To start, make an EPUB (steps above). To find out how to install Calibre, read <a href='pandocinstall.html#calibre'>my tutorial</a>.</p>
+<p>Pandoc cannot convert files to MOBI, but it's possible to convert it using <b>Calibre</b>. To start, make an EPUB (steps above). To find out how to install Calibre, read <a href='pandoc_install.html#calibre'>my tutorial</a>.</p>
 
 <p>Run the following command in the terminal:</p>
 
