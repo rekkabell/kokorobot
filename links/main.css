@@ -13,7 +13,6 @@ b { font-weight: bold }
 table { margin-bottom: 30px}
 h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
 hr { clear:both; }
-h3 {font-size: 20px; margin-bottom: 10px}
 
 a[href^="http://"]:not([href*="kokorobot.ca"]):after,
 a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
@@ -33,7 +32,7 @@ header ul li a.illustration { background-image: url(../media/interface/menu/illu
 header ul li a.stories { background-image: url(../media/interface/menu/stories.png);  }
 header ul li a.store { background-image: url(../media/interface/menu/store.png);  }
 header ul li a.notes { background-image: url(../media/interface/menu/notes.png);  }
-header ul li a.characters { background-image: url(../media/interface/menu/characters.png);  }
+header ul li a.collection { background-image: url(../media/interface/menu/collection.png);  }
 
 main > q { font-size: 16px;max-width: 600px; display: block; margin: 20px;}
 main > pre { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre; margin: 0 auto 30px; max-width: 600px; overflow-x: auto}
@@ -45,7 +44,7 @@ main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; marg
 main p.caption { font-style: italic; color:#999; font-size:16px; }
 main img.thumbnail { width:33.33%; display:block; float:left; }
 main p.intro {text-align: center;}
-main h3 { max-width: 600px; display: block; font-size: 22px;line-height: 30px;color:#ccc;font-weight: bold; margin:0px auto 30px; }
+main h3 { max-width: 600px; display: block; font-size: 22px;line-height: 30px;color:#ccc;font-weight: bold; margin:20px auto 30px; }
 
 main columns {display: block;columns: 2;column-gap: 30px;}
 main columns h2 { display: block;font-size: 20px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
@@ -94,7 +93,7 @@ main ul.col2 { columns: 2 }
 main ul.col3 { columns: 3 }
 main.bullet {  }
 
-footer { width: 100%; background: #fff; color: #000; padding: 30px; font-size: 14px;}
+footer { background: #fff; color: #000; padding: 30px; font-size: 14px;}
 
 /* To Clean */
 

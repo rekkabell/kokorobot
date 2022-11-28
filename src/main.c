@@ -1,85 +1,275 @@
-#include <dirent.h> 
-#include <ctype.h>
-#include <stdio.h> 
-#include <string.h>
+#define _GNU_SOURCE
 
-#define STR_BUF_LEN 64
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/dir.h>
+#include <sys/stat.h>
+#include <time.h>
 
+/*
+Copyright (c) 2022 Rekka Bellum
+
+Permission to use, copy, modify, and distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE.
+*/
+
+#define NAME "Rekka Bellum"
+#define DOMAIN "https://kokorobot.ca/"
+#define LICENSE "https://github.com/rekkabell/kokorobot/blob/main/LICENSE"
+#define SOURCE "https://github.com/rekkabell/kokorobot/edit/main"
+
+typedef struct Lexicon {
+	int len, refs[512];
+	char files[512][64];
+} Lexicon;
+
+/* clang-format off */
+
+char  clca(char c) { return c >= 'A' && c <= 'Z' ? c + ('a' - 'A') : c; } /* char to lowercase */
+char  cuca(char c) { return c >= 'a' && c <= 'z' ? c - ('a' - 'A') : c; } /* char to uppercase */
+int   slen(char *s) { int i = 0; while(s[i] && s[++i]) { ; } return i; } /* string length */
+char *st__(char *s, char (*fn)(char)) { int i = 0; char c; while((c = s[i])) s[i++] = fn(c); return s; }
+char *stuc(char *s) { return st__(s, cuca); } /* string to uppercase */
+char *stlc(char *s) { return st__(s, clca); } /* string to lowercase */
+char *scpy(char *src, char *dst, int len) { int i = 0; while((dst[i] = src[i]) && i < len - 2) i++; dst[i + 1] = '\0'; return dst; } /* string copy */
+int   scmp(char *a, char *b) { int i = 0; while(a[i] == b[i]) if(!a[i++]) return 1; return 0; } /* string compare */
+char *scsw(char *s, char a, char b) { int i = 0; char c; while((c = s[i])) s[i++] = c == a ? b : c; return s; } /* string char swap */
+char *scat(char *dst, const char *src) { char *ptr = dst + slen(dst); while(*src) *ptr++ = *src++; *ptr = '\0'; return dst; } /* string cat */
 int   ssin(char *s, char *ss) { int a = 0, b = 0; while(s[a]) { if(s[a] == ss[b]) { if(!ss[b + 1]) return a - b; b++; } else b = 0; a++; } return -1; } /* string substring index */
-char *scsw(char *s, char a, char b) { int i = 0; char c; while((c = s[i])) s[i++] = c == a ? b : c; return s; }
-char *scpy(char *src, char *dst, int len) { int i = 0; while((dst[i] = src[i]) && i < len - 2) i++; dst[i + 1] = '\0'; return dst; }
+char *ccat(char *dst, char c) { int len = slen(dst); dst[len] = c; dst[len + 1] = '\0'; return dst; }
 
-char *html_head = "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — %.*s</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body>";
+/* clang-format on */
 
-char *html_header = "<header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header>";
+int fpinject(FILE *f, Lexicon *l, char *filepath);
 
-char *html_footer = "<footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a></p></footer></body></html>";
+int
+error(char *msg, char *val)
+{
+	printf("Error: %s(%s)\n", msg, val);
+	return 0;
+}
 
-void build_page(char *name) {
-  if(strcmp(name,".") == 0){ return; }
-  if(strcmp(name,"..") == 0){ return; }
-
-  printf("Building %s\n", name);
-
-  char *filename = name;
-  char filepath[STR_BUF_LEN];
-  snprintf(filepath, STR_BUF_LEN, "../site/%sl", filename);
-  FILE *f = fopen(filepath, "w");
-
-  char incpath[STR_BUF_LEN];
-  snprintf(incpath, STR_BUF_LEN, "inc/%s", filename);
-
-  fprintf(f, html_head, (int)(strlen(filename)-4), filename);
-  fputs(html_header, f);
-
-    fprintf(f, "<main class='%.*s'>", (int)(strlen(filename)-4), filename);
-    char buffer[4096];
-    FILE *fp = fopen(incpath, "r");
-    if(fp == NULL){ return; }
-
-    for (;;) {
-      size_t sz = fread(buffer, 1, sizeof(buffer), fp);
-      if (sz) {
-        fwrite(buffer, 1, sz, f);
-      } else if (feof(fp) || ferror(fp)) {
-        break;
-      }
-    }   
-    fclose(fp);
-    fputs("</main>", f);
-
-  fputs(html_footer, f);
-
-  fclose(f);
+int
+findf(Lexicon *l, char *f)
+{
+	int i;
+	char filename[64];
+	scat(scsw(stlc(scpy(f, filename, 64)), ' ', '_'), ".htm");
+	for(i = 0; i < l->len; ++i)
+		if(scmp(l->files[i], filename))
+			return i;
+	return -1;
 }
 
 void
-build_index(void){
-  FILE *f;
-  f = fopen("inc/index.htm", "w");
-	fputs("<ul class='col3'>", f);
-	DIR *d = opendir("./inc");
-  struct dirent *dir;
-  while ((dir = readdir(d)) != NULL) {
-    char filepath[64], filename[64];
-		if(dir->d_name[0] != '.')
-			fprintf(f, "<li><a href='%sl'>%s</a></li>", scpy(dir->d_name, filepath, 64), scsw(scpy(dir->d_name, filename, ssin(dir->d_name, ".htm") + 1), '_', ' '));
-  }
-	fputs("</ul>", f);
-  closedir(d);
-  fclose(f);
+fpedited(FILE *f, char *path)
+{
+	struct stat attr;
+	stat(path, &attr);
+	fputs("<span style='float:right'>", f);
+	fprintf(f, "Edited on %s ", ctime(&attr.st_mtime));
+	fprintf(f, "<a href='" SOURCE "/src/%s'>[edit]</a><br/>", path);
+	fputs("</span>", f);
 }
 
-int main(void) {
-  DIR *d = opendir("./inc");
-  struct dirent *dir;
-  if (!d) { return (0); }
+int
+fpportal(FILE *f, Lexicon *l, char *s, int head)
+{
+	int target;
+	char srcpath[64], filename[64];
+	target = findf(l, s);
+	if(target < 0)
+		return error("Missing portal", s);
+	srcpath[0] = 0;
+	filename[0] = 0;
+	scat(scat(scat(srcpath, "inc/"), scpy(s, filename, 64)), ".htm");
+	if(head)
+		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", scsw(filename, ' ', '_'), filename, s);
+	fpinject(f, l, srcpath);
+	l->refs[target]++;
+	return 1;
+}
 
-  build_index();
-  while ((dir = readdir(d)) != NULL) {
-    build_page(dir->d_name);
-  }
-  closedir(d);
-  
-  return (0);
+int
+fptemplate(FILE *f, Lexicon *l, char *s)
+{
+	int target;
+	if(s[0] == '/')
+		return fpportal(f, l, s + 1, 1);
+	target = findf(l, s);
+	if(target < 0)
+		return error("Missing link", s);
+	fprintf(f, "<a href='%s.html' class='local'>", scsw(stlc(s), ' ', '_'));
+	fprintf(f, "%s</a>", scsw(stlc(s), '_', ' '));
+	l->refs[target]++;
+	return 1;
+}
+
+int
+fpinject(FILE *f, Lexicon *l, char *filepath)
+{
+	FILE *inc;
+	char c, s[1024];
+	unsigned char t = 0;
+	scsw(filepath, ' ', '_');
+	if(!(inc = fopen(filepath, "r")))
+		return error("Missing include", filepath);
+	s[0] = 0;
+	while((c = fgetc(inc)) != EOF) {
+		if(c == '}') {
+			t = 0;
+			if(!fptemplate(f, l, s))
+				return 0;
+			continue;
+		}
+		if(c == '{') {
+			s[0] = 0;
+			t = 1;
+			continue;
+		}
+		if(slen(s) > 1023)
+			return error("Templating error", filepath);
+		if(t)
+			ccat(s, c);
+		else
+			fprintf(f, "%c", c);
+	}
+	fclose(inc);
+	return 1;
+}
+
+int
+fpindex(FILE *f)
+{
+	struct dirent **d;
+	int n, i = 0;
+	n = scandir("inc", &d, NULL, alphasort);
+	if(n < 0)
+		return error("scandir", "failed");
+	fputs("<ul class='col2 capital'>", f);
+	while(i < n) {
+		char filepath[64], filename[64];
+		if(d[i]->d_name[0] != '.')
+			fprintf(f, "<li><a href='%sl'>%s</a></li>", scpy(d[i]->d_name, filepath, 64), scsw(scpy(d[i]->d_name, filename, ssin(d[i]->d_name, ".htm") + 1), '_', ' '));
+		free(d[i++]);
+	}
+	fputs("</ul>", f);
+	free(d);
+	return 1;
+}
+
+FILE *
+build(FILE *f, Lexicon *l, char *name, char *srcpath)
+{
+	if(!f)
+		return f;
+	/* begin */
+	fputs("<!DOCTYPE html><html lang='en'>", f);
+	fputs("<head>", f);
+	fprintf(f,
+		"<meta charset='utf-8'>"
+		"<meta name='thumbnail' content='" DOMAIN "media/services/thumbnail.jpg' />"
+		"<meta name='viewport' content='width=device-width,initial-scale=1'>"
+		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
+		"href='../links/rss.xml' />"
+		"<link rel='stylesheet' type='text/css' href='../links/main.css'>"
+		"<link rel='shortcut icon' type='image/png' "
+		"href='../media/services/shortcut.png'>"
+		"<title>" NAME " &mdash; %s</title>",
+		name);
+	fputs("</head>", f);
+	fputs("<body>", f);
+	/* header */
+	fputs("<header>", f);
+	if(!fpportal(f, l, "meta.header", 0))
+		printf(">>> Building failed: %s\n", name);
+	fputs("</header>", f);
+	/* main */
+	fputs("<main>\n\n", f);
+	fputs("<!-- Generated file, do not edit -->\n\n", f);
+	if(!fpinject(f, l, srcpath))
+		printf(">>> Building failed: %s\n", name);
+	fputs("\n\n</main>", f);
+	/* footer */
+	fputs("<footer><hr />", f);
+	fpedited(f, srcpath);
+	fputs("<b>Rekka Bellum</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — ", f);
+	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
+	fputs("</footer>", f);
+	/* end */
+	fputs("</body></html>", f);
+	return f;
+}
+
+int
+generate(Lexicon *l)
+{
+	int i = 0;
+	char srcpath[64], dstpath[64], filename[64];
+	for(i = 0; i < l->len; ++i) {
+		srcpath[0] = 0;
+		dstpath[0] = 0;
+		filename[0] = 0;
+		/* src */
+		scpy(l->files[i], filename, ssin(l->files[i], ".htm") + 1);
+		scat(srcpath, "inc/");
+		scat(srcpath, filename);
+		scat(srcpath, ".htm");
+		/* dst */
+		scat(dstpath, "../site/");
+		scat(dstpath, filename);
+		scat(dstpath, ".html");
+		fclose(build(fopen(dstpath, "w"), l, scsw(filename, '_', ' '), srcpath));
+	}
+	printf("Generated %d files\n", i);
+	return 1;
+}
+
+int
+index(Lexicon *l, DIR *d)
+{
+	FILE *f;
+	struct dirent *dir;
+	while((dir = readdir(d)))
+		if(ssin(dir->d_name, ".htm") > 0) {
+			l->refs[l->len] = 0;
+			scpy(dir->d_name, l->files[l->len++], 128);
+		}
+	closedir(d);
+	printf("Indexed %d terms\n", l->len);
+	l->refs[l->len] = 0;
+	scpy("index.htm", l->files[l->len++], 128);
+	f = fopen("inc/index.htm", "w");
+	fpindex(f);
+	fclose(f);
+	return 1;
+}
+
+void
+inspect(Lexicon *l)
+{
+	int i;
+	for(i = 0; i < l->len; ++i)
+		if(!l->refs[i])
+			error("Orphaned", l->files[i]);
+}
+
+int
+main(void)
+{
+	Lexicon lex;
+	DIR *d;
+	lex.len = 0;
+	if(!(d = opendir("inc")))
+		return error("Open", "Missing inc/ folder. ");
+	if(!index(&lex, d))
+		return error("Indexing", "Failed");
+	if(!generate(&lex))
+		return error("Generating", "Failed");
+	inspect(&lex);
+	return 0;
 }

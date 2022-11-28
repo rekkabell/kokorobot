@@ -1,0 +1,23 @@
+<p>Growing up with a variety of scanners, and having to deal with shitty software and compability issues, I assumed that getting an older scanner to work with Linux would be impossible- I was wrong. I am currently running Manjaro.</p>
+
+<p>I use a CanoScanLiDE20, USB-powered. I scan drawings using SANE.</p>
+
+<p><b><a href='sane-project.org' target='_blank'>SANE</a></b> is a free and open source application that provides standardized access to any image scanner. To make sure that your chosen scanner will work with SANE, check <a href='http://www.sane-project.org/sane-mfgs.html' target='_blank'>this list</a>.</p>
+
+<p><b>Using Gimp?</b> Every tutorial I've read that mentions scanning documents on Linux mentions a GIMP plugin that permits you to import images directly using File>Acquire>SANE, but Gimp's documentation is hella old and "Acquire" doesn't exist anymore. "Acquire" was replaced with "Create", and no matter what I install I cannot get SANE to appear in that submenu.</p>
+
+<p>SANE is still necessary to scan images, but you'll also need a frontend, and that's where <b>xsane</b> comes in. Xsane provides a graphical user-interface to control the scanner.</p>
+
+<p>So, it is time to install both:</p>
+
+<pre>
+sudo pacman -S xsane
+</p>
+
+<p>...and</p>
+
+<pre>
+sudo pacman -S sane
+</pre>
+
+<p>Then voila, you can plug in your scanner, launch Xsane and voila!</p>

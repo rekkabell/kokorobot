@@ -1,4 +1,9 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='description' content='Kokorobot is the virtual playground of cartoonist Rekka Bellum.'><meta name='viewport' content='width=device-width, initial-scale=1.0'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@hundredrabbitss'><meta name='twitter:title' content='Kokorobot'><meta name='twitter:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta name='twitter:creator' content='@hundredrabbits'><meta name='twitter:image' content='http://kokorobot.ca/media/services/icon.jpg'><meta property='og:title' content='kokorobot'><meta property='og:type' content='article'><meta property='og:url' content='http://kokorobot.ca/'><meta property='og:image' content='https://kokorobot.ca/media/services/icon.jpg'><meta property='og:description' content='Kokorobot is the virtual playground of cartoonist Rek Bellum.'><meta property='og:site_name' content='kokorobot'><link rel='icon' type='image/x-icon' href='../media/services/favicon.ico'><link rel='icon' type='image/png' href='../media/services/icon.jpg'><link rel='apple-touch-icon' href='../media/services/apple-touch-icon.png' /><title>Kokorobot — pandoc</title><link rel='stylesheet' type='text/css' href='../links/main.css'></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='characters' href='characters.html'>Characters</a></li><li><a class='notes' href='notes.html'>Other</a></li></ul></header><main class='pandoc'><p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software.</p>
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>Rekka Bellum &mdash; pandoc</title></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='collection' href='collection.html'>Collection</a></li><li><a class='notes' href='notes.html'>Notes</a></li></ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software.</p>
 
 <p>I have built books on Elementary OS and Manjaro with much success. I've tried to describe how to install everything in detail. If you don't have command-line experience, don't get discouraged! It is very tricky (it gets easier, with time). Seek the help of someone you know who can sit with you to help you install these, I find it easier to learn with someone in person, especially someone who knows you well (knows your level, how you learn best etc). Otherwise, ask me and I will try my best to assist you (rekkabell at gmail dot com). If I don't answer right away, it may be because I am sailing and away from a cell tower. I will return your email as soon as I can!</p>
 
@@ -25,7 +30,7 @@
 	<li><a href='https://poppler.freedesktop.org/' target='_blank'>PDFunite</a></li>
 </ul>
 
-<p>Some of these are tricky to install, please refer to my <a href='pandoc_install.html'>install tutorial</a> if you have problems. If you only have plans to export a PDF, only install Pandoc, Pdfunite and LateX. To generate MOBIs and EPUBs with Pandoc, install Pandoc, ImageMagick and Calibre.</p>
+<p>Some of these are tricky to install, please refer to my <a href='pandoc_install.html' class='local'>pandoc install</a> tutorial if you have problems. If you only have plans to export a PDF, only install Pandoc, Pdfunite and LateX. To generate MOBIs and EPUBs with Pandoc, install Pandoc, ImageMagick and Calibre.</p>
 
 <p>Now that you've installed all necessary tools, let's begin:</p>
 
@@ -140,12 +145,12 @@
 <p>I prefer not to modify the look too much, so I keep my css to minimum. For example:</p>
 
 <pre>
-body {font-size: 14px}
-table {font-size: 14px}
-h4 {page-break-before: always;}
-h2 {page-break-before: always;}
-blockquote {font-style: italic;}
-img { max-width: 100% }
+body &lbrace;font-size: 14px&rbrace;
+table &lbrace;font-size: 14px&rbrace;
+h4 &lbrace;page-break-before: always;&rbrace;
+h2 &lbrace;page-break-before: always;&rbrace;
+blockquote &lbrace;font-style: italic;&rbrace;
+img &lbrace;max-width: 100%&rbrace;
 </pre>
 
 <p>I don't recommend setting a fixed font size like in the example above, as the font may be too small to read on a phone. I specified a <b>max-width</b> for images otherwise they have a tendency to spill out of the page. Of course, these are only a few of the many things one can do to improve the look of documents with css.</p>
@@ -207,8 +212,11 @@ documentclass: book
 
 <img src='../media/interface/pandocpdf.png' loading='lazy' class="tools">
 
-<p>I have seen published the book from this tutorial, <a href='busydoingnothing.html'>Busy Doing Nothing</a> as a paperback book. I published it with Lulu, see it <a href='https://www.lulu.com/en/us/shop/rekka-bellum-and-devine-lu-linvega/busy-doing-nothing/paperback/product-rqgmdj.html?page=1&pageSize=4' target='_blank'>here(Lulu.com link)</a>.</p>
+<p>I have published the book from this tutorial, <a href='busy_doing_nothing.html' class='local'>busy doing nothing</a> as a paperback book. I printed using Lulu, a print-on-demand service. See it <a href='https://www.lulu.com/en/us/shop/rekka-bellum-and-devine-lu-linvega/busy-doing-nothing/paperback/product-rqgmdj.html?page=1&pageSize=4' target='_blank'>here(Lulu.com link)</a>.</p>
 
 <img src='../media/content/stories/busydoingnothing/busy_doing_nothing_paperback2.jpg' loading='lazy' class="tools">
 
-<p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p></main><footer><p><a href='about.html'>Rekka Bellum</a> © 2009-2022 <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>BY-NC-SA 4.0</a> <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a></p></footer></body></html>
+<p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
+
+</main><footer><hr /><span style='float:right'>Edited on Mon Nov 28 09:57:15 2022
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/pandoc.htm'>[edit]</a><br/></span><b>Rekka Bellum</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

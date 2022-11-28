@@ -1,0 +1,301 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>Rekka Bellum &mdash; spellbook</title></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='collection' href='collection.html'>Collection</a></li><li><a class='notes' href='notes.html'>Notes</a></li></ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<h3>Spellbook</h3>
+
+<p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
+
+<ul>
+    <li><a href='#wget'>Download a webpage with wget</a></li>
+    <li><a href='#mastermain'>Change repo from master to main</a></li>
+    <li><a href='#cmus'>Using cmus</a></li> 
+    <li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
+    <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
+    <li><a href='#pandoc'>Pandoc commands</a></li>
+    <li><a href='#sublime'>Sublime shortcuts</a></li>
+    <li><a href='#batteryhealth'>Battery health</a></li>
+    <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
+    <li><a href='#remote'>Update remote from http(s) to ssh</li>
+    <li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
+    <li><a href='#appimagesexecute'>Make appimage executable</a></li>
+    <li><a href='#formatusb'>How to format USB on Linux</a></li>
+    <li><a href='#terminaldict'>Install terminal dictionary</li>
+		<li><a href='#spritegif'>Spritesheet conversion to GIF</li>
+</ul>
+
+<h3>A list of some useful commands:</h3>
+
+<ul>
+    <li><b>cd</b>, change the current directory</li>
+    <li><b>ls</b>, list files and directories</li>
+    <li><b>man</b>, display a manual page on the screen</li>
+    <li><b>mv</b>, move (rename) files</li>
+    <li><b>cp</b>, copy files</li>
+    <li><b>open</b>, open files with the default application associated with each filetype</li>
+    <li><b>less</b>, list the contents of files</li>
+</ul>
+
+<h3><a id='wget'>Download webpage with wget</a></h3>
+
+<p>To download a website for local viewing:</p>
+
+<pre>
+wget --page-requisites --convert-links --span-hosts --no-directories https://www.example.com
+</pre>
+
+<ul>
+<li>--page-requisites downloads the images, css and js files</li>
+<li>--convert-links makes the links suitable for local viewing.</li>
+<li>--span-hosts tells wget to download the files from different hosts like the CDN</li>
+<li>--no-directories downloads the files into a single flat and messy directory</li>
+</ul>
+
+<p>Sourced from <a href='https://tinkerlog.dev/journal/downloading-a-webpage-and-all-of-its-assets-with-wget' target='_blank'>Tyler Smith</a>.</p>
+
+<h3><a id='mastermain'>Change repo from master to main</a></h3>
+
+<p>Master is an antiquated and innapropriate term. To change the repository branch to main, navigate to the correct repository, then enter:</p>
+
+<pre>
+git branch -m master main
+
+git push -u origin main
+
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# change default branch
+
+git push origin --delete master
+</pre>
+
+<h3><a id='cmus'>Using Cmus</a></h3>
+
+<p><b>Control</b></p>
+<ul>
+    <li><b>x</b>, play</li>
+    <li><b>c</b>, pause</li>
+    <li><b>v</b>, stop</li>
+    <li><b>z</b>, previous stack</li>
+    <li><b>b</b>, next track</li>
+    <li><b>u</b>, update cache</li>
+    <li><b>tab</b>, to select a track from inside an album on the right column</li>
+</ul>
+
+<p><b>Search</b></p>
+<ul>
+    <li><b>/</b>, search</li>
+    <li><b>n</b>, search next</li>
+    <li><b>N</b>, search previous</li>
+</ul>
+
+<p><b>Playlist editing</b></p>
+<ul>
+    <li><b>y</b>, copy selected tracks to playlist</li>
+    <li><b>p</b>, move track down</li>
+    <li><b>P</b>, move track up</li>
+    <li><b>D</b>, remove track</li>
+</ul>
+
+<p>To modify the metadata of a song, it is necessary to install <b>eyeD3</b>:</p>
+
+<pre>
+sudo pacman -S python-eyed3
+</pre>
+
+<p>Then run:</p>
+
+<pre>
+eyeD3 -a 'Artist name' -A 'Album name' -t 'Song name' song.mp3
+</pre>
+
+<p>Artist (-a/--artist), album (-A/--album), title (-t/--title), and track number (-n/--track-num).</p>
+
+<p>List sourced from <a href='https://nchrs.xyz/cmus.html' target='_blank'>Rostiger's website</a>.</p>
+
+<h3><a id='killprogram'>How to kill an unresponsive program</a></h3>
+
+<pre>
+    pstree -p
+</pre>
+
+<p>Identify parent process.</p>
+
+<pre>
+   kill 1234
+</pre>
+
+<p>Where 1234 is the process ID I found using pstree. If application has not been terminated, do this:</p>
+
+<pre>
+kill -9 1234
+</pre>
+
+<h3><a id='youtubedl'>Ripping audio from YouTube videos</a></h3>
+
+<p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
+
+<pre>youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" video_URL</pre>
+
+<p>Specifying "%(title)s.%(ext)s" just means that the video name will be the same as the title of the video. [-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a. To download a playlist of videos, just click on the playlist name and use that as an URL.</p>
+
+<h3><a id='pandoc'>pandoc commands</a></h3>
+
+<p>To export a text file formatted in html to markdown (as a .txt file).</p>
+
+<pre>
+    pandoc -o filename.txt filename.html
+</pre>
+
+<p>To export mardown text file into a styled pdf (see how to <a href='pandoc_install.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
+
+<pre>
+    pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
+</pre>
+
+<h3><a id='sublime'>Sublime shortcuts</a></h3>
+
+<p>To select the space before the first character on every line in a paragraph.</p>
+<p>shift+right, then crtl+d (repeat d key to select additional lines).</p>
+
+<h3><a id='batteryhealth'>Checking battery health</a></h3>
+
+<p>To check battery health on your laptop time the following command:</p>
+
+<pre>
+    upower -e
+</pre>
+
+<p>You'll see the following:</p>
+
+<pre>
+    /org/freedesktop/UPower/devices/line_power_ADP1
+    /org/freedesktop/UPower/devices/battery_BAT0
+    /org/freedesktop/UPower/devices/DisplayDevice
+</pre>
+
+<p>Enter:</p>
+
+<pre>
+    upower -i /org/freedesktop/UPower/devices/battery_BAT0
+</pre>
+
+<p>Check energy-full and energy-full-design to see the performance of your battery. To know if the battery needs to be replaced, divide the number next to “Energy when full” by “Energy (design)”, and multiply the result by 100. You’ll get a percentage.</p>
+
+<p>The percentage you get is how much your battery holds of its original capacity. If the number is >50%, it might be time to replace the battery.</p>
+
+<h3><a id='desktopfile'>Creating a working .desktop file</a></h3>
+
+<p>Open a text editor. Paste and edit the following:</p>
+
+<pre>
+[Desktop Entry]
+Version=x.y
+Name=ProgramName
+Comment=This is my comment
+Exec=/home/alex/Documents/exec.sh
+Icon=/home/alex/Pictures/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;</pre>
+
+<p><b>Version</b> is the version of the file. <br><b>Name</b> is the application name, for example "krita" or "thunderbird". <br><b>Comment</b> is a short description of said application. <br><b>Exec</b> is the path to the executable application. <b>Icon</b> is the path to the icon you wish to use for the application. <br><b>Terminal</b> is whether you want the application to run in a terminal window or not. <br><b>Type</b> specifies the type of launcher file (other examples include link, or directory). <br><b>Categories</b> is used to categorize applications.</p>
+
+<p>Save the .desktop file. While in the same folder, open the terminal window and type the following to move the .desktop file to /usr/share/applications, or write the path to the .desktop file:</p>
+
+<pre>
+sudo mv programname.desktop /usr/share/applications
+</pre>
+
+<p>Navigate to usr/share/applications, find the file you just moved, select and drag it onto the launcher panel. Now your launcher (.desktop file) is locked on your launcher dash.</p>
+
+<h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
+
+<p>Look inside .git/config in your repo, and change the relevant remotes to look like:</p>
+<pre>url = git@github.com:<user>/<repo>.git</pre>
+
+<h3><a id='exportimagesgimp'>Export images to pdf with GIMP</a></h3>
+<p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
+<pre>sudo apt-get install imagemagick</pre>
+<p>Convert your files, that's it.</p>
+<pre>convert -reverse document.mng document.pdf</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='appimagesexecute'>Make appimage executable</a></h3>
+<pre>chmod +u <AppImage File></pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='formatusb'>How to format USB on Linux</a></h3>
+<p>Insert the USB flash drive or SD card into your Linux machine and find the device name using the <b>lsblk -fp</b> command:</p>
+<pre>$ lsblk -fp
+NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
+/dev/sda
+└─/dev/sda1                     LVM2_member             c52... 
+  ├─/dev/mapper/mint--vg-root   ext4                    183...   /
+  └─/dev/mapper/mint--vg-swap_1 swap                    337...   [SWAP]
+/dev/sdb
+└─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</pre>
+<p>In the example above, the USB drive is recognized by the operating system as a disk named /dev/sdb with a single partition /dev/sdb1 mounted on /media/user/usb0. Unmount the USB drive if it is mounted:</p>
+<pre>sudo umount /media/user/usb0</pre>
+<p>Formatting types:</p>
+<ul>
+	<li>NTFS: The NT File System (NTFS) is the file system that modern Windows versions use by default.</li>
+    <li>HFS+: The Hierarchical File System (HFS+) is the file system modern macOS versions use by default.</li>
+    <li>APFS: The proprietary Apple file system developed as a replacement for HFS+, with a focus on flash drives, SSDs, and encryption. APFS was released with iOS 10.3 and macOS 10.13, and will become the mandatory file system for those operating systems.</li>
+    <li>FAT32: The File Allocation Table 32 (FAT32) was the standard Windows file system before NTFS.</li>
+    <li>exFAT: The extended File Allocation Table (exFAT) builds on FAT32 and offers a lightweight system without all the overhead of NTFS.</li>
+    <li>EXT 2, 3, & 4: The extended file system (EXT) was the first file system created specifically for the Linux kernel.</li>
+</ul>
+<p>To convert to FAT32, enter desired label name (optional):</p>
+<pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='terminaldict'>Install a terminal dictionary</a></h3>
+
+<p>Half of the online searches I make are for word definitions, or synonyms. A good physical dictionary is useful, but there are times when searching online is quicker. I didn't want to use anything with an interface, as they tend to be messy, and in this case, my needs are very simple. A terminal dictionary as for me, the better option. Enter SDCV.</p>
+
+<p>SDCV, or StarDict Console Version, is the terminal utility version of StarDict extensible GUI dictionary application. Here's how to install it:</p>
+
+<pre>sudo apt-get install sdcv</pre>
+
+<p>SDCV is now installed, but has no dictionaries to search from yet. SDCV requires files in a DICT format. You can pick the ones you want from the list <a href='http://www.huzheng.org/stardict/' target="_blank">here</a>, recommended by StarDict. To start, you can download the <a href='http://download.huzheng.org/dict.org/stardict-dictd_www.dict.org_gcide-2.4.2.tar.bz2' target="_blank">Collaborative International Dictionary of English</a>.</p>
+
+<p>Next, navigate to the folder where you will place your dictionary.</p>
+
+<pre>cd /usr/share</pre>
+
+<p>Make a directory named 'stardict', and another in it named 'dic'. To make a directory, use <b>sudo mkdir</b> followed by the name of your new directory.</p>
+
+<p>Next, we'll uncompress and move the dictionary in one go, using the following command. Modify <b>INSERTNAME</b> with the name of the file you've downloaded.</p>
+
+<pre>sudo tar -xjvf INSERTNAME -C /usr/share/stardict/dic</pre>
+
+<p>Enter your password, and voila! To use SDCV, type <b>sdcv</b> followed by the word you're looking for, for example:</p>
+
+<pre>sdcv tortilla</pre>
+
+<h3><a id='spritegif'>Spritesheet conversion to GIF</a></h3>
+
+<p>ImageMagick can convert spritesheets to gif animations, here is the recipe I used:</p>
+
+<pre>convert -dispose 3 -delay 20 -loop 0 input.png -crop 64x64 +repage output.gif</pre>
+
+<p>Here is a breakdown of the recipe:</p>
+
+<p><b>-dispose 3</b> 'dispose" defines the way the displayed image is modified after the current frame of an animation has gone past, and before another frame is overlaid.<br />
+<b>3</b> refers to 'previous', which clears to the image prior to the current frame's overlay.<br /> 
+<b>-delay 20</b> displays the next image after pausing for a number of seconds.<br />
+<b>-loop 0</b> set to zero the animation repeats an infinite number of times.<br />
+<b>input.png</b> is my starting spritesheet.<br />
+<b>-crop</b> cuts out one or more rectangular regions of my image to 64x64 pixels. For my animation, I had 5 frames, 64 is the width/height of the bounding box of the sprite (full width 320px / 5).<br />
+<b>+repage</b> adjusts the canvas and offset information of the image.<br />
+<b>output.gif</b> is the resulting, assembled gif image.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+</main><footer><hr /><span style='float:right'>Edited on Wed Nov 23 09:59:18 2022
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rekka Bellum</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

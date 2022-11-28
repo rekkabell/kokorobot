@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/png' href='../media/services/shortcut.png'><title>Rekka Bellum &mdash; using a scanner under linux</title></head><body><header><h1><a href='home.html'>Rekka Bellum</a></h1><h2><a href='home.html'>⬟</a></h2><ul><li><a class='about' href='about.html'>About</a></li><li><a class='projects' href='projects.html'>Projects</a></li><li><a class='illustration' href='illustration.html'>Illustration</a></li><li><a class='stories' href='stories.html'>Stories</a></li><li><a class='store' href='store.html'>Store</a></li><li><a class='collection' href='collection.html'>Collection</a></li><li><a class='notes' href='notes.html'>Notes</a></li></ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<p>Growing up with a variety of scanners, and having to deal with shitty software and compability issues, I assumed that getting an older scanner to work with Linux would be impossible- I was wrong. I am currently running Manjaro.</p>
+
+<p>I use a CanoScanLiDE20, USB-powered. I scan drawings using SANE.</p>
+
+<p><b><a href='sane-project.org' target='_blank'>SANE</a></b> is a free and open source application that provides standardized access to any image scanner. To make sure that your chosen scanner will work with SANE, check <a href='http://www.sane-project.org/sane-mfgs.html' target='_blank'>this list</a>.</p>
+
+<p><b>Using Gimp?</b> Every tutorial I've read that mentions scanning documents on Linux mentions a GIMP plugin that permits you to import images directly using File>Acquire>SANE, but Gimp's documentation is hella old and "Acquire" doesn't exist anymore. "Acquire" was replaced with "Create", and no matter what I install I cannot get SANE to appear in that submenu.</p>
+
+<p>SANE is still necessary to scan images, but you'll also need a frontend, and that's where <b>xsane</b> comes in. Xsane provides a graphical user-interface to control the scanner.</p>
+
+<p>So, it is time to install both:</p>
+
+<pre>
+sudo pacman -S xsane
+</p>
+
+<p>...and</p>
+
+<pre>
+sudo pacman -S sane
+</pre>
+
+<p>Then voila, you can plug in your scanner, launch Xsane and voila!</p>
+
+
+</main><footer><hr /><span style='float:right'>Edited on Mon Nov 28 11:32:44 2022
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/using_a_scanner_under_linux.htm'>[edit]</a><br/></span><b>Rekka Bellum</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
