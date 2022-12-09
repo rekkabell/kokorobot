@@ -3,6 +3,7 @@
 <p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
 <ul>
+    <li><a href='#time'>Changing the computer's time/timezone</a></li>
     <li><a href='#wget'>Download a webpage with wget</a></li>
     <li><a href='#mastermain'>Change repo from master to main</a></li>
     <li><a href='#cmus'>Using cmus</a></li> 
@@ -31,6 +32,22 @@
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
 </ul>
+
+<h3><a id='time'>Changing the computer's time/timezone</a></h3>
+
+<p>To change the timezone, first find the timezone in the list using the following command(to cycle through the list, enter line numbers and press enter):</p>
+
+<pre>timedatectl list-timezones</pre>
+
+<p>Then, set the chosen timezone using:</p>
+
+<pre>timedatectl set-timezone "[timezone]"</pre>
+
+<p>Ex: [timedatectl set-timezone "[America/Vancouver]"</p>
+
+<p>To change the time:</p>
+
+<pre>timedatectl set-time "yyyy-MM-dd hh:mm:ss"</pre>
 
 <h3><a id='wget'>Download webpage with wget</a></h3>
 
