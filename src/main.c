@@ -7,7 +7,7 @@
 #include <time.h>
 
 /*
-Copyright (c) 2022 Rekka Bellum
+Copyright (c) 2022 Rek Bellum
 
 Permission to use, copy, modify, and distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -17,7 +17,7 @@ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
 WITH REGARD TO THIS SOFTWARE.
 */
 
-#define NAME "Rekka Bellum"
+#define NAME "Rek Bellum"
 #define DOMAIN "https://kokorobot.ca/"
 #define LICENSE "https://github.com/rekkabell/kokorobot/blob/main/LICENSE"
 #define SOURCE "https://github.com/rekkabell/kokorobot/edit/main"
@@ -197,7 +197,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer><hr />", f);
 	fpedited(f, srcpath);
-	fputs("<b>Rekka Bellum</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — ", f);
+	fputs("<b>Rek Bell</b> © 2022 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
