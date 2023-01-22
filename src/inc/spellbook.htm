@@ -2,12 +2,15 @@
 
 <p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
 
+<p>All of these are linux commands.</p>
+
 <ul>
     <li><a href='#nasuhex'>Copying hexadecimal code from Nasu</a></li>
     <li><a href='#time'>Changing the computer's time/timezone</a></li>
     <li><a href='#wget'>Download a webpage with wget</a></li>
     <li><a href='#mastermain'>Change repo from master to main</a></li>
     <li><a href='#cmus'>Using cmus</a></li> 
+    <li><a href='#metadata'>Modifying a song's metadata</a></li> 
     <li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
     <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
@@ -19,7 +22,7 @@
     <li><a href='#appimagesexecute'>Make appimage executable</a></li>
     <li><a href='#formatusb'>How to format USB on Linux</a></li>
     <li><a href='#terminaldict'>Install terminal dictionary</li>
-		<li><a href='#spritegif'>Spritesheet conversion to GIF</li>
+	<li><a href='#spritegif'>Spritesheet conversion to GIF</li>
 </ul>
 
 <h3>A list of some useful commands:</h3>
@@ -36,11 +39,11 @@
 
 <h3><a id='nasuhex'>Copying hexadecimal code from Nasu</a></h3>
 
-<p>Select the sprite in Nasu, then ctrl+c. Open a terminal window, and navigate to the folder where the file is located. Type:</p>
+<p>Select the sprite in <a href='https://hundredrabbits.itch.io/nasu' target='_blank'>Nasu</a>, then <b>ctrl+c</b>. Open a terminal window, and navigate to the folder where the file is located. Type:</p>
 
 <pre>hx .snarf</pre>
 
-<p>Copy the text from the terminal ctrl+option+c and paste it where you want</p>
+<p>Copy the text from the terminal <b>ctrl+option+c</b> and paste it where you want</p>
 
 <h3><a id='time'>Changing the computer's time/timezone</a></h3>
 
@@ -118,6 +121,8 @@ git push origin --delete master
     <li><b>P</b>, move track up</li>
     <li><b>D</b>, remove track</li>
 </ul>
+
+<h3><a id='metadata'>Modifying song's metadata</a></h3>
 
 <p>To modify the metadata of a song, it is necessary to install <b>eyeD3</b>:</p>
 
@@ -281,7 +286,12 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 
 <p>SDCV, or StarDict Console Version, is the terminal utility version of StarDict extensible GUI dictionary application. Here's how to install it:</p>
 
-<pre>sudo apt-get install sdcv</pre>
+<pre>
+sudo apt-get install sdcv
+
+On Manjaro...
+sudo pacman -S sdcv
+</pre>
 
 <p>SDCV is now installed, but has no dictionaries to search from yet. SDCV requires files in a DICT format. You can pick the ones you want from the list <a href='http://www.huzheng.org/stardict/' target="_blank">here</a>, recommended by StarDict. To start, you can download the <a href='http://download.huzheng.org/dict.org/stardict-dictd_www.dict.org_gcide-2.4.2.tar.bz2' target="_blank">Collaborative International Dictionary of English</a>.</p>
 
@@ -289,7 +299,7 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
 
 <pre>cd /usr/share</pre>
 
-<p>Make a directory named 'stardict', and another in it named 'dic'. To make a directory, use <b>sudo mkdir</b> followed by the name of your new directory.</p>
+<p>Make a directory named <b>stardict</b>, and another in it named <b>dic</b>. To make a directory, use <b>sudo mkdir</b> followed by the name of your new directory.</p>
 
 <p>Next, we'll uncompress and move the dictionary in one go, using the following command. Modify <b>INSERTNAME</b> with the name of the file you've downloaded.</p>
 
