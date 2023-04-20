@@ -13,7 +13,7 @@
     <li><a href='#cmus'>Using cmus</a></li> 
     <li><a href='#metadata'>Modifying a song's metadata</a></li> 
     <li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
-    <li><a href='#youtubedl'>Ripping audio from Youtube videos</a></li>
+    <li><a href='#youtubedl'>Ripping audio/video from Youtube</a></li>
     <li><a href='#pandoc'>Pandoc commands</a></li>
     <li><a href='#sublime'>Sublime shortcuts</a></li>
     <li><a href='#batteryhealth'>Battery health</a></li>
@@ -36,6 +36,7 @@
     <li><b>cp</b>, copy files</li>
     <li><b>open</b>, open files with the default application associated with each filetype</li>
     <li><b>less</b>, list the contents of files</li>
+    <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
 
 <h3><a id='pandochtmlmd'>Markdown to HTML with pandoc</a></h3>
@@ -171,13 +172,39 @@ eyeD3 -a 'Artist name' -A 'Album name' -t 'Song name' song.mp3
 kill -9 1234
 </pre>
 
-<h3><a id='youtubedl'>Ripping audio from YouTube videos</a></h3>
+<h3><a id='youtubedl'>Ripping audio/video YouTube</a></h3>
 
-<p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
+<!-- <p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
 
 <pre>youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" video_URL</pre>
 
-<p>Specifying "%(title)s.%(ext)s" just means that the video name will be the same as the title of the video. [-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a. To download a playlist of videos, just click on the playlist name and use that as an URL.</p>
+<p>Specifying "%(title)s.%(ext)s" just means that the video name will be the same as the title of the video. [-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a. To download a playlist of videos, just click on the playlist name and use that as an URL.</p> -->
+
+<p><b>NOTE</b>. Youtube-dl doesn't work anymore, it is now necessary to use <b>yt-dlp</b>, to install:</p>
+
+<pre>sudo pacman -Syu yt-dlp</pre>
+
+<p>Refer to the <a href='https://github.com/yt-dlp/yt-dlp/wiki/Installation' target='_blank'>installation guide</a> for other linux distributions or OSs. The new command for ripping audio:</p>
+
+<pre>yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  -o '%(id)s.%(ext)s'</pre>
+
+<p>To download videos...</p>
+
+<pre>yt-dlp https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<p>If you want to select a specific format, or audio only, enter the following along with the youtube video url:</p>
+
+<pre>yt-dlp --list-formats https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<img src="../media/content/spellbook/ytdlp.jpg" loading='lazy' class='tools'>
+
+<p>You'll get a list of formats in the command line window. Each option is labelled with a number (far left). Options include versions of the video without audio in a variety of formats (mp4, webm), others are for audio only. If the goal is to get audio only, then one would write <b>-f 140</b> in the command line:</p>
+
+<pre>yt-dlp -f 140 https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<p>To specify a name for the video, append <b>-o '%(id)s.%(ext)s'</b>, like so:</p>
+
+<pre>yt-dlp https://www.youtube.com/watch?v=f6wtF_2eyrU -o '%(id)s.%(ext)s'</pre>
 
 <h3><a id='pandoc'>pandoc commands</a></h3>
 
