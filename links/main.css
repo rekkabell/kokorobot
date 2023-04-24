@@ -27,6 +27,7 @@ header ul li a { display: inline-block;background-size: 100px;background-repeat:
 header ul li a:hover { cursor: pointer; text-decoration: underline; background-position:center -5px;}
 
 header ul li a.about { background-image: url(../media/interface/menu/about.png);  }
+header ul li a.children { background-image: url(../media/interface/menu/childrens_books.png);  }
 header ul li a.projects { background-image: url(../media/interface/menu/projects.png);  }
 header ul li a.games { background-image: url(../media/interface/menu/illustration.png);  }
 header ul li a.stories { background-image: url(../media/interface/menu/stories.png);  }
