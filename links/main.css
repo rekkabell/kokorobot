@@ -28,7 +28,7 @@ header ul li a:hover { cursor: pointer; text-decoration: underline; background-p
 
 header ul li a.about { background-image: url(../media/interface/menu/about.png);  }
 header ul li a.projects { background-image: url(../media/interface/menu/projects.png);  }
-header ul li a.illustration { background-image: url(../media/interface/menu/illustration.png);  }
+header ul li a.games { background-image: url(../media/interface/menu/illustration.png);  }
 header ul li a.stories { background-image: url(../media/interface/menu/stories.png);  }
 header ul li a.store { background-image: url(../media/interface/menu/store.png);  }
 header ul li a.notes { background-image: url(../media/interface/menu/notes.png);  }
