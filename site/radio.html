@@ -3,7 +3,16 @@
 
 <!-- Generated file, do not edit -->
 
+<h3>Table of contents</h3>
+
+<ul>
+    <li><a href='#radiobasic'>Radio Basics</a></li>
+    <li><a href='#omhslaw'>Omh's Law</a></li>
+</ul>
+
 <p>Some notes as I study for my amateur basic radio license.</p>
+
+<h3><a id='radiobasic'>RADIO BASICS</a></h3>
 
 <ul>
     <li><a href='#atoms'>Atoms</a></li>
@@ -18,15 +27,20 @@
     <li><a href='#dc'>Direct Current</a></li>
     <li><a href='#cells'>Cells and Batteries</a></li>
     <li><a href='#schematic'>Circuit and Schematic Diagrams</a></li>
+    <li><a href='#ac'>Alternating Current</a></li>
 </ul>
 
 <p>Units:</p>
 <ul>
     <li>C, Coulomb</li>
     <li>A, Ampere (calculated using ammeter)</li>
+    <li>µA, Microamperes</li>
     <li>V, Voltage</li>
+    <li>µV, Microvolts</li>
     <li>E, Potential difference (calculated using voltmeter)</li>
     <li>R, Resistance (calculated using ohmmeter)</li>
+    <li>Ω, Omh</li>
+    <li>kΩ, Kilohm</li>
     <li>W, Watts</li>
 </ul>
 
@@ -299,5 +313,141 @@ that separate into ions when dissolved.
     <li>Power supply wiring may not be drawn in, but can be referenced by labelled terminals or a chart.</li>
 </ul>
 
-</main><footer><hr /><span style='float:right'>Edited on Fri Jul  7 11:03:43 2023
+<h3><a id='ac'>AC</a></h3>
+
+<p>Alternating current bears its name well, as current travels one way and then the other. This reversal is counted and referred to as <b>frequency</b>. If living on land, house current is 60 hertz, meaning that it reverses 60 times per second. <b>1 hertz = 1 cycle/per second</b>. In a cycle, the current rises to a high point in each direction and a return to zero.</p>
+
+<p><b>In-Phase</b>: Waves of the same frequency as 'in-phased' when the voltage and current rising at the same time, both starting at zero and reaching the maximum point together.</p> 
+
+<p>If measured these intervals using an oscilloscope, a sinewave would appear. The transition between pos and neg voltage and current isn't abrupt (doesn't draw sharp edges) but instead creates smooth curves.</p>
+
+<p>For AC voltage to be converted to DC, the peak voltage must be 1.414 times that of DC. <b>RMS</b> or <b>root mean square</b>, is an AC voltage equivalent of DC.</p> 
+
+<h3><a id='omhslaw'>Ohm's Law</a></h3>
+
+<p>Ohm's Law refers to the fact that voltage(E) is equal to current(I) multipled by the resistance(R).</p>
+
+<p><b>E = I X R</b></p>
+
+<p>Using this formula as a base, it's possible to find the value of the others: <b>I = E / R</b>, or <b>R = E / I</b>.</p>
+
+<pre>
+
+    Ohm's Law Pyramid
+           .
+          / \
+         / E \ 
+        -------
+       / I | R \
+      -----------
+
+</pre>
+
+<p><b>Using base values</b>. When using Ohm's Law, all voltages expressed in millivolts, microvolts, and kilovolts have to be converted to volts. Current in milliamps and microamps have to be expressed in amperes. Resistance in kilohms and megohms must be expressed in ohms.</p>
+
+<pre>
+Ex: 12 V battery with a 25 ohm resistor, what is the amperage of this circuit?
+
+E / R = I
+
+And so 12 / 25 = 0.48 amperes
+</pre>
+
+<p>An example that includes converting to base values:</p>
+
+<pre>
+Ex: A circuit with 30 mV and a resistance of 30 kΩ, what is the voltage? 
+
+We must convert the units from:
+- millivolt to volt
+- kilomhs to ohms
+
+30 / 1000
+30 mV is 0.030 V
+
+30 x 1000
+30 kΩ is 30,000 ohms
+
+E / R = I, so 0.030 / 30,000 = 0.000001 A, or 1 µA
+
+</pre>
+
+<h3><a id='resistorseriesparallel'>Resistors in series/parallel</a></h3>
+
+<p>In a circuit, there can be multiple resistors connected either in series, or in parallel.</p>
+
+<p><b>Series:</b></p>
+<ul>
+    <li>The total resistance is the sum of the resistances in the circuit, always greater than any individual resistances. R = R1+R2+R3+...</li>
+    <li>The total voltage across the circuit is the sum of all voltage drops across all resistors. E=E1+E2+E3...</li>
+    <li>The current is the same through each resistor and is the same total current of the circuit. I = I1 = I2 = I3...</li>
+</ul>
+
+<p><b>Parallel:</b></p>
+
+<ul>
+    <li>Total resistance is calculated using 1/R(total) = 1/R1 + 1/R2 + 1/R3...</li>
+    <li>The voltage across each resistor is the same and equals the applied voltage. E(total) = E1 = E2...</li>
+    <li>Total current is the sum of all individual currents. I(total) = I1+I2+I3... </li>
+    <li>The total resistance in a parallel circuit is always less than any individual resistances.</li>
+</ul>
+
+<pre>
+
+    Rules for parallel resistors:
+
+                      R1xR2
+         R (total) = _______
+                      R1+R2
+
+</pre>
+
+<p>An example using the above formula for parallel resistors:</p>
+
+<pre>
+Two parallel resistors.
+
+R1 has a value of 1000 Ω
+R2 has a value of 2500 Ω
+The total resistance would be...
+
+Calculations:
+1000x2500 = 2,500,000
+1000+2500 = 3,500
+2,500,000 / 3,500 = 714 Ω
+
+The total resistance would be 714 Ω.
+
+</pre>
+
+<p>If there are 3 resistors, calculate the total resistance of R1 and R2 for the formula for two parallel resistors. Then, take that value, and using that same formula again with R3. See example:</p>
+
+<pre>
+Three parallel resistors.
+
+R1 has a value of 1000 Ω
+R2 has a value of 2500 Ω
+R3 has a value of 500 Ω
+The total resistance would be...
+
+Calculations for R1 and R2:
+1000x2500 = 2,500,000
+1000+2500 = 3,500
+2,500,000 / 3,500 = 714 Ω
+
+Then, using the combined value of R1 and R2 in the same equation with R3...
+
+                      R(1+2)xR3
+         R (total) = _______
+                      R(1+2)+R3
+
+714x500 = 357,000
+714+500 = 1,214
+357,000 / 1,214 = 294 Ω
+
+</pre>
+
+<p>When all resistors in a circuit are of the same value, the total resistance is R(total) = R / N(the number of resistors in the circuit). If the circuit has three 1000 Ω resistors, the total resistance would be 1000 / 3 = 333 Ω</p>
+
+</main><footer><hr /><span style='float:right'>Edited on Mon Jul 10 11:19:00 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/radio.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
