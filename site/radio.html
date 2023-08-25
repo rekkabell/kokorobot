@@ -49,6 +49,8 @@
     <li><a href='#acinductors'>Ac Inductors</a></li>
     <li><a href='#inductorscircuit'>Inductors in Circuits</a></li>
     <li><a href='#transformers'>Transformers</a></li>
+    <li><a href='#capacitancecapacitors'>Capacitance and Capacitors</a></li>
+    <li><a href='#capacitancefactors'>What Affects Capacitance</a></li>
 </ul>
 
 <p>Units:</p>
@@ -63,6 +65,9 @@
     <li>Ω, Omh</li>
     <li>kΩ, Kilohm</li>
     <li>W, Watts</li>
+    <li>F, Farads</li>
+    <li>H, Henries</li>
+    <li>µF, Microfarads</li>
 </ul>
 
 <h3><a id='atoms'>Atoms</a></h3>
@@ -721,5 +726,244 @@ E x I = P
     <li><b>Hysteresis</b>. Iron cores becomes magnetized during each AC cycle and must demagnetize at the start of next cycle (hysteresis loss).</li>
 </ul>
 
-</main><footer><hr /><span style='float:right'>Edited on Fri Aug  4 11:40:08 2023
+<h3><a id='capacitancecapacitors'>Capacitance and Capacitors</a></h3>
+
+<p>A capacitor stores electrical energy. Capacitance refers to a capacitor's ability to store electrical charge. The unit of capacitance is the <b>Farad (F abbrev, and C in formulas)</b></p>
+
+<p>Capacitors consist of two plates made from conductive materials, separated by an insulating material called the <b>dielectric</b>. When there is voltage across a capacitor, an electrostatic field builds up between the two plates, in the dielectric. A charged capacitor will have the same voltage as the battery. The charge stays on the plates for some time, but eventually decrease due to leakage.</p>
+
+<p>When charging a capacitor from a battery, electrons flow from the negative side of the battery to the negative plates of the capacitor, and accumulate there. Electrons on the other plate are repelled by the accumulation of electrons on the neighboring plate and are driven back, which leaves the plate positive(electron deficient).</p>
+
+<p>Dialectric materials include: ceramic, polycarbonate, polyester, Mylar, tantalum, etc.</p>
+
+<p><b>Variable Capacitors</b>: they can change the effective areas of the plates, or the spacing, to control the capacitance of a circuit.</p>
+<p><b>Air Variable Capacitors</b>: they have a rotary shaft which can adjust two sets of plates so that they overlap, the capacitance depends on the position of the shaft.</p>
+<p><b>Compression Trimmer Capacitors</b>: Capacitance is changed by compressing of loosening a screw which separates the plates or brings them closer together.</p>
+<p><b>Vacuum Variable Capacitor</b>: A capacitor enclosed in a vacuum container. In the absence of air, higher voltages can be sustained w/o the charge jumping from one plate to the other.</p>
+<p><b>Electrolytic Capacitors</b>: They have a specific polarity, either pos or neg and have to be connected accordingly. The dielectric is produced by an electrochemical reaction in the capacitor to produce big capacitance in a small package.</p>
+
+<h3><a id='capacitancefactors'>What Affects Capacitance</a></h3>
+
+<p><b>The effective area of the plates</b>. The larger the plates(or adding more plates), the more energy can be stored. A larger capacitor will require more charge.</p>
+<p><b>Distance between plates</b>. If the plates are moved closer together, the electrons on the opposing plate are repelled at greater intensity, there is more charge flow, capacitance thusly increases. Capacitance decreases if the plates are moved apart.</p>
+<p><b>Dialectic Material</b>. Some materials offer better capacitance for the same plate area and spacing.</p>
+
+<h3><a id='capacitorsseriesparallel'>Capacitors Series/Parallel</a></h3>
+
+<p>Unlike the calculations for resistors and inductors in series or parallel, capacitors use the opposite formula.</p>
+
+<p>For parallel, total capacitance is the sum of all capacitors, for series total capacitance is calculated like:</p>
+
+<pre>
+                         C1 x C2
+    Total Capacitance =  _______
+                         C1 + C2
+</pre>
+
+<p>When connected in series the total capacitance of the circuit is less than the capacitance of the smallest capacitor.</p>
+
+<h3><a id='workingvoltage'>Working Voltage</a></h3>
+
+<p>All capacitors have a working voltage, expressed in <b>VDC</b>, and it is the maximum voltage that the capacitor can sustain continuously w/o leaking excessively, or breaking down.</p>
+
+<h3><a id='reactance'>Reactance</a></h3>
+
+<p>Reactance is the opposition to the flow of AC, it is expressed in Ohms. There is no energy dissipated in a reactance, and the energy always returns to the circuit.</p>
+
+<p><b>Inductive Reactance</b>. The opposition to the flow of AC by an inductor.</p>
+
+<p>As the inductance increases in a circuit, so does the inductive reactance. As it decreases, the inductive reactance too decreases.</p>
+
+<p>As the frequency of AC increases so does the inductive reactance. As it decreases, the inductive reactance too decreases (ex: AC at 60Hz will have less opposition from an inductor than AC at 400 Hz).</p>
+
+<pre>
+    Inductive Reactance (X) = 2πfL
+
+    X = Inductance Reacted in Ohms
+    π = 3.14
+    f = Frequency in Hz
+    L = Inductance in henries 
+</pre>
+
+<p><b>Capacitive Reactance</b>. The opposition to the flow of AC by capacitance (when in each AC cycle the energy returns to the circuit, it opposes AC current flow). It is measured in Ohms.</p>
+
+<pre>
+                                1
+    Capacitive Reactance (X) = ____
+                               2πfC
+
+    X = Inductance Reacted in Ohms
+    π = 3.14
+    f = Frequency in Hz
+    L = Capacitance in farads 
+</pre>
+
+<p>As the capacitance increases in a circuit, the capatitive reactance is decreased. As it decreases, the capacitive reactance increases.</p>
+
+<p>As the frequency of AC increases the capacitive reactance decreases. As it decreases, the capacitive reactance increases (ex: AC at 60Hz will have less opposition from an inductor than AC at 400 Hz).</p>
+
+<h3><a id='impedance'>Impedance</a></h3>
+
+<p>When a circuit has both resistance and reactance, the circuit is then call impendance.</p>
+
+<p>Impedance(Z) is a measure of the extent to which a circuit opposes the flow of electricity. All materials have some degree of electrical resistance, which causes some energy to be lost as heat, and reduces the flow of current. In a DC circuit, impedance is the same as resistance, in AC there is also reactance (capative and inductive).</p>
+
+<p>Impedance in a series circuit is calculated using:</p>
+
+<pre>
+    R = Total series resistance
+    X = Total reactance
+
+    Z = √ R2+ X2
+</pre>
+
+<p><b>Impedance Matching</b>. Means that there is a maximum transfer of power between two devices if the circuit to which the input is connected has same impedance(Omhs) as the input circuit, and if the circuit to which the output is connected has the same impedance as the device it feeds into.</p>
+
+<p>A low impedance circuit shouldn't be connected to one that is high, and vice versa.</p>
+
+<pre>
+If connecting a TV system with the follow components...
+
+Coaxial cable = 75 Ohm (Zp)
+TV twin lead  = 300 Ohm (Zs)
+
+A transformer is used to match them up. To calculate the turns ratio:
+
+Zs = Impedance secondary
+Zp = Impedance primary
+Ns = Number of turns seconday
+Np = Number of turns primary
+
+Formula:
+
+√ Zs   Ns
+  __ = __
+  Zp   Np
+
+√ 300  4
+  __ = __ = 2 (revisit this...)
+   75  1
+
+</pre>
+
+<h3><a id='resonance'>Resonance</a></h3>
+
+<p>Resonance occurs when the inductive reactance in a circuit is <b>equal</b> to the capacitive reactance, they cancel each other out.</p>
+
+<pre>
+    formula for resonance:
+
+    Fr = Resonant frequency in Hz
+    π  = 3.14
+    L  = Inductance in henries
+    C  = Capacitance in farads
+
+          1
+    Fr = ____
+         2π√LC
+</pre>
+
+<h3><a id='tunedcircuits'>Tuned Circuits</a></h3>
+
+<p>Tuned circuits are referred to as <b>RLC</b> circuits (r=resistance, l=inductor, c=capacitor). Tuning a circuit refers to two things:</p>
+
+<p><b>Varying the frequency.</b> Consider a circuit that has a capacitor and inductor, each with a fixed value, and that an AC signal is introduced. We can vary the frequency of the AC, starting say at 0 Hz and increasing it. According to the rules of reactance and capacitance, inductive reactance will increase as the frequency of AC increases, while the capacitive reactance will decrease as the frequency increases. At one point, the resonance of the two will match up.</p>
+
+<p><b>Varying inductance or capacitance(or both).</b>. If a circuit is equipped with a variable inductor, capacitor, or both, we can inject an AC signal of fixed frequency.</p>
+
+<p>When a circuit is resonant, there is minimum loss.</p>
+
+<p>EX: when tuning a radio to listen to a specific frequency, we are tuning the selective circuits in it to resonance to the desired frequency (the channel we want to listen to).</p>
+
+<p><b>Series RLC circuit</b>. Used to select one frequency from all others.</p>
+<p><b>Parallel RLC circuit</b>. Used to reject a specific frequency and pass all the others.</p>
+
+<h3><a id='q'>Q</a></h3>
+
+<p><b>Q Factor</b>, or <b>Quality Factor</b>, determines how effective a tuned circuit will be in selecting only a select band of frequencies.</p>
+
+<p>When a circuit is resonant, the energy is stored in both the electric field of the capacitor and then in the magnetic field of the inductor. The result is that the current running through the wires, inductor's coil and the plates of the capacitor.</p>
+
+<p>Resistance in a circuit removes some of the energy from a resonant circuit, and it has the effect of broadening the band of frequencies selected by the resonant circuit.</p>
+
+<p>Anything that removes energy from a resonant circuit reduces the Q.</p>
+
+<h3><a id='wavesandbands'>Waves and Bands</a></h3>
+
+<h3><a id='amplitude'>Waves: Amplitudes</a></h3>
+
+<p>Amplitude can be seen as ocean waves, in which the difference between the crest and trough of the wave is used to illustrate how wavelengths work. The bigger the difference between the crest and trough, the bigger the amplitude.</p>
+
+<h3><a id='frequency'>Waves: Frequency</a></h3>
+
+<p>Frequency can be illustrated too with ocean waves. Say you have eyes fixed on a specific point in the horizon, and that you count up the waves passing that point in a fixed amount of time, this is a good way to visualize frequency. Frequency is the number of complete cycles, or waves, per second. A complete 'wave' would refer to a measurement from a fixed point on the wave, to the same point on the next wave.</p>
+
+<p>Cycles per second are expressed in hertz (Hz). 1 Hz is one complete cycle/wave per second.</p>
+
+<p>The same wave submitted to a different frequency will alter the number of waves in the same amount of time. A wave with a frequency of 7 Hz per second can seen as 7 waves passing in one second, while a wave with a frequency of 1 Hz will less one wave pass per second.</p>
+
+<pre>
+
+    7 Hz per second (7 waves per second)
+
+    ^  ^  ^  ^  ^  ^  ^
+   / \/ \/ \/ \/ \/ \/ \
+
+    1 Hz per second (1 waves per second)
+    
+    ^  
+   / \/ 
+
+</pre>
+
+<h3><a id='wavelength'>Waves: Wavelength</a></h3>
+
+<p>The distance one wave(or one cycle) takes to travel point A to point B is referred to as a wavelength. A wavelength is measured in metre(m). The symbol used for wavelength is the lambda.</p>
+
+<p>A higher frequency wave will have a shorter wavelength, and a lower frequency wave will have a longer wavelength.</p>
+
+<p>Oscilloscopes are used to visualize waves.</p>
+
+<h3><a id='electromagneticwaves'>Electromagnetic Waves</a></h3>
+
+<p>Electromagnetic waves (EM for short) are a means of transferring energy, for this kind of energy to be transferred a medium is needed to carry them.</p>
+
+<p>This type of wave are being sent out at the speed of light (300 million metres per second). All waves on the electromagnetic spectrum (radio, light...) don't varry their speed, it remains a constant.</p>
+
+<p>Frequency and wavelength are inversely related to each other. As frequency increases, wavelength decreases in proportion. As the frequency decreases, the wavelength increases.</p>
+
+<p>Radiowaves are between the electromagnetic spectrum ranging from 3 kHz to 3 000 GHz. The frequencies in radio are expressed in megahertz, and wavelengths in metres.</p>
+
+<p>The formulas (2 variations) relating frequency and wavelength:</p>
+
+<pre>
+         f = frequency
+    lambda = wavelength in metres
+
+         300 
+    f = _____ MHz
+       lambda
+
+       or
+
+         300
+lambda = ___   M
+          f
+
+    What is the frequency of an 80 metre Amateur Band?
+
+        300     300
+    f = ___   = ___ = 3.75 MHz
+       lambda    80
+
+    What's the wavelength of a station that emits on 146.5 MHz?
+
+         300     300
+lambda = ___  = _____ = 2.05 M
+          f     146.5
+</pre>
+
+
+
+</main><footer><hr /><span style='float:right'>Edited on Mon Aug 14 11:16:59 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/radio.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
