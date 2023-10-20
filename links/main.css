@@ -40,20 +40,12 @@ main > pre { font-family: monospace; font-size:12px; margin-bottom: 30px; displa
 main > code { max-width: 600px; font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre}
 main > code comment { color:#777}
 main { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
-img.tools { display: block; margin: 0px auto 30px; max-width: 600px; }
+img.p { display: block; margin: 0px auto 30px; max-width: 600px; }
 main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
 main p.caption { font-style: italic; color:#999; font-size:16px; }
 main img.thumbnail { width:33.33%; display:block; float:left; }
 main p.intro {text-align: center;}
 main h3 { max-width: 600px; display: block; font-size: 22px;line-height: 30px;color:#ccc;font-weight: bold; margin:20px auto 30px; }
-
-main columns {display: block;columns: 2;column-gap: 30px;}
-main columns h2 { display: block;font-size: 20px;color: #fff;margin-bottom: 30px;font-weight: normal;text-transform: uppercase;border-bottom:1px solid white;padding-bottom:20px; break-before: column  }
-main columns p { font-size: 18px;font-weight: normal;line-height: 28px;color: #ccc;padding-right: 45px;}
-main columns p a:hover { text-decoration: underline; }
-main columns a:link {text-decoration: none}
-main columns a:hover {text-decoration: underline}
-main columns list { margin-bottom:30px; }
 
 main > wr { padding:0px; display: block; padding:0px 30px; }
 main > wr { padding:0px !important; display: block; padding:0px 30px; }
