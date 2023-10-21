@@ -29,6 +29,7 @@ footer a:hover { cursor: pointer; text-decoration: underline;}
 
 @media only screen and (max-width: 840px) {
   header { padding-top:15px; }
+  header ul li img {width: 50%; }
   .footer {max-width: 830px}
   main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block}
   img {max-width: 100%; }
