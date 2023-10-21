@@ -5,21 +5,23 @@ a[href^="http://"]:not([href*="kokorobot.ca"]):after,
 a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
 a.noglyph:after { content:"" !important; }
 
-header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px; margin-bottom: 30px;}
+header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
-header h2 { font-size:30px;position: fixed;top:10px;left:20px; }
+header h2 { font-size:30px;position: absolute;top:10px;left:20px; }
 header h2:hover { color:white; }
 header a {color: black; text-decoration: none}
 header a:hover { cursor: pointer; text-decoration: underline;}
+header ul {padding: 15px;}
 header ul li {display:inline-block; width: 140px; line-height: 30px}
 header ul li img {width: 100%; }
 
+main {padding: 30px;max-width: 700px;margin: 0 auto;}
 main a {color: white;}
-main > * {max-width: 600px; margin: 0 auto 30px auto; display: block;}
 main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
+main img {max-width: 100%}
 
-main gallery { display: block; text-align: center; max-width: 800px}
-main gallery img { max-width: calc(30% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
+main gallery { display: block; text-align: center; }
+main gallery img { max-width: calc(32% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
 main gallery hr { margin-bottom:30px; display:none; }
 main q {font-size: 26px;max-width: 500px; display: block; font-style: italic;}
 
@@ -28,11 +30,6 @@ footer a {color: black; text-decoration: none}
 footer a:hover { cursor: pointer; text-decoration: underline;}
 
 @media only screen and (max-width: 840px) {
-  header h1 { font-size: 30px; }
-  header h2 { display: none }
-  header ul li {display:inline-block; width: 80px; line-height: 30px}
-  header ul li img {width: 60%; }
-  .footer {max-width: 830px}
-  main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block}
-  img {max-width: 100%; }
+main gallery {max-width: fit-content;}
+/*main {padding: 15px}*/
 }
