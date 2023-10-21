@@ -30,8 +30,8 @@ footer a:hover { cursor: pointer; text-decoration: underline;}
 @media only screen and (max-width: 840px) {
   header h1 { font-size: 30px; }
   header h2 { display: none }
-  header ul li {display:inline-block; width: 50px; line-height: 30px}
-  header ul li img {width: 50%; }
+  header ul li {display:inline-block; width: 80px; line-height: 30px}
+  header ul li img {width: 60%; }
   .footer {max-width: 830px}
   main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block}
   img {max-width: 100%; }
