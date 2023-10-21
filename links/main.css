@@ -1,118 +1,26 @@
-/*-------------------/
-  @ Reset
-/-------------------*/
-
-*           { margin:0;padding:0;border:0;outline:0;text-decoration:none;font-weight:inherit;font-style:inherit;color:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;list-style:none;border-collapse:collapse;border-spacing:0; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
-*:focus     { outline: none}
-::selection { background: #eee; opacity:1.0; color:#000; padding:10px; /* Safari */ }
-
-body { background:#000; color:#fff;  overflow-x: hidden}
-
-p { padding: 5px;}
+body { background:#000; color:#fff; font-size: 20px;}
 b { font-weight: bold }
-table { margin-bottom: 30px}
-h { display: inline-block;vertical-align: top; width:calc(50% - 5px)}
-hr { clear:both; }
 
 a[href^="http://"]:not([href*="kokorobot.ca"]):after,
 a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
 a.noglyph:after { content:"" !important; }
-header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
+
+header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px; margin-bottom: 30px;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
 header h2 { font-size:30px;position: fixed;top:10px;left:20px; }
 header h2:hover { color:white; }
-header ul { display: block; text-align: center; font-size:18px; padding: 20px; margin-bottom: 10px }
-header ul li { display: inline-block; }
-header ul li a { display: inline-block;background-size: 100px;background-repeat: no-repeat;background-position: center top;padding-top:100px;min-width: 100px; transition: all 250ms }
-header ul li a:hover { cursor: pointer; text-decoration: underline; background-position:center -5px;}
+header a {color: black; text-decoration: none}
+header a:hover { cursor: pointer; text-decoration: underline;}
+header ul li {display:inline-block; width: 140px; line-height: 30px}
+header ul li img {width: 100%; }
 
-header ul li a.about { background-image: url(../media/interface/menu/about.png);  }
-header ul li a.children { background-image: url(../media/interface/menu/childrens_books.png);  }
-header ul li a.projects { background-image: url(../media/interface/menu/projects.png);  }
-header ul li a.games { background-image: url(../media/interface/menu/illustration.png);  }
-header ul li a.stories { background-image: url(../media/interface/menu/stories.png);  }
-header ul li a.store { background-image: url(../media/interface/menu/store.png);  }
-header ul li a.notes { background-image: url(../media/interface/menu/notes.png);  }
-header ul li a.collection { background-image: url(../media/interface/menu/collection.png);  }
+main a {color: white;}
+main > * {max-width: 600px; margin: 0 auto 30px auto; display: block;}
+main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
 
-main > q { font-size: 16px;max-width: 600px; display: block; margin: 20px;}
-main > pre { font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre; margin: 0 auto 30px; max-width: 600px; overflow-x: auto}
-main > code { max-width: 600px; font-family: monospace; font-size:12px; margin-bottom: 30px; display: block; background:white; color:black; padding:15px; white-space: pre}
-main > code comment { color:#777}
-main { display:block; max-width:960px; margin:0px auto; margin-bottom: 45px; transition: opacity 250ms; color:white; padding:30px }
-img.p { display: block; margin: 0px auto 30px; max-width: 600px; }
-main img.main { width: 100%;max-width: 100% !important; border-radius: 3px; margin-bottom: 30px }
-main p.caption { font-style: italic; color:#999; font-size:16px; }
-main img.thumbnail { width:33.33%; display:block; float:left; }
-main p.intro {text-align: center;}
-main h3 { max-width: 600px; display: block; font-size: 22px;line-height: 30px;color:#ccc;font-weight: bold; margin:20px auto 30px; }
+main gallery { display: block; text-align: center; max-width: 800px}
+main gallery img { max-width: calc(30% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
+main gallery hr { margin-bottom:30px; display:none; }
+main q {font-size: 26px;max-width: 500px; display: block; font-style: italic;}
 
-main > wr { padding:0px; display: block; padding:0px 30px; }
-main > wr { padding:0px !important; display: block; padding:0px 30px; }
-main > wr > .third { display: block;float: left;width: 33.33%; text-align: center; margin-bottom: 15px;}
-main > wr > .third img { width: calc(10text-align:center0% - 15px);display: block;margin: 0px auto 5px;border-radius: 3px; }
-main > wr > .third img {max-width: calc((100% - 80px) - 20px);display: block;margin: 0px auto 20px;border-radius: 3px; }
-
-main list { max-width: 600px; margin:0px auto; display: block; margin-bottom:30px; }
-main list ln { display: block; font-size:18px; }
-main list ln a { text-decoration: none;}
-main list ln a:hover { text-decoration: underline; }
-
-main ul { display: block;max-width: 600px;color: white;margin: 0px auto 30px auto;}
-main ul li { max-width:600px; margin-bottom:10px; padding-left:30px; font-size:15px; position: relative;}
-main ul li a { font-weight: bold; cursor: pointer; text-decoration: underline; }
-main ul li b { font-weight: bold; }
-
-main img.thumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin: 10px; }
-main img.inlinethumbnail { border-radius: 3px;max-width: calc((100% / 3) - 20px);margin-left: 10px; }
-main gallery { display: block; text-align: center}
-main gallery img { max-width: calc(25% - 20px);border-radius: 3px;margin: 10px;display: inline-block }
-main gallery hr { margin-bottom:30px; }
-main p { display: block;max-width: 600px;color: #999;font-size: 18px;margin: 0px auto 30px auto;line-height: 32px;}
-main p.main { font-weight: bold; margin-bottom: 30px;}
-main p a { color:white; text-decoration: underline; font-weight: bold}
-
-main quote { display: block }
-main quote p.text { font-size:18px; font-style: italic; color:white;}
-main quote p.attrib { font-size:16px; padding-left:30px; color: #ccc; }
-main quote p.attrib:before { content:"— "; }
-
-main a.buybutton { font-size: 15px;border-radius: 100px;background:#e85b46;color:white;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
-main a.buybutton:hover { background:#555; color:black; }
-main a.soldbutton { font-size: 15px;border-radius: 100px;background:#555; color:black;line-height: 30px;display: inline-block;margin: 0px auto 20px;padding: 0px 20px;}
-main gallery.thumbnails img { max-width: calc((100% / 3) - 20px) }
-
-main ul.col2 { columns: 2 }
-main ul.col3 { columns: 3 }
-main.bullet {  }
-
-footer { background: #fff; color: #000; padding: 30px; font-size: 14px;}
-
-/* To Clean */
-
-yu { display: block }
-
-#social, #projects, #gallery, #stories, #books { margin-bottom: 30px }
-#social img { max-width: 2%; border-radius: 3px; margin: 5px }
-
-#home img { max-width: 100% }
-
-a.button { font-size: 15px; font-weight: bold;border-radius: 100px; background:#fff; color:black; padding:0px 15px; line-height: 30px; display: inline-block; float:left; margin-left:10px; margin-bottom: 10px;}
-a.button:hover { background:#808080 ; color:black; }
-
-ul.default { margin-bottom: 30px;line-height: 30px;text-align: left;column-count: 2;font-size: 14px;}
-ul.default li a { font-weight: bold }
-
-@media only screen and (max-width: 840px) {
-  header { padding-top:15px; }
-  header wr h1 { font-size: 34px; }
-  main columns { columns:1; }
-  header wr h2 { display: none }
-  .footer {max-width: 830px}
-  main columns { columns: auto; padding:0px; margin:0px; }
-  main gallery img { max-width: calc(25% - 20px);border-radius: 1px;margin: 2px;display: inline-block }
-  main > wr > .third {width: 100%;}
-  .col2 { columns: 1 }
-  img.tools { max-width: 100%; }
-
-}
+footer { background: #fff; color: #000; padding: 30px; font-size: 20px;}
