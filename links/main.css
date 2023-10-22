@@ -21,7 +21,7 @@ main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
 main img {max-width: 100%}
 
 main gallery { display: block; text-align: center; }
-main gallery img { max-width: calc(35% - 16px);border-radius: 3px;display: inline-block }
+main gallery img { max-width: calc(30%); padding-bottom: 6px;border-radius: 3px;display: inline-block }
 main gallery hr { margin-bottom:30px; display:none; }
 main q {font-size: 26px;max-width: 500px; display: block; font-style: italic;}
 
