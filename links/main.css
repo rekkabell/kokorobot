@@ -31,4 +31,6 @@ footer a:hover { cursor: pointer; text-decoration: underline;}
 
 @media only screen and (max-width: 840px) {
 main gallery {max-width: fit-content;}
+header ul li {display:inline-block; width: 90px; line-height: 30px}
+header ul li img {width: 70%; }
 }
