@@ -85,9 +85,9 @@ find . -name "picard.jpg"
 
 <p>Then, set the chosen timezone using:</p>
 
-<pre>timedatectl set-timezone "[timezone]"</pre>
+<pre>timedatectl set-timezone "timezone"</pre>
 
-<p>Ex: [timedatectl set-timezone "[America/Vancouver]"</p>
+<p>Ex: timedatectl set-timezone "America/Vancouver"</p>
 
 <p>To change the time:</p>
 
@@ -139,6 +139,7 @@ git push origin --delete master
     <li><b>tab</b>, to select a track from inside an album on the right column</li>
     <li><b>s</b>, shuffle</li>
     <li><b>r</b>, repeat</li>
+    <li><b>5</b>, main list</li>
 </ul>
 
 <p><b>Search</b></p>
@@ -211,6 +212,10 @@ kill -9 1234
 <p>Refer to the <a href='https://github.com/yt-dlp/yt-dlp/wiki/Installation' target='_blank'>installation guide</a> for other linux distributions or OSs. The new command for ripping audio:</p>
 
 <pre>yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  -o '%(id)s.%(ext)s'</pre>
+
+<p>A simpler option is:</p>
+
+<pre>yt-dlp -x -f bestaudio https://youtube.com/insertaddress</pre>
 
 <p>To download videos...</p>
 
@@ -392,5 +397,5 @@ sudo pacman -S sdcv
 
 <p>Back to <a href='#content'>top</a>.</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Oct  3 11:50:19 2023
+</main><footer><hr /><span style='float:right'>Edited on Tue Oct 24 08:31:23 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

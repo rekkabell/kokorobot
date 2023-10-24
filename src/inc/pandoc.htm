@@ -33,7 +33,7 @@
 
 <p><a href='https://pandoc.org/index.html' target="_blank">Pandoc</a> is a terminal utility that converts files from one markup format into another. You can convert an HTML page to Markdown, Markdown to PDF, Markdown to EPUB etc. It's a useful tool to create articles, scientific papers, and books.</p>
 
-<p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. To find out how to install LaTeX, read <a href='pandocinstall.html#latex'>my tutorial</a>.</p> 
+<p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. To find out how to install LaTeX, read <a href='pandoc_install.html#latex'>my tutorial</a>.</p> 
 
 <h3><a id='markdown'>Pandoc Markdown</a></h3>
 
@@ -114,6 +114,10 @@
 <p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
 
 <pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</pre>
+
+<p>If using another PDF engine like Tectonic:</p>
+
+<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=tectonic --from markdown+simple_tables -o filename_export.pdf</pre>
 
 <h3><a id='bookcover'>Book cover PDF</a></h3>
 

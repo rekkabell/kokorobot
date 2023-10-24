@@ -50,7 +50,7 @@
 
 <p><a href='https://pandoc.org/index.html' target="_blank">Pandoc</a> is a terminal utility that converts files from one markup format into another. You can convert an HTML page to Markdown, Markdown to PDF, Markdown to EPUB etc. It's a useful tool to create articles, scientific papers, and books.</p>
 
-<p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. To find out how to install LaTeX, read <a href='pandocinstall.html#latex'>my tutorial</a>.</p> 
+<p>When generating PDFs, Pandoc's use of <a href='https://www.latex-project.org/' target="_blank">LaTeX</a> (a document preparation system) encourages authors not to worry too much about the appearance of their documents but to concentrate on getting the right content. To find out how to install LaTeX, read <a href='pandoc_install.html#latex'>my tutorial</a>.</p> 
 
 <h3><a id='markdown'>Pandoc Markdown</a></h3>
 
@@ -131,6 +131,10 @@
 <p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
 
 <pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</pre>
+
+<p>If using another PDF engine like Tectonic:</p>
+
+<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=tectonic --from markdown+simple_tables -o filename_export.pdf</pre>
 
 <h3><a id='bookcover'>Book cover PDF</a></h3>
 
@@ -230,5 +234,5 @@ documentclass: book
 
 <p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Sat Oct 21 11:04:36 2023
+</main><footer><hr /><span style='float:right'>Edited on Tue Oct 24 09:40:48 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/pandoc.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
