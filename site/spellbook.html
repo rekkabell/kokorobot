@@ -63,7 +63,7 @@
 <p>To install a font on your system(all accounts), create a directory with the font name(say the font name is Funkyboy):</p>
 
 <pre>
-    sudo mkdir /usr/share/fonts/funkyboy
+sudo mkdir /usr/share/fonts/funkyboy
 </pre>
 
 <p>Move the font to the 'funkyboy' directory. It's possible to specify a filename, but if '*' is used all .ttf files will be moved to the new location (useful if moving several fonts).</p>
@@ -75,13 +75,13 @@ sudo mv *.ttf /usr/share/fonts/funkyboy/
 <p>Update your system's font cache so the new fonts can be integrated.</p>
 
 <pre>
-    sudo fc-cache -f -v
+sudo fc-cache -f -v
 </pre>
 
 <p>Confirm that the fonts were installed:</p>
 
 <pre>
-    fc-list | grep "funkyboy"
+fc-list | grep "funkyboy"
 </pre>
 
 <p>If creating variations on that same font(bold, italic..), add them to the main directory of that font(Funkyboy).</p>
@@ -91,7 +91,7 @@ sudo mv *.ttf /usr/share/fonts/funkyboy/
 <p>When using tool from a local repository, and that it needs an update. Write the following after pulling the update:</p>
 
 <pre>
-    make install
+make install
 </pre>
 
 <p>In terminal to install update, re-launch tool.</p>
@@ -437,5 +437,5 @@ sudo pacman -S sdcv
 
 <p>Back to <a href='#content'>top</a>.</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Nov  7 18:03:25 2023
+</main><footer><hr /><span style='float:right'>Edited on Tue Nov  7 18:04:38 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Mastodon]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Meta]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

@@ -46,7 +46,7 @@
 <p>To install a font on your system(all accounts), create a directory with the font name(say the font name is Funkyboy):</p>
 
 <pre>
-    sudo mkdir /usr/share/fonts/funkyboy
+sudo mkdir /usr/share/fonts/funkyboy
 </pre>
 
 <p>Move the font to the 'funkyboy' directory. It's possible to specify a filename, but if '*' is used all .ttf files will be moved to the new location (useful if moving several fonts).</p>
@@ -58,13 +58,13 @@ sudo mv *.ttf /usr/share/fonts/funkyboy/
 <p>Update your system's font cache so the new fonts can be integrated.</p>
 
 <pre>
-    sudo fc-cache -f -v
+sudo fc-cache -f -v
 </pre>
 
 <p>Confirm that the fonts were installed:</p>
 
 <pre>
-    fc-list | grep "funkyboy"
+fc-list | grep "funkyboy"
 </pre>
 
 <p>If creating variations on that same font(bold, italic..), add them to the main directory of that font(Funkyboy).</p>
@@ -74,7 +74,7 @@ sudo mv *.ttf /usr/share/fonts/funkyboy/
 <p>When using tool from a local repository, and that it needs an update. Write the following after pulling the update:</p>
 
 <pre>
-    make install
+make install
 </pre>
 
 <p>In terminal to install update, re-launch tool.</p>
