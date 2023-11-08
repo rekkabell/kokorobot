@@ -5,6 +5,7 @@
 <p>All of these are linux commands.</p>
 
 <ul>
+    <li><a href='#fonts'>Install fonts</a></li>
     <li><a href='#uxn'>Uxn commands</a></li>
     <li><a href='#pandochtmlmd'>Markdown to HTML with pandoc</a></li>
     <li><a href='#nasuhex'>Copying hexadecimal code from Nasu</a></li>
@@ -39,6 +40,34 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='fonts'>Install fonts</a></h3>
+
+<p>To install a font on your system(all accounts), create a directory with the font name(say the font name is Funkyboy):</p>
+
+<pre>
+    sudo mkdir /usr/share/fonts/funkyboy
+</pre>
+
+<p>Move the font to the 'funkyboy' directory. It's possible to specify a filename, but if '*' is used all .ttf files will be moved to the new location (useful if moving several fonts).</p>
+
+<pre>
+sudo mv *.ttf /usr/share/fonts/funkyboy/
+</pre>
+
+<p>Update your system's font cache so the new fonts can be integrated.</p>
+
+<pre>
+    sudo fc-cache -f -v
+</pre>
+
+<p>Confirm that the fonts were installed:</p>
+
+<pre>
+    fc-list | grep "funkyboy"
+</pre>
+
+<p>If creating variations on that same font(bold, italic..), add them to the main directory of that font(Funkyboy).</p>
 
 <h3><a id='uxn'>Uxn commands</a></h3>
 
