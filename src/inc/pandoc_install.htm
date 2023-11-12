@@ -7,7 +7,7 @@
 <ul>
 	<li><a href='#install'>Installing Pandoc</a></li>
 	<li><a href='#latex'>Installing XeLaTeX, LaTeX</a></li>
-	<li><a href='#tectonic'>Installing alternative PDF engine</a></li>
+	<li><a href='#tectonic'>Tectonic (an alternate PDF engine)</a></li>
 	<li><a href='#calibre'>Installing Calibre</a></li>
 	<li><a href='#magick'>Installing ImageMagick</a></li>
 	<li><a href='#pdfunite'>Installing Pdfunite</a></li>
@@ -46,7 +46,7 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='latex'>Installing Tex Live</a></h3>
 
-<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Tex Live is a package specific to Linux, enter the following command to install it:</p>
+<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Many packages are required to make this work, if looking for a lighter alternative check out <a href='#tectonic'>Tectonic</a>. Tex Live is a package specific to Linux, enter the following command to install it:</p>
 
 <pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
 
@@ -56,9 +56,9 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <p>Texlive-most contains every package you may need. You'll be asked to choose a repository, I opted for 7 (texlive-latex-extra). </p>
 
-<h3><a id='tectonic'>Tex Live alternative</a></h3>
+<h3><a id='tectonic'>Tectonic</a></h3>
 
-<p>Installing all the correct bits necessary to make Tex Live work is tricky, and quite heavy. A recent update has corrupted my install and I had to find a different way to generate a PDF. Tectonic is a good, easy-to-install option. It only installs what is absolutely necessary to do what you need to do (saves space).</p>
+<p>Installing all the correct bits necessary to make Tex Live work is tricky, and quite heavy. A recent update has corrupted my install and I had to find a different way to generate a PDF. Tectonic is a good alternative. It only installs what is absolutely necessary to do what you need to do.</p>
 
 <pre>sudo pacman -S tectonic</pre>
 
