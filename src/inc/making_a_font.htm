@@ -1,14 +1,22 @@
-<p>This month I decided to try and learn how to make a font to use in my comic {hakum}. Previously, I was drawing the text digitally with my pen tablet, the result was fine but difficult to read. I didn't want to use an existing font, so I decided to try and learn to make a font based on my own handwriting.</p>
+<h2>Making a font</h2>
 
-<p><b>Disclaimer: This is my first time making a font. I'm not a designer, nor do I master font creation in general or the use of FontForge. I create things out of necessity, and for fun.</b></p>
+<p><b>2023.11.09</b></p>
 
-<p>This write-up is to describe my process, and can maybe help beginners like me make their first font for personal use. I made a TTF font for use in web publishing. It is not a full font(no bold, or italics).</p>
+<p>This month I decided to learn how to make a font to use in my comic {hakum}. Previously, I was drawing the text digitally with my pen tablet. The result was fine, but sometimes difficult to read(the text would grow and shrink often in one page). I didn't want to use an existing font, so I decided to make one based on my own handwriting. A font would keep my writing legible, and consistent throughout the comic.</p>
 
-<h3>Making a font</h3>
+<img src="../media/tutorials/fontforge/before_after.jpg" loading="lazy">
 
-<p>I made two iterations of my font(which I named <b>Katkum</b>), the first was based on my digital handwriting(using a pen tablet), and the second was made from a scanned image of my handwriting. The second iteration of the font was more natural because on paper my writing is less precise, more organic.</p>
+<p><b>Disclaimer</b>: This is my first time making a font. I'm not a designer, nor do I master font creation in general or the use of the software FontForge. There are probably better ways to do what I did. This write-up is to describe my process, and can maybe help other beginners make their first font(for personal use). My aim was to make a TTF font for use in web publishing, with a limited set of characters(no bold, italics).</p>
 
-<img src="../media/tutorials/fontforge/hakumprev.jpg" loading="lazy">
+<h3>Iterations</h3>
+
+<p>I made two iterations of my font.</p>
+
+<img src="../media/tutorials/fontforge/iteration.jpg" loading="lazy">
+
+<p>The first was based on my digital handwriting(using a pen tablet), and the second was made from a scanned image of my handwriting.</p>
+
+<p>The second iteration of the font was more natural because on paper my writing is less precise, more organic.</p>
 
 <p>I learned a lot about fonts while making my own, namely the terms listed below which describe <a href="https://en.wikipedia.org/wiki/Typeface_anatomy" target="_blank">all parts of a typeface</a>. Knowing these terms and their function can help you make better design choices, and will ensure that you draw a functional font.</p>
 
@@ -28,21 +36,21 @@
 
 <img src="../media/tutorials/fontforge/handfont.jpg" loading="lazy">
 
-<p>In my sketchbook, I drew reference lines for the baseline, the cap height, x-height, and for the descender in pencil. I didn't draw them especially large, nor did I put extra care in drawing them. When I think too much about my own handwriting it tends to deviate too much, so I drew them quickly.</p>
+<p>In my sketchbook, I drew reference lines for the baseline, the cap height, x-height, and for the descender in pencil. I didn't make the characters large, nor did I put extra care in drawing them.</p>
 
-<p>The characters turned out okay, but drawing between the reference lines made them too stiff. I instead wrote the phrase <b>"The quick brown dog jumps over the lazy fox"</b> a bunch of times in both uppercase and lowercase letters, which features all of the characters needed for a font(a-z). My writing comes out better when writing a sentence then when trying to draw on a grid.</p>
+<p>The characters turned out okay, but drawing between the reference lines made them too stiff. I instead wrote the phrase <b>"The quick brown dog jumps over the lazy fox"</b> a bunch of times in both uppercase and lowercase letters, which features all of the characters needed for a font(a-z). My letters come out better when writing a sentence, when I'm not thinking about the lettering too much. When trying to draw on a grid all I think about are the constraints.</p>
 
-<p>I picked out the best-written sentence and used that to make the font(ended up using some I'd drawn on the grid too). Doing it this way means that I would have to fix the cap-height, x-height, and descender of each character digitally so they'd match up.</p>
+<p>I picked out the best-written sentence and used that to make the font(ended up using some I'd drawn on the grid too). Doing it this way means that I later had to fix the cap-height, x-height, and descender of each character digitally so they'd match up.</p>
 
-<p>After I scanned the image, I applied a threshold(<i>Color > Threshold</i> in Gimp) to the image to remove all grays.</p>
+<p>After scanning my letters, I applied a threshold(<i>Color > Threshold</i> in Gimp) to the image to remove all grays.</p>
 
 <img src="../media/tutorials/fontforge/handfont2.jpg" loading="lazy">
 
-<p>Then because of the nature of pencil on paper, and because I didn't use a grid, I spent time fixing some of the imperfections in the letters using the pencil tool in Gimp(with all dynamics turned off in Tool Options). If using a raster brush, it is necessary to apply threshold again to the image. The goal is to get clean lines.</p>
+<p>Then because of the nature of pencil on paper, and because I didn't use a grid, I spent time fixing some of the imperfections in the letters using the pencil tool in Gimp(with all dynamics turned off in Tool Options to get clean lines).</p>
 
 <img src="../media/tutorials/fontforge/gimp.jpg" title="my diy font grid in Gimp" loading="lazy">
 
-<p>I copy/pasted all of the cleaned-up letters in a Gimp document(see image above) with a height and width that accommodates the tallest, and widest letter (in this case, capital <b>M</b>). This is a good time to double-check the weight of all of the lines. If the thickness varies too much, it may not look good.</p>
+<p>I copy/pasted all of the cleaned-up letters in a new Gimp document(see image above) with a height and width that could accommodate the tallest and widest letter: capital <b>M</b>. This is a good time to double-check the weight of all of the lines, if the thickness varies too much it may not look good.</p>
 
 <p>I exported all of the letters individually as PNGs in my project folder.</p>
 
@@ -50,7 +58,7 @@
 
 <img src="../media/tutorials/fontforge/ui.jpg" loading="lazy">
 
-<p>I chose FontForge to create my font, because I knew it worked on Linux, and because people I knew vouched for it, not because it is the best of the best. I still don't know if it's the 'best of the best'. Either way, I enjoyed using this tool to make a font.</p>
+<p>I chose FontForge to create my font because I knew it worked on Linux, and because people I knew vouched for it(not because it is the best of the best). I still don't know if it's the 'best of the best' but I did like using it.</p>
 
 <p>After creating a project in FontForge, a window appears. This is the <b>Font View Window</b>, it shows a table of all the glyphs in the font. At this point all of the slots are empty.</p>
 
@@ -77,6 +85,10 @@
 <p>At this point, I like to adjust the space on the left and right side of a glyph by adjusting the left and right side bearings(this determines how wide the final glyph will be). If you want to auto-center all of the glyphs at once, go to <i>Metrics > Auto Width</i>. If you want all the glyphs to be centered, <i>Metrics > Center In Width</i>.</p>
 
 <p>If fixing the outline of a glyph, it helps to turn the reference layer off. If you wish to start over with a glyph, go to the Font Window and select the desired glyph, then in that same window go to <i>Edit > Clear</i>. To remove the reference layer select <i>Edit > Clear Background</i>.</p>
+
+<p><b>TIP</b>. In the <b>Character View</b>, there's a text field above the working canvas featuring the letter that is being worked on. When clicking in the text field, square brackets will appear around the character. Typing words, or random letters after the last square bracket gives a preview of what they look like next to each other (thank you Lizbeth for this great tip!).</p>
+
+<img src="../media/tutorials/fontforge/platypus.jpg" loading="lazy">
 
 <p>Repeat this procedure for all of the glyphs. A very quick way to describe a very long process. Don't forget to choose adjust the left and right side bearings for the <b>Space</b> glyph, if you don't your font will have too much space between words.</p>
 
@@ -134,6 +146,10 @@
 
 <p>Select OK. The font will be saved in the project folder. Move the font to where fonts are stored on your system.</p>
 
-<p>To learn how to install fonts on Linux, see my <a href="../site/spellbook.html#fonts">My spellbook</a>.</p>
+<ul>
+   <li>Read the <a href="https://fontforge.org/en-US/documentation/" target="_blank">FontForge documentation</a>.</li>
+   <li>To learn how to install fonts on Linux, see my <a href="../site/spellbook.html#fonts">My spellbook</a>.</li>
+   <li>See the font in use in {night terror}.</li>
+</ul>
 
 
