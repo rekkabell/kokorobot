@@ -1,117 +1,138 @@
-<p>This month I decided to try and learn how to make a font to use in my comic {hakum}. Previously, I was drawing the text with my pen tablet, digitally, and the result was fine but was at times difficult to read. I didn't want to use any existing fonts and so I decided to try and learn to make one of my own handwriting.</p>
+<p>This month I decided to try and learn how to make a font to use in my comic {hakum}. Previously, I was drawing the text digitally with my pen tablet, the result was fine but difficult to read. I didn't want to use an existing font, so I decided to try and learn to make a font based on my own handwriting.</p>
 
 <p><b>Disclaimer: This is my first time making a font. I'm not a designer, nor do I master font creation in general or the use of FontForge. I create things out of necessity, and for fun.</b></p>
 
-<p>This write-up is to describe my process, and can help beginners like me make their first font for personal use. Note that this write-up is to make a TTF font for use in web publishing. It is not a full font(no bold, or italics).</p>
+<p>This write-up is to describe my process, and can maybe help beginners like me make their first font for personal use. I made a TTF font for use in web publishing. It is not a full font(no bold, or italics).</p>
+
+<h3>Making a font</h3>
 
 <p>I made two iterations of my font(which I named <b>Katkum</b>), the first was based on my digital handwriting(using a pen tablet), and the second was made from a scanned image of my handwriting. The second iteration of the font was more natural because on paper my writing is less precise, more organic.</p>
 
 <img src="../media/tutorials/fontforge/hakumprev.jpg" loading="lazy">
 
-<p>I learned a lot about fonts on this journey, namely these terms which describe all parts of a typeface. Knowing these terms and their function can help you make better design choices, and will ensure that you draw a functional font.</p>
+<p>I learned a lot about fonts while making my own, namely the terms listed below which describe <a href="https://en.wikipedia.org/wiki/Typeface_anatomy" target="_blank">all parts of a typeface</a>. Knowing these terms and their function can help you make better design choices, and will ensure that you draw a functional font.</p>
 
 <h3>The typeface anatomy</h3>
+
+<img src="../media/tutorials/fontforge/anatomy.jpg" loading="lazy">
 
 <ul>
    <li><b>Ascender:</b> The portion of a minuscule letter that extends above the mean line of a font. That is, the part of a lower-case letter that is taller than the font's x-height.</li>
    <li><b>Baseline:</b> The line upon which most letters sit and below which descenders extend.</li>
    <li><b>Cap Height:</b> A line representing the height of most capital letters.</li>
    <li><b>Descender:</b> The portion of a letter that extends below the baseline of a font (ex: p and q).</li>
-   <li><b>Overhang:</b> Rounded bottoms of letters like O and B that may dip just below the baseline.</li>
    <li><b>X-Height:</b> The distance between the baseline and the mean line of lowercase letters in a typeface.</li>
 </ul>
 
-<p>I focused on the uppercase(A-Z) and lowercase(a-z) glyphs, numbers(0-9), and glyphs for punctuation(comma, exclamation mark, question mark, etc).</p>
+<p>For my handwritten font I focused on the uppercase(A-Z) and lowercase(a-z) glyphs, numbers(0-9), and glyphs for basic punctuation(comma, exclamation mark, question mark, etc).</p>
 
 <img src="../media/tutorials/fontforge/handfont.jpg" loading="lazy">
 
-<p>After I scanned the image, I applied a threshold to the image to remove all grays.</p>
+<p>In my sketchbook, I drew reference lines for the baseline, the cap height, x-height, and for the descender in pencil. I didn't draw them especially large, nor did I put extra care in drawing them. When I think too much about my own handwriting it tends to deviate too much, so I drew them quickly.</p>
+
+<p>The characters turned out okay, but drawing between the reference lines made them too stiff. I instead wrote the phrase <b>"The quick brown dog jumps over the lazy fox"</b> a bunch of times in both uppercase and lowercase letters, which features all of the characters needed for a font(a-z). My writing comes out better when writing a sentence then when trying to draw on a grid.</p>
+
+<p>I picked out the best-written sentence and used that to make the font(ended up using some I'd drawn on the grid too). Doing it this way means that I would have to fix the cap-height, x-height, and descender of each character digitally so they'd match up.</p>
+
+<p>After I scanned the image, I applied a threshold(<i>Color > Threshold</i> in Gimp) to the image to remove all grays.</p>
 
 <img src="../media/tutorials/fontforge/handfont2.jpg" loading="lazy">
 
-<p>Then, because of the nature of pencil on paper, I spent time fixing some of the imperfections in the letters using the pencil tool in Gimp(with all dynamics turned off, in Tool Options). If using a raster brush, it is necessary to apply threshold again to the image. The goal is to get clean lines.</p>
+<p>Then because of the nature of pencil on paper, and because I didn't use a grid, I spent time fixing some of the imperfections in the letters using the pencil tool in Gimp(with all dynamics turned off in Tool Options). If using a raster brush, it is necessary to apply threshold again to the image. The goal is to get clean lines.</p>
 
-<p>I copy/pasted all of the cleaned-up letters in a document with a height and width that accommodates the tallest, and widest letter (in this case, capital W, depending on the font though of course).</p>
+<img src="../media/tutorials/fontforge/gimp.jpg" title="my diy font grid in Gimp" loading="lazy">
 
-<p>This is a good time to double-check the weight of all of the lines. If the thickness varies too much, it may not look good.</p>
+<p>I copy/pasted all of the cleaned-up letters in a Gimp document(see image above) with a height and width that accommodates the tallest, and widest letter (in this case, capital <b>M</b>). This is a good time to double-check the weight of all of the lines. If the thickness varies too much, it may not look good.</p>
 
-<p>I exported all of the letters individually as PNGs in my project folder (mine had a height of 107x147). The glyphs don't have to be that big at this point, unless they're very intricate.</p>
+<p>I exported all of the letters individually as PNGs in my project folder.</p>
 
 <h3>FontForge</h3>
 
-<p>I chose FontForge to create my font. After creating a project, you'll see a window featuring empty slots for all of the possible glyphs needed to make a font.</p>
+<img src="../media/tutorials/fontforge/ui.jpg" loading="lazy">
 
-<p>To get started, double-click on any empty slot. I selected the <b>!</b> glyph, which opens a second window.</p>
+<p>I chose FontForge to create my font, because I knew it worked on Linux, and because people I knew vouched for it, not because it is the best of the best. I still don't know if it's the 'best of the best'. Either way, I enjoyed using this tool to make a font.</p>
 
-<img src="../media/tutorials/fontforge/back.jpg" loading="lazy">
+<p>After creating a project in FontForge, a window appears. This is the <b>Font View Window</b>, it shows a table of all the glyphs in the font. At this point all of the slots are empty.</p>
 
-<p>This is the glyph editing window. On the bottom left, there is a box displaying 3 layers. Select the <b>Back</b> layer in the lower left menu, go to File>Import to import the PNG glyph for <b>!</b>. The glyph reference will appear on the canvas.</p>
-
-<img src="../media/tutorials/fontforge/autotrace.jpg" loading="lazy">
-
-<p><b>Helpful shortcuts:</b> <b>z</b> to zoom in, <b>x</b> to zoom out.</p>
-
-<p>At this point, you can choose to delineate the glyph yourself, or you can use Autotrace(to do this, select the <b>Fore</b> layer, and go to Select>Autotrace).</p>
-
-<p>Autotrace will use the background image as a reference and will automatically recreate it, complete with control points and bézier curves. Although it can be a bit messy, and cause missing extrema issues(the extreme part of any curve). Once you have a closed shape, the glyph will appear in the other window.</p>
-
-<p>At this point, I like to adjust the space on the left and right side of a glyph by grabbing the two lines on each side, and by sliding them (this determines how wide the final glyph will be). If you want to auto-center all of the glyphs at once, go to Metrics>Auto Width. If you want all the glyphs to be centered, Metrics>Center In Width.</p>
-
-<p>If fixing some of the lines of a glyph, it helps to turn the reference layer off. If you wish to start over with a glyph, go to the main window and select the desired glyph, then go to Edit>Clear, to remove the reference layer Edit>Clear Background.</p>
-
-<p>Repeat this procedure for all of the glyphs. A very quick way to describe a very long process.</p>
-
-<h3>Font Info</h3>
-
-<p>Select Element>Font Info. Under PS Names, fill out your font's information.</p>
+<p>To start, select <i>Element>Font</i> Info to fill out the font information. Under <b>PS Names</b>, add your font name.</p>
 
 <img src="../media/tutorials/fontforge/fontname.jpg" loading="lazy">
 
-<p>If your goal is to export as a TTF, in that same window go to General, and change the Em size to 1024. OT fonts have different requirements.</p>
+<p>If your goal is to export as a TTF, in that same window go to <b>General</b>, and change the <b>Em size to 1024</b>. In TrueType fonts, the UPM(Units per Em) is by convention a power of two, generally set to 1024 or 2048. OTF fonts have different requirements. <b>Note</b>: Back when print letters were cast in metal blocks, each letter was fitted into its own space container to ensure that the height of each letter was uniform. The height of a type piece is known as the ‘em’, and it originates from the width of the uppercase ‘M’ character.</p>
+
+<p>Double-clicking a glyph in the <b>Font View</b> opens it in the <b>Character View</b>. This is where you can draw and edit glyphs, either one at a time with a tab interface, or side by side with a prepared text file of words to step through.</p>
+
+<p>On the bottom left, there is a box displaying 3 layers. Select the <b>Back</b> layer in the lower left menu, go to <i>File > Import</i> to import the PNG glyph for the letter <b>X</b>. The glyph reference will appear on the canvas.</p>
+
+<img src="../media/tutorials/fontforge/back.jpg" loading="lazy">
+
+<p><b>Helpful shortcuts:</b> <b>z</b> to zoom in, <b>x</b> to zoom out.</p>
+
+<p>At this point, you can choose to delineate the glyph yourself (see the <a href="http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html" target="_blank">Font Forge tutorial on drawing</a>), or you can use Autotrace(to do this, select the <b>Fore</b> layer, and go to <i>Select > Autotrace</i>).</p>
+
+<img src="../media/tutorials/fontforge/autotrace.jpg" loading="lazy">
+
+<p>Autotrace will use the background image as a reference and will recreate it as an outline, complete with control points and bézier curves. Although it can be a bit messy(too many points), and cause missing extrema issues(the extreme part of any curve). Once you have a closed shape, the glyph will appear in the other window.</p>
+
+<p>At this point, I like to adjust the space on the left and right side of a glyph by adjusting the left and right side bearings(this determines how wide the final glyph will be). If you want to auto-center all of the glyphs at once, go to <i>Metrics > Auto Width</i>. If you want all the glyphs to be centered, <i>Metrics > Center In Width</i>.</p>
+
+<p>If fixing the outline of a glyph, it helps to turn the reference layer off. If you wish to start over with a glyph, go to the Font Window and select the desired glyph, then in that same window go to <i>Edit > Clear</i>. To remove the reference layer select <i>Edit > Clear Background</i>.</p>
+
+<p>Repeat this procedure for all of the glyphs. A very quick way to describe a very long process. Don't forget to choose adjust the left and right side bearings for the <b>Space</b> glyph, if you don't your font will have too much space between words.</p>
 
 <h3>Kerning</h3>
 
-<p>In <i>Element>Font Info</i>, navigate to <b>Lookups</b>, click on the <b>GPOS tab</b>, and click on <b>Add Lookup</b>.</p>
+<img src="../media/tutorials/fontforge/kerning.jpg" loading="lazy">
 
-<p>In the <i>Type</i> dropdown menu, select <i>Pair Position (Kerning)</i>. In the <i>Feature</i> column, click on the down arrow next to New, select <i>Kern Horizontal Kerning</i>, and click OK.</p>
+<p>Kerning is the process of adjusting the spacing between characters in a font so it is pleasant to read.</p>
 
-<p>Then select the newly-created entry in GPOS, and click on <b>Add Subtable</b> (right hand side). Leave the name as is, and click OK.</p>
+<p>In the Font Window, go to <i>Element > Font Info</i>, <b>Lookups</b>, click on the <b>GPOS</b> tab, and click on <b>Add Lookup</b>.</p>
+
+<p>In the <i>Type</i> dropdown menu, select <i>Pair Position (Kerning)</i>. In the <i>Feature</i> column, click on the down arrow next to <i>New</i>, select <i>Kern Horizontal Kerning</i>, and click OK.</p>
+
+<p>Select the newly-created entry in the <b>GPOS</b> tab, and click on <b>Add Subtable</b>(right hand side). Leave the name as is, and click OK.</p>
 
 <img src="../media/tutorials/fontforge/kernformat.jpg" loading="lazy">
 
-<p>In this menu, leave settings as they are and drag-select all of the letters you want to kern in both tables. Be sure to select both the upper and lower case letters, to select both sets in a table press shift. Press OK.</p>
+<p>In this menu, leave the settings as they are and drag-select all of the letters you want to kern in both tables. Be sure to select both the upper and lower case letters. To select both sets in a table press <i>shift</i>. When you're done, press OK.</p>
 
-<p>Now click on pairings, a magnified version of the glyph pairings will appear in the bottom half of the window. You can drag the second glyph and bring it closer or farther to the first glyph. Do this to all of the glyphs to make sure that they appear well together.</p>
+<p>Click on pairings. A magnified version of the glyph pairings will appear in the bottom half of the window. You can drag the second glyph and bring it closer or farther to the first glyph. Do this to all of the glyphs to make sure that they appear well together.</p>
 
 <img src="../media/tutorials/fontforge/kernwindow.jpg" loading="lazy">
 
 <h3>Font testing</h3>
 
-<p>You can test the font and kerning in FontForge. Go to <i>File>Print</i>. In this view you'll see how your font looks.</p>
+<p>You can test the font and kerning in FontForge. Go to <i>File > Print</i>. In this view you'll see how your font looks.</p>
 
-<img src="../media/tutorials/fontforge/print.jpg" loading="lazy">
+<img src="../media/tutorials/fontforge/print2.jpg" loading="lazy">
 
-<p>The default text doesn't show all possible pairing, but it's possible to add your own text. See the document <a href="../media/docs/kern_pairings.txt" target="_blank">kern_pairings.txt</a> which has all of the kern pairings.</p>
+<p>The default text doesn't show all possible pairing, but it's possible to add your own text. See the document <a href="../media/docs/kern_pairings.txt" target="_blank">kern_pairings.txt</a> which has all of the kern pairings (this is what I pasted in the above screenshot).</p>
 
 <h3>Problems with exporting the font</h3>
 
-<p>Go to <i>File>Generate Fonts</i>. At this point FontForge may hold certain characters for review, you may encounter issues like:</p>
+<p>Go to <i>File > Generate Fonts</i>. At this point FontForge may hold certain characters for review, you may encounter issues like:</p>
 
 <ul>
-   <li>Missing points at extrema</li>
    <li>Non-integral coordinates</li>
+   <li>Missing points at extrema</li>
    <li>Self intersecting</li>
 </ul>
 
-<p>A non-integral coordinate is one(or many) points in the outline of a glyph with a number(its position) that has a fractional component (ex: 2.25). To fix non-integral coordinates in a glyph, select the problematic glyph, go to Element>Validation>Find Problems, check the box for "non-integral coordinates", click OK, and press fix until it stops. In a handwritten font which typically doesn't rely too much on precision(depends, but for the most part), a point that is moved to a new coordinate that is very near(and non-fractional) will not be too dramatic.</p>
+<p><b>Non-integral coordinates</b>. A non-integral coordinate is one(or many) points in the outline of a glyph with a number(its position) that has a fractional component (ex: 2.25). To fix non-integral coordinates in a glyph, select the problematic glyph, go to <i>Element > Validation > Find Problems</i>, check the box for "non-integral coordinates", click OK, and press fix until it stops. In a handwritten font which typically doesn't rely too much on precision(depends, but for the most part), a point that is moved to a new coordinate that is very near(and non-fractional) will not be too dramatic.</p>
 
-<p>Extrema are the most extreme points in a curve(the yellow circle in FF). When FF calls for "missing points at extrema", it means that a curve's control points are pushing the curve out past the edge. The peak of the curve must be a (yellow)point. Play with the control points to get the extreme part of the curve to become a yellow circle. Element>Add Extrema can help solve the problem, but it may distort the glyph or create more issues with non-integral coordinates. It's still possible to generate a font even if this error appears in the log, but it may create some annoying subtle distortions in the font.</p>
+<p><b>Missing points at extrema</b>. Extrema are the most extreme points in a curve. When FF calls for "missing points at extrema", it means that a curve's control points are pushing the curve out past the edge. The peak of the curve must be a (yellow)point. Play with the control points to get the extreme part of the curve to become a yellow circle. <i>Element > Add Extrema</i> can help solve the problem, but it may distort the glyph or create more issues with non-integral coordinates. It's still possible to generate a font even if this error appears in the log(that's what I did), but it may create some annoying subtle distortions in the font. Extrema issues may happen with a handwritten font that is a bit messy(especially if Autotrace is used).</p>
 
-<p>Self intersecting means that the outline of the glyph is somehow overlapping itself. Check all of the lines to remove the overlap.</p>
+<p><b>Self intersecting</b>. Self intersecting means that the outline of the glyph is somehow overlapping itself. Check all of the lines to remove the overlap.</p>
 
 <h3>Choosing a font type</h3>
 
-<p>For my use, a TTF(true type font) is enough. Choosing something like OTF is unnecessary because I don't plan on storing many glyphs (I don't specifically want a bold or italic font, and if I ever do I can make it a separate font), nor do I need ligatures. The content the font will be used for is published on the web, and TTF is excellent for that.</p>
+<p>For my use, a <b>TTF(true type font)</b> is enough. Choosing something like OTF is unnecessary because I don't plan on storing many glyphs (I don't specifically want a bold or italic font, and if I ever do I can make it a separate font), nor do I need ligatures. The content the font will be used for is published on the web, and TTF is excellent for that.</p>
+
+<p>To generate a font from all of the glyphs in the Font View, go to <i>File > Generate Fonts</i>. In the dropdown menu below your chosen font name, choose the output font TTF(True Type).</p>
+
+<img src="../media/tutorials/fontforge/final.jpg" loading="lazy">
+
+<p>Select OK. The font will be saved in the project folder. Move the font to where fonts are stored on your system.</p>
 
 <p>To learn how to install fonts on Linux, see my <a href="../site/spellbook.html#fonts">My spellbook</a>.</p>
 
