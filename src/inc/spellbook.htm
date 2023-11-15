@@ -89,7 +89,7 @@ find . -name "picard.jpg"
 <h3><a id='pandochtmlmd'>Markdown to HTML with pandoc</a></h3>
 
 <pre>
-    pandoc doc_name.md -o doc_name.html
+pandoc doc_name.md -o doc_name.html
 </pre>
 
 <h3><a id='nasuhex'>Copying hexadecimal code from Nasu</a></h3>
@@ -205,13 +205,13 @@ eyeD3 -a 'Artist name' -A 'Album name' -t 'Song name' song.mp3
 <h3><a id='killprogram'>How to kill an unresponsive program</a></h3>
 
 <pre>
-    pstree -p
+pstree -p
 </pre>
 
 <p>Identify parent process.</p>
 
 <pre>
-   kill 1234
+kill 1234
 </pre>
 
 <p>Where 1234 is the process ID I found using pstree. If application has not been terminated, do this:</p>
@@ -269,7 +269,7 @@ kill -9 1234
 <p>To export mardown text file into a styled pdf (see how to <a href='pandoc_install.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
 
 <pre>
-    pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
+pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
 </pre>
 
 <h3><a id='sublime'>Sublime shortcuts</a></h3>
@@ -282,21 +282,21 @@ kill -9 1234
 <p>To check battery health on your laptop time the following command:</p>
 
 <pre>
-    upower -e
+upower -e
 </pre>
 
 <p>You'll see the following:</p>
 
 <pre>
-    /org/freedesktop/UPower/devices/line_power_ADP1
-    /org/freedesktop/UPower/devices/battery_BAT0
-    /org/freedesktop/UPower/devices/DisplayDevice
+/org/freedesktop/UPower/devices/line_power_ADP1
+/org/freedesktop/UPower/devices/battery_BAT0
+/org/freedesktop/UPower/devices/DisplayDevice
 </pre>
 
 <p>Enter:</p>
 
 <pre>
-    upower -i /org/freedesktop/UPower/devices/battery_BAT0
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
 </pre>
 
 <p>Check energy-full and energy-full-design to see the performance of your battery. To know if the battery needs to be replaced, divide the number next to “Energy when full” by “Energy (design)”, and multiply the result by 100. You’ll get a percentage.</p>
@@ -316,7 +316,8 @@ Exec=/home/alex/Documents/exec.sh
 Icon=/home/alex/Pictures/icon.png
 Terminal=false
 Type=Application
-Categories=Utility;Application;</pre>
+Categories=Utility;Application;
+</pre>
 
 <p><b>Version</b> is the version of the file. <br><b>Name</b> is the application name, for example "krita" or "thunderbird". <br><b>Comment</b> is a short description of said application. <br><b>Exec</b> is the path to the executable application. <b>Icon</b> is the path to the icon you wish to use for the application. <br><b>Terminal</b> is whether you want the application to run in a terminal window or not. <br><b>Type</b> specifies the type of launcher file (other examples include link, or directory). <br><b>Categories</b> is used to categorize applications.</p>
 
@@ -331,17 +332,23 @@ sudo mv programname.desktop /usr/share/applications
 <h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
 
 <p>Look inside .git/config in your repo, and change the relevant remotes to look like:</p>
+
 <pre>url = git@github.com:<user>/<repo>.git</pre>
 
 <h3><a id='exportimagesgimp'>Export images to pdf with GIMP</a></h3>
+
 <p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
+
 <pre>sudo apt-get install imagemagick</pre>
+
 <p>Convert your files, that's it.</p>
+
 <pre>convert -reverse document.mng document.pdf</pre>
 
 <p>Back to <a href='#content'>top</a>.</p>
 
 <h3><a id='appimagesexecute'>Make appimage executable</a></h3>
+
 <pre>chmod +u <AppImage File></pre>
 
 <p>Back to <a href='#content'>top</a>.</p>
@@ -356,9 +363,13 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
   └─/dev/mapper/mint--vg-swap_1 swap                    337...   [SWAP]
 /dev/sdb
 └─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</pre>
+
 <p>In the example above, the USB drive is recognized by the operating system as a disk named /dev/sdb with a single partition /dev/sdb1 mounted on /media/user/usb0. Unmount the USB drive if it is mounted:</p>
+
 <pre>sudo umount /media/user/usb0</pre>
+
 <p>Formatting types:</p>
+
 <ul>
 	<li>NTFS: The NT File System (NTFS) is the file system that modern Windows versions use by default.</li>
     <li>HFS+: The Hierarchical File System (HFS+) is the file system modern macOS versions use by default.</li>
@@ -367,10 +378,10 @@ NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
     <li>exFAT: The extended File Allocation Table (exFAT) builds on FAT32 and offers a lightweight system without all the overhead of NTFS.</li>
     <li>EXT 2, 3, & 4: The extended file system (EXT) was the first file system created specifically for the Linux kernel.</li>
 </ul>
-<p>To convert to FAT32, enter desired label name (optional):</p>
-<pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
 
-<p>Back to <a href='#content'>top</a>.</p>
+<p>To convert to FAT32, enter desired label name (optional):</p>
+
+<pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
 
 <h3><a id='terminaldict'>Install a terminal dictionary</a></h3>
 

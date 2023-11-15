@@ -23,7 +23,9 @@ main img {max-width: 100%}
 main gallery { display: block; text-align: center; }
 main gallery img { max-width: calc(30%); padding-bottom: 6px;border-radius: 3px;display: inline-block }
 main gallery hr { margin-bottom:30px; display:none; }
-main q {font-size: 26px;max-width: 500px; display: block; font-style: italic;}
+main q {font-size: 20px;max-width: 500px; display: block; font-style: italic; margin-bottom: 30px;}
+main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
+main cite:before {content: "— ";}
 
 footer { background: #fff; color: #000; padding: 30px; font-size: 20px;}
 footer a {color: black; text-decoration: none}
