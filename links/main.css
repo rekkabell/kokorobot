@@ -17,7 +17,7 @@ header ul li img {width: 100%; }
 
 main {padding: 30px;max-width: 700px;margin: 0 auto;}
 main a {color: white;}
-main p img {padding: 10px;}
+main p img {padding: 10px; loading:lazy;}
 main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
 main img {max-width: 100%}
 
