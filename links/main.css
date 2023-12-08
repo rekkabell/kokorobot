@@ -24,7 +24,7 @@ main p img {padding: 10px;}
 main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
 main img {max-width: 100%}
 
-main .button { background-color: #000;border: 2px solid white;color: white;padding: 5px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 18px;border-radius: 200px;font-weight: bold; margin-top: 10px; margin-right: 15px; margin-bottom: 5px;}
+main .button { background-color: #000;border: 2px solid white;color: white;padding: 5px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 18px;border-radius: 200px;font-weight: bold; margin-top: 10px; margin-right: 15px; margin-bottom: 10px;}
 main .button:hover { background-color: #333 !important; color: white; cursor:pointer; }
 
 main gallery { display: block; text-align: center; }
