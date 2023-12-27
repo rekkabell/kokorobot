@@ -58,6 +58,28 @@
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
 
+<h3><a id='format_x_hd'>Format external hard drive</a></h3>
+
+<p>Find out the path(physical mount address) for the hard drive to format the correct storage device.</p>
+
+<pre>
+df -h
+</pre>
+
+<p>Say the device is under /dev/sda1... unmount the HD:</p>
+
+<pre>
+sudo umount /dev/sda1
+</pre>
+
+<p>Enter your desired name for your formatted device instead of 'NAME'. The FAT32 file system is compatible with all mainstream operating systems, but it has transfer limit of 4GB. If you want larger files, choose exFAT(although it isn't cross-platform compatible).</p>
+
+<pre>
+sudo mkfs.vfat -n 'NAME' -I /dev/sda1
+or
+sudo mkfs.exfat -n 'Vincento' -I /dev/sda1
+</pre>
+
 <h3><a id='fonts'>Install fonts</a></h3>
 
 <p>To install a font on your system(all accounts), create a directory with the font name(say the font name is Funkyboy):</p>
@@ -449,5 +471,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Nov 14 19:10:18 2023
+</main><footer><hr /><span style='float:right'>Edited on Tue Dec 26 18:32:29 2023
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2023 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Index]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
