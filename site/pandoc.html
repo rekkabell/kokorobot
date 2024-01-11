@@ -201,7 +201,7 @@
 
 <p>See the <a href='../media/interface/titlepage.png'>title page</a> for <a href='wiktopher.html' class='local'>wiktopher</a>. I used similar code to generate a copyright page.</p>
 
-<p>Below is what I used to generate the above page. Making a title page with LaTeX is completely optional. I didn't make a fancy title page for <a href='busy_doing_nothing.html' class='local'>busy doing nothing</a>, but I really wanted one for <a href='wiktopher.html' class='local'>wiktopher</a> so I decided to learn some LaTeX.</p>
+<p>Below is what I used to generate the above page. Making a title page with TeX is completely optional. I didn't make a fancy title page for <a href='busy_doing_nothing.html' class='local'>busy doing nothing</a>, but I really wanted one for <a href='wiktopher.html' class='local'>wiktopher</a> so I decided to learn some TeX.</p>
 
 <p>This code is saved as a <b>.tex</b> file that I've named <b>titlepage.tex</b>, and is generated as a PDF with Pandoc. All text is centered(\centering) which includes an image on top (\include graphics), the book title(\huge\bfseries), the book subtitle(\LARGE \textsc), the author name (\Large\itshape), the editor name, and the studio name(\large \textsc):</p>
 
@@ -297,7 +297,7 @@ documentclass: book
 ...
 </pre>
 
-<p><b>**NOTE</b>: The three most commonly used standard document-classes in LaTeX include: article, report and book. Different document-classes have different default settings. The first time I published a book I omitted adding a document class entirely, and the text renders fine. Adding a "book" class will add settings that make the text more pleasant to read, like it'll align text on either the left, or right, to account for the book binding, it'll also add the chapter name at the top of the page.</p>
+<p><b>**NOTE</b>: The three most commonly used standard document-classes in TeX include: article, report and book. Different document-classes have different default settings. The first time I published a book I omitted adding a document class entirely, and the text renders fine. Adding a "book" class will add settings that make the text more pleasant to read, like it'll align text on either the left, or right, to account for the book binding, it'll also add the chapter name at the top of the page.</p>
 
 <p>The text in the .yaml file need to be delimited by a line of three hyphens (---) at the top and a line of three hyphens (---) or three dots (...) at the bottom. Metadata will be taken from the fields of the YAML object and added to any existing document metadata. See more about <a href='https://pandoc.org/MANUAL.html#metadata-blocks' target="_blank">metadata files</a>. Next, pass it to Pandoc as an argument:</p>
 
@@ -335,5 +335,5 @@ documentclass: book
 
 <p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Wed Jan 10 17:34:40 2024
+</main><footer><hr /><span style='float:right'>Edited on Wed Jan 10 18:38:09 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/src/inc/pandoc.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Index]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

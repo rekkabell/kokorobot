@@ -184,7 +184,7 @@
 
 <p>See the <a href='../media/interface/titlepage.png'>title page</a> for {Wiktopher}. I used similar code to generate a copyright page.</p>
 
-<p>Below is what I used to generate the above page. Making a title page with LaTeX is completely optional. I didn't make a fancy title page for {busy doing nothing}, but I really wanted one for {Wiktopher} so I decided to learn some LaTeX.</p>
+<p>Below is what I used to generate the above page. Making a title page with TeX is completely optional. I didn't make a fancy title page for {busy doing nothing}, but I really wanted one for {Wiktopher} so I decided to learn some TeX.</p>
 
 <p>This code is saved as a <b>.tex</b> file that I've named <b>titlepage.tex</b>, and is generated as a PDF with Pandoc. All text is centered(\centering) which includes an image on top (\include graphics), the book title(\huge\bfseries), the book subtitle(\LARGE \textsc), the author name (\Large\itshape), the editor name, and the studio name(\large \textsc):</p>
 
@@ -280,7 +280,7 @@ documentclass: book
 ...
 </pre>
 
-<p><b>**NOTE</b>: The three most commonly used standard document-classes in LaTeX include: article, report and book. Different document-classes have different default settings. The first time I published a book I omitted adding a document class entirely, and the text renders fine. Adding a "book" class will add settings that make the text more pleasant to read, like it'll align text on either the left, or right, to account for the book binding, it'll also add the chapter name at the top of the page.</p>
+<p><b>**NOTE</b>: The three most commonly used standard document-classes in TeX include: article, report and book. Different document-classes have different default settings. The first time I published a book I omitted adding a document class entirely, and the text renders fine. Adding a "book" class will add settings that make the text more pleasant to read, like it'll align text on either the left, or right, to account for the book binding, it'll also add the chapter name at the top of the page.</p>
 
 <p>The text in the .yaml file need to be delimited by a line of three hyphens (---) at the top and a line of three hyphens (---) or three dots (...) at the bottom. Metadata will be taken from the fields of the YAML object and added to any existing document metadata. See more about <a href='https://pandoc.org/MANUAL.html#metadata-blocks' target="_blank">metadata files</a>. Next, pass it to Pandoc as an argument:</p>
 
