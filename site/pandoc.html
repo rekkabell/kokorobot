@@ -17,7 +17,15 @@
 
 <p>This is a list of notes I've compiled when came time to learn how to generate PDFs, and e-books with free, open-source software.</p>
 
-<p>I have built books on Elementary OS and Manjaro with much success. I've tried to describe how to install everything in detail. If you don't have command-line experience, don't get discouraged! It is very tricky (it gets easier, with time). Seek the help of someone you know who can sit with you to help you install these, I find it easier to learn with someone in person, especially someone who knows you well (knows your level, how you learn best etc). Otherwise, ask me and I will try my best to assist you (rek at kokorobot dot ca). If I don't answer right away, it may be because I am sailing and away from a cell tower. I will return your email as soon as I can!</p>
+<h2>A note on TeX</h2>
+
+<p>When I first started making books, I used Markdown and Pandoc, as well as a little bit of TeX(bits I grabbed 4-5 lines from a collection of posts on StackOverflow and <i>somehow</i> made it work) to generate a working document. Pandoc funnels the markdown document into a PDF engine which typesets the whole thing for you, easy peasy, but this way of generating a book has its limits. If you want to center text, add custom title or copyright pages, learning a bit of TeX will permit you to modify a text more granularly.</p>
+
+<p>Using Markdown and Pandoc is like flirting with TeX, I saw what this typesetting system can do, and it left me yearning for more. Emboldened by the 5 lines I had learned making Busy Doing Nothing(Ho hooo, yesss, I can do anythiiing), I learned 5 more lines to make Wiktopher, and then another 15, wading into the friendly familiar waters of Pandoc and Markdown all the while. This page is for people who want to just dip their toes into bookmaking, and learning a bit of TeX on the way.</p>
+
+<p>My way of generating this book is certainly not the best way, but in the end I walked away with two books. I improve with every project.</p>
+
+<p>See the sources for <a href="https://git.sr.ht/~rabbits/wikbook" target="_blank">Wiktopher</a>, and for <a href="https://git.sr.ht/~rabbits/busydoingnothing" target="_blank">Busy Doing Nothing</a>.
 
 <h3><a id='content'>Contents</a></h3>
 
@@ -29,20 +37,27 @@
 	<li><a href='#papersize'>Changing papersize</a></li>
 	<li><a href='#addext'>Adding Extensions</a></li>
 	<li><a href='#bookcover'>Book cover for PDF</a></li>
+	<li><a href='#combinemaincover'>Combine cover with main PDF file</a></li>
+	<li><a href='#latexpretty'>Paragraph indents and centering chapter headings</a></li>
+	<li><a href='#titlecopyright'>Making a title and copyright page using Tex</a></li>
 	<li><a href='#epub'>Making EPUBs</a></li>
 	<li><a href='#mobi'>MOBI conversion</a></li>
 </ul>
 
-<p>Necessary downloads for this tutorial:</p>
+<p>If you have plans to export a PDF, you'll need the following:</p>
+
 <ul>
-	<li><a href='https://pandoc.org/installing.html' target='_blank'>Pandoc</a></li>
-	<li><a href='https://www.latex-project.org/' target="_blank">LaTeX</a></li>
-	<li><a href='https://imagemagick.org/index.php' target='_blank'>ImageMagick</a></li>
-	<li><a href='https://calibre-ebook.com/download' target='_blank'>Calibre</a></li>
-	<li><a href='https://poppler.freedesktop.org/' target='_blank'>PDFunite</a></li>
+	<li><a href="https://pandoc.org/MANUAL.html" target="_blank">Pandoc</a></li>
+	<li><a href="https://tectonic-typesetting.github.io/en-US/index.html" target="_blank">Tectonic</a></li>
+	<li><a href="https://www.ghostscript.com/" target="_blank">Ghostscript</a></li>
 </ul>
 
-<p>Some of these are tricky to install, please refer to my <a href='pandoc_install.html' class='local'>pandoc install</a> tutorial if you have problems. If you only have plans to export a PDF, only install Pandoc, Pdfunite and LateX. To generate MOBIs and EPUBs with Pandoc, install Pandoc, ImageMagick and Calibre.</p>
+<p>To generate MOBIs and EPUBs, you'll also need the following:</p> 
+
+<ul>
+	<li><a href="https://imagemagick.org/script/import.php" target="_blank">ImageMagick</a></li>
+	<li><a href="https://calibre-ebook.com/" target="_blank">Calibre</a>.</li>
+</ul>
 
 <p>Now that you've installed all necessary tools, let's begin:</p>
 
@@ -96,15 +111,17 @@
 
 <pre>cd Documents/myproject/</pre>
 
-<p>Enter the following command, replacing <b>filename</b> with the name of your project file, and <b>filename_export</b> with for the final exported PDF file:</p>
+<p>Enter the following command, replacing <b>filename</b> with the name of your project file, and <b>filename_export</b> with for the final exported PDF file. To format the PDF, I use Tectonic a self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive. I used to install TeXLive packages separately, but it is a bit messy, one system update corrupted my install and so I switched to Tectonic.</p>
 
-<pre>pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf</pre>
+<p>Enter the following:</p>
+
+<pre>pandoc filename.txt --pdf-engine=tectonic -o filename_export.pdf</pre>
 
 <p>In that same folder where you had your .txt file saved, you'll find your Pandoc-generated PDF.</p>
 
 <h3><a id='extensions'>Using Pandoc Markdown Extensions</a></h3>
 
-<p>In Pandoc, you can use extensions (see below) to specify the output of your PDF more granularly, say, if you want to change the paper size, add tables or footnotes etc.</p>
+<p>In Pandoc, you can use extensions (see below) to specify the output of your PDF more granularly, say, if you want to change the paper size, add tables, footnotes etc.</p>
 
 <h3><a id='papersize'>Changing papersize</a></h3>
 
@@ -114,7 +131,7 @@
 
 <p>Appended with the rest, to generate the PDF from a Markdown file, it'll look like this:</p>
 
-<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex -o filename_export.pdf</pre>
+<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=tectonic -o filename_export.pdf</pre>
 
 <p>If you're file is a <b>.md</b>, change the extension of your project file.</p>
 
@@ -130,27 +147,109 @@
 
 <p>Below is an example of a terminal command for a PDF generated from a .txt file, in a5 format, with the simple tables extension.</p>
 
-<pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=xelatex --from markdown+simple_tables -o filename_export.pdf</pre>
-
-<p>If using another PDF engine like Tectonic:</p>
-
 <pre>pandoc --variable=geometry:a5paper filename.txt --pdf-engine=tectonic --from markdown+simple_tables -o filename_export.pdf</pre>
 
 <h3><a id='bookcover'>Book cover PDF</a></h3>
 
-<p>Adding a book cover for a PDF with Pandoc is not straightforward, or maybe there is something I am missing? I could not figure out how to add images as full-page covers, BUT—I found a workaround to do it...and again (another big BUT), it requires <a href='https://imagemagick.org/index.php' target="_blank">ImageMagick</a>.</p>
+<p>If the goal is to make a book for print, say with lulu.com, you won't have to include a cover in the PDF. Lulu demands a separate template. The following is if you want to produce a PDF to be read digitally.</p>
 
-<p>We will use ImageMagick to convert the cover image into a PDF, which in turn, we will combine together into yet another PDF.</p>
+<p>Adding a book cover for a PDF with Pandoc is not straightforward, unless the book is coded in TeX. One technique I used once is to use ImageMagick to convert the cover image into a PDF, and then to combine the PDFs together into yet another PDF.</p>
 
-<p>Once you've installed ImageMagick (see <a href='pandoc_install.html'>tutorial</a> for install), save your cover image in your project folder. If you put it in a separate folder, be sure to specify it. Now, use this ImageMagick command to convert the image to a PDF:</p>
+<p>Save the cover image in your project folder. If you put it in a separate folder, be sure to specify it. Now, use this ImageMagick command to convert the image to a PDF:</p>
 
 <pre>convert cover.jpg cover.pdf</pre>
 
-<p>To combine the cover PDF with the main text PDF use pdfunite. *Note that the combined.pdf is the name of your final, merged pdf:</p>
+<p>To combine the cover with the main text pdf, use Ghostscript:</p>
 
-<pre>pdfunite cover.pdf filename.pdf combined.pdf</pre>
+<pre>gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -s OutputFile=filename_final.pdf cover.pdf filename_export.pdf</pre>
 
-<p>I am sure that this isn't the best way to do this, but it works! Sometimes hacky hacks are fine, but by all means, if you have a better solution, do say!</p>
+<h3><a id='latexpretty'>Paragraph indents and centering chapter headings</a></h3>
+
+<p>Indenting text is possible in a Markdown document by adding a series blank spaces(&amp;nbsp) before the line you wish to indent, but it is better to format it using <b>TeX</b>.</p>
+
+<p>It is difficult for me to explain how to do this because I do not master the use of TeX. But I have found settings that do exactly what I need.</p>
+
+<p>To beautify my chapters and sections, I created a file named <b>titlesec.tex</b>, with the following elements in the document(of course, all numbers are set as zeros, set your own):</p>
+
+<pre>
+\usepackage[bf,tiny,center]&lbrace;titlesec&rbrace;
+\usepackage&lbrace;parskip&rbrace;
+\usepackage&lbrace;indentfirst&rbrace;
+\setlength&lbrace;\parindent&lbrace;0pt&rbrace;
+\titlespacing*&lbrace;\chapter&rbrace;
+   &lbrace;0pt&rbrace;% left
+   &lbrace;0cm&rbrace;% before
+   &lbrace;0em&rbrace;% after
+\raggedbottom
+</pre>
+
+<ul>
+	<li><b>[bf,tiny,center]&lbrace;titlesec&rbrace;</b>, centers text, and uses a small font for my title. <a href="https://www.overleaf.com/learn/latex/Sections_and_chapters#Customize_chapters_and_sections" target="_blank">Read more</a>.</li>
+	<li><b>&lbrace;parskip&rbrace;</b>, a package which adds vertical space between paragraphs. The value of parskip without options is 6.0pt plus 2.0pt. It contains a stretchable glue component that helps LaTeX fit content onto the page and produce the best (optimal) page breaks. Note that page breaks can be forced with Markdown by using: (/newpage).</b>
+	<li><b>&lbrace;\indentfirst&rbrace;</b>, a package that indents the first line of every paragraph.</li>
+	<li><b>&lbrace;\parindent&rbrace;</b>, sets a specific length for the indentation.</li>
+</ul>
+
+<p>Example of a Pandoc command to generate a PDF that includes the formatting in titlesec.tex:</p>
+
+<pre>pandoc --variable=geometry:a5paper filename.md --pdf-engine=tectonic --from markdown+line_blocks+inline_notes --toc -V toc-title:"Table of Contents" --toc-depth=2 --include-in-header=titlesec.tex -o final.pdf
+</pre>
+
+<h3><a id='titlepage'>Making a title page with TeX</a></h3>
+
+<p>See the <a href='../media/interface/titlepage.png'>title page</a> for <a href='wiktopher.html' class='local'>wiktopher</a>. I used similar code to generate a copyright page.</p>
+
+<p>Below is what I used to generate the above page. Making a title page with LaTeX is completely optional. I didn't make a fancy title page for <a href='busy_doing_nothing.html' class='local'>busy doing nothing</a>, but I really wanted one for <a href='wiktopher.html' class='local'>wiktopher</a> so I decided to learn some LaTeX.</p>
+
+<p>This code is saved as a <b>.tex</b> file that I've named <b>titlepage.tex</b>, and is generated as a PDF with Pandoc. All text is centered(\centering) which includes an image on top (\include graphics), the book title(\huge\bfseries), the book subtitle(\LARGE \textsc), the author name (\Large\itshape), the editor name, and the studio name(\large \textsc):</p>
+
+<pre>
+\begin&lbrace;document&rbrace;
+\begin&lbrace;titlepage&rbrace;
+   \centering
+   \includegraphics&lbrace;media/image.jpg&rbrace;\par
+   &lbrace;\huge\bfseries Wiktopher\par&rbrace;
+   &lbrace;\LARGE \textsc&lbrace;--- Desert Tales ---&rbrace;\par&rbrace;
+   \vspace&lbrace;0.50cm&rbrace;
+   &lbrace;\Large\itshape Rek Bell\par&rbrace;
+   \vspace&lbrace;1cm&rbrace;
+   Edited by\par
+   Devine Lu Linvega\vspace&lbrace;1cm&rbrace;
+   \vfill
+   &lbrace;\large \textsc&lbrace;Hundred Rabbits&rbrace;\par&lbrace; 
+   \vfill
+% Bottom of the page
+   &lbrace;\large \today\par&rbrace;
+\end&lbrace;titlepage&rbrace;
+\end&lbrace;document&rbrace;
+</pre>
+
+<ul>
+	<li><b>\par</b>, it forces a new paragraph.</li>
+	<li><b>\textsc</b>, a small caps font style.</b>
+	<li><b>\bfseries</b>, declares that the text inside the braces must be formatted in bold.</li>
+	<li><b>\today</b>, enters today's date in the generated page.</li>
+</ul>
+
+<p>Font sizes range from very small to very big, it affects all text between the curly brackets. Here are all the possibilities:<br>\tiny, \scriptsize, \footnotesize, \small, \normal size, \large, \Large, \LARGE, \huge and \Huge.</p>
+
+<p>For more information about font style, read <a href="https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles" target="_blank">this page</a>.</p>
+
+<p>Make the file into a PDF:</p>
+
+<pre>
+pandoc --variable=geometry:a5paper filename.md --pdf-engine=tectonic --include-in-header=titlepage.tex -o titlepage.pdf
+</pre>
+
+<p>As I said, I'm not expert... I don't know how to generate the title page without calling the working source file(the markdown file) in the command, but it's the only way I've gotten it to work. This command will only generate a single page, which in a later step will be combined to the rest of the PDF file using Ghostscript.</p>
+
+<h3><a id='together'>Combining all pages into a single PDF</a></h3>
+
+<p>Combining all of the invidually-generated PDFs with Ghostscript:</p>
+
+<pre>gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -s OutputFile=filename_final.pdf cover.pdf titlepage.pdf filename_export.pdf</pre>
+
+<p>The reason that I generated all of those pages invidiually is because they are generated from two separate <b>.tex</b> files. This is a sort of workaround, to be able to continue using Markdown for the main body text while avoiding heavy use of TeX. A text written entirely in TeX would mean even more customization, but it requires learning a lot more code. I want to get there someday, but I also want to publish books :)... so I am going the slow route.</p>
 
 <h3><a id='epub'>Making epubs</a></h3>
 
@@ -226,7 +325,7 @@ documentclass: book
 
 <p>Now, all that's left is to publish your e-book! I personally choose not to use Amazon, and publish on <a href='https://itch.io/' target="_blank">itch.io</a>. There are no publishing fees, and with it, it's possible to automate uploads using <a href='https://itch.io/docs/butler/' target="_blank">Butler</a> (itch.io's command line tools) if say, you want to publish changes to your book fast.</p>
 
-<img src='../media/interface/pandocpdf.png' loading='lazy' class="p">
+<img src='../media/interface/pandocpdf.png' loading='lazy'>
 
 <p>I have published the book from this tutorial, <a href='busy_doing_nothing.html' class='local'>busy doing nothing</a> as a paperback book. I printed using Lulu, a print-on-demand service. See it <a href='https://www.lulu.com/en/us/shop/rekka-bellum-and-devine-lu-linvega/busy-doing-nothing/paperback/product-rqgmdj.html?page=1&pageSize=4' target='_blank'>here(Lulu.com link)</a>.</p>
 
@@ -234,5 +333,5 @@ documentclass: book
 
 <p>If anyone is interested in me writing about this let me know, and I will. Also, if you've read this, and have questions don't hesitate to <a href='rek.html#contact'>ask me</a>! I'll do my best to help.</p>
 
-</main><footer><hr /><span style='float:right'>Edited on Tue Jan  2 20:42:47 2024
+</main><footer><hr /><span style='float:right'>Edited on Wed Jan 10 17:29:30 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/src/inc/pandoc.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='index.html'>[Index]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
