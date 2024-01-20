@@ -3,16 +3,20 @@ DEBUG_flags=-std=c89 -DDEBUG -Wall -Wno-unknown-pragmas -Wpedantic -Wshadow -Wex
 
 .PHONY: all run format clean
 
-all: bin/kokorobo
+all: bin/kokorobot bin/dir
 
 run: all
-	mkdir -p site/
-	bin/kokorobot
+	@ mkdir -p site/
+	@ bin/kokorobot
+	@ bin/dir media/content/oldart/
 format:
 	@ clang-format -i src/main.c
 clean:
 	rm -r site/
 	rm bin/*
-bin/kokorobo: src/main.c
+bin/kokorobot: src/main.c
 	mkdir -p bin/
-	cc ${DEBUG_flags} src/main.c -o bin/kokorobot
+	cc ${RELEASE_flags} src/main.c -o bin/kokorobot
+bin/dir: src/dir.c
+	mkdir -p bin/
+	cc ${RELEASE_flags} src/dir.c -o bin/dir
