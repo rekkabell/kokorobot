@@ -5,6 +5,7 @@
 <p>All of these are linux commands.</p>
 
 <ul>
+    <li><a href='#compress_pdf'>How to compress a PDF</a></li>
     <li><a href='#format_x_hd'>Format external HD</a></li>
     <li><a href='#fonts'>Install fonts</a></li>
     <li><a href='#uxn'>Uxn commands</a></li>
@@ -41,6 +42,23 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='compress_pdf'>How to compress a PDF</a></h3>
+
+<p>To compress a PDF file, use <b>Ghostscript</b>. Ghostscript can modify PDF documents, it can convert PDF to images, extracting text etc.</p>
+
+<pre>
+tar -xzf ghostscript-9.55.0.tar.gz
+./configure
+make
+sudo make install
+</pre>
+
+<p>Enter the following command to compress a PDF, in which <b>/prepress</b> for dPDFSETTINGS means a resolution of 300 dpi but bigger size, <b>/ebook</b> would mean medium quality output (150 dpi) with moderate output file size, and <b>/screen</b> would mean lower quality output (72 dpi) but smallest possible output file size.</p>
+
+<pre>
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=compressed_PDF_file.pdf input_PDF_file.pdf
+</pre>
 
 <h3><a id='format_x_hd'>Format external hard drive</a></h3>
 
