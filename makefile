@@ -9,6 +9,7 @@ run: all
 	@ mkdir -p site/
 	@ bin/kokorobot
 	@ bin/dir media/content/oldart/
+	@ bin/dir media/content/sketch/
 format:
 	@ clang-format -i src/main.c
 clean:
