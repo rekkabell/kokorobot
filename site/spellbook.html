@@ -22,6 +22,9 @@
 <p>All of these are linux commands.</p>
 
 <ul>
+    <li><a href='#optimize_gif'>Optimizing a gif</a></li>
+    <li><a href='#resizing_gif'>Resizing a gif</a></li>
+    <li><a href='#convert_gif_to_video'>How to convert a gif to video</a></li>
     <li><a href='#compress_pdf'>How to compress a PDF</a></li>
     <li><a href='#format_x_hd'>Format external HD</a></li>
     <li><a href='#fonts'>Install fonts</a></li>
@@ -59,6 +62,42 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='optimize_gif'>Optimizing a gif</a></h3>
+
+<p>Mogrify is a command used in ImageMagick, it is very destructive so if you want to keep the original file back it up in another folder.</p>
+
+<p><b>-layers option</b>. Optimizes any layers in the gif<br><b>-fuzz option</b>. Specifies that colors within a certain tolerance can be considered the same color.</p>
+
+<pre>
+mogrify -layers 'optimize' -fuzz 7% mygif.gif
+</pre>
+
+<h3><a id='resizing_gif'>Resizing a gif</h3>
+
+<p><b>-coalesce</b>. This option in ImageMagicks creates a complete view of the animation at each point rather than as an animation sequence. Such a sequence is much easier to study, edit, modify and re-optimize.</p>
+
+<pre>
+convert example.gif -coalesce temporary.gif
+</pre>
+
+<p>Then enter...</p>
+
+<pre>
+convert temporary.gif -resize 24x24 smaller.gif 
+</pre>
+
+<p>Another ImageMagick command, in which temporary.gif is the coalesced input file, and smaller.gif is the output file.</p>
+
+<h3><a id='convert_gif_to_video'>How to convert a gif to video</a></h3>
+
+<p>Using FFMPEG, this is a useful command when the goal is to upload gifs on Mastodon (they have to be converted to video)</p>
+
+<pre>
+ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4
+</pre>
+
+<p><b>movflags</b>. This option optimizes the structure of the MP4 file so the browser can load it as quickly as possible.<br><b>pix_fmt</b>. MP4 videos store pixels in different formats. We include this option to specify a specific format which has maximum compatibility across all browsers.<br><b>vf</b>. MP4 videos using H.264 need to have a dimensions that are divisible by 2. This option ensures that’s the case. [<a href="http://rigor.com/blog/2015/12/optimizing-animated-gifs-with-html5-video" target="_blank">Source</a>]</p>
 
 <h3><a id='compress_pdf'>How to compress a PDF</a></h3>
 
@@ -490,5 +529,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Sun Jan 21 09:00:44 2024
+</main><footer><hr /><span style='float:right'>Edited on Wed Feb 14 09:04:21 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
