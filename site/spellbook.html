@@ -44,6 +44,7 @@
     <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
     <li><a href='#remote'>Update remote from http(s) to ssh</a></li>
     <li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
+    <li><a href='#pdfimagemagick'>Export images to pdf with ImageMagick</a></li>
     <li><a href='#appimagesexecute'>Make appimage executable</a></li>
     <li><a href='#formatusb'>How to format USB on Linux</a></li>
     <li><a href='#terminaldict'>Install terminal dictionary</a></li>
@@ -432,7 +433,15 @@ sudo mv programname.desktop /usr/share/applications
 
 <pre>url = git@github.com:<user>/<repo>.git</pre>
 
-<h3><a id='exportimagesgimp'>Export images to pdf with GIMP</a></h3>
+<h3><a id='pdfimagemagick'>Export images to PDF with ImageMagick</a></h3>
+
+<p>Exporting images to PDF using Gimp has its limits, it doesn't work with big images for PDFs, so Imagemagick is a good alternative. The following command takes all of the images in a folder and makes a PDF out of them.</p>
+
+<pre>
+convert *.jpg documentname.pdf
+</pre>
+
+<h3><a id='exportimagesgimp'>Export images to PDF with GIMP</a></h3>
 
 <p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
 
@@ -529,5 +538,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Wed Feb 14 09:04:21 2024
+</main><footer><hr /><span style='float:right'>Edited on Sat Feb 24 15:09:13 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
