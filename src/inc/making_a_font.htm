@@ -4,7 +4,7 @@
 
 <p>This month I decided to learn how to make a font to use in my comic {hakum}. Previously, I was drawing the text digitally with my pen tablet. The result was fine, but sometimes difficult to read(the text would grow and shrink often in one page). I didn't want to use an existing font, so I decided to make one based on my own handwriting. A font would keep my writing legible, and consistent throughout the comic.</p>
 
-<img src="../media/tutorials/fontforge/before_after.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/before_after.jpg" loading="lazy">
 
 <p><b>Disclaimer</b>: This is my first time making a font. I'm not a designer, nor do I master font creation in general or the use of the software FontForge. There are probably better ways to do what I did. This write-up is to describe my process, and can maybe help other beginners make their first font(for personal use). My aim was to make a TTF font for use in web publishing, with a limited set of characters(no bold, italics).</p>
 
@@ -12,7 +12,7 @@
 
 <p>I made two iterations of my font.</p>
 
-<img src="../media/tutorials/fontforge/iteration.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/iteration.jpg" loading="lazy">
 
 <p>The first was based on my digital handwriting(using a pen tablet), and the second was made from a scanned image of my handwriting.</p>
 
@@ -22,7 +22,7 @@
 
 <h3>The typeface anatomy</h3>
 
-<img src="../media/tutorials/fontforge/anatomy.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/anatomy.jpg" loading="lazy">
 
 <ul>
    <li><b>Ascender:</b> The portion of a minuscule letter that extends above the mean line of a font. That is, the part of a lower-case letter that is taller than the font's x-height.</li>
@@ -34,7 +34,7 @@
 
 <p>For my handwritten font I focused on the uppercase(A-Z) and lowercase(a-z) glyphs, numbers(0-9), and glyphs for basic punctuation(comma, exclamation mark, question mark, etc).</p>
 
-<img src="../media/tutorials/fontforge/handfont.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/handfont.jpg" loading="lazy">
 
 <p>In my sketchbook, I drew reference lines for the baseline, the cap height, x-height, and for the descender in pencil. I didn't make the characters large, nor did I put extra care in drawing them.</p>
 
@@ -44,11 +44,11 @@
 
 <p>After scanning my letters, I applied a threshold(<i>Color > Threshold</i> in Gimp) to the image to remove all grays.</p>
 
-<img src="../media/tutorials/fontforge/handfont2.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/handfont2.jpg" loading="lazy">
 
 <p>Then because of the nature of pencil on paper, and because I didn't use a grid, I spent time fixing some of the imperfections in the letters using the pencil tool in Gimp(with all dynamics turned off in Tool Options to get clean lines).</p>
 
-<img src="../media/tutorials/fontforge/gimp.jpg" title="my diy font grid in Gimp" loading="lazy">
+<img src="../media/content/tutorials/fontforge/gimp.jpg" title="my diy font grid in Gimp" loading="lazy">
 
 <p>I copy/pasted all of the cleaned-up letters in a new Gimp document(see image above) with a height and width that could accommodate the tallest and widest letter: capital <b>M</b>. This is a good time to double-check the weight of all of the lines, if the thickness varies too much it may not look good.</p>
 
@@ -56,7 +56,7 @@
 
 <h3>FontForge</h3>
 
-<img src="../media/tutorials/fontforge/ui.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/ui.jpg" loading="lazy">
 
 <p>I chose FontForge to create my font because I knew it worked on Linux, and because people I knew vouched for it(not because it is the best of the best). I still don't know if it's the 'best of the best' but I did like using it.</p>
 
@@ -64,7 +64,7 @@
 
 <p>To start, select <i>Element>Font</i> Info to fill out the font information. Under <b>PS Names</b>, add your font name.</p>
 
-<img src="../media/tutorials/fontforge/fontname.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/fontname.jpg" loading="lazy">
 
 <p>If your goal is to export as a TTF, in that same window go to <b>General</b>, and change the <b>Em size to 1024</b>. In TrueType fonts, the UPM(Units per Em) is by convention a power of two, generally set to 1024 or 2048. OTF fonts have different requirements. <b>Note</b>: Back when print letters were cast in metal blocks, each letter was fitted into its own space container to ensure that the height of each letter was uniform. The height of a type piece is known as the ‘em’, and it originates from the width of the uppercase ‘M’ character.</p>
 
@@ -72,13 +72,13 @@
 
 <p>On the bottom left, there is a box displaying 3 layers. Select the <b>Back</b> layer in the lower left menu, go to <i>File > Import</i> to import the PNG glyph for the letter <b>X</b>. The glyph reference will appear on the canvas.</p>
 
-<img src="../media/tutorials/fontforge/back.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/back.jpg" loading="lazy">
 
 <p><b>Helpful shortcuts:</b> <b>z</b> to zoom in, <b>x</b> to zoom out.</p>
 
 <p>At this point, you can choose to delineate the glyph yourself (see the <a href="http://designwithfontforge.com/en-US/Using_the_Fontforge_Drawing_Tools.html" target="_blank">Font Forge tutorial on drawing</a>), or you can use Autotrace(to do this, select the <b>Fore</b> layer, and go to <i>Select > Autotrace</i>).</p>
 
-<img src="../media/tutorials/fontforge/autotrace.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/autotrace.jpg" loading="lazy">
 
 <p>Autotrace will use the background image as a reference and will recreate it as an outline, complete with control points and bézier curves. Although it can be a bit messy(too many points), and cause missing extrema issues(the extreme part of any curve). Once you have a closed shape, the glyph will appear in the other window.</p>
 
@@ -90,7 +90,7 @@
 
 <p><b>TIP</b>. In the <b>Character View</b>, there's a text field above the working canvas featuring the letter that is being worked on. When clicking in the text field, square brackets will appear around the character. Typing words, or random letters after the last square bracket gives a preview of what they look like next to each other (thank you Lizbeth for this great tip!).</p>
 
-<img src="../media/tutorials/fontforge/platypus.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/platypus.jpg" loading="lazy">
 
 <p>Repeat this procedure for all of the glyphs. A very quick way to describe a very long process. Don't forget to adjust the left and right side bearings for the <b>Space</b> glyph, if you don't your font will have too much space between words.</p>
 
@@ -106,19 +106,19 @@
 
 <p>Select the newly-created entry in the <b>GPOS</b> tab, and click on <b>Add Subtable</b>(right hand side). Leave the name as is, and click OK.</p>
 
-<img src="../media/tutorials/fontforge/kernformat.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/kernformat.jpg" loading="lazy">
 
 <p>In this menu, leave the settings as they are and drag-select all of the letters you want to kern in both tables. Be sure to select both the upper and lower case letters. To select both sets in a table press <i>shift</i>. When you're done, press OK.</p>
 
 <p>Click on pairings. A magnified version of the glyph pairings will appear in the bottom half of the window. You can drag the second glyph and bring it closer or farther to the first glyph. Do this to all of the glyphs to make sure that they appear well together.</p>
 
-<img src="../media/tutorials/fontforge/kernwindow.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/kernwindow.jpg" loading="lazy">
 
 <h3>Font testing</h3>
 
 <p>You can test the font and kerning in FontForge. Go to <i>File > Print</i>. In this view you'll see how your font looks.</p>
 
-<img src="../media/tutorials/fontforge/print2.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/print2.jpg" loading="lazy">
 
 <p>The default text doesn't show all possible pairing, but it's possible to add your own text. See the document <a href="../media/docs/kern_pairings.txt" target="_blank">kern_pairings.txt</a> which has all of the kern pairings (this is what I pasted in the above screenshot).</p>
 
@@ -144,7 +144,7 @@
 
 <p>To generate a font from all of the glyphs in the Font View, go to <i>File > Generate Fonts</i>. In the dropdown menu below your chosen font name, choose the output font TTF(True Type).</p>
 
-<img src="../media/tutorials/fontforge/final.jpg" loading="lazy">
+<img src="../media/content/tutorials/fontforge/final.jpg" loading="lazy">
 
 <p>Select OK. The font will be saved in the project folder. Move the font to where fonts are stored on your system.</p>
 
@@ -152,7 +152,6 @@
    <li>Read the <a href="https://fontforge.org/en-US/documentation/" target="_blank">FontForge documentation</a>.</li>
    <li>To learn how to install fonts on Linux, see my <a href="../site/spellbook.html#fonts">My spellbook</a>.</li>
    <li>See the font in use in {night terror}.</li>
-   <li>If you enjoyed this write-up, consider leaving me a <b><a href="https://paypal.me/rekbell" target="_blank">tip</a></b>(Paypal).</li>
 </ul>
 
 
