@@ -13,7 +13,7 @@ header a {color: black; text-decoration: none}
 header a:hover { cursor: pointer; text-decoration: underline;}
 header ul {padding: 15px;}
 header ul li {display:inline-block; width: 140px; line-height: 30px}
-header ul li img {width: 100%; }
+header ul li img {width: 100%; height: auto;}
 
 ul.gallery li {display:inline-block; width: 400px; line-height: 30px}
 ul.gallery li img {width: 100%; }
