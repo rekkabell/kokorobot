@@ -25,6 +25,8 @@
     <li><a href='#optimize_gif'>Optimizing a gif</a></li>
     <li><a href='#resizing_gif'>Resizing a gif</a></li>
     <li><a href='#convert_gif_to_video'>How to convert a gif to video</a></li>
+    <li><a href='#compress_mp4'>Compressing a mp4 file</a></li>
+    <li><a href='#mts_to_mp4'>Converting an mts file to an mp4</a></li>
     <li><a href='#compress_pdf'>How to compress a PDF</a></li>
     <li><a href='#format_x_hd'>Format external HD</a></li>
     <li><a href='#fonts'>Install fonts</a></li>
@@ -99,6 +101,17 @@ ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/
 </pre>
 
 <p><b>movflags</b>. This option optimizes the structure of the MP4 file so the browser can load it as quickly as possible.<br><b>pix_fmt</b>. MP4 videos store pixels in different formats. We include this option to specify a specific format which has maximum compatibility across all browsers.<br><b>vf</b>. MP4 videos using H.264 need to have a dimensions that are divisible by 2. This option ensures that’s the case. [<a href="http://rigor.com/blog/2015/12/optimizing-animated-gifs-with-html5-video" target="_blank">Source</a>]</p>
+
+<h3><a id='compress_mp4'>Compressing an mp4 file</a></h3>
+
+<p><b>-i input.mov</b> specifies the input video file, <b>-c:v libx264</b> sets the video compression codec to H.264 (libx264),
+    <b>-pix_fmt yuv420p</b> changes the ProRes pixel format (4:2:2) to H.264 compatible pixel format (4:2:0).</p>
+
+<pre>ffmpeg -i input.mov -c:v libx264 -pix_fmt yuv420p output.mp4</pre>
+
+<h3><a id='mts_to_mp4'>Convert .mts to .mp4</a></h3>
+
+<pre>ffmpeg -i input.mts -c:v copy -c:a aac -strict experimental -b:a 128k output.mp4</pre>
 
 <h3><a id='compress_pdf'>How to compress a PDF</a></h3>
 
@@ -538,5 +551,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Thu Mar 14 10:04:05 2024
+</main><footer><hr /><span style='float:right'>Edited on Thu Mar 21 16:27:04 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
