@@ -22,6 +22,7 @@
 <p>All of these are linux commands.</p>
 
 <ul>
+    <li><a href='#batch_rename'>Batch rename prefix documents in a directory</a></li>
     <li><a href='#optimize_gif'>Optimizing a gif</a></li>
     <li><a href='#resizing_gif'>Resizing a gif</a></li>
     <li><a href='#convert_gif_to_video'>How to convert a gif to video</a></li>
@@ -65,6 +66,16 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='batch_rename'>Batch rename prefix documents in a directory</h3>
+
+<p>Shell scripting is useful to add a prefix for many documents contained in one directory. To do this, navigate to the right directory in the terminal. Once there, rename all <b>*.jpg</b> to <b>prefix_*.jpg</b> in the current directory. Using <b>*.jpg</b> means that the script will rename all of the files with a .jpg extension, I use <b>$filename</b> because I want to append to the filenames that I'm already using:</p>
+
+<pre>
+for filename in *.jpg; do mv "$filename" "hitobito_$&#123;filename&#125;"; done;
+</pre>
+
+<p>For this example, I added <b>hitobito_</b> to all of the files in a directory consisting of a series of numbers(001.jpg, 002.jpg, etc). So an image once named <b>001.jpg</b> was renamed to <b>hitobito_001.jpg</b>. </p>
 
 <h3><a id='optimize_gif'>Optimizing a gif</a></h3>
 
@@ -551,5 +562,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><hr /><span style='float:right'>Edited on Thu Mar 21 16:27:04 2024
+</main><footer><hr /><span style='float:right'>Edited on Sun Mar 24 11:26:19 2024
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
