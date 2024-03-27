@@ -28,15 +28,22 @@
   <title>Kokorobot</title>
 </head>
 <body>
-  <img src="media/content/main_dither.png" alt='shiba killy, cee the skeleton and polycat are sitting on a bridge surrounding by a starry black void' usemap="#workmap" loading='lazy' class="center">
-  <map name="workmap">
-    <area shape="rect" coords="395,143,519,401" title='Shiba Killy takes you home' alt="Killy" href="site/home.html">
-    <area shape="rect" coords="116,168,261,399" title='Cee shows you art' alt="Cee" href="site/projects.html">
-    <area shape="rect" coords="282,283,405,397" title='Polycat tells you stories' alt="Polycat" href="site/stories.html">
-    <area shape="rect" coords="166,121,199,169" title='Viktor plays games' alt="Viktor" href="site/games.html">
-  </map> 
+  <div id='wrap'>
+    <img src="media/content/main_dither.png" alt='shiba killy, cee the skeleton and polycat are sitting on a bridge surrounding by a starry black void' usemap="#workmap" loading='lazy' class="center">
+    <a class='killy' title="Killy takes you home" href="site/home.html"></a>
+    <a class='cee' title="Cee wants to draw" href="site/projects.html"></a>
+    <a class='polycat' title="Polycat has a story to tell" href="site/stories.html"></a>
+    <a class='viktor' title="Viktor counts to three" href="site/games.html"></a>
+  </div>
   <style>
-    body {background-image: url('media/content/main_repeat.png');}
+    body { background-image: url('media/content/main_repeat.png'); margin:0; padding:0 }
+    body #wrap { max-width: 100vw;position: relative;width: 627px; margin:0 auto }
+    body #wrap img { max-width:100vw }
+    body #wrap a { display: block; position: absolute; }
+    body #wrap a.viktor { width: 10%;height: 11%;top: 16%;left: 24%; }
+    body #wrap a.polycat { width: 20%;height: 20%;top: 43%;left: 45%; }
+    body #wrap a.cee { width: 22%;height: 37%;top: 25%;left: 19%; }
+    body #wrap a.killy { width: 20%;height: 42%;top: 22%;left: 63%; }
   </style> 
 </body>
 </html>
