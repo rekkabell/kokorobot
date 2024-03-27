@@ -47,4 +47,5 @@ footer a:hover { cursor: pointer; text-decoration: underline;}
 main gallery {max-width: fit-content;}
 header ul li {display:inline-block; width: 80px;}
 header ul li img {width: 70%; }
+body img {max-width: fit-content;}
 }
