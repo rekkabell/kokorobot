@@ -46,3 +46,7 @@ main gallery {max-width: fit-content;}
 header ul li {display:inline-block; width: 80px;}
 header ul li img {width: 70%; }
 }
+
+@media screen and (min-width: 481px) {
+.hide-on-desktop {display: none;}
+}
