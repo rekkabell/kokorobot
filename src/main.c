@@ -147,7 +147,7 @@ fpindex(FILE *f)
 {
 	struct dirent **d;
 	int n, i = 0;
-	n = scandir("inc", &d, NULL, alphasort);
+	n = scandir("src/inc", &d, NULL, alphasort);
 	if(n < 0)
 		return error("scandir", "failed");
 	fputs("<ul class='col2 capital'>", f);
@@ -195,7 +195,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		printf(">>> Building failed: %s\n", name);
 	fputs("\n\n</main>", f);
 	/* footer */
-	fputs("<footer><hr />", f);
+	fputs("<footer>", f);
 	fpedited(f, srcpath);
 	fputs("<b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
