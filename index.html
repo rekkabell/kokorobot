@@ -29,21 +29,36 @@
 </head>
 <body>
   <div id='wrap'>
-    <img src="media/content/main_dither_02.png" alt='shiba killy, cee the skeleton and polycat are sitting on a bridge surrounding by a starry black void' usemap="#workmap" loading='lazy' class="center">
-    <a class='killy' title="Killy takes you home" href="site/home.html"></a>
-    <a class='cee' title="Cee wants to draw" href="site/projects.html"></a>
-    <a class='polycat' title="Polycat has a story to tell" href="site/stories.html"></a>
-    <a class='viktor' title="Viktor counts to three" href="site/games.html"></a>
+    <img src="media/content/main_dither_02.png" alt='shiba killy, cee the skeleton and polycat are sitting on a bridge surrounding by a starry black void' loading='lazy' class="center">
+    <a class='killy' title="Killy takes you home" href="site/home.html">
+      <img src="media/interface/home_bubble.png" style="margin-top:110%;margin-left:50%">
+      <span>home</span>
+    </a>
+    <a class='cee' title="Cee wants to draw" href="site/projects.html">
+      <img src="media/interface/projects_bubble.png" style="margin-top:40%">
+      <span>projects</span>
+    </a>
+    <a class='polycat' title="Polycat has a story to tell" href="site/stories.html">
+      <img src="media/interface/stories_bubble.png" style="margin-top:90%">
+      <span>stories</span>
+    </a>
+    <a class='viktor' title="Viktor counts to three" href="site/games.html">
+      <img src="media/interface/games_bubble.png">
+      <span>games</span>
+    </a>
   </div>
   <style>
-    body { background-image: url('media/content/main_repeat.png'); margin:0; padding:0 }
-    body #wrap { max-width: 100vw;position: relative;width: 627px; margin:0 auto }
-    body #wrap img { max-width:100vw }
-    body #wrap a { display: block; position: absolute; }
-    body #wrap a.viktor { width: 18%; height: 13%; top: 9%; left: 8%; }
-    body #wrap a.polycat { width: 18%; height: 14%; top: 58%; left: 40%; }
-    body #wrap a.cee { width: 16%; height: 13%; top: 42%; left: 3%;}
-    body #wrap a.killy { width: 15%; height: 12%; top: 48%; left: 82%;}
+    body { background-image:url('media/content/main_repeat.png');margin:0;padding:0 }
+    #wrap { max-width:100vw;position:relative;width:627px;margin:0 auto }
+    #wrap img { max-width:100vw }
+    #wrap span { text-indent:-9999px }
+    #wrap a { display:block;position:absolute }
+    #wrap a * { display:none }
+    #wrap a:hover img {display:block}
+    #wrap a.viktor { width:27%;height:18%;top:9%;left:8% }
+    #wrap a.polycat { width:23%;height:32%;top:40%;left:40% }
+    #wrap a.cee { width:36%;height:38%;top:28%;left:3% }
+    #wrap a.killy { width:33%;height:49%;top:15%;left:64% }
   </style> 
 </body>
 </html>
