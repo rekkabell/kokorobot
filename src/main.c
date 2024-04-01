@@ -197,7 +197,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer>", f);
 	fpedited(f, srcpath);
-	fputs("<b>Rek Bell</b> © 2008-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — ", f);
+	fputs("<b>Rek Bell</b> © 2011-2024 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — ", f);
 	fputs("<a href='" LICENSE "' target='_blank'>BY-NC-SA 4.0</a>", f);
 	fputs("</footer>", f);
 	/* end */
