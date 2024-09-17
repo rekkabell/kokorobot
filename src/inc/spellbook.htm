@@ -1,8 +1,8 @@
 <h3>Spellbook</h3>
 
-<p>These are personal notes to remind myself how to do certain types of actons via the command line in the terminal. Some notes are for actions I do often, others that I've only done once, but that the process I thought was worth noting.</p>
+<p>The below notes are here to remind myself how to do certain actions via the command line in the terminal. Some notes are for actions I do often, others that I've only done once.</p>
 
-<p>All of these are linux commands.</p>
+<p>All of these are linux commands(I use Manjaro):</p>
 
 <ul>
     <li><a href='#terminal_calculator'>Using the terminal as a calculator</a></li>
@@ -53,9 +53,9 @@
 
 <h3><a id='terminal_calculator'>Using the terminal as a calculator</h3>
 
-<p>To make quick calculations, it is possible to use <b>bc</b>(stands for Basic Calculator) in the terminal. Using Manjaro, it is on my Linux system already.</p>
+<p>To make quick calculations, it is possible to use <b>bc</b>(stands for Basic Calculator) in the terminal. There are other utilities to use, but bc is enough for the kinds of calculations I need to make. It was installed on my Linux system already.</p>
 
-<p>To make a calculation, type <b>bc</b> in the terminal window and press <b>enter</b>. If you wish to quit bc, type <b>quit</b> and press enter. Use the following symbols:</p>
+<p>To make, say, an addition, type <b>bc</b> in the terminal window and press <b>enter</b>. If you wish to quit bc, type <b>quit</b> and press enter. Use the following symbols:</p>
 
 <ul>
     <li>Addition: <b>+</b></li>
@@ -64,7 +64,30 @@
     <li>Division: <b>/</b></li>
 </ul>
 
-<p>After entering your equation, press enter for the result.</p>
+<p>After entering your equation, press <b>enter</b> on your keyboard for the result.</p>
+
+<p>Below is an example of what you can expect when launching bc, and entering an equation:</p>
+
+<pre>
+[rabbit@watershipdown]$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+</pre>
+
+<p>After the above text comes up, enter your equation:</p>
+
+<pre>
+45*0.3048
+</pre>
+
+<p>Press enter, the result will appear under the equation.</p>
+
+<pre>
+45*0.3048
+13.7160
+</pre>
 
 <p>Refer to the <a href="https://www.gnu.org/software/bc/manual/html_mono/bc.html" target="_blank">bc manual</a> to learn what symbols to use for more complex calculations.</p>
 
