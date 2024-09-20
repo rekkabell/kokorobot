@@ -10,6 +10,65 @@
 </image>
 
 <item>
+  <title>September musings</title>
+  <link>https://kokorobot.ca</link>
+  <pubDate>Thu, 19 Aug 2024 07:00:00 GMT</pubDate>
+  <dc:creator><![CDATA[Rek Bell]]></dc:creator>
+  <description>
+<![CDATA[
+<p>I'm going to try something new this month, a long-form, highly detailed journal, which chronicles the projects I've done, but also things I am interested in, what I've read, etc. I share a lot of this stuff on Mastodon, but it's a shame that it isn't also present on my website. These thoughts will now live here too. Here we go!</p>
+
+<p><b>SAILING</b>. Where's Pino now? We are anchored on Galiano Island, comfortably nested in the Gulf Islands of British Columbia. We spent time in Melanie Cove earlier this month too. We wanted a taste of summer weather, we got it. Some days were very warm, too warm to hike. Pino will be returning to the Victoria docks in the fall, I look forward to it. I really miss using our sewing machine, I have many projects in mind!</p>
+
+<p>I started to transcribe the entries of Victoria to Sitka logbook digitally, I've already published <a href="https://100r.co/site/victoria_to_sitka_logbook.html" target="_blank">the first two weeks</a>. As promised, the log features many silly doodles. Silly doodles are my lifeblood. People who have already read through the log told me how much they liked the black-headed gull syndicate, I am glad of it, it was a recurring joke on that trip. Gulls on logs were a common, and welcome sight. I have many more weeks to transcribe, it will take a long while to go through it all!</p>
+
+<img src="https://kokorobot.ca/media/content/sketch/logbook_vs_05.jpg"/>
+
+<p><b>ART</b>. I've been doodling one of my older ocs Shane "Shock" Evans a lot. I used Shane when roleplaying with a friend in the pokemon universe. I'd love to "recycle" this character into another story, albeit with some improvements because his personality requires some considerable finessing. I tend to become very attached to my characters. I always end up reusing them in other projects, although sometimes they're so different that it is impossible to know who they stemmed from. Lupen, from my story <a href="https://kokorobot.ca/site/wiktopher.html" target="_blank"</a>Wiktopher</a>, actually shares Shane's haircut (also Shane wore it first), but they're nothing alike.</p>
+
+<img src="https://kokorobot.ca/media/content/oc_shock_together.jpg"/>
+
+<p><b>BOOKS</b>. Earlier this month, I finished reading Arthur Conan Doyle's <b>The Adventures of Sherlock Holmes</b>. I really enjoyed it, while being familiar with the character - I think most of the English speaking world is - it was my first time reading any of his stories. I love Watson’s constant amazement of Holmes’s observation and deducting skills. “My dear Holmes!” He’d often say, awestruck, after hearing Holmes detail the life a client he’d just met with great accuracy. I recommend it, although the fact that he casually takes cocaine was a bit jarring. Taking cocaine was a "hip" thing to do in 19th century England, but mostly because it wasn't well understood. When the dangers of cocaine became known, Arthur C. D. adapted the story, with Watson helping to wean Holmes off the drug. I love that he didn't double down on his character's use of the drug. The author used words that were at times surprising, like saying "he ejaculated" after a character speaks in a sudden manner. The definition of the word when used with speech reads like this: <i>"To throw out, as an exclamation; to utter by a brief and sudden impulse; as, to ejaculate a prayer."</i> Using it to illustrate something said swifty and suddenly is brilliant, I love the image that it summons in my mind(not the one you're thinking of, you silly rabbit). Unfortunately, its use for anything other than "ejecting semen" will forever be strange in modern times.</p>
+
+<p>I am still reading through Don Norman's book <b>The Design of Everyday Things</b>. I've become more observant, and critical, of the objects around me. It is a wonder that so many terrible products end up in people's hands. I learned about <a href="https://en.wikipedia.org/wiki/The_Toyota_Way" target="_blank">The Toyota Way</a>, which is a set of principles that focuses on reducing waste, increasing productivity, and maintaining a high-quality standard, such as <a href="https://en.wikipedia.org/wiki/Muda_(Japanese_term)" target="_blank">Muda (無駄)</a> and <a href="https://en.wikipedia.org/wiki/Autonomation" target="_blank">jidoka (自働化)</a>. I created a page on my website named <a href="https://kokorobot.ca/site/good_enough_arithmetic.html">good enough arithmetics</a>, coined by Don, to remind myself that precision isn't always necessary. When I shared my notes on Mastodon, someone linked an amazing <a href="https://seweverythingblog.com/2020/05/12/the-hand-as-measuring-device/" target="_blank">blog post</a> on how to use your hand as a measuring device to take approximate measurements. I LOVE that idea! I included some fun ASCII art in the documentation to break the monotony. Drawing hands in ASCII was not easy, but it was fun to try! The book is dry at times, but the lessons are invaluable.</p>
+
+<p>As a last mention of books, I will say that I've been reading Andy Weir's Project Hail Mary aloud to Devine every night. The casual format makes it difficult to stop, we are enjoying it so far, although Ryland Grace, the main character, sounds and behaves exactly like the star of Weir's other book Mark Watney (The Martian). I suspect that he injects a lot of himself into his characters.</p>
+
+<p><b>RABBITS</b>. I've got rabbits on the brain. Last August we went walking on a trail on Cortes Island with our friends Rik & Kay, they sent me photos from that walk, which of course, ended up becoming part of the <a href="https://kokorobot.ca/site/wunderland_rabbits.html">wunderland rabbits</a> project. I am especially pleased with this one. Rabbits in the ferns!</p>
+
+<img src="https://kokorobot.ca/media/content/wunderland_14_full.jpg"/>
+
+<p> What I am most happy about is that I found another way to do the dithering. I used to have a local copy of <a href="https://ditherit.com/" target="_blank">Dither-it</a>, and used the Atskinson algorithm to get the look I wanted, but when I switched from <a href="https://kokorobot.ca/site/vincent.html">Vincent</a> to <a href="https://kokorobot.ca/site/obi.html">Obi</a> I forgot to clone the repository, when I was working on this picture I didn't have good enough cell coverage to download it. I ended up toying with Krita, and found an option under Filter>Artistic named Index Colors, which does EXACTLY what I want! I can change the colors under Ramps, and the results are just as good as those produced when using Dither-it. Of course, Dither-it is a really neat tool and I will continue to recommend it, but it is neat that Krita can produce similar results(I haven't found an equivalent in Gimp).</p>
+
+<p>Also, maybe it is a bit too early to announce it, but in rabbit-related news I registered a new domain named <a href="https://rabbitwaves.ca" target="_blank">RabbitWaves</a> for a very special project. The site doesn't have much on it yet, it will soon!</p>
+
+<p><b>MUSIC</b>. <a href="https://voidxwitch.com/" target="_blank">Voidxwitch</a> released their new single <a href="https://voidxwitch.bandcamp.com/track/beast-of-the-black-hill" target="_blank">The Beast of the Black Hill</a> and it is excellent! This song is dominating my life, I cannot persuade it to leave my head. Give it a listen!<br>Falling in Reverse's <a href="https://youtu.be/hX0lhueeib8?si=L2BP-4y3h6bKOClE" target="_blank">Prequel</a> is also highly addictive. As on the commenters on YouTube so rightly said, "Falling In Reverse is no longer a band, they are an experience."</p>
+
+<p><b>TRICKS N THINGS</b>. I learned that it was possible to use <a href="https://kokorobot.ca/site/spellbook.html#terminal_calculator">the terminal as a calculator</a> this month. I really wish I had learned this before! I am constantly doing conversions, being able to do it via the command line simplifies thing! Of course, one cannot just type equations in the terminal, it is necessary to summon <b>bc</b> first. BC was already installed on Manjaro, handy!</p>
+
+<p><b>CALL TO ACTION</b>. As you may have heard, Paul Watson, the founder of the Sea Shepherd Conservation Society, was arrested by Danish police. <i>"Danish authorities claim that the arrest was made due to an international arrest warrant issued by Japan, related to his anti-whaling campaigns in the Antarctic more than a decade ago. Paul faces the possibility of extradition to Japan, where he could spend the rest of his life in prison."</i> Protection nature ought not to be a crime. If you can spare some time, <a href="https://www.paulwatsonfoundation.org/freepaulwatson/" target="_blank">sign this petition</a>.</p>
+
+<p>Also, if you can, buy prints/or commmission a human artist that you like. With the use of AI becoming ubiquitous, they need your support right now, more than ever.</p>
+
+<p><b>ARTICLES I READ AND LIKED</b></p>
+<ul>
+  <li><a href="https://www.techpolicy.press/challenging-the-myths-of-generative-ai/" target="_blank">Challenging the myths of generative AI</a></li>
+  <li><a href="https://www.gypsy-traveller.org/blog/sam-worrall-inequality-on-the-cut/" target="_blank">Inequality on the Cut</a><br></li>
+</ul>
+
+<p><b>QUOTE</b><q>The productivity myth suggests that anything we spend time on is up for automation — that any time we spend can and should be freed up for the sake of having even more time for other activities or pursuits — which can also be automated. The importance and value of thinking about our work and why we do it is waved away as a distraction. The goal of writing, this myth suggests, is filling a page rather than the process of thought that a completed page represents.</q>
+<p>Sourced from <a href="https://www.techpolicy.press/challenging-the-myths-of-generative-ai/" target="_blank">Challenging the myths of generative AI</a>. I thought this was worth sharing, especially considering what has happened with <a href="https://www.wired.com/story/nanowrimo-organizers-classist-and-ableist-to-condemn-ai/" target="_blank">Nanowrimo</a> last month.</p>
+
+<p><b>GREAT WEBSITES</b></p>
+<ul>
+  <a href="https://marcusthevisual.com/avatar-legend-of-abioye/" target="_blank">Marcus the Visual</a>, and his well-crafted The Last Airbender fan fiction <b>The Legend of Abioye</b>.</a>
+  <li><a href="https://annas-archive.org/" target="_blank">Anna's Archive</a>, since most mirrors of libgen are now down, Anna's Archive is fighting to keep the lights on.</li>
+</ul>]]>
+</description>
+</item>
+
+
+<item>
   <title>Room for thought</title>
   <link>https://kokorobot.ca</link>
   <pubDate>Sun, 25 Aug 2024 07:00:00 GMT</pubDate>
