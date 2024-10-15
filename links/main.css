@@ -58,4 +58,5 @@ main a {color: black;}
 main .button {background-color: #eee;border: 2px solid black;color: black;}
 main .button:hover { background-color: #000 !important; color: white; cursor:pointer; }
 main pre {border: 1px solid black}
+.monochrome {filter: invert(1);}
 }
