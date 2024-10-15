@@ -50,3 +50,12 @@ header ul li img {width: 70%; }
 @media screen and (min-width: 840px) {
 .hide-on-desktop {display: none;}
 }
+
+@media (prefers-color-scheme: light){
+header {background: white}
+body {background:#eee; color:#000;}
+main a {color: black;}
+main .button {background-color: #eee;border: 2px solid black;color: black;}
+main .button:hover { background-color: #000 !important; color: white; cursor:pointer; }
+main pre {border: 1px solid black}
+}
