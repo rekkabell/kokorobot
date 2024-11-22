@@ -36,6 +36,7 @@ main gallery hr { margin-bottom:30px; display:none; }
 main q {font-size: 20px;max-width: 500px; display: block; font-style: italic; margin-bottom: 30px; margin-top: 30px}
 main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
 main cite:before {content: "— ";}
+main table {display: inline-block;}
 
 footer { background: #fff; color: #000; padding: 30px; font-size: 20px;}
 footer a {color: black; text-decoration: none}
