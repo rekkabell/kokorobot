@@ -5,6 +5,7 @@
 <p>All of these are linux commands(I use Manjaro):</p>
 
 <ul>
+    <li><a href='#bash_alias'>Creating a bash alias</a></li>
     <li><a href='#cutting_audio'>Cutting audio using FFMPEG</a></li>
     <li><a href='#terminal_calculator'>Using the terminal as a calculator</a></li>
     <li><a href='#batch_rename'>Batch rename prefix documents in a directory</a></li>
@@ -51,6 +52,36 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='bash_alias'>Creating a bash alias</h3>
+
+<p>Bash aliases allows you to set a memorable shortcut command to summon a longer command in the terminal. Add aliases in the ~/.bashrc file on your system.</p>
+
+<p>Aliases are formatted as follows:</p>
+
+<pre>
+alias alias_name="command_to_run"
+</pre>
+
+<p>To open .bashrc, or instead of nano enter the name of your own preferred text editor:</p>
+
+<pre>
+nano ~/.bashrc
+</pre>
+
+<p>Enter your desired alias, below is an example of an alias created by Rostiger to create a shortcut for a shrug emoji. The command below prints the shrug emoji, then copies it to your clipboard so you can paste it elsewhere:</p>
+
+<pre>
+alias shrug='echo "¯\_(ツ)_/¯" && echo "¯\_(ツ)_/¯" | xclip -selection clipboard'
+</pre>
+
+<p><b>&&</b>: The command following this one will only begin if the previous command has been successfully completed.<br><b>|</b> The output of the first command acts as the input to the second command.</p>
+
+<p>To use the alias in your current session, enter the following:</p>
+
+<pre>
+source ~/.bashrc
+</pre>
 
 <h3><a id='cutting_audio'>Cutting audio using FFMPEG</h3>
 
