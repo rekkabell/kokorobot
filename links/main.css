@@ -31,7 +31,7 @@ main .button { background-color: #000;border: 2px solid white;color: white;paddi
 main .button:hover { background-color: #333 !important; color: white; cursor:pointer; }
 
 main gallery { display: block; text-align: center; }
-main gallery img { max-width: calc(30%); padding-bottom: 6px;border-radius: 3px;display: inline-block }
+main gallery img { width: calc(30%); padding-bottom: 6px;border-radius: 3px;display: inline-block }
 main gallery hr { margin-bottom:30px; display:none; }
 main q {font-size: 20px;max-width: 500px; display: block; font-style: italic; margin-bottom: 30px; margin-top: 30px}
 main cite {font-size: 17px;display: block;clear: both;margin-bottom: 30px;}
