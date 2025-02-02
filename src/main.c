@@ -177,8 +177,8 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 		"<link rel='alternate' type='application/rss+xml' title='RSS Feed' "
 		"href='../links/rss.xml' />"
 		"<link rel='stylesheet' type='text/css' href='../links/main.css'>"
-		"<link rel='shortcut icon' type='image/png' "
-		"href='../media/services/shortcut.png'>"
+		"<link rel='shortcut icon' type='image/x-icon' "
+		"href='../media/services/favicon.ico'>"
 		"<title>" NAME " &mdash; %s</title>",
 		name);
 	fputs("</head>", f);
