@@ -1,8 +1,8 @@
 body { background:#000; color:#fff; font-size: 20px;margin: 0px}
 b { font-weight: bold }
 
-a[href^="http://"]:not([href*="kokorobot.ca"]):after,
-a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }
+a[href^="http://"]:not([href*="kokorobot.ca"]):after,/*
+a[href^="https://"]:not([href*="kokorobot.ca"]):after{content: "*" }*/
 a.noglyph:after { content:"" !important; }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
