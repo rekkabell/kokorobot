@@ -5,6 +5,7 @@
 <p>All of these are linux commands(I use Manjaro):</p>
 
 <ul>
+    <li><a href='#ipad2'>Ipad2 video conversion</a></li>
     <li><a href='#bash_alias'>Creating a bash alias</a></li>
     <li><a href='#cutting_audio'>Cutting audio using FFMPEG</a></li>
     <li><a href='#terminal_calculator'>Using the terminal as a calculator</a></li>
@@ -52,6 +53,19 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='ipad2'>Ipad 2 video conversion</h3>
+
+<p>An ffmpeg command to convert and re-scale most of the videos that I keep on hard drives, to save space, but also so they can play well on an old Ipad2(I have plans to use it as a media station).</p>
+
+<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart output.mp4</pre>
+
+<p>To batch render files in an entire directory named <b>converted</b>:</p>
+
+<pre>
+for f in *.mkv;
+do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/${f%.mkv}.mp4"; done
+</pre>
 
 <h3><a id='bash_alias'>Creating a bash alias</h3>
 
