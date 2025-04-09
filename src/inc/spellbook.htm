@@ -64,7 +64,7 @@
 
 <pre>
 for f in *.mkv;
-do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/${f%.mkv}.mp4"; done
+do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$&#123;f%.mkv&#125;.mp4"; done
 </pre>
 
 <h3><a id='bash_alias'>Creating a bash alias</h3>
