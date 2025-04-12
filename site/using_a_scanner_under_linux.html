@@ -17,14 +17,14 @@
 
 <p>Growing up with a variety of scanners, and having to deal with shitty software and compability issues, I assumed that getting an older scanner to work with Linux would be impossible- I was wrong.</p>
 
-<p>I have a used <b>CanoScanLiDE20</b>, <a href='obi.html' class='local'>obi</a> run Manjaro, and scan my art using <b>Xsane</b>.</p>
+<p>I have a used <b>CanoScanLiDE20</b>, <a href='obi.html' class='local'>obi</a> run Manjaro, and scan my art using <b>Simple Scan</b>.</p>
 
 <h3>Required Software</h3>
 
 <p>To scan images with linux you'll need:</p>
 
 <ul>
-<li><b><a href='http://www.xsane.org/' target='_blank'>Xsane</a></b>(DE) - a stand-alone software to control the scanner for SANE.</li>
+<li><b><a href="https://gitlab.gnome.org/GNOME/simple-scan" target="_blank">Simple Scan</a></b> - a stand-alone software to control the scanner for SANE </li>
 <li><b><a href='sane-project.org' target='_blank'>SANE</a></b> - what makes the scanner compatible with Linux.</li>
 </ul>
 
@@ -33,25 +33,17 @@
 <p>So, it is time to install both:</p>
 
 <pre>
-sudo pacman -S xsane
+sudo pacman -S simple-scan
 and...
 sudo pacman -S sane
 </pre>
 
-<p>If you're running ubuntu(installs both xsane and sane):</p>
-<pre>
-apt-get install sane sane-utils libsane-extras xsane
-</pre>
+<p>Then voila, you can plug in your scanner, launch Simple Scan and voila!</p>
 
-<p>Then voila, you can plug in your scanner, launch Xsane and voila!</p>
-
-<p>Xsane saves images in PNM format (PBM for black-and-white images, PGM for grayscale images, and PPM for color images) or converts the image to JPEG, PNG, PS or TIFF. In the latter case, the images are directly passed to The GIMP for further processing. </p>
-
-<p><b>Using Gimp?</b> Every tutorial I've read that mentions scanning documents on Linux mentions a Gimp plugin that permits the import of images from a scanning device directly by way of selecting File>Acquire>SANE.<br>In the Gimp file menu, "Acquire" was replaced with "Create", and no matter what I install I cannot get SANE to appear in that submenu. They refuse to play together. For those interested in trying, see the section named <a href='https://manpages.org/xsane' target='_blank'>Running Under the Gimp</a>.<br>I've found that launching Xsane, scanning the document, saving the file and opening it in Gimp afterward works just fine.</p>
+<p>I used to use <a href="https://wiki.ubuntuusers.de/XSane/" target="_blank">Xsane</a>, but the package is no longer available(2025), according to the <a href="http://sane-project.org/sane-frontends.html" target="_blank">Sane webpage</a>, this is temporary... I will use Simple Scan in the meantime.</p>
 
 
 
 
-
-</main><footer><span style='float:right'>Edited on Mon Mar 11 09:04:14 2024
+</main><footer><span style='float:right'>Edited on Sat Apr 12 16:15:05 2025
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/using_a_scanner_under_linux.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

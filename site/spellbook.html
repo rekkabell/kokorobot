@@ -25,10 +25,12 @@
     <li><a href='#ipad2'>Ipad2 video conversion</a></li>
     <li><a href='#bash_alias'>Creating a bash alias</a></li>
     <li><a href='#cutting_audio'>Cutting audio using FFMPEG</a></li>
+    <li><a href='#repo'>Set up SSH key to commit to online repositories</a></li>
     <li><a href='#terminal_calculator'>Using the terminal as a calculator</a></li>
     <li><a href='#batch_rename'>Batch rename prefix documents in a directory</a></li>
     <li><a href='#optimize_gif'>Optimizing a gif</a></li>
     <li><a href='#resizing_gif'>Resizing a gif</a></li>
+    <li><a href='#github_email'>Setting Github private email</a></li>
     <li><a href='#convert_gif_to_video'>How to convert a gif to video</a></li>
     <li><a href='#compress_mp4'>Compressing a mp4 file</a></li>
     <li><a href='#mts_to_mp4'>Converting an mts file to an mp4</a></li>
@@ -83,6 +85,74 @@
 for f in *.mkv;
 do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$&#123;f%.mkv&#125;.mp4"; done
 </pre>
+
+<h3><a id='repo'>Set up SSH key to commit to online repositories</a></h3>
+
+<p>Creating a key:</p>
+
+<pre>ssh-keygen</pre>
+
+<p>If you accept the defaults, the public key will be written to ~/.ssh/id_rsa.pub and the private key to ~/.ssh/id_rsa.</p>
+
+<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github.</p>
+
+<p>Configure git:</p>
+
+<pre>git config --global user.email "you@youremail.com"</pre>
+
+<p>Verify that your identity was added, the command should return the email address you previously entered:</p>
+
+<pre>git config --global user.email</pre>
+
+<p>Generating a key in the terminal, the following creates a new SSH key, using the provided email as a label.:</p>
+
+<pre>ssh-keygen -t ed25519 -C "your_email@example.com"</pre>
+
+<p>You can accept the proposed location of the key(in /home/yourname/.ssh/) as is by pressing enter, but if you already generated another key you'll have to change the name of the new key so it doesn't overwrite the other one:</p>
+
+<pre>For example:
+/home/yourname/.ssh/id_keyname</pre>
+
+<p>Enter a passphrase, or skip by pressing enter twice.</p>
+
+<p>Now to add the key to the SSH agent, but first start the SSH agent:</p>
+
+<pre>eval $(ssh-agent)</pre>
+
+<p>The PID of the ssh-agent will follow on screen. Now add your key:</p>
+
+<pre>ssh-add ~/.ssh/id_yourkey</pre>
+
+<p>Sourcehut will require you to specify a key:</p>
+
+<p>If you already use multiple SSH keys, remember to specify which key to use with sr.ht services. Edit ~/.ssh/config and add an appropriate Host entry that gives the path to the private key you wish to use:</p>
+
+<pre>Host *sr.ht
+  IdentityFile ~/.ssh/srht.id_rsa
+  PreferredAuthentications publickey
+</pre>
+
+<h3><a id='github_email'>Setting Github private email</h3>
+
+<p>When enabling the “Block command line pushes that expose my email” feature, you’ll also want to configure Git to use your no-reply email address. Don’t worry—this won’t affect your contribution graph. All commits will still be associated with your account.</p>
+
+<p>Open the terminal, change the current working directory to the local repository where you want to configure the email address that you associate with your Git commits. Find your GitHub noreply address in your GitHub's Personal Settings → Emails. It's mentioned in the description of the Keep my email address private checkbox. Usually, it starts with a unique identifier, plus your username.<br>Set an email address in Git. Use your GitHub-provided no-reply email address.<br>Setting your email address for every repository on your computer.</p>
+
+<pre>git config --global user.email "&#123;ID&#125;+&#123;username&#125;@users.noreply.github.com"</pre>
+
+<p>Setting your email address for a single repository:</p>
+
+<pre>git config user.email "&#123;ID&#125;+&#123;username&#125;@users.noreply.github.com"</pre>
+
+<p>Reset the author information on your last commit:</p>
+
+<pre>git commit --amend --reset-author --no-edit</pre>
+
+<p>Now you can do git push.</p>
+
+<p>Once you configure Git, commits will use your alternate “noreply” email address, and any pushes that don’t will be rejected.</p>
+
+<p>Answer by Winfried on StackOverflow.</p>
 
 <h3><a id='bash_alias'>Creating a bash alias</h3>
 
@@ -658,5 +728,5 @@ https://nchrs.xyz/stardict/dict.org/stardict-dictd_www.dict.org_gcide-2.4.2.tar.
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><span style='float:right'>Edited on Fri Apr 11 18:04:00 2025
+</main><footer><span style='float:right'>Edited on Sat Apr 12 16:21:47 2025
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='bookmarks.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
