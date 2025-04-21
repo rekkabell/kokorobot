@@ -182,7 +182,7 @@ source ~/.bashrc
 
 <p>To cut out a small segment of an audio file, I like to use FFMPEG in the terminal.</p>
 
-<pre>ffmpeg -ss 1:00 -i "input.mp4" -to 2:00 -c copy "output.mp4"</pre>
+<pre>ffmpeg -ss 00:01:09 -to 00:19:50 -i input.mp4 -c copy output.mp4</pre>
 
 <h3><a id='terminal_calculator'>Using the terminal as a calculator</h3>
 
@@ -501,17 +501,9 @@ kill -9 1234
 
 <h3><a id='youtubedl'>Ripping audio/video YouTube</a></h3>
 
-<!-- <p>Get your paws on <a href='http://ytdl-org.github.io/youtube-dl/' target='_blank'>youtube-dl</a> In the terminal, enter the following:</p>
+<p><b>NOTE</b>. Youtube-dl doesn't work anymore, download yt-dlp using your package manager, or refer to the <a href='https://github.com/yt-dlp/yt-dlp/wiki/Installation' target='_blank'>installation guide</a>.</p>
 
-<pre>youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" video_URL</pre>
-
-<p>Specifying "%(title)s.%(ext)s" just means that the video name will be the same as the title of the video. [-x] is to extract the audio. If you don't specify an audio format it'll download as an M4a. To download a playlist of videos, just click on the playlist name and use that as an URL.</p> -->
-
-<p><b>NOTE</b>. Youtube-dl doesn't work anymore, it is now necessary to use <b>yt-dlp</b>, to install:</p>
-
-<pre>sudo pacman -Syu yt-dlp</pre>
-
-<p>Refer to the <a href='https://github.com/yt-dlp/yt-dlp/wiki/Installation' target='_blank'>installation guide</a> for other linux distributions or OSs. The new command for ripping audio:</p>
+<p>The new command for ripping audio is:</p>
 
 <pre>yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  -o '%(id)s.%(ext)s'</pre>
 
@@ -536,6 +528,12 @@ kill -9 1234
 <p>To specify a name for the video, append <b>-o '%(id)s.%(ext)s'</b>, like so:</p>
 
 <pre>yt-dlp https://www.youtube.com/watch?v=f6wtF_2eyrU -o '%(id)s.%(ext)s'</pre>
+
+<p>It is possible to download a specific part of a YouTube video by using both youtube-dl and ffmpeg:</p>
+
+<pre>
+yt-dlp --external-downloader ffmpeg --external-downloader-args "-ss 00:00:00.00 -to 00:00:00.00" -f best "https://www.youtube.com/url-entertheaddressbeepboop"
+</pre>
 
 <h3><a id='pandoc'>pandoc commands</a></h3>
 
