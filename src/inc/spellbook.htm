@@ -6,6 +6,7 @@
 
 <ul>
     <li><a href='#ipad2'>Ipad2 video conversion</a></li>
+    <li><a href='#permissions'>Changing file permissions on Linux</a></li>
     <li><a href='#bash_alias'>Creating a bash alias</a></li>
     <li><a href='#cutting_audio'>Cutting audio using FFMPEG</a></li>
     <li><a href='#repo'>Set up SSH key to commit to online repositories</a></li>
@@ -68,6 +69,66 @@
 for f in *.mkv;
 do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$&#123;f%.mkv&#125;.mp4"; done
 </pre>
+
+<h3><a id='permissions'>Changing file permissions on Linux</a></h3>
+
+<p>All files on a system have permissions that allow or prevent others from viewing, modifying or executing them.</p>
+
+<p>There are 3 types of access restrictions:</p>
+
+<pre>
+Permission |  Action   | Chmod option
+_____________________________________
+   read    | (view)    |      r
+   write   | (edit)    |      w
+  execute  | (execute) |      x
+</pre>
+
+<p>There are 3 types of user restrictions:</p>
+
+<pre>
+  User | ls output 
+____________________
+ Owner | -rwx------   
+ Group | ----rwx---  
+ Other | -------rwx 
+</pre>
+
+<p>To modify permissions of a build script:
+
+<pre>ls -l build.sh</pre>
+
+<p>The output will look something like this:</p>
+
+<pre>-rw-r--r-- 1 root root 288 2005-11-13 19:24 build.sh</pre>
+
+<p>The file "build.sh" is owned by the user root and belongs to the root group.</p>
+
+<pre>
+  Options |  Definitions
+______________________________
+     u    |   owner 
+     g    |   group 
+     o    |   other
+     a    |   all
+     x    |   execute
+     w    |   write
+     r    |   read
+     +    |   add permission
+     -    |   remove permission
+     =    |   set permission
+</pre>
+
+<p>Changing the permissions using chmod using "chmod &#123;options&#125; filename". Below is an example showing how to add an <b>owner execute</b> bit:</p>
+
+<pre>chmod u+x build.sh</pre>
+
+<p>When checking the permissions, the output will have changed:</p>
+
+<pre>-rwxr--r-- 1 root root 869 2005-11-08 13:16  build.sh
+</pre>
+
+<p>Sourced from the <a href="https://help.ubuntu.com/community/FilePermissions" target="_blank">Ubuntu documentation</a>.</p>
 
 <h3><a id='repo'>Set up SSH key to commit to online repositories</a></h3>
 
