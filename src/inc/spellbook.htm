@@ -5,6 +5,8 @@
 <p>All of these are linux commands(I use Manjaro i3):</p>
 
 <ul>
+    <li><a href='#delaysubs'>Delay subtitles with FFMPEG</li>
+    <li><a href='monochromegif'>Converting a video to a monochrome gif</a></li>
     <li><a href='#ipad2'>Ipad2 video conversion</a></li>
     <li><a href='#permissions'>Changing file permissions on Linux</a></li>
     <li><a href='#bash_alias'>Creating a bash alias</a></li>
@@ -56,6 +58,36 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='delaysubs'>Delay subtitles with FFMPEG</h3>
+
+<p>Say you have a video file with a separate subtitle file(.srt) and that the subtitles don't line up with the dialogue in the video, it is possible to sync them again using ffmpeg. The command below offsets the timing by 2 seconds</p>
+
+<pre>
+ffmpeg -itsoffset 2 -i subtitles.srt -c copy subtitles_delayed.srt
+</pre>
+
+<p>If you want to offset the .srt file seconds earlier, put a minus on the number of seconds:</p>
+
+<pre>
+ffmpeg -itsoffset -2 -i subtitles.srt -c copy subtitles_delayed.srt
+</pre>
+
+<h3><a id='monochromegif'>Converting a video to a monochrome gif</h3>
+
+<p>First, navigate to the folder you wish to process, within it make a folder for the exported frames (named mine export). Then pass the following FFMPEG command to extract frames from the video file as pngs.</p>
+
+<pre>ffmpeg -i video.mp4 -r 24 export/image-%3d.png</pre>
+
+<p>To batch convert the pngs to monochrome. Note that mogrify is a destructive command, it'll rewrite all of the images in the folder, make a backup of the originals if you want to keep them:</p>
+
+<pre>mogrify -monochrome -format png *.png</pre>
+
+<p>Finally, convert all of the frames into a gif using ImageMagick:</p>
+
+<pre>magick -size 400x240 -delay 2 -loop 0 *.png output.gif</pre>
+
+<p>Though after I imported the gif into Gimp(as layers) and re-exported the file as a gif to have more granular control over the delay between frames.</p>
 
 <h3><a id='ipad2'>Ipad 2 video conversion</h3>
 
