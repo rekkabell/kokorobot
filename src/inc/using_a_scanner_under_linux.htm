@@ -1,0 +1,28 @@
+<p>Growing up with a variety of scanners, and having to deal with shitty software and compability issues, I assumed that getting an older scanner to work with Linux would be impossible- I was wrong.</p>
+
+<p>I have a used <b>CanoScanLiDE20</b>, {Obi} run Manjaro, and scan my art using <b>Simple Scan</b>.</p>
+
+<h3>Required Software</h3>
+
+<p>To scan images with linux you'll need:</p>
+
+<ul>
+<li><b><a href="https://gitlab.gnome.org/GNOME/simple-scan" target="_blank">Simple Scan</a></b> - a stand-alone software to control the scanner for SANE </li>
+<li><b><a href='sane-project.org' target='_blank'>SANE</a></b> - what makes the scanner compatible with Linux.</li>
+</ul>
+
+<p>To make sure that your chosen scanner will work with SANE, check <a href='http://www.sane-project.org/sane-mfgs.html' target='_blank'>this list</a>. My scanner was part of that list.</p>
+
+<p>So, it is time to install both:</p>
+
+<pre>
+sudo pacman -S simple-scan
+and...
+sudo pacman -S sane
+</pre>
+
+<p>Then, plug in your scanner, launch Simple Scan, and voila!</p>
+
+<p>I used <a href="https://wiki.ubuntuusers.de/XSane/" target="_blank">Xsane</a> previously, but according to the <a href="http://sane-project.org/sane-frontends.html" target="_blank">Sane webpage</a> the package is temporarily offline(2025). I will use Simple Scan in the meantime.</p>
+
+
