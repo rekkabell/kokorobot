@@ -32,6 +32,10 @@ main p img {padding: 10px;}
 main pre {border: 1px solid white; padding: 15px; overflow: scroll;}
 main img {max-width: 100%; height: auto;}
 
+.grid {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
+.commission {box-sizing: border-box;padding: 10px;margin: 0;}
+.featured {width: 100%;height: 150px;background-repeat: no-repeat;background-size: cover;background-position: center;}
+
 main .button { background-color: #000;border: 2px solid white;color: white;padding: 5px 28px;text-align: center;text-decoration: none;display: inline-block;font-size: 18px;border-radius: 200px;font-weight: bold; margin-top: 10px; margin-right: 15px; margin-bottom: 10px;}
 main .button:hover { background-color: #333 !important; color: white; cursor:pointer; }
 
