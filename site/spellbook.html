@@ -22,6 +22,7 @@
 <p>All of these are linux commands(I use Manjaro i3):</p>
 
 <ul>
+    <li><a href='#wireguard'>Using Wireguard</li>
     <li><a href='#unzip'>Export Layers as Files in Gimp using Unzip</li>
     <li><a href='#grep'>Grep (search within text files)</li>
     <li><a href='#github_repo_size'>How to check the size of a Github repository</li>
@@ -78,6 +79,30 @@
     <li><b>less</b>, list the contents of files</li>
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
 </ul>
+
+<h3><a id='wireguard'>Using Wireguard</a></h3>
+
+<p>Download wireguard configuration file(.conf file), and move the file to etc/wireguard as root:</p>
+
+<pre>sudo mv ca-van-wg-301.conf /etc/wireguard</pre>
+
+<p>Check permissions:</p>
+
+<pre>sudo chown root:root -R /etc/wireguard && sudo chmod 600 -R /etc/wireguard</pre>
+
+<p>To connect to wireguard you'll need to <b>sudo su</b>(sudo su -> enter) into the wireguard folder to get permission:</p>
+
+<pre>
+cd /etc/wireguard
+</pre>
+
+<p>Then run the following command, replacing se-mma-wg-001 with your selected server:</p>
+
+<pre>
+wg-quick up se-mma-wg-001
+</pre>
+
+<p>For more info see the <a href="https://mullvad.net/en/help/easy-wireguard-mullvad-setup-linux" target="_blank">Mullvad guide</a>.</p>
 
 <h3><a id='unzip'>Export Layers as Files in Gimp using Unzip</a></h3>
 
@@ -861,5 +886,5 @@ https://web.archive.org/web/20240920080733/https://nchrs.xyz/stardict/dict.org/s
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><span style='float:right'>Edited on Tue Sep  2 15:07:41 2025
+</main><footer><span style='float:right'>Edited on Fri Nov  7 08:42:37 2025
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
