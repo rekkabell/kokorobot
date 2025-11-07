@@ -82,7 +82,7 @@
 
 <h3><a id='wireguard'>Using Wireguard</a></h3>
 
-<p>Download wireguard configuration file(.conf file), and move the file to etc/wireguard as root:</p>
+<p>I use Mullvad VPN by way of the Wireguard protocol. Mullvad is a no-fluff VPN that offers a flat monthly rate no matter how long you need the VPN for, they don't keep your personal information, they don't harass you with marketing emails, and their service works damn well. To set it up, download the wireguard configuration file(.conf file) via Mullvad and move the file to etc/wireguard as root:</p>
 
 <pre>sudo mv ca-van-wg-301.conf /etc/wireguard</pre>
 
@@ -92,15 +92,15 @@
 
 <p>To connect to wireguard you'll need to <b>sudo su</b>(sudo su -> enter) into the wireguard folder to get permission:</p>
 
-<pre>
-cd /etc/wireguard
-</pre>
+<pre>cd /etc/wireguard</pre>
 
 <p>Then run the following command, replacing se-mma-wg-001 with your selected server:</p>
 
-<pre>
-wg-quick up se-mma-wg-001
-</pre>
+<pre>wg-quick up se-mma-wg-001</pre>
+
+<p>To check the connection:</p>
+
+<pre>curl https://am.i.mullvad.net/connected</pre>
 
 <p>For more info see the <a href="https://mullvad.net/en/help/easy-wireguard-mullvad-setup-linux" target="_blank">Mullvad guide</a>.</p>
 
@@ -886,5 +886,5 @@ https://web.archive.org/web/20240920080733/https://nchrs.xyz/stardict/dict.org/s
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><span style='float:right'>Edited on Fri Nov  7 08:42:37 2025
+</main><footer><span style='float:right'>Edited on Fri Nov  7 08:56:30 2025
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
