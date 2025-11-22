@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/x-icon' href='../media/services/favicon.ico'><title>Rek Bell &mdash; remove ai</title></head><body><header><h1><a href='home.html'>Rek Bell</a></h1>
+<h2><a href='home.html'>⬟</a></h2>
+
+<ul>
+	<li><a href="about.html"><img src="../media/interface/menu/about_tn.png" alt='' width="140" height="140" />About</a></li>
+	<li><a href="projects.html"><img src="../media/interface/menu/projects_tn.png" alt='' width="140" height="140" />Projects</a></li>
+	<li><a href="books_for_children.html"><img src="../media/interface/menu/childrens_books_tn.png" alt='' width="140" height="140" />Books</a></li>
+	<li><a href="games.html"><img src="../media/interface/menu/illustration_tn.png" alt='' width="140" height="140" />Games</a></li>
+	<li><a href="stories.html"><img src="../media/interface/menu/stories_tn.png"alt='' width="140" height="140" />Stories</a></li>
+	<li><a href="store.html"><img src="../media/interface/menu/store_tn.png" alt='' width="140" height="140" />Store</a></li>
+	<li><a href="notes.html"><img src="../media/interface/menu/notes_tn.png" alt='' width="140" height="140" />Notes</a></li>
+	<li><a href="how-to.html"><img src="../media/interface/menu/howto_tn.png" alt='' width="140" height="140" />How-to</a></li>
+</ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<p>Exorcize AI features out of the tools that you use by following these instructions.</p>
+
+<ul>
+	<li><a href='#firefox'>Firefox</a></li>
+	<li><a href='#gmail'>Gmail</a></li>
+	<li><a href='#google'>Google</a></li>
+	<li><a href='#duckduckgo'>DuckDuckGo</a></li>
+	<li><a href='#github'>Github</a></li>
+</ul>
+
+<h2><a id='firefox'>Firefox</a></h2>
+
+<p>Doing the following will remove hot AI garbage such as <i>Smart Tab Grouping</i>, <i>automatic tab naming</i>, and an optional <i>AI chatbot</i> in the sidebar.</p>
+
+<p>Type <b>about:config</b> in the address bar, press enter and accept the warning.</p>
+
+<p>Search for and set the following entries to false:</p>
+
+<p><b>browser.tabs.groups.smart.enabled</b><br><b>browser.ml.chat.enabled</b></p>
+
+<p>Type <b>about:addons</b> in the address bar, on the left side menu click on “On-Device AI” and remove downloaded models(if any), and disable automatic updates.</p>
+
+<h2><a id='gmail'>Gmail</a></h2>
+
+<p>The first step is to open Gmail in the browser.</p>
+
+<p>Then click on the <b>Gear Settings Icon(⚙️)</b> in the upper right corner of the page.</p>
+
+<p>In the <b>General Tab</b>, scroll down to <i>"Smart Features"</i> and UNCHECK THE BOX(halfway down).</p>
+
+<p>Then, right below that is yet another monstrosity: <i>"Google Workspace smart features"</i>. Click on the <i>"Manage Workspace Smart Features"</i> and make sure both accursed toggles are turned OFF.</p>
+
+<p><b>WARNING!</b> It is worth mentioning that doing this will turn off automatic email filtering and lump in your emails together in your main inbox(it shouldn't happen if you made those labels yourself). Turning off the above settings will also prevent Gmail events from being synced on your Google Calendar(events are pulled from your emails and put on your calendar automatically.</p>
+
+<p>Consider moving away from Google services, by switching to Proton or other mail services like Migadu(that's what I use) or Posteo.</p>
+
+<h2><a id='google'>Google</a></h2>
+
+<p>When using Google as a search engine you will get AI Overviews showing up first. There is no way to disable it permanently when making searches from the google.com homepage, but there are ways to bypass it:</p>
+
+<p><b>By using web search</b>. On the Google search engine homepage make a search and then select <b>Web</b> from the tabs below the search bar. If you can't see it there, click on <b>“More”</b> in the search menu and select <b>Web</b> so you only get website results. (<i>Evidently, this option still sucks because you have to view their damned overview before turning it off.</i>)</p>
+
+<p><b>Bypass it using your web browser</b>. It's possible to bypass Google's AI overviews via your web browser by going into the browser's search settings and creating a new entry which will tell Google to only give you classic web results(using <b>&udm=14</b>).</p>
+
+<p>To do this in Firefox, type:</p>
+	
+<p><b>about:preferences#search</b> in the address bar.</p>
+
+<p>In the <b>Search shortcuts</b> section, disable Google, then <b>ADD</b> a new browser with the following settings:</p>
+
+<pre>Search engine name: Google (web)
+URL: https://www.google.com/search?q=%s&udm=14
+Keyword: Google (web)
+</pre>
+
+<p>When you want to make searches using Google via Firefox, select the desired search engine in the address bar's dropdown menu(left side). It'll now say "Google (web)"(the entry you created) in the search bar on the left.
+
+<p><b>Disable trending searches</b></p>
+
+<p>While on the Google search engine homepage, click on <<b>Settings</b> in the lower righthand side of the window, and then select <b>Search Settings</b>.</p>
+
+<p>Select <b>Privacy & Safety</b> and under <b>Content</b> turn <b>Search personalization</b> OFF.</p>
+
+<p>Again in <b>Search settings</b>, on the left side menu click on <b>Other settings</b> and disable <b>Autocomplete with trending searches</b>.</p>
+
+<h2><a id='duckduckgo'>DuckDuckGo</a></h2>
+
+<p>Go to <b>Settings</b > <b>AI Features</b>, then:<br>Turn off <b>Duck.ai</b>.<br>Set <b>Search Assist</b> to Never in the dropdown menu.<br>Turn <b>AI-generated images</b> to OFF.</p>
+
+<p>Click on <b>Save And Exit</b> and refresh the page before making a new search.</p>
+
+<h2><a id='github'>Github</a></h2>
+
+<p>Github's AI tool is called Copilot. You may have noticed that Github now has a pesky "Ask anything" section that appears in your account page, to get rid of it click on your avatar image on the top right of the screen and click on <b>Copilot settings</b>.</p>
+
+<p>Under a section called <b>Visibility</b> is an option called <b>Show Copilot</b>, setting it to DISABLED will hide Copilot features.</p>
+
+</main><footer><span style='float:right'>Edited on Sat Nov 22 10:27:16 2025
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/remove_ai.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>
