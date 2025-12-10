@@ -20,7 +20,9 @@ links-item {display: block;padding-bottom: 1rem;break-inside: avoid;}
 links-item p {display: block;break-inside: avoid;margin: 0;border: 2px dotted;border-radius: 15px;padding: 0.6em 1em 0.8em;}
 
 .gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(4, 1fr);}
-.projects {box-sizing: border-box;padding: 10px;margin: 0;}
+.projects {box-sizing: border-box;padding: 5px;margin: 0;}
+.projects p {font-size: 14px}
+.projects h3 {font-size: 18px}
 
 ul.gallery li {display:inline-block; width: 400px; line-height: 30px}
 ul.gallery li img {width: 100%; }
@@ -59,9 +61,14 @@ footer a:hover { cursor: pointer; text-decoration: underline;}
 main gallery {max-width: fit-content;}
 header ul li {display:inline-block; width: 80px;}
 header ul li img {width: 70%; }
-.gridprojects, .projects { grid-column-start: span 2;}
+.gridprojects, .projects {grid-column-start: span 2;}
+.projects h3 {size: }
 }
 
+/*@media screen and (min-width: 840px) {
+.hide-on-desktop {display: none;}
+}
+*/
 
 @media (prefers-color-scheme: light){
 header {background: white}
