@@ -19,6 +19,9 @@ links-list {display: block;columns: auto 30ch;}
 links-item {display: block;padding-bottom: 1rem;break-inside: avoid;}
 links-item p {display: block;break-inside: avoid;margin: 0;border: 2px dotted;border-radius: 15px;padding: 0.6em 1em 0.8em;}
 
+.gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
+.projects {box-sizing: border-box;padding: 10px;margin: 0;}
+
 ul.gallery li {display:inline-block; width: 400px; line-height: 30px}
 ul.gallery li img {width: 100%; }
 ul.nobull li {list-style-type: none}
@@ -70,4 +73,5 @@ main .button {background-color: #eee;border: 2px solid black;color: black;}
 main .button:hover { background-color: #000 !important; color: white; cursor:pointer; }
 main pre {border: 1px solid black}
 .monochrome {filter: invert(1);}
+.gridprojects, .projects { grid-column-start: span 2;}
 }
