@@ -19,7 +19,7 @@ links-list {display: block;columns: auto 30ch;}
 links-item {display: block;padding-bottom: 1rem;break-inside: avoid;}
 links-item p {display: block;break-inside: avoid;margin: 0;border: 2px dotted;border-radius: 15px;padding: 0.6em 1em 0.8em;}
 
-.gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(3, 1fr);}
+.gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(4, 1fr);}
 .projects {box-sizing: border-box;padding: 10px;margin: 0;}
 
 ul.gallery li {display:inline-block; width: 400px; line-height: 30px}
@@ -55,15 +55,13 @@ footer { background: #fff; color: #000; padding: 30px; font-size: 20px;}
 footer a {color: black; text-decoration: none}
 footer a:hover { cursor: pointer; text-decoration: underline;}
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 1100px) {
 main gallery {max-width: fit-content;}
 header ul li {display:inline-block; width: 80px;}
 header ul li img {width: 70%; }
+.gridprojects, .projects { grid-column-start: span 2;}
 }
 
-@media screen and (min-width: 840px) {
-.hide-on-desktop {display: none;}
-}
 
 @media (prefers-color-scheme: light){
 header {background: white}
@@ -73,5 +71,4 @@ main .button {background-color: #eee;border: 2px solid black;color: black;}
 main .button:hover { background-color: #000 !important; color: white; cursor:pointer; }
 main pre {border: 1px solid black}
 .monochrome {filter: invert(1);}
-.gridprojects, .projects { grid-column-start: span 2;}
 }
