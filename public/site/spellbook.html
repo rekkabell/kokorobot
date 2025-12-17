@@ -1,0 +1,896 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/x-icon' href='../media/services/favicon.ico'><title>Rek Bell &mdash; spellbook</title></head><body><header><h1><a href='home.html'>Rek Bell</a></h1>
+<h2><a href='home.html'>⬟</a></h2>
+
+<ul>
+	<li><a href="about.html"><img src="../media/interface/menu/about_tn.png" alt='' width="140" height="140" />About</a></li>
+	<li><a href="projects.html"><img src="../media/interface/menu/projects_tn.png" alt='' width="140" height="140" />Projects</a></li>
+	<li><a href="books_for_children.html"><img src="../media/interface/menu/childrens_books_tn.png" alt='' width="140" height="140" />Books</a></li>
+	<li><a href="games.html"><img src="../media/interface/menu/illustration_tn.png" alt='' width="140" height="140" />Games</a></li>
+	<li><a href="stories.html"><img src="../media/interface/menu/stories_tn.png"alt='' width="140" height="140" />Stories</a></li>
+	<li><a href="store.html"><img src="../media/interface/menu/store_tn.png" alt='' width="140" height="140" />Store</a></li>
+	<li><a href="notes.html"><img src="../media/interface/menu/notes_tn.png" alt='' width="140" height="140" />Notes</a></li>
+	<li><a href="how-to.html"><img src="../media/interface/menu/howto_tn.png" alt='' width="140" height="140" />How-to</a></li>
+</ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<h3>Spellbook</h3>
+
+<p>The below notes are here to remind myself how to do certain actions via the command line in the terminal. Some notes are for actions I do often, others that I've only done once.</p>
+
+<p>All of these are linux commands(I use Manjaro i3):</p>
+
+<ul>
+    <li><a href='#wireguard'>Using Wireguard</li>
+    <li><a href='#unzip'>Export Layers as Files in Gimp using Unzip</li>
+    <li><a href='#grep'>Grep (search within text files)</li>
+    <li><a href='#github_repo_size'>How to check the size of a Github repository</li>
+    <li><a href='#delaysubs'>Delay subtitles with FFMPEG</li>
+    <li><a href='monochromegif'>Converting a video to a monochrome gif</a></li>
+    <li><a href='#ipad2'>Ipad2 video conversion</a></li>
+    <li><a href='#permissions'>Changing file permissions on Linux</a></li>
+    <li><a href='#bash_alias'>Creating a bash alias</a></li>
+    <li><a href='#cutting_audio'>Cutting audio using FFMPEG</a></li>
+    <li><a href='#repo'>Set up SSH key to commit to online repositories</a></li>
+    <li><a href='#terminal_calculator'>Using the terminal as a calculator</a></li>
+    <li><a href='#batch_rename'>Batch rename prefix documents in a directory</a></li>
+    <li><a href='#optimize_gif'>Optimizing a gif</a></li>
+    <li><a href='#resizing_gif'>Resizing a gif</a></li>
+    <li><a href='#github_email'>Setting Github private email</a></li>
+    <li><a href='#convert_gif_to_video'>How to convert a gif to video</a></li>
+    <li><a href='#compress_mp4'>Compressing a mp4 file</a></li>
+    <li><a href='#mts_to_mp4'>Converting an mts file to an mp4</a></li>
+    <li><a href='#compress_pdf'>How to compress a PDF</a></li>
+    <li><a href='#format_x_hd'>Format external HD</a></li>
+    <li><a href='#fonts'>Install fonts</a></li>
+    <li><a href='#uxn'>Uxn commands</a></li>
+    <li><a href='#pandochtmlmd'>Markdown to HTML with pandoc</a></li>
+    <li><a href='#nasuhex'>Copying hexadecimal code from Nasu</a></li>
+    <li><a href='#time'>Changing the computer's time/timezone</a></li>
+    <li><a href='#wget'>Download a webpage with wget</a></li>
+    <li><a href='#mastermain'>Change repo from master to main</a></li>
+    <li><a href='#cmus'>Using cmus</a></li> 
+    <li><a href='#metadata'>Modifying a song's metadata</a></li> 
+    <li><a href='#killprogram'>How to kill an unresponsive program</a></li>    
+    <li><a href='#youtubedl'>Ripping audio/video from Youtube</a></li>
+    <li><a href='#pandoc'>Pandoc commands</a></li>
+    <li><a href='#sublime'>Sublime shortcuts</a></li>
+    <li><a href='#batteryhealth'>Battery health</a></li>
+    <li><a href='#desktopfile'>Creating a working .desktop file</a></li>
+    <li><a href='#remote'>Update remote from http(s) to ssh</a></li>
+    <li><a href='#exportimagesgimp'>Export images to pdf with GIMP</a></li>
+    <li><a href='#pdfimagemagick'>Export images to pdf with ImageMagick</a></li>
+    <li><a href='#appimagesexecute'>Make appimage executable</a></li>
+    <li><a href='#formatusb'>How to format USB on Linux</a></li>
+    <li><a href='#terminaldict'>Install terminal dictionary</a></li>
+	<li><a href='#spritegif'>Spritesheet conversion to GIF</a></li>
+</ul>
+
+<h3>A list of some useful commands:</h3>
+
+<ul>
+    <li><b>cd</b>, change the current directory</li>
+    <li><b>ls</b>, list files and directories</li>
+    <li><b>man</b>, display a manual page on the screen</li>
+    <li><b>mv</b>, move (rename) files</li>
+    <li><b>cp</b>, copy files</li>
+    <li><b>open</b>, open files with the default application associated with each filetype</li>
+    <li><b>less</b>, list the contents of files</li>
+    <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
+    <li><b>rm -rf dir-name</b>, delete a directory that is not empty</li>
+</ul>
+
+<h3><a id='wireguard'>Using Wireguard</a></h3>
+
+<p>I use Mullvad VPN by way of the Wireguard protocol. Mullvad is a no-fluff VPN that offers a flat monthly rate no matter how long you need the VPN for, they don't keep your personal information, they don't harass you with marketing emails, and their service works damn well. To set it up, download the wireguard configuration file(.conf file) via Mullvad and move the file to etc/wireguard as root:</p>
+
+<pre>sudo mv ca-van-wg-301.conf /etc/wireguard</pre>
+
+<p>Check permissions:</p>
+
+<pre>sudo chown root:root -R /etc/wireguard && sudo chmod 600 -R /etc/wireguard</pre>
+
+<p>To connect to wireguard you'll need to <b>sudo su</b>(sudo su -> enter) into the wireguard folder to get permission:</p>
+
+<pre>cd /etc/wireguard</pre>
+
+<p>Then run the following command, replacing se-mma-wg-001 with your selected server:</p>
+
+<pre>wg-quick up se-mma-wg-001</pre>
+
+<p>To check the connection:</p>
+
+<pre>curl https://am.i.mullvad.net/connected</pre>
+
+<p>For more info see the <a href="https://mullvad.net/en/help/easy-wireguard-mullvad-setup-linux" target="_blank">Mullvad guide</a>.</p>
+
+<h3><a id='unzip'>Export Layers as Files in Gimp using Unzip</a></h3>
+
+<p>Note: For this to work it is necessary to install Unzip.</p>
+
+<p>In Gimp, export the image in the open raster(.ora) format using file > export as.</p>
+
+<p>Unzip the file using Unzip. All of the file layers will become png images under /data :</p>
+
+<pre>
+unzip myfile.ora
+</pre>
+
+<p>Note in Gimp, click Layers > Layers to Image Size if you don't want to include content outside of the canvas, if say the images were all previously cropped(happens when using screenshots and that you want to cut out the window border).</p>
+
+<h3><a id='grep'>Grep (search within text files)</h3>
+
+<p>The grep command is used to search for specific words or phrases inside text files, and shows the matching content in the terminal window. In the example below, I search for the word "Uxn".</p>
+
+<pre>
+grep -r "Uxn"
+</pre>
+
+<h3><a id='github_repo_size'>How to check the size of a Github repository</h3>
+
+<p>Navigate to the following url in your browser, changing the account name and repository name: <i>https://api.github.com/repos/accountname/repositoryname</i></p>
+
+<p>Scroll until you see the size, it will be displayed in kilobytes. Note that this is only possible to do for public repositories.</p>
+
+<h3><a id='delaysubs'>Delay subtitles with FFMPEG</h3>
+
+<p>Say you have a video file with a separate subtitle file(.srt) and that the subtitles don't line up with the dialogue in the video, it is possible to sync them again using ffmpeg. The command below offsets the timing by 2 seconds</p>
+
+<pre>
+ffmpeg -itsoffset 2 -i subtitles.srt -c copy subtitles_delayed.srt
+</pre>
+
+<p>If you want to offset the .srt file seconds earlier, put a minus on the number of seconds:</p>
+
+<pre>
+ffmpeg -itsoffset -2 -i subtitles.srt -c copy subtitles_delayed.srt
+</pre>
+
+<h3><a id='monochromegif'>Converting a video to a monochrome gif</h3>
+
+<p>First, navigate to the folder you wish to process, within it make a folder for the exported frames (named mine export). Then pass the following FFMPEG command to extract frames from the video file as pngs.</p>
+
+<pre>ffmpeg -i video.mp4 -r 24 export/image-%3d.png</pre>
+
+<p>To batch convert the pngs to monochrome. Note that mogrify is a destructive command, it'll rewrite all of the images in the folder, make a backup of the originals if you want to keep them:</p>
+
+<pre>mogrify -monochrome -format png *.png</pre>
+
+<p>Finally, convert all of the frames into a gif using ImageMagick:</p>
+
+<pre>magick -size 400x240 -delay 2 -loop 0 *.png output.gif</pre>
+
+<p>Though after I imported the gif into Gimp(as layers) and re-exported the file as a gif to have more granular control over the delay between frames.</p>
+
+<h3><a id='ipad2'>Ipad 2 video conversion</h3>
+
+<p>An ffmpeg command to convert and re-scale most of the videos that I keep on hard drives, to save space, but also so they can play well on an old Ipad2(I have plans to use it as a media station).</p>
+
+<pre>ffmpeg -i input.mp4 -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart output.mp4</pre>
+
+<p>To batch render files in an entire directory named <b>converted</b>:</p>
+
+<pre>
+for f in *.mkv;
+do ffmpeg -i "$f" -vcodec libx264 -profile:v main -level 3.1 -preset medium -crf 23 -x264-params ref=4 -acodec copy -vf "scale=-2:540:flags=lanczos" -movflags +faststart "converted/$&#123;f%.mkv&#125;.mp4"; done
+</pre>
+
+<h3><a id='permissions'>Changing file permissions on Linux</a></h3>
+
+<p>All files on a system have permissions that allow or prevent others from viewing, modifying or executing them.</p>
+
+<p>There are 3 types of access restrictions:</p>
+
+<pre>
+Permission |  Action   | Chmod option
+_____________________________________
+   read    | (view)    |      r
+   write   | (edit)    |      w
+  execute  | (execute) |      x
+</pre>
+
+<p>There are 3 types of user restrictions:</p>
+
+<pre>
+  User | ls output 
+____________________
+ Owner | -rwx------   
+ Group | ----rwx---  
+ Other | -------rwx 
+</pre>
+
+<p>To modify permissions of a build script:
+
+<pre>ls -l build.sh</pre>
+
+<p>The output will look something like this:</p>
+
+<pre>-rw-r--r-- 1 root root 288 2005-11-13 19:24 build.sh</pre>
+
+<p>The file "build.sh" is owned by the user root and belongs to the root group.</p>
+
+<pre>
+  Options |  Definitions
+______________________________
+     u    |   owner 
+     g    |   group 
+     o    |   other
+     a    |   all
+     x    |   execute
+     w    |   write
+     r    |   read
+     +    |   add permission
+     -    |   remove permission
+     =    |   set permission
+</pre>
+
+<p>Changing the permissions using chmod using "chmod &#123;options&#125; filename". Below is an example showing how to add an <b>owner execute</b> bit:</p>
+
+<pre>chmod u+x build.sh</pre>
+
+<p>When checking the permissions, the output will have changed:</p>
+
+<pre>-rwxr--r-- 1 root root 869 2005-11-08 13:16  build.sh
+</pre>
+
+<p>Sourced from the <a href="https://help.ubuntu.com/community/FilePermissions" target="_blank">Ubuntu documentation</a>.</p>
+
+<h3><a id='repo'>Set up SSH key to commit to online repositories</a></h3>
+
+<p>Creating a key:</p>
+
+<pre>ssh-keygen</pre>
+
+<p>If you accept the defaults, the public key will be written to ~/.ssh/id_rsa.pub and the private key to ~/.ssh/id_rsa.</p>
+
+<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github.</p>
+
+<p>Configure git:</p>
+
+<pre>git config --global user.email "you@youremail.com"</pre>
+
+<p>Verify that your identity was added, the command should return the email address you previously entered:</p>
+
+<pre>git config --global user.email</pre>
+
+<p>Generating a key in the terminal, the following creates a new SSH key, using the provided email as a label:</p>
+
+<pre>ssh-keygen -t ed25519 -C "your_email@example.com"</pre>
+
+<p>You can accept the proposed location of the key(in /home/yourname/.ssh/) as is by pressing enter, but if you already generated another key you'll have to change the name of the new key so it doesn't overwrite the other one:</p>
+
+<pre>For example:
+/home/yourname/.ssh/id_keyname</pre>
+
+<p>Enter a passphrase, or skip by pressing enter twice.</p>
+
+<p>Now to add the key to the SSH agent, but first start the SSH agent:</p>
+
+<pre>eval $(ssh-agent)</pre>
+
+<p>The PID of the ssh-agent will follow on screen. Now add your key:</p>
+
+<pre>ssh-add ~/.ssh/id_yourkey</pre>
+
+<p>Sourcehut will require you to specify a key:</p>
+
+<p>If you already use multiple SSH keys, remember to specify which key to use with sr.ht services. Edit ~/.ssh/config and add an appropriate Host entry that gives the path to the private key you wish to use:</p>
+
+<pre>Host *sr.ht
+  IdentityFile ~/.ssh/srht.id_rsa
+  PreferredAuthentications publickey
+</pre>
+
+<p>Do the same for Github(if using), add the following to the config file:</p>
+
+<pre>Host github.com
+  HostName github.com
+  IdentityFile ~/.ssh/id_rsa_github
+</pre>
+
+<p>Test the SSH connection itself and get debug info:</p>
+
+<pre>ssh -vT git@github.com</pre>
+
+<h3><a id='github_email'>Setting Github private email</h3>
+
+<p>When enabling the “Block command line pushes that expose my email” feature, you’ll also want to configure Git to use your no-reply email address. Don’t worry—this won’t affect your contribution graph. All commits will still be associated with your account.</p>
+
+<p>Open the terminal, change the current working directory to the local repository where you want to configure the email address that you associate with your Git commits. Find your GitHub noreply address in your GitHub's Personal Settings → Emails. It's mentioned in the description of the Keep my email address private checkbox. Usually, it starts with a unique identifier, plus your username.<br>Set an email address in Git. Use your GitHub-provided no-reply email address.<br>Setting your email address for every repository on your computer.</p>
+
+<pre>git config --global user.email "&#123;ID&#125;+&#123;username&#125;@users.noreply.github.com"</pre>
+
+<p>Setting your email address for a single repository:</p>
+
+<pre>git config user.email "&#123;ID&#125;+&#123;username&#125;@users.noreply.github.com"</pre>
+
+<p>Reset the author information on your last commit:</p>
+
+<pre>git commit --amend --reset-author --no-edit</pre>
+
+<p>Now you can do git push.</p>
+
+<p>Once you configure Git, commits will use your alternate “noreply” email address, and any pushes that don’t will be rejected.</p>
+
+<p>Answer by Winfried on StackOverflow.</p>
+
+<h3><a id='bash_alias'>Creating a bash alias</h3>
+
+<p>Bash aliases allows you to set a memorable shortcut command to summon a longer command in the terminal. Add aliases in the ~/.bashrc file on your system.</p>
+
+<p>Aliases are formatted as follows:</p>
+
+<pre>
+alias alias_name="command_to_run"
+</pre>
+
+<p>To open .bashrc, or instead of nano enter the name of your own preferred text editor:</p>
+
+<pre>
+nano ~/.bashrc
+</pre>
+
+<p>Enter your desired alias, below is an example of an alias created by <a href='https://nchrs.xyz/' target='_blank'>Rostiger</a> to create a shortcut for a shrug emoji. The command below prints the shrug emoji, then copies it to your clipboard so you can paste it elsewhere:</p>
+
+<pre>
+alias shrug='echo "¯\_(ツ)_/¯" && echo "¯\_(ツ)_/¯" | xclip -selection clipboard'
+</pre>
+
+<p><b>&&</b>: The command following this one will only begin if the previous command has been successfully completed.<br><b>|</b> The output of the first command acts as the input to the second command.</p>
+
+<p>To use the alias in your current session, enter the following:</p>
+
+<pre>
+source ~/.bashrc
+</pre>
+
+<h3><a id='cutting_audio'>Cutting audio using FFMPEG</h3>
+
+<p>To cut out a small segment of an audio file, I like to use FFMPEG in the terminal.</p>
+
+<pre>ffmpeg -ss 00:01:09 -to 00:19:50 -i input.mp4 -c copy output.mp4</pre>
+
+<h3><a id='terminal_calculator'>Using the terminal as a calculator</h3>
+
+<p>To make quick calculations, it is possible to use <b>bc</b>(stands for Basic Calculator) in the terminal. There are other utilities to use, but bc is enough for the kinds of calculations I need to make. It was installed on my Linux system already.</p>
+
+<p>To make, say, an addition, type <b>bc</b> in the terminal window and press <b>enter</b>. If you wish to quit bc, type <b>quit</b> and press enter. Use the following symbols:</p>
+
+<ul>
+    <li>Addition: <b>+</b></li>
+    <li>Substraction: <b>-</b></li>
+    <li>Multipliation: <b>*</b></li>
+    <li>Division: <b>/</b></li>
+</ul>
+
+<p>After entering your equation, press <b>enter</b> on your keyboard for the result.</p>
+
+<p>Below is an example of what you can expect when launching bc, and entering an equation:</p>
+
+<pre>
+[rabbit@watershipdown]$ bc
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+</pre>
+
+<p>After the above text comes up, enter your equation:</p>
+
+<pre>
+45*0.3048
+</pre>
+
+<p>Press enter, the result will appear under the equation.</p>
+
+<pre>
+45*0.3048
+13.7160
+</pre>
+
+<p>Refer to the <a href="https://www.gnu.org/software/bc/manual/html_mono/bc.html" target="_blank">bc manual</a> to learn what symbols to use for more complex calculations.</p>
+
+<h3><a id='batch_rename'>Batch rename prefix documents in a directory</h3>
+
+<p>Shell scripting is useful to add a prefix for many documents contained in one directory. To do this, navigate to the right directory in the terminal. Once there, rename all <b>*.jpg</b> to <b>prefix_*.jpg</b> in the current directory. Using <b>*.jpg</b> means that the script will rename all of the files with a .jpg extension, I use <b>$filename</b> because I want to append to the filenames that I'm already using:</p>
+
+<pre>
+for filename in *.jpg; do mv "$filename" "hitobito_$&#123;filename&#125;"; done;
+</pre>
+
+<p>For this example, I added <b>hitobito_</b> to all of the files in a directory consisting of a series of numbers(001.jpg, 002.jpg, etc). So an image once named <b>001.jpg</b> was renamed to <b>hitobito_001.jpg</b>. </p>
+
+<h3><a id='optimize_gif'>Optimizing a gif</a></h3>
+
+<p>Mogrify is a command used in ImageMagick, it is very destructive so if you want to keep the original file back it up in another folder.</p>
+
+<p><b>-layers option</b>. Optimizes any layers in the gif<br><b>-fuzz option</b>. Specifies that colors within a certain tolerance can be considered the same color.</p>
+
+<pre>
+mogrify -layers 'optimize' -fuzz 7% mygif.gif
+</pre>
+
+<h3><a id='resizing_gif'>Resizing a gif</h3>
+
+<p><b>-coalesce</b>. This option in ImageMagicks creates a complete view of the animation at each point rather than as an animation sequence. Such a sequence is much easier to study, edit, modify and re-optimize.</p>
+
+<pre>
+convert example.gif -coalesce temporary.gif
+</pre>
+
+<p>Then enter...</p>
+
+<pre>
+convert temporary.gif -resize 24x24 smaller.gif 
+</pre>
+
+<p>Another ImageMagick command, in which temporary.gif is the coalesced input file, and smaller.gif is the output file.</p>
+
+<h3><a id='convert_gif_to_video'>How to convert a gif to video</a></h3>
+
+<p>Using FFMPEG, this is a useful command when the goal is to upload gifs on Mastodon (they have to be converted to video)</p>
+
+<pre>
+ffmpeg -i animated.gif -movflags faststart -pix_fmt yuv420p -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" video.mp4
+</pre>
+
+<p><b>movflags</b>. This option optimizes the structure of the MP4 file so the browser can load it as quickly as possible.<br><b>pix_fmt</b>. MP4 videos store pixels in different formats. We include this option to specify a specific format which has maximum compatibility across all browsers.<br><b>vf</b>. MP4 videos using H.264 need to have a dimensions that are divisible by 2. This option ensures that’s the case. [<a href="http://rigor.com/blog/2015/12/optimizing-animated-gifs-with-html5-video" target="_blank">Source</a>]</p>
+
+<h3><a id='compress_mp4'>Compressing an mp4 file</a></h3>
+
+<p><b>-i input.mov</b> specifies the input video file, <b>-c:v libx264</b> sets the video compression codec to H.264 (libx264),
+    <b>-pix_fmt yuv420p</b> changes the ProRes pixel format (4:2:2) to H.264 compatible pixel format (4:2:0).</p>
+
+<pre>ffmpeg -i input.mov -c:v libx264 -pix_fmt yuv420p output.mp4</pre>
+
+<h3><a id='mts_to_mp4'>Convert .mts to .mp4</a></h3>
+
+<pre>ffmpeg -i input.mts -c:v copy -c:a aac -strict experimental -b:a 128k output.mp4</pre>
+
+<h3><a id='compress_pdf'>How to compress a PDF</a></h3>
+
+<p>To compress a PDF file, use <b>Ghostscript</b>. Ghostscript can modify PDF documents, it can convert PDF to images, extracting text etc.</p>
+
+<pre>
+tar -xzf ghostscript-9.55.0.tar.gz
+./configure
+make
+sudo make install
+</pre>
+
+<p>Enter the following command to compress a PDF, in which <b>/prepress</b> for dPDFSETTINGS means a resolution of 300 dpi but bigger size, <b>/ebook</b> would mean medium quality output (150 dpi) with moderate output file size, and <b>/screen</b> would mean lower quality output (72 dpi) but smallest possible output file size.</p>
+
+<pre>
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=compressed_PDF_file.pdf input_PDF_file.pdf
+</pre>
+
+<h3><a id='format_x_hd'>Format external hard drive</a></h3>
+
+<p>Find out the path(physical mount address) for the hard drive to format the correct storage device.</p>
+
+<pre>
+df -h
+</pre>
+
+<p>Say the device is under /dev/sda1... unmount the HD:</p>
+
+<pre>
+sudo umount /dev/sda1
+</pre>
+
+<p>Enter your desired name for your formatted device instead of 'NAME'. The FAT32 file system is compatible with all mainstream operating systems, but it has transfer limit of 4GB. If you want larger files, choose exFAT(although it isn't cross-platform compatible).</p>
+
+<pre>
+sudo mkfs.vfat -n 'NAME' -I /dev/sda1
+or
+sudo mkfs.exfat -n 'Vincento' -I /dev/sda1
+</pre>
+
+<h3><a id='fonts'>Install fonts</a></h3>
+
+<p>To install a font on your system(all accounts), create a directory with the font name(say the font name is Funkyboy):</p>
+
+<pre>
+sudo mkdir /usr/share/fonts/funkyboy
+</pre>
+
+<p>Move the font to the 'funkyboy' directory. It's possible to specify a filename, but if '*' is used all .ttf files will be moved to the new location (useful if moving several fonts).</p>
+
+<pre>
+sudo mv *.ttf /usr/share/fonts/funkyboy/
+</pre>
+
+<p>Update your system's font cache so the new fonts can be integrated.</p>
+
+<pre>
+sudo fc-cache -f -v
+</pre>
+
+<p>Confirm that the fonts were installed:</p>
+
+<pre>
+fc-list | grep "funkyboy"
+</pre>
+
+<p>If creating variations on that same font(bold, italic..), add them to the main directory of that font(Funkyboy).</p>
+
+<h3><a id='uxn'>Uxn commands</a></h3>
+
+<p>When using tool from a local repository, and that it needs an update. Write the following after pulling the update:</p>
+
+<pre>
+make install
+</pre>
+
+<p>In terminal to install update, re-launch tool. Make intall will also create a .rom file. To create a file for a program like Turye use the following command while in the folder where you want the file saved:</p>
+
+<pre>uxn11 ~/roms/turye.rom filename.uf2</pre>
+
+<h3><a id='findingname'>Finding a file by name</a></h3>
+
+<p>To find files and directories with a certain name use the terminal, use the -name option and put the name in quotes:<p>
+<pre>
+find . -name "picard.jpg"
+</pre>
+
+<h3><a id='pandochtmlmd'>Markdown to HTML with pandoc</a></h3>
+
+<pre>
+pandoc doc_name.md -o doc_name.html
+</pre>
+
+<h3><a id='nasuhex'>Copying hexadecimal code from Nasu</a></h3>
+
+<p>Select the sprite in <a href='https://hundredrabbits.itch.io/nasu' target='_blank'>Nasu</a>, then <b>ctrl+c</b>. Open a terminal window, and navigate to the folder where the file is located. Type:</p>
+
+<pre>hx .snarf</pre>
+
+<p>Copy the text from the terminal <b>ctrl+option+c</b> and paste it where you want</p>
+
+<h3><a id='time'>Changing the computer's time/timezone</a></h3>
+
+<p>To change the timezone, first find the timezone in the list using the following command(to cycle through the list, enter line numbers and press enter):</p>
+
+<pre>timedatectl list-timezones</pre>
+
+<p>Then, set the chosen timezone using:</p>
+
+<pre>timedatectl set-timezone "timezone"</pre>
+
+<p>Ex: timedatectl set-timezone "America/Vancouver"</p>
+
+<p>To change the time:</p>
+
+<pre>timedatectl set-time "yyyy-MM-dd hh:mm:ss"</pre>
+
+<h3><a id='wget'>Download webpage with wget</a></h3>
+
+<p>To download a website for local viewing:</p>
+
+<pre>
+wget --page-requisites --convert-links --span-hosts --no-directories https://www.example.com
+</pre>
+
+<ul>
+<li>--page-requisites downloads the images, css and js files</li>
+<li>--convert-links makes the links suitable for local viewing.</li>
+<li>--span-hosts tells wget to download the files from different hosts like the CDN</li>
+<li>--no-directories downloads the files into a single flat and messy directory</li>
+</ul>
+
+<p>Sourced from <a href='https://tinkerlog.dev/journal/downloading-a-webpage-and-all-of-its-assets-with-wget' target='_blank'>Tyler Smith</a>.</p>
+
+<h3><a id='mastermain'>Change repo from master to main</a></h3>
+
+<p>Master is an antiquated and innapropriate term. To change the repository branch to main, navigate to the correct repository, then enter:</p>
+
+<pre>
+git branch -m master main
+
+git push -u origin main
+
+git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
+
+# change default branch
+
+git push origin --delete master
+</pre>
+
+<h3><a id='cmus'>Using Cmus</a></h3>
+
+<p><b>Control</b></p>
+<ul>
+    <li><b>x</b>, play</li>
+    <li><b>c</b>, pause</li>
+    <li><b>v</b>, stop</li>
+    <li><b>z</b>, previous stack</li>
+    <li><b>b</b>, next track</li>
+    <li><b>u</b>, update cache</li>
+    <li><b>tab</b>, to select a track from inside an album on the right column</li>
+    <li><b>s</b>, shuffle</li>
+    <li><b>r</b>, repeat</li>
+    <li><b>5</b>, main list</li>
+</ul>
+
+<p><b>Search</b></p>
+<ul>
+    <li><b>/</b>, search</li>
+    <li><b>n</b>, search next</li>
+    <li><b>N</b>, search previous</li>
+</ul>
+
+<p><b>Playlist editing</b></p>
+
+<p>To create a playlist, press <b>3</b> to be in Playlist View, then type <b>:pl-create myplaylist</b>. To add tracks, go to <b>2</b> and select tracks by scrolling through the list and pressing <b>y</b> on each track. All selected tracks will appear in view <b>3</b>. Playlists created in Cmus are available the next time you start it.</p>
+
+<ul>
+    <li><b>y</b>, copy selected tracks to playlist</li>
+    <li><b>p</b>, move track down</li>
+    <li><b>P</b>, move track up</li>
+    <li><b>D</b>, remove track</li>
+</ul>
+
+<p>To add new music, press <b>5</b>, then navigate to music using <b>a</b>. Switch back to simple view by pressing <b>2</b>, or to tree view with <b>1</b>.</p>
+
+<h3><a id='metadata'>Modifying song's metadata</a></h3>
+
+<p>To modify the metadata of a song, you can use <b>VLC</b> by opening a song with it, then going to Tools>Media Information (be sure to save).</p>
+
+<p>It's also possible to do in the terminal, by installing <b>eyeD3</b>:</p>
+
+<pre>
+sudo pacman -S python-eyed3
+</pre>
+
+<p>Then run:</p>
+
+<pre>
+eyeD3 -a 'Artist name' -A 'Album name' -t 'Song name' song.mp3
+</pre>
+
+<p>Artist (-a/--artist), album (-A/--album), title (-t/--title), and track number (-n/--track-num).</p>
+
+<p>List sourced from <a href='https://nchrs.xyz/cmus.html' target='_blank'>Rostiger's website</a>.</p>
+
+<h3><a id='killprogram'>How to kill an unresponsive program</a></h3>
+
+<pre>
+pstree -p
+</pre>
+
+<p>Identify parent process.</p>
+
+<pre>
+kill 1234
+</pre>
+
+<p>Where 1234 is the process ID I found using pstree. If application has not been terminated, do this:</p>
+
+<pre>
+kill -9 1234
+</pre>
+
+<h3><a id='youtubedl'>Ripping audio/video YouTube</a></h3>
+
+<p><b>NOTE</b>. Youtube-dl doesn't work anymore, download yt-dlp using your package manager, or refer to the <a href='https://github.com/yt-dlp/yt-dlp/wiki/Installation' target='_blank'>installation guide</a>.</p>
+
+<p>The new command for ripping audio is:</p>
+
+<pre>yt-dlp -f 'ba' -x --audio-format mp3 https://www.youtube.com/watch?v=dQw4w9WgXcQ  -o '%(id)s.%(ext)s'</pre>
+
+<p>A simpler option is:</p>
+
+<pre>yt-dlp -x -f bestaudio https://youtube.com/insertaddress</pre>
+
+<p>To download videos...</p>
+
+<pre>yt-dlp https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<p>If you want to select a specific format, or audio only, enter the following along with the youtube video url:</p>
+
+<pre>yt-dlp --list-formats https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<img src="../media/content/spellbook_ytdlp.jpg" loading='lazy' class='tools'>
+
+<p>You'll get a list of formats in the command line window. Each option is labelled with a number (far left). Options include versions of the video without audio in a variety of formats (mp4, webm), others are for audio only. If the goal is to get audio only, then one would write <b>-f 140</b> in the command line:</p>
+
+<pre>yt-dlp -f 140 https://www.youtube.com/watch?v=f6wtF_2eyrU</pre>
+
+<p>To specify a name for the video, append <b>-o '%(id)s.%(ext)s'</b>, like so:</p>
+
+<pre>yt-dlp https://www.youtube.com/watch?v=f6wtF_2eyrU -o '%(id)s.%(ext)s'</pre>
+
+<p>It is possible to download a specific part of a YouTube video by using both youtube-dl and ffmpeg:</p>
+
+<pre>
+yt-dlp --external-downloader ffmpeg --external-downloader-args "-ss 00:00:00.00 -to 00:00:00.00" -f best "https://www.youtube.com/url-entertheaddressbeepboop"
+</pre>
+
+<h3><a id='pandoc'>pandoc commands</a></h3>
+
+<p>To export a text file formatted in html to markdown (as a .txt file).</p>
+
+<pre>
+    pandoc -o filename.txt filename.html
+</pre>
+
+<p>To export mardown text file into a styled pdf (see how to <a href='pandoc_install.html'>install pandoc</a>, as well as TexLives and other useful extensions).</p>
+
+<pre>
+pandoc filename.txt --pdf-engine=xelatex -o filename_export.pdf
+</pre>
+
+<h3><a id='sublime'>Sublime shortcuts</a></h3>
+
+<p>To select the space before the first character on every line in a paragraph.</p>
+<p>shift+right, then crtl+d (repeat d key to select additional lines).</p>
+
+<h3><a id='batteryhealth'>Checking battery health</a></h3>
+
+<p>To check battery health on your laptop time the following command:</p>
+
+<pre>
+upower -e
+</pre>
+
+<p>You'll see the following:</p>
+
+<pre>
+/org/freedesktop/UPower/devices/line_power_ADP1
+/org/freedesktop/UPower/devices/battery_BAT0
+/org/freedesktop/UPower/devices/DisplayDevice
+</pre>
+
+<p>Enter:</p>
+
+<pre>
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+</pre>
+
+<p>Check energy-full and energy-full-design to see the performance of your battery. To know if the battery needs to be replaced, divide the number next to “Energy when full” by “Energy (design)”, and multiply the result by 100. You’ll get a percentage.</p>
+
+<p>The percentage you get is how much your battery holds of its original capacity. If the number is >50%, it might be time to replace the battery.</p>
+
+<h3><a id='desktopfile'>Creating a working .desktop file</a></h3>
+
+<p>Open a text editor. Paste and edit the following:</p>
+
+<pre>
+[Desktop Entry]
+Version=x.y
+Name=ProgramName
+Comment=This is my comment
+Exec=/home/alex/Documents/exec.sh
+Icon=/home/alex/Pictures/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;
+</pre>
+
+<p><b>Version</b> is the version of the file. <br><b>Name</b> is the application name, for example "krita" or "thunderbird". <br><b>Comment</b> is a short description of said application. <br><b>Exec</b> is the path to the executable application. <b>Icon</b> is the path to the icon you wish to use for the application. <br><b>Terminal</b> is whether you want the application to run in a terminal window or not. <br><b>Type</b> specifies the type of launcher file (other examples include link, or directory). <br><b>Categories</b> is used to categorize applications.</p>
+
+<p>Save the .desktop file. While in the same folder, open the terminal window and type the following to move the .desktop file to /usr/share/applications, or write the path to the .desktop file:</p>
+
+<pre>
+sudo mv programname.desktop /usr/share/applications
+</pre>
+
+<p>Navigate to usr/share/applications, find the file you just moved, select and drag it onto the launcher panel. Now your launcher (.desktop file) is locked on your launcher dash.</p>
+
+<h3><a id='remote'>Update remote from http(s) to ssh</a></h3>
+
+<p>Look inside .git/config in your repo, and change the relevant remotes to look like:</p>
+
+<pre>url = git@github.com:<user>/<repo>.git</pre>
+
+<h3><a id='pdfimagemagick'>Export images to PDF with ImageMagick</a></h3>
+
+<p>Exporting images to PDF using Gimp has its limits, it doesn't work with big images for PDFs, so Imagemagick is a good alternative. The following command takes all of the images in a folder and makes a PDF out of them.</p>
+
+<pre>
+convert *.jpg documentname.pdf
+</pre>
+
+<h3><a id='exportimagesgimp'>Export images to PDF with GIMP</a></h3>
+
+<p>Combine images in same file on layers. Export as a .mng file using the default export settings. Convert to PDF using imagemagick. If you don't have it, install it first.</p>
+
+<pre>sudo apt-get install imagemagick</pre>
+
+<p>Convert your files, that's it.</p>
+
+<pre>convert -reverse document.mng document.pdf</pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='appimagesexecute'>Make appimage executable</a></h3>
+
+<pre>chmod +u <AppImage File></pre>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+<h3><a id='formatusb'>How to format USB on Linux</a></h3>
+<p>Insert the USB flash drive or SD card into your Linux machine and find the device name using the <b>lsblk -fp</b> command:</p>
+<pre>$ lsblk -fp
+NAME                            FSTYPE      LABEL       UUID     MOUNTPOINT
+/dev/sda
+└─/dev/sda1                     LVM2_member             c52... 
+  ├─/dev/mapper/mint--vg-root   ext4                    183...   /
+  └─/dev/mapper/mint--vg-swap_1 swap                    337...   [SWAP]
+/dev/sdb
+└─/dev/sdb1                     vfat        USB Drive   345...   /media/user/usb0</pre>
+
+<p>In the example above, the USB drive is recognized by the operating system as a disk named /dev/sdb with a single partition /dev/sdb1 mounted on /media/user/usb0. Unmount the USB drive if it is mounted:</p>
+
+<pre>sudo umount /media/user/usb0</pre>
+
+<p>Formatting types:</p>
+
+<ul>
+	<li>NTFS: The NT File System (NTFS) is the file system that modern Windows versions use by default.</li>
+    <li>HFS+: The Hierarchical File System (HFS+) is the file system modern macOS versions use by default.</li>
+    <li>APFS: The proprietary Apple file system developed as a replacement for HFS+, with a focus on flash drives, SSDs, and encryption. APFS was released with iOS 10.3 and macOS 10.13, and will become the mandatory file system for those operating systems.</li>
+    <li>FAT32: The File Allocation Table 32 (FAT32) was the standard Windows file system before NTFS.</li>
+    <li>exFAT: The extended File Allocation Table (exFAT) builds on FAT32 and offers a lightweight system without all the overhead of NTFS.</li>
+    <li>EXT 2, 3, & 4: The extended file system (EXT) was the first file system created specifically for the Linux kernel.</li>
+</ul>
+
+<p>To convert to FAT32, enter desired label name (optional):</p>
+
+<pre>$ sudo mkfs.fat -F 32 /dev/sdb1 -n "USB Drive"</pre>
+
+<h3><a id='terminaldict'>Install a terminal dictionary</a></h3>
+
+<p>Half of the online searches I make are for word definitions, or synonyms. I try and reduce my use of internet as much as possible, and I don't want to use anything with an interface, and so I chose to install SDCV on my computer.</p>
+
+<p>SDCV, or StarDict Console Version, is the terminal utility version of StarDict extensible GUI dictionary application. Here's how to install it:</p>
+
+<pre>
+sudo apt-get install sdcv
+
+On Manjaro...
+sudo pacman -S sdcv
+</pre>
+
+<p>SDCV is now installed, but has no dictionaries to search from yet. SDCV requires files in a DICT format. You can pick the ones you want from this <a href="https://web.archive.org/web/20250124214816/https://www.nchrs.xyz/stardict/"target="_blank">list of dictionaries</a>(under "Platforms"). To start, you can download the <a href="
+https://web.archive.org/web/20240920080733/https://nchrs.xyz/stardict/dict.org/stardict-dictd_www.dict.org_gcide-2.4.2.tar.bz2" target="_blank">Collaborative International Dictionary of English</a>[35M, 174222 words], but there are many other dictionaries to choose from. I also installed <a href="https://web.archive.org/web/20250124212912/https://www.nchrs.xyz/stardict/bigdict/stardict-Soule_s_Dictionary_of_English_Synonyms-2.4.2.tar.bz2">Soule's Dictionary of English Synonyms</a>[1.5M], searching any word will now also list its synonyms. Install any additional dictionaries in the <b>dic</b> folder.</p>
+
+<p>Previously, this tutorial linked to <a href='http://www.huzheng.org/stardict/' target="_blank">Huzheng's</a> website, but in November 2023 it became permanently unresponsive, then it referenced <a href="https://nchrs.xyz" target="_blank">Rostiger</a>'s website, but since that is now also down I am linking to Wayback Machine links (both of the suggested dictionaries are stored there, getting the others may require some more digging). If you can spare it, <a href="https://archive.org/donate?origin=iawww-TopNavDonateButton" target="_blank">donate some money</a> to Wayback Machine, the internet would be fucked without them.</p>
+
+<p>Next, navigate to the folder where you will place your dictionary.</p>
+
+<pre>cd /usr/share</pre>
+
+<p>Make a directory named <b>stardict</b>, and another in it named <b>dic</b>. To make a directory, use <b>sudo mkdir</b> followed by the name of your new directory.</p>
+
+<p>Next, we'll uncompress and move the dictionary in one go, using the following command. Modify <b>INSERTNAME</b> with the name of the file you've downloaded.</p>
+
+<pre>sudo tar -xjvf INSERTNAME -C /usr/share/stardict/dic</pre>
+
+<p>Enter your password, and voila! To use SDCV, type <b>sdcv</b> followed by the word you're looking for, for example:</p>
+
+<pre>sdcv tortilla</pre>
+
+<h3><a id='spritegif'>Spritesheet conversion to GIF</a></h3>
+
+<p>ImageMagick can convert spritesheets to gif animations, here is the recipe I used:</p>
+
+<pre>convert -dispose 3 -delay 20 -loop 0 input.png -crop 64x64 +repage output.gif</pre>
+
+<p>Here is a breakdown of the recipe:</p>
+
+<p><b>-dispose 3</b> 'dispose" defines the way the displayed image is modified after the current frame of an animation has gone past, and before another frame is overlaid.<br />
+<b>3</b> refers to 'previous', which clears to the image prior to the current frame's overlay.<br /> 
+<b>-delay 20</b> displays the next image after pausing for a number of seconds.<br />
+<b>-loop 0</b> set to zero the animation repeats an infinite number of times.<br />
+<b>input.png</b> is my starting spritesheet.<br />
+<b>-crop</b> cuts out one or more rectangular regions of my image to 64x64 pixels. For my animation, I had 5 frames, 64 is the width/height of the bounding box of the sprite (full width 320px / 5).<br />
+<b>+repage</b> adjusts the canvas and offset information of the image.<br />
+<b>output.gif</b> is the resulting, assembled gif image.</p>
+
+<p>Back to <a href='#content'>top</a>.</p>
+
+
+</main><footer><span style='float:right'>Edited on Wed Dec 17 12:02:07 2025
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

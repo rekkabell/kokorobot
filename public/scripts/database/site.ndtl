@@ -1,0 +1,1718 @@
+let DATABASE = `
+
+HOME
+  LONG
+    % content/main.jpg main
+
+EXERCISES
+  LONG
+    > <h2>Press-up</h2>
+    & Get down into a press-up position with your hands placed shoulder-width apart and back flat, so a straight line forms from your head to heels, via your glutes. Lower your body until your chest is an inch from the ground then explosively drive up by fully extending your arms. That's on rep. 
+    & This move uses multiple muscle groups for maximum growth and strengthens your shoulder joints. Easily done as an exercise at home, this prepares you for progression to the more demanding shoulder exercises you'll face in a gym, like the incline bench press. 
+    > <h2>Dumbbell standing shoulder press</h2>
+    & Stand holding two dumbbells at shoulder height with an overhand grip – palms facing forwards. Ensure your elbows are in front of the bar and don't flare out to the sides. Press the weights up above your head until your arms are fully extended. Return slowly to the start position. 
+    & This is a safer shoulder-sculptor than lifting from behind your neck. As a beginner the aim should be to keep strain off your joints and protect against an injury called shoulder impingement syndrome. Missed sessions this early in your lifting career are especially costly.
+    > <h2>Dumbbell squat</h2> 
+    & Holding a dumbbell in each hand, position your legs shoulder width apart. Keeping your head up and back straight, sit back into the squat until the dumbbells are an inch from the floor. Focus on keeping your knees over your toes and chest out – don't arch your back or lean forward as you drop down. Exhale, straighten your legs and return to the starting position. 
+    & Squats are an excellent all-round exercise and one of the best moves for building overall strength. Dumbbells let you concentrate on technique and work on your range of movement at low weight. Only advance to barbell squats in the gym once you've got this nailed.
+    > <h2>Farmer’s walk</h2> 
+    & Grab a heavy dumbbell in each hand – think half your bodyweight – and hold them at your sides. Stand up tall with your shoulders back and walk forward as quickly as you can using short steps. 
+    & Super simple with no need to worry about technique, this move hits your shoulder stabilisers, upper traps and front deltoids. It also supercharges your grip strength, which will transfer strength to your other lifts too.
+    > <h2>Lateral raise</h2>
+    & Stand holding a light dumbbell in each hand. Slowly lift the dumbbells out to the side until they reach shoulder height – no higher – and resist the urge to cheat by swinging the weight. Pause, then lower back to your sides, slowly – you'll build more muscle fighting gravity than letting it do the work for you.
+    & If you're doing exercise at home, this is the best move for visible shoulder development. The lateral raise isolates your medial deltoid, the middle of three shoulder muscles, helping to develop your shoulder width and mass. Perfect for creating the V-shape that you covet.
+    > <h2>Dumbbell calf raise</h2>
+    & Stand holding a dumbbell in each hand with the balls of your feet on a step with your heels touching the floor. Raise your heels off the floor and hold at the top of the contraction. Slowly lower yourself to the starting position and repeat.
+    & Too many beginners are prone to skipping calves when it comes to leg day. Some guys are even getting surgery to fix it. Work this move into your workout to guarantee you're hitting as many leg muscles as you would in the gym when it comes to exercise at home.
+    > <h2>Bicep curl</h2>
+    & Stand with a dumbbell in each hand and, keeping your upper arms stationary, curl the weights until the dumbbells are at shoulder level. Focus on keeping your elbows still – only your lower arm should move. Squeeze your bicep at the top of the contraction then lower slowly and repeat.
+    & This is the perfect move for developing those mirror muscles you crave. By keeping your upper arm stationary you hit the whole bicep for maximum growth.
+    > <h2>Dumbell step up</h2>
+    & Stand in front of bench with a dumbbell in each hand. Place your right foot onto the bench, push up through your heel to lift your whole body up. Step down with your left foot and repeat on the opposite side.
+    & By activating all of your upper leg muscles (glutes, quads and hamstrings) it's an entire leg day in one move. Plus, it's low-impact, which is means you avoid the knee injuries associated with more explosive exercises.
+    > <h2>Plank</h2>
+    & Get in a press-up position, but rest on your forearms rather than your hands. Make sure your back is straight and tense your abs and glutes. Hold without allowing your hips to sag.
+    & Endless crunches put pressure on your spine and, when done incorrectly, can give you a set of weird, distended abs. Planks are perfect for working your core in a way that keeps you injury-free and builds the flat six-pack you're after.
+    > <h2>Deadbug</h2>
+    & Lie on your back with hands above you and feet up so your knees are at 90 degrees. Straighten your leg until your heel is an inch from the floor and then return to the start position. Repeat with the other leg.
+    & By extending your legs and hovering your heels you work on your core stabilisers, not just your abs. That means you're building muscle you can use on the sports field, not just see in the mirror.
+    > <h2>Sideplank</h2>
+    & Lie on your left side with your legs straight and prop yourself onto your elbow. Brace your core and raise your hips until your body forms a straight line. Hold this position while breathing deeply. Roll over and repeat on the other side.
+    & Excellent for targeting a small muscle in your lower back, the quadratus lumborum. Strengthening it is crucial for spine health and will help you avoid the notorious beginner's back pain. Diamond-cut obliques are a bonus.
+    > <h2>Dumbell floor press</h2>
+    & Lie down on the floor with a dumbbell in each hand. Bend at the elbows and hold the weights above you. Press up and straighten your arms before pausing at the top of the rep and lowering slowly to the start position. 
+    & By restricting your range of movement this moves helps you build a bigger chest, minus the risk of shoulder injury from over extension. Consider this your stepping stone to being a bench bro in the gym.
+    > <h2>Bench dips</h2>
+    & Stand facing away from a bench, grab it with both hands at shoulder-width. Extend your legs out in front of you. Slowly lower your body by flexing at the elbows until your arm at forearm create a 90 degree angle. Using your triceps lift yourself back to the starting position.
+    & This is easy to do on a chair, stair or coffee table. It works the arms, chest and shoulders and is great if you want people to notice that you've started working out as it builds triceps effectively.
+    > <h2>Crunch</h2>
+    & Lie flat on your back with your knees bent at a 90-degree angle. Place your hands on either side of your head. Push your lower back into the floor as you lift your shoulders a few inches off the floor – make sure your lower back stays in contact with the ground at all times. Tense your abs hard at the top point of the movement, then return under control to the start position.
+    & The first port of call for any abs workout this is a must-do. By lifting your legs you place extra weight on the stomach muscles and reduce the momentum that could make this easier. 
+    > <h2>Lower back curl</h2>
+    & Lie down flat with your arms by your sides. Slowly raise your chest upwards, with your arms down. Keep your head up during the move. Once you've reached the furthest point up, lower yourself back down. 
+    & People often forget the importance of back workouts, but they're vital to develop all other muscle groups. This curl is great as it works the whole back and also alleviates back pain from days at the desk.
+    > <h2>Calf raises</h2>
+    & Stand upright holding the barbell, two dumbbells by your sides, or unweighted. With your toes pointing forwards, raise your heels off the floor and contract your calves. Slowly return to the starting position. 
+    & Isolating the calves for a workout can benefit overall leg definition. It also helps hamstring and glute stength. Different foot positions target different muscles. Toes pointing in hits the outer head harder, toes out works the inner head.
+    > <h2>Shadow boxing</h2>
+    & Adopt a fighting stance and bounce on your toes as you shadow box. Dip and weave to your heart's content.
+    & This can help consolidate the rest of your workout as it benefits cardio strength, legs, core and arms. Jog on the spot between low- and high-intensity punching for a HIIT style cardio workout.
+
+ABOUT
+  LONG
+    > <columns>
+    % interface/profile.png main
+    > <p class='caption'>I am Rek Bell, I work on games and children's books.</p>
+    > <h2>Rek Bell</h2>
+    & Here, you will finds things that I've made. It is my space in the void, a room I've decorated that it is here for you visit.
+    - Writes both {*{{fiction|#stories}}*} and {*{{non-fiction|https://100r.co/blog.html}}*}.</li>
+    - Lives nowhere, and {*<a href="http://100r.co">everywhere</a>*}.
+    - Loves {*{{plants|#fungi}}*} and {*{{sea birds|#animals}}*}.
+    - Likes to {*<a href="http://grimgrains.com">cook</a>*}.
+    > </columns>
+    & My past work experience include working in studio for {*Pascal Blais animation*}, {*Télé-Québec*} and {*TonePlus animation studios*}. I have done contract work for {*Edoki Academy*}, {*Volta Creations*} and {*Scorpion Masqué*}; and have published children's books with {*Éditions Druide*}, {*Bayard Canada*}, {*Erpi*} and {*Éditions du Boréal*}. 
+    & I'm great at spearheading projects, and prefer work that will allow me to use my own style - keep this in mind if you wish to work with me. I do book covers, interiors, game assets and promo/concept art. I only do animation for personal projects.
+    & Email me at {*rekkabell @ kokorobot dot ca*} or DM me {*@rekkabell*} on twitter for art-related inquiries (I speak fluent french). You can also find me on <a rel="me" href="https://merveilles.town/@rek">Mastodon</a>.
+    & You can also:
+    & Download my {*<a href="media/content/resume.rekkabellum.pdf">resume</a>*}. <br> View a complete list of my {*{{publications|#publications}}*}.
+    > <hr/>
+
+PUBLICATIONS
+  LONG
+    > <p class='intro'> Complete list of works. Images below, is the 4 latest books I've had published.</p>
+    > <gallery>
+    >   <a href="https://www.commondeerpress.com/extraordinary-etab-of-julian" target="_blank"><img class='grey' src="media/content/book.etab.jpg"></a>
+    >   <a href="https://secondstorypress.ca/kids/skateboardsibby" target="_blank"><img class='grey' src="media/content/book.sibby.jpg"></a>
+    >   <a href="https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz" target="_blank"><img class='grey' src="media/content/book.ooz.jpg"></a>
+    >   <a href="https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html" target="_blank"><img class='grey' src="media/content/book.araignees.jpg"></a>
+    >   <hr/>
+    > </gallery>
+    * Children's books
+    - {*{{The extraordinary eTab of Julian Newcomber|https://www.commondeerpress.com/extraordinary-etab-of-julian}}*} Michael Seese, Common deer press, TBD
+    - {*{{Skateboard Sibby|https://secondstorypress.ca/kids/skateboardsibby}}*} Clare O'Connor, Secondstory press, 2018 
+    - {*{{Les araignées monstres|https://www.editionsboreal.qc.ca/catalogue/livres/les-araignees-monstres-2537.html}}*} Édith Bourget, Éditions du Boréal, 2017
+    - {*{{Thousand Rooms|https://www.amazon.com/Thousand-Rooms-Rekka-Bellum-ebook/dp/B071258677}}*} Rekka Bellum and Devine Lu Linvega, 2017
+    - {*{{Le Ooz - destination Monstroville|https://www.editionsdruide.com/livres/destination-monstroville-tome-v-le-ooz}}*} Sophie Rondeau, Éditions Druide, 2017
+    - {*Opération noel*} Édith Bourget, Éditions du Boréal, 2015
+    - {*Un vrai cauchemar*} Édith Bourget, Éditions du Boréal, 2015
+    - {*Le laidorama - destination Monstroville*} Sophie Rondeau, Édition Druide, 2015
+    - {*La bibliopet - destination Monstroville*} Nadine Descheneaux, Édition Druide, 2015
+    - {*Une mission sans peur*} Katia Canciani, 2015
+    - {*La sorcière de notre rue*} Édith Bourget, Éditions du Boréal, 2014
+    - {*Le salon de décoiffure- Destination Monstroville*} Sophie Rondeau, 2014
+    - {*Le graffiti sanglant*} Édith Bourget, Éditions du Boréal, 2014
+    - {*Moche Café- Destination Monstroville*} Nadine Descheneaux, Sophie Rondeau, Édition Druide, 2013
+    - {*Le catalogue de robots*} Jean-Pierre Guillet, Bayard Canada, 2013
+    - {*Un grain d'or pour Nestor*} Micheline Mercille, EPPI, 2012
+    - {*Des rêves fous, fous, fous…*} Bernadette Renaud, ERPI, 2011
+    - {*La queue de l’espionne*} Danielle Simard, Bayard Canada, 2011
+    - {*Umphy the Umgum*} Mara D. Johnson, 2010
+    * Games
+    - {*{{Mon ami Bulle|#bulle}}*} Télé-Québec, 2016, iOS/Android/TV,
+    - {*Busy water*} Edoki Academy, 2016, iOS/Android
+    - {*Qui paire gagne*} Scorpion Masqué 2015
+    - {*Fruit ninja Kinect 2*} Hibernum Créations, 2015, XBOX ONE
+    - {*{{Oquonie|#oquonie}}*} Hundredrabbits, 2014, iOS/PC/Mac/Linux
+    - {*{{Vendredi 13|vendredi13}}*} Scorpion Masqué 2014, cardgame
+    - {*{{Malisse|#malisse}}*} TOJAM 2014, Mac
+    - {*Tu dors au gaz*} Scorpion Masqué, 2014
+    - {*Rubber Tacos*} Sava Transmédia, 2012, iOS/Android/Web
+    - {*Puppeteer*} Toneplus animation studio, 2013, PS3
+    - {*Deep Realms*} Playdrom, 2011, Facebook game
+    - {*Faerie solitaire*} Subsoap games, 2010, PC/iOS/Mac/Linux
+    * TV commercials
+    - {*{{Justin Poppins sequence|https://www.dailymotion.com/video/x57g6v8}}*} ByeBye 2016, TV
+    - {*Penguinos Fabrica*} Marinela 2009, TV
+    - {*{{Mini wheats blueberry muffin|https://www.youtube.com/watch?v=K-VDsDCrJC8&list=PLQUA_TJO-BVLP7sQSto5u4qo7Y-BhGg9p&index=5}}*} Kelloggs, 2009, TV
+    - {*{{Mini wheats strawberry|https://www.youtube.com/watch?v=ZNDrq07oZXM&list=PLQUA_TJO-BVLP7sQSto5u4qo7Y-BhGg9p}}*} Kelloggs, 2010, TV
+    - {*{{Mini wheats little bites|https://www.youtube.com/watch?v=wlxeoS2mrzE}}*} Kelloggs, 2010, TV
+    - {*{{Mini wheats hot milk|https://www.youtube.com/watch?v=zatSgiIGyYg}}*} Kelloggs, 2010, TV
+    * Magazines and other
+    - {*CFSL artbook 03*} Édition Ankama, 2009
+    - {*CFSL artbook 04*}  CFSL ink, 2010
+    - {*CFSL artbook 05*}  CFSL ink, 2011
+    - {*Magnitude 9*}  CFSL ink, 2011
+    - {*CFSL artbook 06*}  CFSL ink, 2012
+    - {*Kayak Canada's history for kids*} issue 42, 2012
+    - {*Kayak Canada's history for kids*} issue 43, 2013
+    - {*Kayak Canada's history for kids*} issue 44, 2013
+    - {*Kayak Canada's history for kids*} issue 47, 2014
+    - {*Kayak Canada's history for kids*} issue 50, 2014
+    - {*Merure: vol.1*} Éditions MachineMachine, 2008
+    - {*Merure: vol.2*} Éditions MachineMachine, 2009
+    - {*Erri: vol.1*} Éditions MachineMachine, 2010
+    - {*Merure: vol.3*} Éditions MachineMachine, 2010
+    * Gallery
+    - {*FILE GAMES RIO*} Oi Futuro Flamengo, brazil, 2015
+    - {*Boss rush*} Lightgrey art labs, Minneapolis, 2015
+    - {*IGF pavillion*} Moscone center, San Francisco, 2015
+    - {*MIGS*} Palais des congrès, Montreal, 2014
+    - {*Archaeology of the Digital: Media and Machines*} Canadian centre for architecture, Montreal, 2014
+    - {*Pictoplasma*} La GAÎTÉ LYRIQUE, Paris, 2011
+    - {*Tribute to Skydoll*} La Gallerie, Montreal, 2010
+
+PROJECTS
+  LONG
+    > <p class='intro'>Select an image, to find out more about these projects. There is a mix of drawn works and games.</p>
+    > <gallery>
+    >   <a href="#fasciation"><img class='grey' src="media/content/project.fasciation.png"></a>
+    >   <a href='#markl'><img class='grey' src="media/content/project.markl.png"></a>
+    >   <a href="#mindbird"><img class='grey' src="media/content/mindbird/project.mindbird.png"></a>
+    >   <a href="#death" target="_blank"><img class='grey' src="media/content/project.deathgod.png"></a>
+    >   <a href="#sprite"><img class='grey' src="media/content/project.sprite.jpg"></a>
+    >   <a href="#ginger"><img class='grey' src="media/content/project.ginger.jpg"></a>
+    >   <a href="#knots"><img class='grey' src="media/content/project.knots.jpg"></a>
+    >   <a href="#fungi"><img class='grey' src="media/content/project.fungi.jpg"></a>
+    >   <a href="#grimgrains"><img class='grey' src="media/content/project.grimgrains.jpg"></a>
+    >   <a href="#hitobito"><img class='grey' src="media/content/project.hitobito.jpg"></a>
+    >   <a href='#vendredi13'><img class='grey' src="media/content/game.vendredi13.jpg"></a>
+    >   <a href='#bulle'><img class='grey' src="media/content/game.bulle.jpg"></a>
+    >   <a href='#oquonie'><img src="media/content/game.oquonie.png"></a>
+    >   <a href='#malisse'><img class='grey' src="media/content/game.malisse.jpg"></a>
+    >   <hr/>
+    > </gallery>
+
+ILLUSTRATION
+  LONG
+    > <p class='intro'> A selection of personal & contract work.</p>
+    > <gallery>
+    > <img class='grey lightbox' src="media/content/illustration.demon.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.tcmedia1.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.simon.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.sibby.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.paradise.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.markl.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.fish.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.wiktopher.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.oquonie2.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.thousandrooms.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.mirmaelle.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.oquonie.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.nimensei.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.espionne.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.robot.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.corgi.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.comingofworlds.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.monstroville.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.cabane.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.mirmaelle2.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.wedding.jpg">
+    > <img class='grey lightbox' src="media/content/illustration.bossrush.jpg">
+    > <hr/>
+    > </gallery>
+
+STORIES
+  LONG
+    > <p class='intro'> I write, as much as I draw. Select an image, to find out more about each story.</p> 
+    > <gallery>
+    >   <a href="#wiktopher"><img class='grey' src="media/content/wiktopher/project.wiktopher.jpg"></a>
+    >   <a href="#circa"><img class='grey' src="media/content/project.circa.jpg"></a>
+    >   <a href="#thousandrooms"><img class='grey' src="media/content/project.thousandrooms.jpg"></a>
+    >   <a href="#blog"><img class='grey' src="media/content/project.blog.jpg"></a>
+    >   <a href='#medussa'><img class='grey' src="media/content/project.space.jpg"></a>
+    >   <a href='#uno'><img class='grey' src="media/content/movie.uno.jpg"></a>
+    >   <a href='#merure'><img class='grey' src="media/content/story.merure.jpg"></a>
+    >   <a href='#spinespincers'><img class='grey' src="media/content/story.spinespincers.jpg"></a>
+    >   <hr/>
+    > </gallery>
+
+STORE
+  LONG
+    > <columns>
+    % content/store.jpg main
+    * Support my work
+    - Buy prints on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} or {*{{Society6|https://society6.com/rekkabell}}*}
+    - Buy me a {*{{Coffee|http://ko-fi.com/rekkabellum}}*}
+    - Become a {*{{Patron|https://www.patreon.com/100}}*}
+    - Buy my {*{{Games|https://hundredrabbits.itch.io}}*}
+    - Ask for a {*{{paid commission|#ink}}*}
+    > </columns>
+    * ITEMS FOR SALE
+    & All drawings are originals 148x210mm (6x8inches) ink drawings, as part of a series on {*{{Fasciation|#fasciation}}*}.
+    & These drawings are sold {*45$ each*} + {*2$*} for shipping. Please include your address when ordering. Contact me at {*rekkabell at gmail dot com*} if you have any questions.    
+    > <wr>
+    > <div class='third'><img src="media/content/project.fasciation.zinnia.jpg" class='lightbox'><h2>Zinnia Elegans, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.delphinium.jpg" class='lightbox'><h2>Delphinium, 6x8" ink drawing</h2><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V5ZYHTY25CE6J&source=url" class='buybutton' target="_blank">BUY</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.oleria.jpg" class='lightbox'><h2>Olearia Nummulariifolia, 6x8" ink drawing</h2><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7MMNQ3E5DBG5W&source=url" class='buybutton' target="_blank">BUY</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.rudbeckia.jpg" class='lightbox'><h2>Rudbeckia Hirta Denver Daisy, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.euphorbia.jpg" class='lightbox'><h2>Euphorbia Paralias, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.veronicastrum.jpg" class='lightbox'><h2>Veronicastrum Virginicum, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.odontonema.jpg" class='lightbox'><h2>Odontonema Cuspidatum, 6x8" ink drawing</h2><a href="" class='soldbutton' target="_blank">SOLD</a></div>
+
+    > <div class='third'><img src="media/content/project.fasciation.digitalis.jpg" class='lightbox'><h2>Digitalis Ferruginea, 6x8" ink drawing</h2><a href="" class='soldbutton' >SOLD</a></div>
+
+WIKTOPHER
+  LONG
+    > <columns>
+    >   <img src="media/content/wiktopher/project.wiktopher.02.jpg" class='main'>
+    >   <p class='caption'>"Wiktopher is the story of Lupin and Eka, together they travel the deserts and learn the ways of the world."</p>
+    >   <h2>Desert Tales</h2>
+    &  Wiktopher is a fiction story published online. The story follows two characters, Lupin and Eka, as they navigate the barren lands of the Soronan Desert after an accident that leaves Lupin without home or family, they seek food, company and supplies while living day-to-day. 
+    & The novel has a number of added content that permits the reader to learn more of the world and its people.
+    - {*An illustrated glossary of plants*}
+    - {*An illustrated glossary of animals*}
+    - {*Recipes*}
+    - {*A language alphabet*}
+    - {*An illustrated world map*}
+    >   <a href="http://wiktopher.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
+    > </columns>
+    > <wr>
+    >   <img src="media/content/wiktopher/project.wiktopher.03.png" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.04.png" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.10.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+    > <br>
+    > <h3>History of project</h3>
+    & The story of Wiktopher is an elaboration of a short film I did in 2008 called {*{{Uno|#uno}}*}. This project was supposed to expand into a {{comic|https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing}}, which included many of the Wiktopher characters like Eka, Uno, Zucca, Lupin and Thirteen. I produced a lot of exploratory art for the project but the comic was never completed. Here is some art from that time, that may serve to give some context for the current version of Wiktopher:
+    > <wr>
+    >   <img src="media/content/wiktopher/wiktopher.babies.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.flutterfly.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.upthere.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/project.wiktopher.09.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.soap.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.hush.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/wiktopher/wiktopher.friends.jpg" class='thumbnail lightbox'>
+    > </wr>
+  LINK
+    Read the story : http://wiktopher.kokorobot.ca
+
+MERURE
+  LONG
+    > <columns>
+    % content/merure/project.merure.jpg main
+    > <p class='caption'>"The Right Color"</p>
+    > <h2>What is Merure?</h2>
+    & Merure is a comic anthology published by Drownspire, a non-profit collective created by myself and Devine. The collective published 3 full-colour volumes from 2008 to 2010, with short comics by 10-15 artists from Montreal. The comics below are the ones I made that were included in the first two volumes. The physical volumes are now out of print.
+    > </columns>
+    > <h3> All The Lights </h3>
+    & Published in Merure vol. I, it's the story of a girl who lives outside of time.
+    > <wr>
+    >   <img src="media/content/merure/atl.page1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.page2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.page3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/atl.study1.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+    > <h3> The Right Color</h3>
+    & Published in Merure vol. II, a girl who can change her eye color by interacting with objects meets her ultimate rival.
+    > <wr>
+    >   <img src="media/content/merure/rc.page1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.page2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.page3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/merure/rc.study1.jpg" class='thumbnail lightbox nopreview'>\
+    >   <img src="media/content/merure/rc.study2.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+
+SPINESPINCERS
+  LONG
+    > <columns>
+    % content/spinespincers/story.spinespincers.jpg main
+    > <p class='caption'>"Spines and Pincers"</p>
+    > <h2>Spines and Pincers</h2>
+    & Spines and Pincers is a small series of illustrations and comics about my struggles with my gender and appearance growing up, and how it warped my view of myself.
+    > </columns>
+    > <h3> I've never told anyone </h3>
+    & A short comic
+    > <wr>
+    >   <img src="media/content/spinespincers/sp.comic.1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/spinespincers/sp.comic.4.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+    > <br>
+    > <h3> Misc </h3>
+    & Additional concepts
+    > <wr>
+    >   <img src="media/content/spinespincers/sp.project.2.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/spinespincers/sp.project.1.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+CIRCA
+  LONG
+    > <columns>
+    % content/project.circa.jpg main
+    > <p class='caption'>"Sy Keon Cross"</p>
+    > <h2>What is Circa</h2>
+    & Circa follows Montore's booming gang culture, during a time when tensions between humans and hegatas are high. Sy Cross thrives in climates like this, but things change when the fight hits a little too close to home.
+    >   <a href="http://circacomic.kokorobot.ca" class='button' target="_blank">READ THE STORY</a>
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.circa.15.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.09.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.14.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.circa.12.jpg" class='thumbnail lightbox'>
+    > </wr> 
+    > <hr/>
+
+BLOG
+  LONG
+    > <columns>
+    % content/project.blog.02.jpg main
+    > <p class='caption'>"Rekka loves cormorants, a lot."</p>
+    > <h2>Travel blog</h2>
+    & I travel aboard my sailboat {*{{Pino|https://100r.co/blog.html#Our+sailboat}}*}, with my partner {{Devine||http://xxiivv.com}}, and write about the places we go and the things we see and experience. 
+    & Visit the {*{{blog|https://100r.co/blog.html}}*}.
+    & As {*{{Hundred Rabbits|https://100r.co}}*}, we also produce {*{{monthly videos|https://www.youtube.com/channel/UCzdg4pZb-viC3EdA1zxRl4A}}*} in which I make a drawing, resuming the month's events.
+    > </columns>
+    > <wr>
+    >   <img src="media/content/project.blog.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.04.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.11.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/project.blog.13.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+  LINK
+    Read the story : https://100r.co
+
+
+THOUSANDROOMS
+  LONG
+    > <columns>
+    % content/project.thousandrooms.02.jpg main
+    > <p class='caption'>Thousand Rooms is a visual novel collaboration with Devine Lu Linvega, following the behaviours of four characters and a room.</p>
+    > <h2>Thousand rooms</h2>
+    & We have written this book with the hopes of creating a sort of {*Borges for children*}, in which the reader follows a bat, a cat, an owl and a fox who try and make sense of this simple system. The book also encourages to try and understand the rules, and plan unsuggested avenues.</p>
+    & The book is available in {*13 languages*}, and can thus be used as a learning aid. All languares are available upon purchase.
+    > </columns>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/146658?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
+    > <gallery class='thumbnails lightbox'>
+    > <img src="media/content/project.thousandrooms.03.png">
+    > <img src="media/content/project.thousandrooms.04.png">
+    > <img src="media/content/project.thousandrooms.05.png">
+    > <hr/>
+    > </gallery>
+
+UNO
+  LONG
+    > <columns>
+    % content/movie.uno.02.jpg main
+    > <p class='caption'>Uno the movie screenshot.</p>
+    > <h2>Uno</h2>
+    & Completed during the years 2007 and 2008 at le cegep du vieux Montreal, "Uno" is a short 2d animation film that tells the story of a moment in Ratchet's life.
+    & Ratchet lives on an island high in the sky with her companion Hush. Disconnected from others, she finds an ususual way to communicate with her neighbours. 
+    >  <a href="https://vimeo.com/1086078" class='button' target="_blank">WATCH THE MOVIE</a>
+    > </columns>  
+    & The story of Uno is the predecessor to my fiction story {*{{wiktopher|#wiktopher}}*}. Ratchet is Eka, and her neighbour on another island is Uno (character in wiktopher shares that same name).
+    & There is much more to this project than the film itself, a lot of research went into it. Here is some additional content:
+    & {{Short comic|https://drive.google.com/file/d/1QTsnRfFGXChVb-9x1fYY0Jdj6wTL8C_n/view?usp=sharing}} | {{Model Pack|https://drive.google.com/file/d/1TqmS9W9ugOKunJBjglU6NSwZVu5kiMMd/view?usp=sharing}} | {{Storyboard|https://drive.google.com/file/d/1lJIlsuaJ7xg1PqeB12OG9MTr87evboTH/view?usp=sharing}} | {{Poster|https://kokorobot.ca/media/content/uno/poster2.jpg}}
+    > <h3>STUDIES:</h3>
+    > <wr>
+    >   <img src="media/content/uno/study.1.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/study.2.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/study.3.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/study.4.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/study.5.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/study.6.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+    > <br>
+    > <h3>BACKGROUNDS:</h3>
+    & There was 21 scenes in this film, all drawn traditionally and colored digitally with Photoshop. Frames were colored and assembled in Toonboom Harmony, edited in AfterFX and Premiere. 
+    > <wr>
+    >   <img src="media/content/uno/plan4.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan24.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan23.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan5.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan6.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan7.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan8.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan9.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan10.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan11.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan12.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan13.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan15.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan17.jpg" class='thumbnail lightbox nopreview'>
+    >   <img src="media/content/uno/plan22.jpg" class='thumbnail lightbox nopreview'>
+    > </wr>
+    > <hr/>
+
+MEDUSSA
+  LONG
+    > <columns>
+    % content/project.space.main.jpg main
+    > <p class='caption'></p>
+    > <h2>Medussa's four</h2>
+    - {*Story:*} Medussa's 4
+    - {*Characters:*} {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
+    - {*Summary:*} A story about a league of misfits called "Medussa's four", who race through the Austral system using non-regulated means of propulsion. 
+    > </columns>
+    & {*Encela*}, grandparent of {*Luna Leap*}, is banned from the "Belt Championship" by the IFS (interplanetary federation of ships) for breaking rules relating to race technique and style. The IFS has been poisoned by greed, their monopoly of transport and racing that spans many systems, Encela feels, is downright disgusting. 
+    & In reaction to this, Luna - who has prodigious skill with the taming, and riding of wild {*cyclomedussas*} - forms her own league dedicated not to form and rules, but to the simple test of superior speed. The group also advocates for the 'right to build and use one's own transport', a thing the IFS has made illegal. This league of misfits, referred to as {*'Medussa's four'*} includes {*{{Luna Leap|#luna}}*}, {*{{Space Panda|#panda}}*}, {*{{Straw Surfer|#straw}}*} and {*{{Kidd Kosmo|#kidd}}*}.
+    & In these races, the participants race through the Austral system - which consists of a multitude of tiny planets and moons - and use the relative movement and gravity of the planets or other astronomical object to increase their speed.
+    & Their movement aims to dismantle the unfair regulations that has been strangling the habitants of the {*Australs*} for many cycles now. 
+    & HISTORY
+    & The Lepori, Denurith and Ursada all stem from the Homini, from ships that left their homeplanet Retna to explore the grandioseness that is their universe (The Australs). They lived aboard their ships for thousands of years, keeping some contact, while evolving as separate species. Many years later, they resolved to live near one another again, with the stars growing dark togetherness and harmony has never been so important. They steered their ships back over to Retna, the only planet capable of sustaining life, now a center of exchange of goods and knowledge and the place where all 4 races can go to live as equals.
+    & 2 now orbit the planet in their ships, all, but the Ursada's ship "The Arkto" that was decommissioned due to various technical problems. Now, the Ursada live on Retna's soil. 
+    & {*Medussa*} was the name of the station orbitting Retna, the base model for the 3 generational travel ships that departed long ago, the 3 being {*The Santoshi Mata*}, {*Arkto*} and {*the Leveret*}. 
+    > <gallery class='thumbnails lightbox'>
+    >  <img src="media/content/project.space.01.jpg">
+    >  <img src="media/content/project.space.02.jpg">
+    >  <img src="media/content/project.space.03.jpg">
+    >  <img src="media/content/project.space.05.jpg">
+    > <hr/>
+    > </gallery>
+
+OQUONIE
+  LONG
+    > <columns>
+    % content/game.oquonie.02.jpg main
+    > <p class='caption'>This game is published by {*{{Hundred Rabbits|http://100r.co}}*}. Visit the {*{{Oquonie microsite|http://oquonie.100r.co}}*} for more information about the game.</p>
+    > <h2>Oquonie</h2>
+    & Oquonie (2014) is a textless puzzle game for {*PC*}, {*Linux*}, {*Mac*}, {*iPad*}, {*Iphone*} and {*Apple TV*} created in collaboration with designer {*{{Devine Lu Linvega|http://xxiivv.com}}*} where you must find your way across an intertwined megastructure. You will not be alone, your incarnations will have the help of bizaroid characters speaking an obscure language.
+    > </columns>
+    > <iframe style='margin-top:15px; display:block; border-radius:3px; margin:10px; width:100%' frameborder="0" src="https://itch.io/embed/23183?border_width=0&amp;bg_color=666666&amp;fg_color=000000&amp;link_color=000000&amp;border_color=333333" width="550" height="165"></iframe>
+    > <gallery class='thumbnails lightbox'>
+    >  <img src="media/content/game.oquonie.03.jpg">
+    >  <img src="media/content/game.oquonie.04.jpg">
+    >  <img src="media/content/game.oquonie.05.jpg">
+    > <hr/>
+    > </gallery>
+
+GRIMGRAINS
+  LONG
+    > <columns>
+    % content/project.grimgrains.02.jpg main
+    > <h2>Grim grains</h2>
+    &  {*{{Grim Grains|http://grimgrains.com}}*} is my illustrated food blog, it features plant-based recipes with a strong attention to colour and form. The blog features many recipes made with {{bamboo charcoal powder|http://grimgrains.com/#bamboo+charcoal+powder}}, an ingredient that makes food black.
+    &  The blog had recipes featured on {*{{Foodgawder|https://foodgawker.com/post/archive/grimgrains/}}*}, {*{{One green planet|https://www.onegreenplanet.org/author/rekka_bell}}*}, {*Finding Vegan*} and {*{{Tastespotting|http://www.tastespotting.com/profile/grimgrains/submissions/1}}*}.
+    > <h3>Features</h3>
+    - {*{{Food bloggers canada interview| https://www.foodbloggersofcanada.com/fbc-featured-member-grim-grains}}*}, 2015</a>
+    - {*{{Inspiration book No28|https://www.maison-objet.com/fr/paris/programme/inspirations/wild}}*} MaisonEtObjet, 2016.</a>
+    & Visit {*{{Grim Grains|http://100r.co">Visit}}*} for some strange, but delicious recipes.</p>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.grimgrains.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.grimgrains.11.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+INK
+  LONG
+    > <columns>
+    % content/project.ink.02.jpg main
+    > <p class='caption'>Currently, the drawings are 6x8in (148x210mm), although depending on the paper available to me the size may vary. They are drawn on 300 gsm watercolour paper, and sold for 40$ (with an extra 5$ for shipping).</p>
+    > <h2>Original art</h2>
+    & Once in a while, I illustrate and sell original ink drawings. The subjects vary, but often include plants. Below is a list of my current series:</p>
+    - {*{{Fungi|#fungi}}*}
+    - {*{{Knots|#knots}}*}
+    - {*{{Ginger roots|#ginger}}*}
+    - {*{{Fasciation|#fasciation}}*}
+    > <h3>Make a request</h3>
+    &  Email me at {*rekkabell at gmail dot com*} to request an original custom drawing.
+    &  Also, if you don't mind a reproduction, these drawings are sold as print copies on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell/}}*} and  {*{{Society6|https://society6.com/rekkabell}}*}.
+    &  You can also purchase other products like {*{{canvas prints|https://society6.com/product/monkey-fist-knot_stretched-canvas?sku=s6-8651169p16a6v28}}*} and {*{{Throw pillows|https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193}}*} in these stores.
+    > </columns>
+    > <wr>
+    > <img src="media/content/project.ink.09.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.11.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.10.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.04.jpg" class='thumbnail lightbox'>
+    > <img src="media/content/project.ink.05.jpg" class='thumbnail lightbox'>
+    > <a href="https://society6.com/product/monkey-fist-knot_pillow?sku=s6-8651169p26a18v129a25v193" target="_blank"><img src="media/content/project.ink.06.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/zeppelin-bend-nautical-knot-art_iphone-case?sku=s6-8690991p20a9v745a52v377" target="_blank"><img src="media/content/project.ink.07.jpg" class='thumbnail lightbox'></a>
+    > <a href="https://society6.com/product/a-reef-knot-nautical-art_bag?sku=s6-8691261p29a26v196" target="_blank"><img src="media/content/project.ink.08.jpg" class='thumbnail lightbox'></a>
+    > </wr>
+    > <hr/>
+
+MARKL
+  LONG
+    > <columns>
+    % content/project.markl.02.jpg main
+    & Markl is a game currently in development - by myself and Devine - in which players must program their characters fighting style, to face various opponents in a battle happening too fast for humans to compete.</p>
+    & This game currently has no release date, and will be published by {*{{Hundred Rabbits|http://100r.co}}*} for PC, Mac, Linux and iOS.</p>
+    & Visit the {*{{Markl Microsite|http://markl.100r.co}}*} for more information about the project.</p>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.markl.03.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.04.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.05.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.06.gif" class='thumbnail'>
+    >  <img src="media/content/project.markl.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.09.jpeg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.markl.10.jpeg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+MALISSE
+  LONG
+    > <columns>
+    % content/game.malisse.02.jpg main
+    > <p class='caption'>Help Malisse along, make sure the path stays clear so that everyone, including the rabbit buddies, may pass unscathed!</p>
+    > <h2>Malisse</h2>
+    & Malisse is a two-player cooperative game played with two controllers, or single-player with a single controller. You could also play it two players on the same controller!</p>
+    & Available for Windows and Mac. It was produced during ToJam 9 by Les Collegiennes. Side image and logo by Dom2d.</p>
+    >  <a href="https://renaudbedard.itch.io/malisse" class='button' target="_blank">PLAY THE GAME</a>
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.malisse.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.malisse.06.gif" class='thumbnail'>
+    >  <img src="media/content/game.malisse.07.gif" class='thumbnail'>
+    > </wr>
+    > <hr/>
+
+MISC
+  LONG
+    > <columns>
+    % content/game.misc.03.jpg main
+    > <p class='caption'></p>
+    > <h2>Misc game art</h2>
+    & Concept art for game projects that were cancelled, or never released. Enjoy.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.misc.02.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.misc.12.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+MINDBIRD
+  LONG
+    > <columns>
+    % content/mindbird/project.mindbird.02.gif main
+    > <h2>mindbird</h2>
+    & The world through the eyes of a socially anxious skeleton named {*{{Cee|#cee}}*}. {*mindbird*} is a project that sheds light on the thoughts and fears of people with anxiety.
+    & This is a project that I would like to expand into a book, or comic series.
+    & I'm still very undecided. More updates soon.
+    & Get to know the {*{{characters}}*} of mindbird.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/mindbird/project.mindbird.001.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.002.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.003.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.004.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.005.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.006.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/mindbird/project.mindbird.007.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+DEATH
+  LONG
+    > <columns>
+    % content/project.deathgod.02.gif main
+    > <p class='caption'>I have been for a long time at your side.</p>
+    > <h2>Incredible death</h2>
+    & Project done as part of {*{{Screensaver jam 2016|https://itch.io/jam/screensaverjam}}*}
+    >  <a href="https://rekkabell.itch.io/incredible-death" class='button' target="_blank">DOWNLOAD SCREENSAVER</a>
+    > </columns>
+    > <hr/>
+
+SPRITE
+  LONG
+    > <columns>
+    % content/project.sprite.02.gif main
+    > <h2>Sprite</h2>
+    & While in Mexico, I started a sprite animation project to help fund the repair of the sails for our boat Pino.
+    & The sprites are in the style of {*{{Oquonie|#oquonie}}*}, and all were requests by people on twitter.
+    & I still take sprite requests, if you want your own send me a tweet {*@rekkabell*} or send me an email at {*rekkabell at gmail dot com*}.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.sprite.03.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.04.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.05.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.06.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.07.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.08.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.09.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.10.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.11.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.12.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.13.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.14.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.15.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.16.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.17.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.18.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.19.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.20.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.21.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.22.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.23.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.24.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.25.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.26.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.27.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.28.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.29.gif" class='thumbnail'>
+    >  <img src="media/content/project.sprite.30.jpg" class='thumbnail'>
+    >  <img src="media/content/project.sprite.31.gif" class='thumbnail'>
+    > </wr>
+    > <hr/>
+
+GINGER
+  LONG
+    > <columns>
+    % content/project.ginger.02.jpg main
+    > <p class='caption'>6X6inch (152x152mm) ink drawings on watercolour paper. Completed in 2015.</p>
+    > <h2>Ginger root series</h2>
+    & Every ginger is unique.
+    & My love of the shape and taste of this rhizome has inspired this drawing series. I am happy to say that all of these drawings have found good homes.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.ginger.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.ginger.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.ginger.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+FASCIATION
+  LONG
+    > <columns>
+    % content/project.fasciation.euphorbia.jpg main
+    > <p class='caption'>148x210mm (6x8inches) ink drawings.</p>
+    > <h2>Fasciated plant series</h2>
+    & Fasciation is a rare condition of abnormal growth in plants. It causes the plant to become elongated perpendicularly to the direction of growth, thus producing flattened, ribbon-like, crested or elaborately contorted, tissue. It can also cause the plant to increase in weight and volume. Any occurrence of fasciation has several possible causes, including hormonal, genetic, bacterial, fungal, viral and environmental causes. 
+    & I'm making this series to showcase these wonderful oddities.
+    > </columns>
+    & You can buy the original art in my {{online store|#store}}.
+    > <wr>
+    >  <img src="media/content/project.fasciation.zinnia.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.rudbeckia.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.euphorbia.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.oleria.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.veronicastrum.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.odontonema.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.digitalis.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fasciation.delphinium.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+KNOTS
+  LONG
+    > <columns>
+    % content/project.knots.02.jpg main
+    > <p class='caption'>148x210mm (6x8inches) ink drawings on watercolour paper. Completed in 2018</p>
+    > <h2>Nautical knot series</h2>
+    & Every knot has a purpose, drawings these has helped me to memorize them. Knowing how to tie a good knot, could save your life.
+    & Some of these are still available for sale: The monkey fist (pictured on the left), the constrictor knot (number 1), the overhand knot (number 2). They are <b>40$ each</b>, plus an <b>extra 5$</b> for shipping. Contact me at <b>rekkabell at gmail dot com</b> to buy the drawings.
+    & You can also buy prints of these drawings on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell}}*} and {*{{Society6|https://society6.com/rekkabell}}*}.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.knots.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.knots.08.jpg" class='thumbnail lightbox'>
+    > <wr>
+    > <hr/>
+
+FUNGI
+  LONG
+    > <columns>
+    % content/project.fungi.02.jpg main
+    > <p class='caption'>148x210mm (6x8inches) ink drawings on watercolour paper. Completed in 2017.</p>
+    > <h2>Fungi series</h2>
+    & Mushrooms come in a variety of shapes and sizes; attracted by their other-wordliness, I have started a fungi illustration series.</p>
+    & All of the originals of this series found good homes. If you would still like a mushroom, you can request one for <b>40$ plus 5$ for shipping</b> at rekkabell at gmail dot com.</p>
+    & You can also buy prints of all of these drawings on {*{{Inprnt|https://www.inprnt.com/gallery/rekkabell}}*} and {*{{Society6|https://society6.com/rekkabell}}*}.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.fungi.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.14.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.15.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.16.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.17.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.fungi.18.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+HITOBITO
+  LONG
+    > <columns>
+    % content/project.hitobito.02.jpg main
+    > <p class='caption'>Digital sketches drawn while traveling in Japan, Thailand, USA, Canada and Mexico.</p>
+    > <h2>Hitobito</h2>
+    & 人々 (hitobito), or "everyone". Named thusly since the project started while I lived in Tokyo.
+    & Drawings of people I see on the street, drawn on a daily basis.
+    & {*{{View|http://hitobitobi.tumblr.com}}*} the whole series.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/project.hitobito.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.05.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.06.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.07.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.08.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.09.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.10.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.11.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.12.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.13.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/project.hitobito.14.jpg" class='thumbnail lightbox'>
+    > <wr>
+    > <hr/>
+
+BULLE 
+  LONG
+    > <columns>
+    % content/game.bulle.02.png main
+    > <p class='caption'>Bulle, Tartine, Momo and other characters of the Mon ami Bulle app, travel and make discoveries in unique universes.</p>
+    > <h2>Mon ami bulle</h2>
+    & Contract work for IOS app {*{{Mon ami Bulle|https://itunes.apple.com/ca/app/mon-ami-bulle/id1088076963?mt=8}}*} by Tele Quebec.
+    & I worked on many assets for the animated sequences, and did the artwork for 3 of the main narrated stories of the game.
+    & Visit {*{{Tele-Quebec|https://www.telequebec.tv/bulle}}*} for more information.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.bulle.03.png" class='thumbnail lightbox'>
+    >  <img src="media/content/game.bulle.04.png" class='thumbnail lightbox'>
+    >  <img src="media/content/game.bulle.05.png" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+VENDREDI13
+  LONG
+    > <columns>
+    % content/game.vendredi13.02.jpg main
+    > <p class='caption'>Friday the 13th card game for 3 to 6 players, ages 8 and up.</p>
+    > <h2>Friday the 13th</h2>
+    & Push your bad luck away! Bad omens are all around you! Play your cards right to avoid bad luck. Or, risk gathering as much bad luck as possible, to pass the curse on to your adversaries and ruin their hand!
+    - {*Publisher*} Scorpion Masque
+    - {*Illustrator*} Me
+    - {*Designer*} Reiner Knizia
+    & Visit {*{{Scorpion Masque|https://www.scorpionmasque.com/en/friday-13th">Scorpion Masque}}*} for more information about the game.
+    > </columns>
+    > <wr>
+    >  <img src="media/content/game.vendredi13.03.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.vendredi13.04.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/game.vendredi13.05.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > <hr/>
+
+NOTES
+  LONG
+    & My personal notes on various topics, not related to art, as well as pages containing extra content that doesn't fit anywhere else.
+    - {{Collection}} - An inspiration list.
+    - {{Books}} - A list of my current and past readings.
+    - {{Links}} - Doors to other worlds.
+    - {{Quotes}} - Things to remember.
+    - {{Thinking}} - Issues I consider important
+    - {{Tools}} - Specifics on tools.
+    - {{Resources}} - Articles and websites.
+    - {{Characters}} - Original character creations.
+
+CHARACTERS
+  LONG
+    & Over the years, I've written a lot of original characters through roleplay with friends. Click on a character to find out more about them, note that some characters were not created by me.
+    * CIRCA
+    & What is {*{{Circa|#circa}}*}?
+    > <gallery>
+    > <a href="#sy"><img class='grey' src="media/content/oc.sy.jpg"></a>
+    > <a href="#kima"><img class='grey' src="media/content/oc.kima.jpg"></a>
+    > <a href="#token"><img class='grey' src="media/content/oc.token.jpg"></a>
+    > <a href="#orion"><img class='grey' src="media/content/oc.orion.jpg"></a>
+    > <a href="#seir"><img class='grey' src="media/content/oc.seir.jpg"></a>
+    > <a href="#nemerald"><img class='grey' src="media/content/oc.nemerald.jpg"></a>
+    > <a href="#adelie"><img class='grey' src="media/content/oc.adelie.jpg"></a>
+    > <a href="#yegon"><img class='grey' src="media/content/oc.yegon.jpg"></a>
+    > <a href="#bru"><img class='grey' src="media/content/oc.bru.jpg"></a>
+    > <a href="#caleb"><img class='grey' src="media/content/oc.caleb.jpg"></a>
+    > <a href="#dante"><img class='grey' src="media/content/oc.dante.jpg"></a>
+    > <a href="#kaddali"><img class='grey' src="media/content/oc.kaddali.jpg"></a>
+    > <hr/>
+    > </gallery>
+    * mindbird
+    & What is {*{{mindbird|#mindbird}}*}?
+    > <gallery>
+    > <a href="#shiba"><img class='grey' src="media/content/oc.shiba.jpg"></a>
+    > <a href="#cee"><img class='grey' src="media/content/oc.cee.jpg"></a>
+    > <a href="#viktor"><img class='grey' src="media/content/oc.viktor.jpg"></a>
+    > <a href="#finn"><img class='grey' src="media/content/oc.finn.jpg"></a>
+    > <a href="#polycat"><img class='grey' src="media/content/oc.polycat.jpg"></a>
+    > <a href="#adeka"><img class='grey' src="media/content/oc.adeka.jpg"></a>
+    > <hr/>
+    > </gallery>
+    * MEDUSSA'S FOUR
+    & What is {*{{Medussa's 4|#medussa}}*}?
+    > <gallery>
+    > <a href="#luna"><img class='grey' src="media/content/oc.lunaleap.jpg"></a>
+    > <a href="#kidd"><img class='grey' src="media/content/oc.kiddkosmo.jpg"></a>
+    > <a href="#straw"><img class='grey' src="media/content/oc.strawsurfer.jpg"></a>
+    > <a href="#panda"><img class='grey' src="media/content/oc.spacepanda.jpg"></a>
+    > <hr/>
+    > </gallery>
+    * GOSHIN
+    & Original characters and story, set in the world of pokemon.
+    > <gallery>
+    > <a href="#fenix"><img class='grey' src="media/content/oc.fenix.jpg"></a>
+    > <a href="#musi"><img class='grey' src="media/content/oc.musi.jpg"></a>
+    > <a href="#shock"><img class='grey' src="media/content/oc.shock.jpg"></a>
+    > <a href="#mika"><img class='grey' src="media/content/oc.mika.jpg"></a>
+    > <a href="#caden"><img class='grey' src="media/content/oc.caden.jpg"></a>
+    > <a href="#casey"><img class='grey' src="media/content/oc.casey.jpg"></a>
+    > <a href="#ferris"><img class='grey' src="media/content/oc.ferris.jpg"></a>
+    > <hr/>
+    > </gallery>
+    > </wr>
+
+KIDD
+  LONG
+    > <columns>
+    % content/oc.kiddkosmo.main.jpg main
+    > <h2>Kaddali Veesarayu</h2>
+    - {*Story*}: {{medussa}}
+    - {*Racing name*}: Kidd Kosmo
+    - {*Family*}: Denurith
+    - {*Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.</li>
+    - {*Propulsion*}: Shoes
+    > </columns>
+    > <hr/>
+    & Kaddali is a {*Denurith*}, living on Bahrit, one of Retna's moons. The Denurith practice ascetism, they dedicate ther life to serving all other living beings, they believe in simplicity and regard gender, extravagance and religion as obstacles to mental clarity. Denurith are given a set of thruster shoes on leave, which they use to travel through space. Kaddali sets off to Retna, in search of a cause.
+    & The people of Retna struggle with money, it is a junk planet filled with refuse and old parts. Most habitants have never left the planet and use recycled objects to create something new to sell to off-planet visitors at the grand bazaar. Kaddali hopes to help these people, to try and find ways for them to need 'less', to lessen their dependence on the economy and in turn their need for money. 
+    & Kaddali is skilled, tey don't race for glory, but to disrupt and inspire in hopes of opening interplanetary travel to everyone. Tey and {*{{Padna|#panda}}*} like to teach younglings to build, and repair their own transport at the hackspaces on Retna. 
+    > <gallery class='thumbnails lightbox'>
+    >  <img src="media/content/project.space.02.jpg">
+    > <hr/>
+    > </gallery>
+
+LUNA
+  LONG
+    > <columns>
+    % content/oc.lunaleap.main.jpg main
+    > <h2>Lun-di</h2>
+    - {*Story*}: {{medussa}}
+    - {*Racing name*}: Luna Leap
+    - {*Family*}: Lepori
+    - {*Sex*}: Female
+    - {*Appearance*}: Long ears, green-ish skin with light patterns, strong build, dark eyes.
+    - {*Propulsion*}: Cyclomedussa named "ChaCha"
+    > </columns>
+    > <hr/>{
+        & Lun-di is a {*Lepori*}. She's calm, composed, and very head strong, others have much confidence in her so when Lun-di acts without word, others will blindly follow. 
+    & No one else can tame and train {*cyclomedussas*}, these rare soft-bodied creatures of speed. {*ChaCha*} is friend to Lun-di, they're perfectly attuned to each other's thoughts and feelings. ChaCha's underside has tentacles that twist and turn with incredible speed, pushing the air to propel itself forward. 
+    & As a young Lepori, Lun-di developed an interest for racing because of {*Encela*}, grandparent and racer extraordinaire. She developed a great dislike for the {*IFS*} (interplanetary federation of ships), because of their affluence and rigidity. After Encela was forcibly removed from the {*Belt Championship*} for using a non-authorized style of ship, Lun-di set out to form her own league, a group of racers dedicated not to form or rules, but to speed and accessibility. 
+
+PANDA
+  LONG
+    > <columns>
+    % content/oc.spacepanda.main.jpg main
+    > <h2>Padna</h2>
+    {*Story*}: {{medussa}}
+    {*Racing name*}: Space Panda
+    {*Family*}: Ursada
+    {*Appearance*}: Round fuzzy ears, dark nose, light skin, dark attire.
+    {*Propulsion*}: Baton that fans out into a disc, powered by the sun. 
+    > </columns>
+    > <hr/>
+    & Padna is an {*Ursada*}. After Arkto was decommissioned, the Ursada emigrated on Retna. 
+    & Padna is a maverick, and doesn't need others to be happy, she likes parkour, to create her own paths in the world, and this is what led her to race through the Australs. Her family never had the money to board a ship to travel offplanet, and so Padna decided to create her own path.
+    & Her time in hackspaces on Retna, earned her the skills to build her solar disc. The disc retracts into a baton for easy carrying, and fans out into a translucent circle, with solar cells embedded in the material. One end of the baton is equipped with a thruster, enabling her to get some momentum, so she can reach the gravity of a near astronomical object to propel herself onward. 
+
+STRAW
+  LONG
+    > <columns>
+    % content/oc.strawsurfer.main.jpg main
+    > <h2>Klo Starawin</h2>
+    - *Story*}: {{medussa}}
+    - *Racing name*}: Straw Surfer
+    - *Family*}: Homini
+    - *Appearance*}: Bluish skin and hair, dark rim around eyes, dark nose, circle markings on hands and forehead. Skinny build.
+    - {*Propulsion*}: A long hollow cyclinder that elongates at will.
+    > </columns>
+    > <hr/>
+    & Klo is a {*Homini*}, born on the Retna, now under the jurisdiction of the {*IFS*} "the interplanetary federation of Ships" (who have a monopoly on transportation). Her family is well-off, permitting her to have a ship of her own. She has taken part in the Belt Championships many times, but aches for the freedom and creativity to design her own transport. Her sibling Lef is an Enforcer in the IFS, they have little contact, in fact, she cares little to know what he's up to given the dark nature of his work.
+    & She heard of Encela's ban from racing, curious, Klo makes a trip to The Leveret to learn more about {*cyclomedussas*}. Klo is privileged, in the sense that she can go wherever she likes, and uses this to help others who are less fortunate than herself. She is a jovial being, high-energy and always looking for something to do. Klo used to be oblivious to a lot of the bad happenings on Retna, now she does all she can to right this and inform herself.   
+    & Unable to tame a cyclomedussa, lacking the patience mostly, Klo tries and find her own DIY transport. Back on Retna, she finds a like-minded invidiual who helps her to build the tech for a cylinder that elongates in perpetuity, or "infinite straw" that she now uses to travel through space. 
+
+LEF
+  LONG
+    > <columns>
+    % content/oc.lef.main.jpg main
+    > <h2>Lef Starawin</h2>
+    - {*Story*}: {{medussa}}
+    - {*Title*}: Enforcer Lef
+    - {*Family*}: Hominini
+    - {*Appearance*}: Tall, upper half of face is dark, deep scar along chin and front of neck
+    - {*Propulsion*}: A highway system corvette
+    > </columns>
+    > <hr/>
+    & Lef is an Enforcer, employed by the IFS (the interplanetary federation of ships) and responsible for ensuring the laws regarding the use and fabrication of ships are being followed. Many accuse the Enforcers of having another more controversial role, of making sure that undesirables (low income citizens) never leave their home planets. Lef is sibbling to {{Klo|#straw}}, both lead very difference lives and are unaware of what the other is doing, due to Lef leaving home to join the federation at a young age.
+    & Lef has never seen eye to eye with his parents, and believes that space travel isn't for everyone. This is a belief shared by his grandmother, who has a high-ranking position at the IFS. 
+
+ADEKA
+  LONG
+    > <columns>
+    % content/oc.adeka.main.jpg main
+    > <h2>Adeka</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: No visible arms, legs of any kind, just a long serpent-like body with a face that some would argue to be both beautiful and horrifying.
+    - {*Relation*}: Tormenter of {*{{Cee|#cee}}*}
+    > </columns>
+    > <hr/>
+    & Adeka is feared by many who share {*{{Cee|#cee}}*}'s anxieties. She is a creature most fearsome, that draws you in when you're at your lowest of lows, and refuses to let go. It is possible to escape her grip, but not without losing something important. Adeka will stop at nothing to keep you in her world.
+
+VIKTOR
+  LONG
+    > <columns>
+    % content/oc.viktor.main.jpg main
+    > <h2>Viktor</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Small, stout black bird, with large eyes and long skinny legs.
+    - {*Relation*}: Brain parasite of {*{{Cee|#cee}}*}
+    > </columns>
+    > <hr/>
+    & Viktor entered {*{{Cee|#cee}}*}'s head a long time ago, he now lives there and won't be persuaded to leave. The bird is said to be the source of Cee's anxieties, a whisperer, and teller of fears and lies. 
+    & He questions everything, all the time, and makes a habit of overthinking every situation. Viktor thinks he can see bad things before they happen, and uses this to prevent Cee from taking risks, and from trying new things.
+    & Viktor likes falafel, and the sound of rain as it falls onto Cee's skull.
+
+FINN
+  LONG
+    > <columns>
+    % content/oc.finn.main.jpg main
+    > <h2>Finn</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Small, round ears and eyes always closed, always in thought. Finn's tail is crooked and split in two.
+    - {*Relation*}: Occasional visitor, and guest of {*{{Viktor|#viktor}}*}
+    > </columns>
+    > <hr/>
+    & Finn is a mouse, and infrequent guest inside {{Cee}}'s head. She likes to visit the bird {{Viktor}}, fascinated by all that plagues him. They spend entire evenings together, talking about the future and the science of bread. 
+    & It is said that after Finn was hit by lightning, her tail split in two and she became immortal. No one if this is true, but Finn makes a point of mentionning it everytime she visits. Finn is inquisitive, wise and has some strange ideas about life, which {*{{Viktor|#viktor}}*} and her argue about for hours, over cups of peppermint tea. 
+
+POLYCAT
+  LONG
+    > <columns>
+    % content/oc.polycat.main.jpg main
+    > <h2>Polycat</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: A cat with one eye, and the hind and tail of a lizard.
+    - {*Relation*}: Often hovers around {*{{Shiba Killy|#shiba}}*}.
+    > </columns>
+    > <hr/>
+    & Polycat is a wanderer, she doesn't speak much, but a lot can be understood by looking into her eye. She seems to always appear when {{Shiba Killy}} is alone, following after him and disappearing as soon as anyone else comes near.
+    & She likes to assist Shiba Killy in various tasks, like when he makes stone mandalas in the woods. She can multiply herself at will, but the others have the rear ends of other animals, like aves, vulpes and ungulates. 
+    & Want to {*{{play|https://neauoire.github.io/polycat/}}*} with Polycat?
+    > <wr>
+    >  <img src="media/content/character.polycat.01.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/character.polycat.02.jpg" class='thumbnail lightbox'>
+    >  <img src="media/content/character.polycat.03.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+SHIBA
+  LONG
+    > <columns>
+    % content/oc.shiba.main.jpg main
+    > <h2>Shiba Killy</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Sandy skin, with lighter patches. Never opens his eyes, always has a composed expression and smiles a whole lot. Wears a white jacke with red sleeves, dark jeans and light sneakers.
+    - {*Relation*}: Friend of {*{{Cee|#cee}}*}
+    > </columns>
+    > <hr/>
+    & Shiba Killy is a genial hound, a stoic, and the cure to {*{{Cee|#cee}}*}'s anxieties. Killy is outgoing, and never fails to bring Cee along, and to protect her. He often puts her into situations that are difficult, he is her link to society, her bridge to the world.
+    & Killy likes pickled foods and to wear ridiculously long scarves. 
+
+CEE
+  LONG
+    > <columns>
+    % content/oc.cee.main.jpg main
+    > <h2>Cee</h2>
+    - {*Story*}: {{mindbird}}
+    - {*Appearance*}: Cee is a skeleton, her skull has a large crack in it.
+    - {*Relation*}: Friend of {*{{Shiba Killy|#shiba}}*}, host of {*Viktor*}
+    > </columns>
+    > <hr/>
+    & Cee is a jittery character, plagued and paralyzed by fear and anxiety, due to the precense of a bird in her head. {*{{Viktor|#viktor}}*}, the bird, took up residence in Cee's head early in her life, and cannot be persuaded to leave. 
+    & Cee likes to grow plants, and spends a lot of time alone or with {*{{Shiba Killy|#shiba}}*}, her most trusted friend. Another comes to nest into her head on occasion, an immortal mouse named {*{{Finn|#finn}}*}. 
+
+ORION
+  LONG
+    > <columns>
+    % content/oc.orion.main.jpg main
+    > <h2>Orion Mintenko</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 18
+    - {*Alignment*}: Neutral good
+    - {*Orientation*}: Pansexual
+    - {*Gender*}: Cisgender
+    - {*Family*}: Luciano Malvado, Petra Mintenko and {{Token Malvado|#token}}.
+    - {*Appearance*}: Light, sandy blonde hair, cut short. Bright-eyed, fair-skinned, often wears bright mismatched clothes. Thin, dark-eyed, not very strong of body. Has fish tattoos on the neck, black bars on the left arm, and a tattoo of two winged persons arm-in-arm. Multiple piercings.
+    > </columns>
+    > <hr/>
+    & Orion is a club kid, a forever child, he likes to go out and to get high. He works in a bar in Montore in evenings and is seldom seen alone, in fact, he cares about all he meets, even strangers. 
+    & Orion is confident and wears whatever, caring little of the opinions of others.
+    > <wr>
+    >   <img src="media/content/project.circa.05.jpg" class='thumbnail lightbox'>
+    > </wr>      
+
+TOKEN
+  LONG
+    > <columns>
+    % content/oc.token.main.jpg main
+    > <h2>Token Malvado</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 22
+    - {*Nickname*}: Pen
+    - {*Alignment*}: Lawful neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Gynesexual
+    - {*Family*}: Luciano Malvado, Petra Mintenko and {{Orion Mintenko|#orion}}.
+    - {*Appearance*}: Token has light and spiky blonde hair, brushed back and away from his face. Being athletic, he's all muscles, wide in the shoulders with strong arms. Token is 5'9, and wears fitted long-sleeves shirts, jeans and running shoes; he often wears a red sports jacket overtop. He bears a deep cut at his lip, is missing two fingers on his left hand and his right hand up to the elbow is a prosthetic.
+    > </columns>
+    > <hr/>
+    & Token is a professional boxer, known country-wide for his exceptional skills. He is generous and well-liked, but doesn't make friends easy, there is a certain relunctance in him. 
+    & Token is very strong and spends most his time working out, something he insists on doing alone. He used to more open with his feelings, but that all changed after his big accident. 
+
+KIMA
+  LONG
+    > <columns>
+    % content/oc.kima.main.jpg main
+    > <h2>Kima Horizon </h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 22
+    - {*Gang*}: Ars Goetia
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
+    > </columns>
+    > <hr/>
+    & Kim runs Sotto Voce almost on her own, due to her mother's advanced age. Kim is relatively easy-going, mostly relaxed, and tries to not burden herself with worry and fear. She is hot-headed at times, and will act without thinking, especially if someone tells her not to do something. In dangerous situations, she can fend for herself all while protecting the ones she cares about. 
+    > <wr>
+    >   <img src="media/content/circa/circa.07.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+MARI
+  LONG
+    > <columns>
+    % content/oc.mari.main.jpg main
+    > <h2>Mariana Covas </h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 23
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
+    > </columns>
+    > <hr/>
+    & Mari is a natural leader, she keeps people together and makes sure that everyone is doing what they're supposed to. Growing up, she herself, decided to take on more hands-on sports, like kickboxing and wrestling. This comes naturally to Mari, she enjoys a good fight.
+
+CASEY
+  LONG
+    > <columns>
+    % content/oc.casey.main.jpg main
+    > <h2>Casey St. Claire</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 18
+    - {*Gender*}: Cis female
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
+    > </columns>
+    > <hr/>
+    & As a child Casey grew up in Azalea Town in Johto. Her life was somewhat unnatural. Casey grew up without a mother in the family and her father was always away from home on business; Most of the time she was with her brother.
+    & Because her brother worked for a Pokémon researcher, Casey learned a lot about Pokémon from him. Her brother raised particularly large Pokémon, and she quickly grew fond of the large and intimidating breeds. She would rather choose a gigantic and grumpy Nidoking over a cute and friendly Pikachu.
+    & For some reason, her brother started to stay away from home for days on end; it was then that Casey decided to go off on her own journey. She got her first Pokémon from her father. It was a young Totodile. Along her journey Casey saw and fought many Pokémon, catching the ones she favored. Now her party is large and consists mostly of heavy and intimidating Pokémon. Because of her researcher background and knowledge of Pokémon, Casey has chosen to follow the breeder’s life. She excels in breeding ‘monster’ egg type Pokémon, but is not limited to that.
+    & Pokemon Team: Harvey (garchomp), Verg (charizard), Fu (arcanine), Andre (feraligart), Lance (dragonite) and Atlas (nidoking).
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.03.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.04.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.10.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.06.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+FERRIS
+  LONG
+    > <columns>
+    % content/oc.ferris.main.jpg main
+    > <h2>Ferris Doyle</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 16
+    - {*Gender*}: Cis male
+    - {*Note*}: This character belongs to my friend {*{{Bullybird|https://bullybird.weebly.com}}*}.
+    > </columns>
+    > <hr/>
+    & To an untrained eye Ferris would look rather ‘average’ mainly because he doesn't stand out, but there is one thing that makes him different from most teenagers; he is blind.
+    & Ferris was born in Saffron city but was raised in Fuchsia city, the city known for the first Safari Zone. Because the city was always full of Pokémon, Ferris learned about these creatures at a very young age. Since Pokémon were always around him he never thought of them as interesting monsters, he thought they were normal. Pokémon generally bored Ferris until he reached the age of 10, where he found out that you could explore the world just by saying you were a trainer. Infatuated with the idea of hitchhiking wherever he wanted, Ferris finally decided to get his own Pokémon. He wandered deep into the safari zone and saw several different types of Pokémon, but wasn’t happy with any of them. It wasn’t until he illegally snuck into the zone after dark when he found the Pokémon he wanted, Scyther. After a long struggle Ferris finally caught the bug Pokémon and started his adventure.
+    & In the beginning of his adventure Ferris thought that it would only be him and Scyther the whole time, but it didn’t take long for him to yearn for more Pokémon. As he filled his pokédex the condition of his Pokémon worsened. He started treating them more like tools than actually living creatures, and his sour attitude towards his Pokémon changed many of them. His Golduck Mosa, which he had gotten from his father, had changed from a loyal loving Pokémon to a stubborn grump who had a hard time trusting strangers. As he traveled around, Ferris was known for his harsh training and stern attitude and it wasn’t long until people started avoiding him.
+    & Alone, he continued on to Hoenn. Up until now he caught Pokémon just to collect them, but when he encountered Eevee he finally realized that these creatures were important and had to be treated fairly. He named the Eevee, Deidra, after his mother and vowed to take good care of any other Pokémon he caught.
+    & Pokemon Team: Blaine (scyther), Mosa (golduck), Deidra (espeon), Hyde (muk), Cael (steelix) and Abaddon (dusknoir).
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.17.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.18.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+CADEN
+  LONG
+    > <columns>
+    % content/oc.caden.main.jpg main
+    > <h2>Caden Canepa</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 17
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Homosexua
+    - {*Family*}: {{Mika Canepa|#mika}}
+    > </columns>
+    > <hr/>
+    & Caden, like his sister {{Mika}}, was raised in Sunnyshore city and is the manager of Vista resort. It's very difficult for him to tear away from his work, he feels like if he isn't there that things will not get done, or go to shit. Caden spends countless hours in the resort, walking the grounds and making sure everyone is doing what they're supposed to. He is an amiable person, but his controlling nature sometimes makes it difficult for others to befriend him.
+    & Caden suffers from mysophobia (fear of dirt), as well as algophobia (fear of pain). He takes little risks in life, and rarely leaves the resort, it's only until he meets {{Ferris}} that he finally steps out into the world.
+    & He is becoming more and brave each day, but his fears still linger.
+    & Pokemon: Juturna (milotic) and Jean (lucario)
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.01.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.02.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.13.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.14.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.17.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.18.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+MIKA
+  LONG
+    > <columns>
+    % content/oc.mika.main.jpg main
+    > <h2>Mika Canepa</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 25
+    - {*Gender*}: Cis female
+    - {*Orientation*}: Bisexual
+    - {*Family*}: Caden Canepa
+    > </columns>
+    > <hr/>
+    & Mika and her brother Caden were raised in Sunnyshore City. She is a kite surfer, and operates a kite shop that rents out equipment to the many visitors to the beach, and the Vista resort owned by the Canepas.
+    & She spends all of her days outdoors, and loves to spend time on the ocean. If she's not kite-surfing, she teaches dinghy sailing to the local kids. Mika wants to pass down her love of ocean sports, and to teach the younger generations to respect the creatures that live in the water. She is kind-hearted, strong of head and body and will not let anyone keep her down. 
+    & Mika has a team of pokemon, she's often seen sailing with her Lucario "Keelo".
+    & Pokemon: Boomer (typhlosion), Keelo (lucario) and Salari (froslass).
+    > <wr>
+    >   <img src="media/content/project.goshin.01.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.05.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.13.jpg" class='thumbnail lightbox'>
+    > </wr>
+    > </wr>
+
+ADELIE
+  LONG
+    > <columns>
+    % content/oc.adelie.main.jpg main
+    > <h2>Adélie</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Has short dark hair, skin is a charcoal colour, while the face is pale. Very tall (10 feet tall) and strong, she has no visible breasts. Overall friendly countenance. 
+    > </columns>
+    > <hr/>
+    & Adélie, or Adé, is a strong Hegata that can take the appearances of others.
+    & She is a genial and kind being. She has much love for humans and is liked by all that she meets. Because she gets to see life through the eyes of many she has grown wise, many turn to her for advice... although she is reluctant to give it.
+
+DANTE
+  LONG
+    > <columns>
+    % content/oc.dante.main.jpg main
+    > <h2>Dante</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Race*}: Hegata</li>
+    - {*Gender*}: Cis gender male
+    - {*Orientation*}: Bisexual
+    - {*Appearance*}: Mid-length black hair. He is short for a near pure blood, with an athletic build. 
+    > </columns>
+    > <hr/>
+    & Dante is a Hegata but doesn't live with the others, never has. He shows himself to few and speaks little of himself. 
+    & Dante is nimble, making an enemy of him is a dangerous thing. He fears neither pain nor death, most will run at the sight of him. 
+
+SY
+  LONG
+    > <columns>
+    % content/oc.sy.main.jpg main
+    > <h2>Sy Keon-Cross</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 21
+    - {*Gang*}: Tusky Bruisers
+    - {*Alignment*}: Chaotic evil
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Cis male</li>
+    - {*Family*}: Tim Keon & Harlow Cross
+    - {*Appearance*}: Dark hair. Face stuck in a state of perpetual anger, with eyebrows permanently arched over blue eyes. Mid-height, skinny but with a strong build. Tattoo of an inverted cross and serpent on the right shoulder. Wears loose t-shirts, old jeans, and tattered converse; often wears a cap.
+    > </columns>
+    > <hr/>
+    & Sy is known in the community, and gets along well enough with those in Tusky but not with anyone outside of this circle. Sy is often mixed in turf wars, between his city and those that share its border.
+    & Sy grew up with few rules, and little direction. Because of this he's always lived on his own terms.
+    & He has an explosive temper, it doesn't take much to set him off. He is callous, but honest and doesn't like to lie. Sy's lack of foresight never fails to get him into trouble, and because he fears little, he will boldly stand in the face of a menacing character.
+
+FENIX
+  LONG
+    > <columns>
+    % content/oc.fenix.main.jpg main
+    > <h2>Fenton 'Fenix' Drayer</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 19
+    - {*Alignment*}: Lawful neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Fenix has black hair with blue hues. He is very tall, and thin, with an athletic build, he's in great physical shape and does not tire easily. He bears a scar on half of his face, and covering his neck and shoulder on that same side.
+    > </columns>
+    > <hr/>
+    & Fenix says little of his past, even when asked, he will tell you it's of no interest. What is known, is that he has with Matrix for some time, and that his long service has granted him two Pokemon hybrids: Shargon and Swecleon.
+    & He is best known for the scout work he does for the organization, spying on targets, and retrieving them when necessary. A loyal soldier, he does not question commandments, and will do whatever is asked of him. Out of touch with his feelings, Fenix has difficulty befriending others, or doing activities that doesn't involve training. His room is perfectly ordered, as his every aspect of his life. He keeps everything in check, his words and his emotions too. 
+    & Fenix does enjoy the company of {{Musi}}, another Matrix employee. Although their relationship deteriorates greatly, when someone steps between them. Fenix then becomes cruel, and unhinged. 
+    & Pokemon Team: Daedalus (Houndoom), Donov (Scolipede), Monad (Xatu), Shargon (Sharpedo and Flygon hybrid) and Swecleon (Swellow and Kecleon hybrid) 
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.04.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.07.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.08.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.15.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.16.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.19.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.21.jpg" class='thumbnail lightbox'>
+    > </wr>
+    * Comics
+    & Fenix appeared in a {*{{PCBC Tournament|https://www.deviantart.com/mintenko/gallery/25599460/PCBC}}*} in 2010. And in {{this one|https://www.deviantart.com/zaifon/art/PCBC2-round-3-pg-5-168297538}} by {{Zaifon|http://www.twitter.com/za1f0n}}, where he gets his ass handed to him.
+
+KADDALI
+  LONG
+    > <columns>
+    % content/oc.kaddali.main.jpg main
+    > <h2>Kaddali</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Tall, blue-haired, red-eyed, pale-skinned.
+    > </columns>
+    > <hr/>
+    & Kaddali is the tinkerer of the group, one whose brain never seems to go off — not even in sleep. Kaddali, also known as "kidd", hates being indoors, preferring a contact with the sky and the earth, always. In fact, Kidd is very attuned with nature, constantly observing patterns in the living world and translating this into new creations. 
+    & Kidd believes in simplicity and sees possessions, extravagances and religion as obstacles to mental clarity.
+    > <wr>
+    >   <img src="media/content/oc.kiddkosmo2.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+SEIR
+  LONG
+    > <columns>
+    % content/oc.seir.main.jpg main
+    > <h2>Seir</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia
+    - {*Race*}: Hegata
+    - {*Alignment*}: Neutral evil
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Pansexual
+    - {*Appearance*}: Very tall, broad-shouldered, thin of waist and strong of body. Hair is dark, with a vivid blue hue. Lines on the face and body. Seir has sharp ears, and dark eyes.
+    > </columns>
+    > <hr/>
+    & He is the founder of the {*Ars Goetia*}, a rebel group composed of Hegatas. 
+    & Seir loves to defy others and to change the rules, he thrives on it, always looking for new ways to piss others off. Seir lives in luxury amongst humans, with multiple opulent houses scattered around town and the world. Mischievous, this creature loves to twist the minds and thoughts of humans.
+    > <wr>
+    >   <img src="media/content/circa/circa.07.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+YEGON
+  LONG
+    > <columns>
+    % content/oc.yegon.main.jpg main
+    > <h2>Yegon</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: irrelevant
+    - {*Gang*}: Ars Goetia, Solo Devs (former)
+    - {*Race*}: Hegata
+    - {*Alignment*}: Neutral evil
+    - {*Gender*}: One who changes
+    - {*Orientation*}: Pansexual
+    - {*Appearance*}: Red hair that stands on end, dark eyes with one missing. Face has other scars, including a band running horizontally across his face. 
+    > </columns>
+    > <hr/>
+    & Yegon is part of the {*Ars Goetia*}, he is one of {{Seir}}'s main grunts. Yegon's core can generate immense heat, and he dispenses of it through various means, like in the form of steam or fire.
+    & Yegon is a trickster, he likes to play games and has much difficulty being serious. He is a kind creature, but not all care for his tricks.
+
+BRU
+  LONG
+    > <columns>
+    % content/oc.bru.main.jpg main
+    > <h2>Gabrielle Bruyère</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 18
+    - {*Gang*}: Tusky Bruisers
+    - {*Alignment*}: -
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Short, hair shaved short on one side and bound into blonde locks on the other. 
+    > </columns>
+    > <hr/>
+
+CALEB
+  LONG
+    > <columns>
+    % content/oc.caleb.main.jpg main
+    > <h2>Caleb Espinosa</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 20
+    - {*Alignment*}: -
+    - {*Gender*}: Cisgender female
+    - {*Orientation*}: Gynesexual
+    - {*Appearance*}: Dark haired in a bowl cut, round glasses, very tall, thin torso, larger at the hips and thick-legged. Enjoys being barefoot.
+    > </columns>
+    > <hr/>
+    & Caleb is a clever and studious girl, she loves to absorb information and never seems to forget anything. She is {{Nemerald}}'s second hand and helps him run the clinic. She taught herself how to repair computers and electronics and speaks many languages. 
+    & She is Nemo's mentee and is learning to care for humans, she hopes to someday get into bio-hacking.
+    & Cal spends most of her time in the clinic, having little interest in those her age. Like Nemo, she is smart beyond her years.
+
+NEMERALD
+  LONG
+    > <columns>
+    % content/oc.nemerald.main.jpg main
+    > <h2>Nemerald Kozielec</h2>
+    - {*Story*}: {{Circa}}
+    - {*Age*}: 35
+    - {*Nickname*}: Nemo, Nemesis
+    - {*Alignment*}: True neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Demisexual
+    - {*Appearance*}: Nemerald is grey haired and purple-eyed. He is of short stature, not especially strong, but has a thick build. He wears glasses, but does not need them.
+    > </columns>
+    > <hr/>
+    & Nemerald is a physician and known supporter of the local Eidola and Hegata community. He has some standing amongst them, some seek his council when it comes to human dealings.
+    & Nemerald believes in science and is an avid bio-hacker. Not much is known of his past. Benevolent, he feels the need to teach others, but not all who come to learn return this kindness. 
+    & Nemerald possesses great knowledge, he can cure almost all that ails his patients. His clinic in downtown Montore is well-known. He employs a Hegata named Jak, and an assistant named {{Caleb}}. 
+
+MUSI
+  LONG
+    > <columns>
+    % content/oc.musi.main.jpg main
+    > <h2>Monty 'Musi' Quintero</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 23
+    - {*Alignment*}: True neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Bisexual
+    - Physical appearance: Musi has light, and long brown hair. He is of thick build, not especially muscular but would perform well enough in a fight. He dresses casually, a light blouse and shorts as well as a mariner's cap will do. Musi is 6'1, he has two birth marks under one eye.
+    > </columns>
+    > <hr/>
+    & Musi has always been a mariner, his family has always lived at sea. Growing up, they had no property, they always lived on the dock. His father Archie still travels on the ocean, while Musi stayed behind doing odd jobs for Matrix. Musi didn't intend on working for them, but he needed cash and the organization needed a skilled sailor to get their people on the offshore island of Goshin. He doesn't get involved in much of the happenings of Matrix, but does need to bring captives to the island, to his great displeasure. Musi doesn't like it, but doesn't do much against it either, it's just how it is. He considers himself lucky to be where he is.
+    & Of course, this all changes when he is permanently assigned to Goshin, and hired on as a full-time member given his skill with water types. Even when assigned sleeping quarters indoors, he goes back to sleep on his boat. Musi enjoys playing guitar on deck, and to sing, whether he's alone or in the company of others. He's a very relaxed guy, doesn't worry about much and finds good in everyone he meets. 
+    & Pokemon Team: Popeye (Wartortle)
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.20.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.11.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.06.jpg" class='thumbnail lightbox'>
+    > </wr>
+
+SHOCK
+  LONG
+    > <columns>
+    % content/oc.shock.main.jpg main
+    > <h2>Shane 'Shock' Evans</h2>
+    - {*Story*}: Goshin
+    - {*Age*}: 16</li>
+    - {*Alignment*}: Chaotic neutral
+    - {*Gender*}: Cis male
+    - {*Orientation*}: Asexual
+    - {*Appearance*}: Shane lost a front tooth during a violent altercation with {{Fenix}}, this gives him a childish look. His hair is grey, cut into a thick mohawk and shaved on the sides, his eyes at this same colour. Often seen wearing baggy bright-coloured pants, a white shirt with a black undershirt.
+    > </columns>
+    > <hr/>
+    & Shane was raised in Sunnyshore city, born in a wealthy family. The Evans operate a solar plant as well as a gym in town. His parents, Volitia and Elivire, are collectors of electric pokemon. He has two older siblings, brother Olliber and sister Bektra, they all train together, and never fail to make fun of Shane because he angers so very easily. 
+    & Shane goes under the name 'Shock' when away from home, and when mixed into Matrix affairs. He has been a trainee for many years, after his family started to sponsor Matrix, and also because he had nothing better to do with his time.
+    & Shane has never struggled in life, he's lived a very privileged existence. What he wants, he gets, and he expects this in others. He spends most of his time playing video games, first-person shooters, all while listening to happy hardcore with a bottle of pop in hand. He knows little of the real world, and is stuck in a state of perpetual childishness. Shane likes to fight. He enjoys the challenge, it's why he enjoys being in matrix, it's like being in an IRL game. He often fails to see the harm he inflicts on others.
+    & He prefers to be called by his Matrix name, and will hate anyone who fails in this.
+    & Pokemon team: Ladybird (Crobat), Mister Slim (Gastrodon), Captain Planet (Seedot), Lieutenant RayRay (Raichu), Kid Flash (Elekid) and Dr. Ohm (bronzor)
+    * Comics
+    & Shock appeared in {*{{PCBC Tournament|https://www.deviantart.com/mintenko/gallery/25599460/PCBC}}*} in 2010. The full tournament comics are on my old DA page.
+    & Shock's full intro comic: {{Page 1|http://kokorobot.ca/media/content/comic.pcbc.p1.jpg}} | {{Page 2|http://kokorobot.ca/media/content/comic.pcbc.p2.jpg}} | {{Page 3|http://kokorobot.ca/media/content/comic.pcbc.p3.jpg}}
+    > <wr>
+    >   <img src="media/content/goshin/story.goshin.06.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.09.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.10.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.12.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.22.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.23.jpg" class='thumbnail lightbox'>
+    >   <img src="media/content/goshin/story.goshin.24.jpg" class='thumbnail lightbox'>
+    > </wr>
+TOOLS
+  LONG
+    > <columns>
+    % interface/workstation.png main
+    > <p class='caption'>My writing work station</p>
+    & <h2>Writing</h2>
+    & These days, I've been writing as much as I've been drawing. I write using {{Left|https://hundredrabbits.itch.io/left}} on my {{Raspberry Pi|https://www.raspberrypi.org/}}.
+    - Raspberry Pi {{3B+|https://www.raspberrypi.org/}}
+    - Raspberry Pi {{Touch 7"|https://www.raspberrypi.org/products/raspberry-pi-touch-display/}}, 800x480
+    - SmartPi Touch 7" Case
+    - 32GB usb stick
+    - TADA68 mechanical keyboard
+    - Bluetooth mouse
+    > </columns>
+
+    > <columns>
+    % interface/workstation2.png main
+    > <p class='caption'>My drawing setup</p>
+    & <h2>Drawing</h2>
+    & My primary computer is an old 2010 macbook pro with the {{ElementaryOS|https://elementary.io/}} Linux operating system. I use ClipStudioEX (on {{Wine|https://www.winehq.org/}}) and {{Krita|https://krita.org/en}}. Otherwise, to sketch artwork, or to do simple works I draw on my Ipad 2 using autodesk sketchbook. 
+    - Wacom intuos 4 tablet
+    - Macbook Pro 2010
+    - Ipad 2
+    > </columns>
+
+QUOTES
+  LONG
+    > <columns>
+    & A collection of quotes, words to remember. I will gather all of the words from authors, artists or other, which I try to remember and that say a whole lot about my thinking and character.
+    @ At the heart of all beauty lies something inhuman | Albert Camus
+    @ a man misses something by not establishing a participative and living relationship with the non-human world of animals and plants, landscapes and stars and seasons. By failing to be, vicariously, the not-self, he fails to be completely himself. | Aldous Huxley
+    @ I'm a drifter. With no profound connection to my land, my ancestors, my culture my community, my gender, or my race. | Robert Moor | On trail
+    @ Do not despise anyone, refrain from any uncharitable judgements of others which you may feel in your heart and from any unkind suspicions regarding your neighbour, and always put the best interpretation on other people's words and actions | Unknown source
+    @ Try always to eliminate in yourself any wish to dominate others, do not seek glory or praise – this can lead to the ruin of your soul. Do not allow yourself to think that you possess particular virtues that are lacking in others. | Unknown source
+    @ You have power over your mind - not outside events. Realize this, and you will find strength. | Marcus Aurelius  
+    @ In the unification of two minds, orientation of sexuality is irrelevant. | Abhijit Naskar
+    @ We should indeed keep calm in the face of difference, and live our lives in a state of inclusion and wonder at the diversity of humanity. | George Takei
+    @ We really must understand that the lust for affluence in contemporary society is psychotic. It is psychotic because it has completely lost touch with reality. We crave things we neither need nor enjoy. | Richard Foster
+    @ Cultivate poverty like a garden herb, like sage. Do not trouble yourself much to get new things, whether clothes or friends. Things do not change, we change. Sell your clothes and keep your thoughts. | Henry David Thoreau
+    @ Besides the noble art of getting things done, there is the noble art of leaving things undone. The wisdom of life consists in the elimination of non-essentials. | Lin Yutang
+    > </columns>
+    > </wr>
+    > <hr/>
+
+LINKS
+  LONG
+    & A list of links to the blogs and websites of people that I admire.
+    * Artists and projects
+    - {{The sad ghost club|https://thesadghostclub.com/}}
+    - {{Matthew Forsythe|http://www.comingupforair.net}}
+    - {{Q Hayashida|http://qby9.squarespace.com/q-hayashida/}}
+    - {{Fran Krause|http://www.frankrause.com}}
+    - {{Etter studio|http://etterstudio.com}}
+    - {{Ko-op studio|http://www.ko-opmode.com}}
+    - {{Nina Freeman|http://ninasays.so}}
+    - {{Tale of tales|http://tale-of-tales.com}}
+    - {{Emily Carroll|http://emcarroll.com}}
+    - {{Kazu Kibuishi|https://www.boltcityproductions.com}}
+    - {{Hamlet Machine|http://starfightercomic.com}}
+    - {{Feminist sticker club|https://www.feministstickerclub.com}}
+    - {{Nervous system|https://n-e-r-v-o-u-s.com/}}
+    - {{Breadfruit Institute|https://ntbg.org/breadfruit/donate}}
+    - {{Bosun Bird|http://www.bosunbird.com}}
+    - {{Sunstone sailing|https://www.sunstonesailing.com/}}
+
+    * Friends
+    - {{Sailing with Bloom|http://sailingwithbloom.com/}}
+    - {{Tokyo by bike|http://www.tokyobybike.com}}
+    - {{Jours de papier|https://www.joursdepapier.com}}
+    - {{Cafe noir sans sucre|http://www.cafenoirsanssucre.com}}
+    - {{Cab|http://cabfolio.com}}
+    - {{Boumeries|http://boumeries.com}}
+    - {{Project entropy|http://project-entropy.com}}
+    - {{Genevieve FT|http://genevieveft.com}}
+    - {{Oil and sugar|http://atelieroilandsugar.com}}
+    - {{Juicy beast|http://juicybeast.com}}
+    - {{Double stallion|http://dblstallion.com}}
+    - {{Dom2d|http://www.dom2d.com}}
+    - {{Lexaloffle|http://www.lexaloffle.com}}
+    - {{Mathieu Beaulieu|http://mathieubeaulieu.com}}
+    - {{Bully bird|https://bullybird.weebly.com}}
+    - {{Valerie Bastille|http://valeriebastille.tumblr.com}}
+    - {{Vincent Desbiens|http://www.rayotecabane.com}}
+    - {{Marianne Vincent|http://www.mariannevincent.com}}
+    - {{Marie-emilie Rowe|http://www.marieemilierowe.com}}
+    - {{Frog shark|http://frogshark.com}}
+    - {{Tokyo Luv|https://tokyoluv.com}}
+    - {{Ideeez|https://ideeezportfolio.tumblr.com}}
+    > <hr/>
+
+
+COLLECTION
+  LONG
+    & Books, films and other things that I like.
+    - Death, the duck and the tulip by Wolf Erlbruch
+    - The red tree by Shaun Tan
+    - Ishmael by Daniel Quinn
+    - North into the night by Alvah Simon
+    - Ojingogo by Matthew Forsythe
+    - Walden by Thoreau
+    - Last chance to see- by Douglas Adams and Mark Cowardine
+    * Series
+    - Trigun
+    * Stand-up comedians
+    - Mae Martin
+    - Cameron Esposito
+    - Rhea Butcher
+    - DeAnne Smith
+    - Jen Brister
+    * Films
+    - The Breakfast Club
+    - Akira
+    - Mindgame
+    - Catsoup
+    - Nausicaa
+    - Redline
+    - Trava Fist Planet
+    - Summer Wars
+    - The Lost Boys
+    - Ginger Snaps
+    - Only Lovers Left Alive
+    - What we do in the Shadows
+    - Fright Night
+    - Kiki's Delivery Service
+    - Burn After Reading
+    - Return of the Living Dead
+    - Fargo
+    - Vampire hunter D
+    - 28 days Later
+    - Lost in Translation
+    * Artists
+    - Hiroaki Samura
+    - Q. Hayashida
+    - Junji Ito
+    - Gustave Dore
+    - Ernst Haeckel
+    - Matthew Forsythe
+    - Emily Caroll
+    - Kate Beaton
+    - Yoshitaka Amano
+    - Kazu Kibuishi
+    > <hr/>
+
+THINKING
+  LONG
+    & A collection or articles, on a variety of subjects.
+    * Resisting the attention economy
+    - {{How to do nothing|https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb}}, Jenny Odell, Medium.
+    - {{Walking|https://www.theatlantic.com/magazine/archive/1862/06/walking/304674/}}, Henry David Thoreau, The Atlantic.
+    * Technology
+    - {{What progress means|https://www.vox.com/the-highlight/2019/10/1/20887003/tech-technology-evolution-natural-inevitable-ethics}}
+    * Climate knowledge
+    - {{Indigenous tech|https://logicmag.io/nature/water-is-life-nick-estes-on-indigenous-technologies/}}
+    - {{The Origins of anti-litter campaigns|https://www.motherjones.com/politics/2006/05/origins-anti-litter-campaigns}}, Bradford Plumer, Mother Jones.
+    - {{Heated: for people who are pissed off about the climate crisis|https://heated.world/}}, Emily Atkins.
+    - {{Design life cycle|https://www.designlife-cycle.com}}, University of California, Davis, Department of Design.
+    * Drawing
+    - {{Tips for bgs|https://kotaku.com/tips-for-drawing-backgrounds-1759168924}}
+    - {{Manben|https://www.dailymotion.com/video/x72dy3c}}
+    * Gender
+    - {{In which I resolve one long-standing insecurity and propose another|http://agenderist.blogspot.com/2011/04/in-which-i-resolve-one-long-standing.html}}
+    * Nature
+    - {{Prey to a crocodile|http://www.aislingmagazine.com/aislingmagazine/articles/TAM30/ValPlumwood.html}}
+    * Design
+    - {{Everything in its place|https://www.raptitude.com/2011/02/everything-in-its-place-finally-and-forever/}}
+    - {{Pixel perfect handbook|https://ustwo.com/blog/the-ustwo-pixel-perfect-precision-handbook-3}}
+    * DIY
+    - {{Building a dinghy |http://www.woodenwidget.com/index.html}}
+    - {{The five hole pamphlet stitch|http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html}}
+    - {{Oat-gurt|http://www.laurapeill.com/2016/02/15/oat-yogurt/}}
+    - {{Insulating your boat|http://www.frugal-mariner.com/Insulating.html}}
+    - {{Non-toxic cleaning|http://www.bcoutdoorsmagazine.com/how-to-clean-your-boat-with-non-toxic-alternative-cleaners-that-dont-pollute}}
+    - {{Cheap watermaker plans|https://www.sail-world.com/Australia/DIY-–-The-Worlds-Cheapest-Watermaker/-33568?source=google}}
+
+BOOKS
+  LONG
+    & 2019 reading list
+    * Currently reading
+    - The Politics of Food - Marianne E. Lien & Brigitte Nerlich
+    - Made to break - Giles Slade
+    - Growing up absurd: problem of youth in the organized system - Paul Goodman
+    * Want to read
+    - Contemplation in a world of action - Thomas Merton
+    - Black Skin, White Masks - Franzt Fanon
+    - The ecology of freedom - Murray Bookchin
+    * Read this year
+    - The Genius of birds - Jennifer Ackerman
+    - Don't even think about it: why our brains are wired to ignore climate change - George Marshall
+    - Bartleby the Scrivener - Herman Melville
+    - How to do nothing: resisting the attention economy - Jenny Odell
+    - {{Walking|https://www.theatlantic.com/magazine/archive/1862/06/walking/304674/}} - Henry David Thoreau
+    - Persepolis — Marjane Satrapi
+    - The one-straw revolution - Masanobu Fukuoka
+    - On the road to Babadag - Andrzej Stasiuk
+    - Petit manuel de resistance contemporaine - Cyril Dion
+    - The dispossessed - Ursula Le Guin
+    - A letter to my 14-year-old self - Lyra Mckee
+    - The Twits - Roald Dahl
+    - DOMU - Katsuhiro Otomo 
+    - Akira collection - Katsuhiro Otomo
+    - The Definitive H.P Lovecraft: 67 tales of horror - H. P. Lovecraft
+    - The Te of Piglet - Benjamin Hoff
+    - Presence - Amy Cuddy
+    & 2018 reading list
+    - Undeniable: Evolution and the Science of Creation - Bill Nye
+    - Don Quixote - Cervantes
+    - A calendar of wisdom - Tolstoy
+    - Infinite jest - David Foster Wallace
+    - Dirk Holistic's Detective Agency - Douglas Adams
+    - Colorless Tsukuru Tazaki and His Years of Pilgrimage - Murakami Haruki
+    - Bird in a Cage - Rebecca Roher
+    - Queer: A Graphic History - Meg-John Barker
+    - Ishmael - Daniel Quinn
+    - Don't sleep, there are snakes - Daniel L. Everett
+    - On Trails - Robert Moor
+    - Seraffyn's Oriental Adventure - Lin Pardey
+    - Aesop's fables - Aesop
+    - The sixth extinction - Elizabeth Kolbert
+    - The Tao of Pooh - Benjamin Hoff
+    - On Food And Cooking - Harold McGee
+    - Death, the duck and the tulip - Wolf Erlbruch
+    - Animal Farm - George Orwell & Russel Baker
+    - Last Chance To See -Douglas Adams & Mark Carwardine
+    - The Arabian Nights - Anonymous
+    & 2017 reading list
+    - Flatland: Edwin Abbott
+    - Fourteen: A Daughter’s Memoir: Leslie Nack
+    - How Not To Die: Michael Greger
+    - How To Be a Woman: Caitlin Moran
+    - Solar lottery - Philip K. Dick
+    - Kokoro - Natsume Soseki
+    - North To The Night: Alvah Simon
+    - Storm tactics - Lin & Larry Pardey
+    - Walden - Henry David Thoreau
+    & 2016 reading list
+    - Smoke gets in your eyes - Caitlin Doughty
+    - Guns, Germs & Steel - Jared M. Diamond
+    - Box wine sailors - Amy McCullough
+    - The Circle - Dave Eggers
+    - Pictures From The Water Trade - John David Morley
+    & 2015 reading list 
+    - Through the Woods - Emily Caroll
+    - Essex County - Jeff Lemire
+    - This One Summer - Tamaki Mariko
+    - I kill giants - Ken Niimura
+    - The Underwater Welder - Jeff Lemire
+    - Koko be good - Jen Wang
+
+`

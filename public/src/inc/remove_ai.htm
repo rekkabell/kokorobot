@@ -1,0 +1,108 @@
+<p><b>2025.11.22</b>. Sadly, everytime a company adds AI features to their tools they do so automatically and without letting people opt-out by default. And so it is necessary to exorcize AI features out of the tools that we use ourselves by following these instructions:</p>
+
+<ul>
+	<li><a href='#ublockorigin'>uBlockOrigin</a></li>
+	<li><a href='#firefox'>Firefox</a></li>
+	<li><a href='#gmail'>Gmail</a></li>
+	<li><a href='#google'>Google</a></li>
+	<li><a href='#duckduckgo'>DuckDuckGo</a></li>
+	<li><a href='#github'>Github</a></li>
+	<li><a href='#youtube'>Youtube</a></li>
+</ul>
+
+<h2><a id='ublockorigin'>UBlockOrigin</a></h2>
+
+<p><a href="https://ublockorigin.com/" target="_blank">uBlockOrigin</a> is a free, open source ad content blocker. I've been using it as an add-on on Firefox for many years.</p>
+
+<p>Consider adding this extension to your browser so that in turn you can add this <a href="https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist?tab=readme-ov-file" target="_blank">AI blocklist</a> with 1000+ websites of AI-generated content to it.</p>
+
+<h2><a id='firefox'>Firefox</a></h2>
+
+<p>Doing the following will remove hot AI garbage such as <i>Smart Tab Grouping</i>, <i>automatic tab naming</i>, and an optional <i>AI chatbot</i> in the sidebar.</p>
+
+<p>Type <b>about:config</b> in the address bar, press enter and accept the warning.</p>
+
+<p>Search for(separately) and set the following entries to false:</p>
+
+<p><b>browser.tabs.groups.smart.enabled</b><br><b>browser.ml.chat.enabled</b></p>
+
+<p>Type <b>about:addons</b> in the address bar, on the left side menu click on <b>On-Device AI</b> and remove downloaded models(if any), and disable automatic updates.</p>
+
+<h2><a id='gmail'>Gmail</a></h2>
+
+<p>The first step is to open Gmail in the browser.</p>
+
+<p>Then click on the <b>Gear Settings Icon(⚙️)</b> in the upper right corner of the page.</p>
+
+<p>In the <b>General Tab</b>, scroll down to <b>Smart Features</b> and UNCHECK THE BOX(halfway down).</p>
+
+<p>Then, right below that is yet another monstrosity: <b>Google Workspace smart features</b>. Click on <b>Manage Workspace Smart Features</b> and make sure both accursed toggles are turned OFF.</p>
+
+<p><b>WARNING!</b> It is worth mentioning that doing this will turn off automatic email filtering and lump in your emails together in your main inbox(I was told it shouldn't happen if you made those labels yourself). Turning off the above settings will also prevent Gmail events from being synced to your Google Calendar(events are pulled from your emails and put on your calendar automatically.</p>
+
+<p>Consider moving away from Google services by switching to other mail services like Startmail, Migadu(that's what I use) or Posteo.</p>
+
+<h2><a id='google'>Google</a></h2>
+
+<p>When using Google as a search engine you will get AI Overviews showing up first. There is no way to disable it permanently when making searches from the google.com homepage, but there are ways to bypass it:</p>
+
+<p><b>By using web search</b>. On the Google search engine homepage make a search and then select <b>Web</b> from the tabs below the search bar. If you can't see it there, click on <b>“More”</b> in the search menu and select <b>Web</b> so you only get website results. (<i>Evidently, this option still sucks because you have to view their damned overview before turning it off.</i>)</p>
+
+<p><b>Bypass it using your web browser</b>. It's possible to bypass Google's AI overviews via your web browser by going into the browser's search settings and creating a new entry which will tell Google to only give you classic web results(using <b>&udm=14</b>).</p>
+
+<p>To do this in Firefox, type:</p>
+	
+<p><b>about:preferences#search</b> in the address bar.</p>
+
+<p>In the <b>Search shortcuts</b> section, disable Google, then <b>ADD</b> a new browser with the following settings:</p>
+
+<pre>Search engine name: Google (web)
+URL: https://www.google.com/search?q=%s&udm=14
+Keyword: Google (web)
+</pre>
+
+<p>When you want to make searches using Google via Firefox, select the desired search engine in the address bar's dropdown menu(left side). It'll now say "Google (web)"(the entry you created) in the search bar on the left.
+
+<p><b>Disable trending searches</b></p>
+
+<p>While on the Google search engine homepage, click on <b>Settings</b> in the lower righthand side of the window, and then select <b>Search Settings</b>.</p>
+
+<p>Select <b>Privacy & Safety</b> and under <b>Content</b> turn <b>Search personalization</b> OFF.</p>
+
+<p>Again in <b>Search settings</b>, on the left side menu click on <b>Other settings</b> and disable <b>Autocomplete with trending searches</b>.</p>
+
+<p>Evidently, using alternatives to Google would be best, but I too sometimes find myself using it(when I don't get results from DuckDuckGo). At least with these settings, I won't be bothered by any AI nonsense.</p>
+
+<p>One day I might just give up and browse the yester-web(pre-2022 internet) via Wayback Machine, or take refuge in Gopher, or Gemini(the internet protocol. I hate that Google also took over this name for their AI agent). A great alternative and my personal favorite is <a href="https://wiby.me" target="_blank">Wiby</a>, a search engine that indexes lightweight webpages based on a subject of interest, reminiscent of the old web.</p>
+
+<h2><a id='duckduckgo'>DuckDuckGo</a></h2>
+
+<p>For web searches, it's possible to use the <a href="https://html.duckduckgo.com/html/" target="_blank">HTML-only DDG</a>, and the <a href="https://noai.duckduckgo.com/" target="_blank">NO AI version of DDG</a>. You can add these to Firefox by adding them to your search settings(by typing <b>about:preferences#search</b> in the address bar and adding the browsers under Search Shortcuts). Thank you to Andnull and Mer-fOKxTOwl on Fedi for these suggestions, and for the uBlockOrigin AI blocklist.</p>
+
+<p>If you want to stick to the original DDG, modify it by going to <b>Settings</b> <b>AI Features</b>, then:</p>
+
+<p>Turn off <b>Duck.ai</b><br>Set <b>Search Assist</b> to NEVER in the dropdown menu<br>Turn <b>Hide AI-generated images</b> ON</p>
+
+<p>Click on <b>Save And Exit</b> and refresh the page before making a new search.</p>
+
+<h2><a id='github'>Github</a></h2>
+
+<p>Github's AI tool is called Copilot. You may have noticed that Github now has a pesky "Ask anything" section that appears in your account page, to get rid of it click on your avatar image on the top right of the screen and click on <b>Copilot settings</b>.</p>
+
+<p>Under a section called <b>Visibility</b> is an option called <b>Show Copilot</b>, setting it to DISABLED will hide Copilot features.</p>
+
+<h2><a id='youtube'>Youtube</a></h2>
+
+<!-- <p>First off, this is unrelated to AI, but for your well-being I do recommend installing Untrap, an add-on for YouTube. I've stripped it all the way down, my homepage is just a search bar, settings, my avatar, and few links in the left side bar and it is... effing glorious. My Youtube experience is so much better for it. Nothing shows up unless <i>I</i> look for it.</p> -->
+
+<p>Unfortunately, there doesn't seem to be an option that disables AI features globally for Youtube... yet. There doesn't seem to be a way to get those annoying and often innacurate AI summaries to go away either(no more than choosing not to expand the tabs), but here are things that you <i>can</i> do:</p>
+
+<p><b>Youtube Studio AI Features(for creators)</b>
+
+<p>If you have a YouTube creator account, while in <b>YouTube Studio</b> click on <b>Settings</b>, then on <b>Channel</b>, then click on the <b>Advanced Settings Tab</b>. Scroll down and uncheck anything under <b>Video Quality Enhancements</b> and under <b>Third party training</b> uncheck the box that allows them to train their AI model on your videos.</p>
+
+<p><b>Turn off auto-dubbing</b></p>
+
+<p>I don't have any auto-dubbing as an option on my account yet, but it's coming(I got an email about it). For those who have it, to disable auto-dubbing on long videos, click on the <b>Gear Icon ⚙️</b>(or 3 dots for phone users) on the top righthand corner of the video screen, select <b>Audio track</b> and select <b>Original audio track</b>.</p>
+
+<p>For those who use <b>YouTube studio</b>, click on <b>Settings</b>, then on <b>Channel</b>, then click on the <b>Advanced Settings Tab</b>, scroll down and uncheck the box under <b>Auto-dubbing</b>.</p>
