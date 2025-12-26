@@ -33,7 +33,18 @@
 
 <p>Consider adding this extension to your browser so that in turn you can add this <a href="https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist?tab=readme-ov-file" target="_blank">AI blocklist</a> with 1000+ websites of AI-generated content to it.</p>
 
+<p>To help reduce the noise on Youtube, add the following filters to UBlockOrigin, note that some of these are bit destructive, but it is well worth it (thank you Klardotsh for the pointers!):</p>
+
+<ul>
+	<li><i>youtube.com###expandable-metadata:has-text("AI-generated video summary")</i></li>
+	<li><i>youtube.com###teaser-carousel</i></li>
+</ul>
+
+<p>To add filters, click on the UBlockOrigin extension icon on your nav bar, click on the gears (Open the Dashboard), go to the My Filters tab, copy and paste the above lines into it, and click Apply Changes.</p>
+
 <h2><a id='firefox'>Firefox</a></h2>
+
+<p><b>Update</b>: In all, given the <a href="https://www.windowscentral.com/software-apps/mozilla-says-firefox-will-evolve-into-an-ai-browser-and-nobody-is-happy-about-it-ive-never-seen-a-company-so-astoundingly-out-of-touch" target="_blank">recent news</a>, it is better to look elsewhere if you want to not have to deal with AI features on Firefox. I certainly do not trust them anymore. Luckily, there are many alternatives, such as as forks of Firefox like <a href="https://www.waterfox.com/" target="_blank">Waterfox</a>(see their <a href="https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/" target="_blank">statement</a> on AI) and <a href="https://librewolf.net/" target="_blank">Librewolf</a>, and other browsers like <a href="https://floorp.app/en-US" target="_blank">Floorp</a>.</p>
 
 <p>Doing the following will remove hot AI garbage such as <i>Smart Tab Grouping</i>, <i>automatic tab naming</i>, and an optional <i>AI chatbot</i> in the sidebar.</p>
 
@@ -108,6 +119,8 @@ Keyword: Google (web)
 
 <p>Under a section called <b>Visibility</b> is an option called <b>Show Copilot</b>, setting it to DISABLED will hide Copilot features.</p>
 
+<p>There are other alternatives to Github if you want to avoid Microsoft altogether, like Sourcehut and Codeberg.</p>
+
 <h2><a id='youtube'>Youtube</a></h2>
 
 <!-- <p>First off, this is unrelated to AI, but for your well-being I do recommend installing Untrap, an add-on for YouTube. I've stripped it all the way down, my homepage is just a search bar, settings, my avatar, and few links in the left side bar and it is... effing glorious. My Youtube experience is so much better for it. Nothing shows up unless <i>I</i> look for it.</p> -->
@@ -124,5 +137,15 @@ Keyword: Google (web)
 
 <p>For those who use <b>YouTube studio</b>, click on <b>Settings</b>, then on <b>Channel</b>, then click on the <b>Advanced Settings Tab</b>, scroll down and uncheck the box under <b>Auto-dubbing</b>.</p>
 
-</main><footer><span style='float:right'>Edited on Mon Nov 24 17:08:28 2025
+<p><b>Useful YouTube extensions</b></p>
+
+<p>Try, <a href="https://sponsor.ajay.app/" target="_blank">Sponsor Block</a>, an open-source crowdsourced browser extension and open API for skipping sponsor segments in YouTube videos.</p>
+
+<p><a href="https://dearrow.ajay.app/" target="_blank">DeArrow</a>, an open source browser extension for crowdsourcing better titles and thumbnails on YouTube to make titles accurate and reduce sensationalism/clickbait.</p>
+
+<p><a href="https://unhook.app/">Unhook</a>, an extension that blocks suggestion feeds, comments, and more.</a>
+
+<p><i>Above extension suggestions courtesy of Klardotsh.</i></p>
+
+</main><footer><span style='float:right'>Edited on Thu Dec 18 17:08:57 2025
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/remove_ai.htm'>[edit]</a><br/></span><b>Rek Bell</b> © 2011-2025 <a href='http://webring.xxiivv.com/#random'>[Webring]</a> <a href='https://merveilles.town/@rek'>[Masto]</a> <a href='politics.html'>[Politics]</a> <a href='links.html'>[Links]</a> — <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'>BY-NC-SA 4.0</a></footer></body></html>

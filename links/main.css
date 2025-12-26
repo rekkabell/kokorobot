@@ -36,6 +36,10 @@ ul.nobull li {list-style-type: none}
 .note_la {background-color: #0088bf}
 .note_si {background-color: #624579}
 
+.container {background-color: rgb(192, 192, 192);width: 80%;border-radius: 5px; margin-bottom: 20px}
+.bar {background-color: tomato;color: white;padding: 1%;text-align: right;font-size: 20px;border-radius: 5px;}
+.progress {width: 80%;}
+
 ul { margin:0px 0px 30px 0px; }
 .col2 { columns: 2 }
 
