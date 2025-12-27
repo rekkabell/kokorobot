@@ -15,32 +15,13 @@ header ul {padding: 15px;}
 header ul li {display:inline-block; width: 140px; line-height: 30px}
 header ul li img {width: 100%; height: auto;}
 
-links-list {display: block;columns: auto 30ch;}
-links-item {display: block;padding-bottom: 1rem;break-inside: avoid;}
-links-item p {display: block;break-inside: avoid;margin: 0;border: 2px dotted;border-radius: 15px;padding: 0.6em 1em 0.8em;}
-
 .gridprojects {list-style-type: none;width: 100%;display: grid;grid-template-columns: repeat(4, 1fr);}
 .projects {box-sizing: border-box;padding: 5px;margin: 0;}
 .projects p {font-size: 14px}
 .projects h3 {font-size: 18px}
 
-ul.gallery li {display:inline-block; width: 400px; line-height: 30px}
-ul.gallery li img {width: 100%; }
-ul.nobull li {list-style-type: none}
-
-.note_do {background-color: #c40233}
-.note_re {background-color: #e16b1a}
-.note_mi {background-color: #eac100}
-.note_fa {background-color: #00a368}
-.note_sol {background-color: #00b2b0}
-.note_la {background-color: #0088bf}
-.note_si {background-color: #624579}
-
-.container {background-color: rgb(192, 192, 192);width: 80%;border-radius: 5px; margin-bottom: 20px}
-.bar {background-color: tomato;color: white;padding: 1%;text-align: right;font-size: 20px;border-radius: 5px;}
-.progress {width: 80%;}
-
 ul { margin:0px 0px 30px 0px; }
+ul.nobull li {list-style-type: none}
 .col2 { columns: 2 }
 
 main {padding: 30px;max-width: 700px;margin: 0 auto;}
