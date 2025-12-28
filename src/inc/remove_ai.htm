@@ -20,12 +20,20 @@
 
 <p>To help reduce the noise on Youtube, add the following filters to UBlockOrigin, note that some of these are bit destructive, but it is well worth it (thank you Klardotsh for the pointers!):</p>
 
-<ul>
-	<li><i>youtube.com###expandable-metadata:has-text("AI-generated video summary")</i></li>
-	<li><i>youtube.com###teaser-carousel</i></li>
-</ul>
+<pre>
+www.youtube.com###expandable-metadata > .ytd-watch-flexy.style-scope:has(#expanded-title:has-text(/AI-generated video summary/))
+www.youtube.com###teaser-carousel
+</pre>
 
-<p>To add filters, click on the UBlockOrigin extension icon on your nav bar, click on the gears (Open the Dashboard), go to the My Filters tab, copy and paste the above lines into it, and click Apply Changes.</p>
+<p>To add filters:</p>
+
+<ol>
+	<li>Click on the UBlockOrigin extension icon on your browser's nav bar.</li>
+	<li>Click on the gears (Open the Dashboard)</li>
+	<li>Go to the My Filters tab, copy and paste the above lines into it, and click Apply Changes.</li>
+</ol>
+
+<p>For other great Youtube filters, to remove shorts and other annoying features, check out <a href="https://kb.hbenjamin.com/ublock-origin-filters/" target="_blank">this list</a> by hbenjamin.</p>
 
 <h2><a id='firefox'>Firefox</a></h2>
 
@@ -33,25 +41,24 @@
 
 <p>Doing the following will remove hot AI garbage such as <i>Smart Tab Grouping</i>, <i>automatic tab naming</i>, and an optional <i>AI chatbot</i> in the sidebar.</p>
 
-<p>Type <b>about:config</b> in the address bar, press enter and accept the warning.</p>
-
-<p>Search for(separately) and set the following entries to false:</p>
-
-<p><b>browser.tabs.groups.smart.enabled</b><br><b>browser.ml.chat.enabled</b></p>
-
-<p>Type <b>about:addons</b> in the address bar, on the left side menu click on <b>On-Device AI</b> and remove downloaded models(if any), and disable automatic updates.</p>
+<ol>
+	<li>Type <b>about:config</b> in the address bar, press enter and accept the warning.</li>
+	<li>Search for(separately) and set the following entries to false:<br>
+	<b>browser.tabs.groups.smart.enabled</b><br><b>browser.ml.chat.enabled</b></li>
+	<li>Type <b>about:addons</b> in the address bar.</li>
+	<li>On the left side menu click on <b>On-Device AI</b> and remove downloaded models(if any), and disable automatic updates.</li>
+</ol>
 
 <h2><a id='gmail'>Gmail</a></h2>
 
-<p>The first step is to open Gmail in the browser.</p>
+<ol>
+	<li>The first step is to open Gmail in the browser.</li>
+	<li>lick on the <b>Gear Settings Icon(⚙️)</b> in the upper right corner of the page.</li>
+	<li>In the <b>General Tab</b>, scroll down to <b>Smart Features</b> and UNCHECK THE BOX(halfway down).</li>
+	<li>Then, right below that is yet another monstrosity: <b>Google Workspace smart features</b>. Click on <b>Manage Workspace Smart Features</b> and make sure both accursed toggles are turned OFF.</li>
+</ol>
 
-<p>Then click on the <b>Gear Settings Icon(⚙️)</b> in the upper right corner of the page.</p>
-
-<p>In the <b>General Tab</b>, scroll down to <b>Smart Features</b> and UNCHECK THE BOX(halfway down).</p>
-
-<p>Then, right below that is yet another monstrosity: <b>Google Workspace smart features</b>. Click on <b>Manage Workspace Smart Features</b> and make sure both accursed toggles are turned OFF.</p>
-
-<p><b>WARNING!</b> It is worth mentioning that doing this will turn off automatic email filtering and lump in your emails together in your main inbox(I was told it shouldn't happen if you made those labels yourself). Turning off the above settings will also prevent Gmail events from being synced to your Google Calendar(events are pulled from your emails and put on your calendar automatically.</p>
+<p><b><u>WARNING!</u></b> It is worth mentioning that doing this will turn off automatic email filtering and lump in your emails together in your main inbox(I was told it shouldn't happen if you made those labels yourself). Turning off the above settings will also prevent Gmail events from being synced to your Google Calendar(events are pulled from your emails and put on your calendar automatically.</p>
 
 <p>Consider moving away from Google services by switching to other mail services like Startmail, Migadu(that's what I use) or Posteo.</p>
 
@@ -78,11 +85,14 @@ Keyword: Google (web)
 
 <p><b>Disable trending searches</b></p>
 
-<p>While on the Google search engine homepage, click on <b>Settings</b> in the lower righthand side of the window, and then select <b>Search Settings</b>.</p>
-
-<p>Select <b>Privacy & Safety</b> and under <b>Content</b> turn <b>Search personalization</b> OFF.</p>
-
-<p>Again in <b>Search settings</b>, on the left side menu click on <b>Other settings</b> and disable <b>Autocomplete with trending searches</b>.</p>
+<ol>
+	<li>While on the Google search engine homepage, click on <b>Settings</b> in the lower righthand side of the window.</li>
+	<li>Select <b>Search Settings</b>.</li>
+	<li>Select <b>Privacy & Safety</b>.</li>
+	<li>Under <b>Content</b> turn <b>Search personalization</b> OFF.</li>
+	<li>Again in <b>Search settings</b>, on the left side menu click on <b>Other settings</b>.</li>
+	<li>Disable <b>Autocomplete with trending searches</b>.</li>
+</ol>
 
 <p>Evidently, using alternatives to Google would be best, but I too sometimes find myself using it(when I don't get results from DuckDuckGo). At least with these settings, I won't be bothered by any AI nonsense.</p>
 
@@ -92,11 +102,15 @@ Keyword: Google (web)
 
 <p>For web searches, it's possible to use the <a href="https://html.duckduckgo.com/html/" target="_blank">HTML-only DDG</a>, and the <a href="https://noai.duckduckgo.com/" target="_blank">NO AI version of DDG</a>. You can add these to Firefox by adding them to your search settings(by typing <b>about:preferences#search</b> in the address bar and adding the browsers under Search Shortcuts). Thank you to Andnull and Mer-fOKxTOwl on Fedi for these suggestions, and for the uBlockOrigin AI blocklist.</p>
 
-<p>If you want to stick to the original DDG, modify it by going to <b>Settings</b> <b>AI Features</b>, then:</p>
+<p>If you want to stick to the original DDG, modify it by...</p>
 
-<p>Turn off <b>Duck.ai</b><br>Set <b>Search Assist</b> to NEVER in the dropdown menu<br>Turn <b>Hide AI-generated images</b> ON</p>
-
-<p>Click on <b>Save And Exit</b> and refresh the page before making a new search.</p>
+<ol>
+	<li>Going to <b>Settings</b> <b>AI Features</b>.</li>
+	<li>Turn off <b>Duck.ai</b>.</li>
+	<li>Set <b>Search Assist</b> to NEVER in the dropdown menu.</li>
+	<li>Turn <b>Hide AI-generated images</b> ON</li>
+	<li>Click on <b>Save And Exit</b> and refresh the page before making a new search.</li>
+</ol>
 
 <h2><a id='github'>Github</a></h2>
 
