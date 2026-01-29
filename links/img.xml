@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
 <title>Kokorobot</title>
 <link>https://kokorobot.ca/</link>
 <description>Rek's image feed</description>
-
 <item>
 <title>260129</title>
 <link>https://kokorobot.ca/media/content/goblin_jens.jpg</link>
@@ -14,7 +14,6 @@
 </description>
 <pubDate>Thu, 29 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260128</title>
 <link>https://kokorobot.ca/media/content/goblin_ulfur.jpg</link>
@@ -25,7 +24,6 @@
 </description>
 <pubDate>Wed, 28 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260127</title>
 <link>https://kokorobot.ca/media/content/goblin_snorri.jpg</link>
@@ -36,7 +34,6 @@
 </description>
 <pubDate>Tue, 27 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260126</title>
 <link>https://kokorobot.ca/media/content/goblin_fannar.jpg</link>
@@ -47,7 +44,6 @@
 </description>
 <pubDate>Mon, 26 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260125</title>
 <link>https://kokorobot.ca/media/content/goblin_ulfur.jpg</link>
@@ -58,7 +54,6 @@
 </description>
 <pubDate>Sun, 25 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260118</title>
 <link>https://kokorobot.ca/media/content/crea_wox.jpg</link>
@@ -69,7 +64,6 @@
 </description>
 <pubDate>Sun, 18 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 <item>
 <title>260117</title>
 <link>https://kokorobot.ca/media/content/pr_wiz.jpg</link>
@@ -80,6 +74,5 @@
 </description>
 <pubDate>Sat, 17 Jan 2026 12:00:00 -0000</pubDate>
 </item>
-
 </channel>
 </rss>
