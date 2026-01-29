@@ -5,6 +5,17 @@
 <description>Rek's image feed</description>
 
 <item>
+<title>260129</title>
+<link>https://kokorobot.ca/media/content/goblin_jens.jpg</link>
+<description>
+<![CDATA[
+<img src="https://kokorobot.ca/media/content/goblin_jens.jpg">
+<p>Fifth <a href="https://kokorobot.ca/site/goblins.html">goblin</a> Jens.</p>]]>
+</description>
+<pubDate>Thu, 29 Jan 2026 12:00:00 -0000</pubDate>
+</item>
+
+<item>
 <title>260128</title>
 <link>https://kokorobot.ca/media/content/goblin_ulfur.jpg</link>
 <description>
@@ -52,7 +63,7 @@
 <title>260118</title>
 <link>https://kokorobot.ca/media/content/crea_wox.jpg</link>
 <description>
-<![CDATA[
+<![CDATA[ 
 <img src="https://kokorobot.ca/media/content/crea_wox.jpg">
 <p>Kind of a wolf.</p>]]>
 </description>
