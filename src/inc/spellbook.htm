@@ -5,6 +5,7 @@
 <p>All of these are linux commands(I use Manjaro i3):</p>
 
 <ul>
+    <li><a href='#vlcissues'>VLC issues</li>
     <li><a href='#wireguard'>Using Wireguard</li>
     <li><a href='#unzip'>Export Layers as Files in Gimp using Unzip</li>
     <li><a href='#grep'>Grep (search within text files)</li>
@@ -63,6 +64,13 @@
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
     <li><b>rm -rf dir-name</b>, delete a directory that is not empty</li>
 </ul>
+
+<h3><a id='vlcissues'>VLC issues</a></h3>
+
+<p>Upstream Arch Linux has split VLC into multiple subpackages, with each providing the plugin to support a specific stream. As a result, I encountered issues with subtitles, video and audio. A general solution to most VLC problems is to install the following package:</p>
+
+<pre>
+sudo pacman -S vlc-plugins-all</pre>
 
 <h3><a id='wireguard'>Using Wireguard</a></h3>
 
