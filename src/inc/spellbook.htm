@@ -548,11 +548,23 @@ pandoc doc_name.md -o doc_name.html
 
 <h3><a id='nasuhex'>Copying hexadecimal code from Nasu or Noodle</a></h3>
 
-<p>Select the sprite in <a href='https://hundredrabbits.itch.io/nasu' target='_blank'>Nasu</a> or <a href='https://hundredrabbits.itch.io/noodle' target='_blank'>Noodle</a>, then <b>ctrl+c</b>. Open a terminal window, and navigate to the folder where the file is located. Type:</p>
+<p>Select the sprite in <a href='https://hundredrabbits.itch.io/nasu' target='_blank'>Nasu</a>, then <b>ctrl+c</b>. Open a terminal window, and navigate to the folder where the file is located. Type:</p>
 
 <pre>hx .snarf</pre>
 
 <p>Copy the text from the terminal <b>ctrl+option+c</b> and paste it where you want</p>
+
+<p>Open the .tga file in <a href='https://hundredrabbits.itch.io/noodle' target='_blank'>Noodle</a>. Save it as an .icn file. Then:</p>
+
+<pre>hx path/to/file.icn</pre>
+
+<p>Copy and paste into text file of project.</p>
+
+<!-- <p> If the goal is to paste it into a <a href='https://hundredrabbits.itch.io/left' target='_blank'>Left</a> file:</p>
+
+<pre>cat > .snarf</pre> -->
+
+<p>Then paste it into the <a href='https://hundredrabbits.itch.io/left' target='_blank'>Left</a> project file.</p>
 
 <h3><a id='time'>Changing the computer's time/timezone</a></h3>
 
