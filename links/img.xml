@@ -4,17 +4,43 @@
 <title>Kokorobot</title>
 <link>https://kokorobot.ca/</link>
 <description>Rek's image feed</description>
+
 <item>
-<title>260420</title>
+<title>260414</title>
+<link>https://kokorobot.ca/media/content/sketch/buildonce.jpg</link>
+<description>
+<![CDATA[
+<a href="../media/content/sketch/buildonce.jpg"><img src="../media/content/sketch/buildonce.jpg" loading="lazy"></a>
+<h3>20260414</h3>
+<p>Build snek once, run snek everywhere.</p>]]>
+</description>
+<pubDate>Tue, 14 Apr 2026 12:00:00 -0000</pubDate>
+</item>
+
+<item>
+<title>260409</title>
+<link>https://kokorobot.ca/media/content/sketch/hakump10.jpg</link>
+<description>
+<![CDATA[
+<a href="../media/content/sketch/hakump10.jpg"><img src="../media/content/sketch/hakump10.jpg" loading="lazy"></a>
+<h3>20260409</h3>
+<p>Finished page 9 and 10 in my sketchbook :>.</p>]]>
+</description>
+<pubDate>Thu, 09 Apr 2026 12:00:00 -0000</pubDate>
+</item>
+
+<item>
+<title>260320</title>
 <link>https://kokorobot.ca/media/content/sketch/hakumprev.jpg</link>
 <description>
 <![CDATA[
 <a href="../media/content/sketch/hakumprev.jpg"><img src="../media/content/sketch/hakumprev.jpg" loading="lazy"></a>
-<h3>20260420</h3>
+<h3>20260320</h3>
 <p>Working on a new <a href="../site/hakum.html">Hakum</a> page.</p>]]>
 </description>
 <pubDate>Fri, 20 Mar 2026 12:00:00 -0000</pubDate>
 </item>
+
 <item>
 <title>260313</title>
 <link>https://kokorobot.ca/media/content/sketch/100r_feb26.jpg</link>
