@@ -197,7 +197,7 @@ build(FILE *f, Lexicon *l, char *name, char *srcpath)
 	/* footer */
 	fputs("<footer>", f);
 	fpedited(f, srcpath);
-	fputs("<b>Rek Bell</b> © 2011-2026 <a href='" LICENSE "' target='_blank'> [BY-NC-SA 4.0]</a>", f);
+	fputs("<b><a href='../site/rek.html'>Rek Bell</a></b> © 2011-2026 <a href='" LICENSE "' target='_blank'> [BY-NC-SA 4.0]</a>", f);
 	fputs(" <a href='https://merveilles.town/@rek'><img src='../media/interface/links/merveilles.png' height='25'></a> <a href='http://webring.xxiivv.com/#random'><img src='../media/interface/links/rotonde.png' height='25'></a> <map name='noaimini8'><area href='https://baccyflap.com/noai' shape='rect' coords='20,0,67,30' target='_blank'><area href='https://baccyflap.com/noai/?prv&s=kok' target='_top' shape='rect' coords='0,7,18,23' alt='previous' title='previous'><area href='https://baccyflap.com/noai/?nxt&s=kok' target='_top' shape='rect' coords='69,7,87,23' alt='next' title='next'></map><img src='https://baccyflap.com/noai/miniwidget8.gif' style='filter: grayscale(100%)' height='28' usemap='#noaimini8'>", f);
 	fputs("</footer>", f);
 	/* end */
