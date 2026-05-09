@@ -72,13 +72,13 @@
 
 <p>To remove the i3wm info on desktop after a fresh install, navigate to...</p>
 
-<pre>cd etc/skel/i3/</pre>
+<pre>cd etc/i3/</pre>
 
 <p>Then:</p>
 
 <pre>mousepad config</pre>
 
-<p>Put a hash in front of <i>exec --no-startup-id start_conky_maia</i>.</p>
+<p>Comment out <i>exec --no-startup-id start_conky_maia</i>.</p>
 
 <p>To remove certain information from appearing in the systray, navigate to:</p>
 
@@ -88,7 +88,7 @@
 
 <pre>mousepad i3status.conf</pre>
 
-<p>Remove desired information, I personally remove all mentions of "ipv6", "wireless" and "ethernet"</p>
+<p>Comment out desired information, I personally remove all mentions of "ipv6", "wireless" and "ethernet"</p>
 
 <p>If having issues with pulseaudio, first go into applications>preferences>Manjaro Settings Manager> Hardware Configuration. Try auto-install proprietary drivers. Sound works with broadcom-wl. Then try...</p>
 
