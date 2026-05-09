@@ -105,7 +105,7 @@
 
 <pre>mousepad i3status.conf</pre>
 
-<p>Remove desired information, I personally remove all mentions of "ipv6", "wireless" and "ethernet"</p>
+<p>Comment out desired information, I personally remove all mentions of "ipv6", "wireless" and "ethernet"</p>
 
 <p>If having issues with pulseaudio, first go into applications>preferences>Manjaro Settings Manager> Hardware Configuration. Try auto-install proprietary drivers. Sound works with broadcom-wl. Then try...</p>
 
@@ -301,15 +301,23 @@ ______________________________
 
 <p>If you accept the defaults, the public key will be written to ~/.ssh/id_rsa.pub and the private key to ~/.ssh/id_rsa.</p>
 
-<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github.</p>
+<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github. If </p>
 
 <p>Configure git:</p>
 
+<p>To set up an email for every repository on your machine:</p>
+
 <pre>git config --global user.email "you@youremail.com"</pre>
+
+<p>Or, for an individual repository:</p>
+
+<pre>git config user.email "YOUR_EMAIL"</pre>
 
 <p>Verify that your identity was added, the command should return the email address you previously entered:</p>
 
-<pre>git config --global user.email</pre>
+<pre>git config --global user.email
+or
+git config --global user.email</pre>
 
 <p>Generating a key in the terminal, the following creates a new SSH key, using the provided email as a label:</p>
 
@@ -970,5 +978,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><span style='float:right'>Edited on Fri May  8 21:34:08 2026
+</main><footer><span style='float:right'>Edited on Sat May  9 10:35:41 2026
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b><a href='../site/rek.html'>Rek Bell</a></b> © 2011-2026 <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'> [BY-NC-SA 4.0]</a> <a href='https://merveilles.town/@rek'><img src='../media/interface/links/merveilles.png' height='25'></a> <a href='http://webring.xxiivv.com/#random'><img src='../media/interface/links/rotonde.png' height='25'></a> <map name='noaimini8'><area href='https://baccyflap.com/noai' shape='rect' coords='20,0,67,30' target='_blank'><area href='https://baccyflap.com/noai/?prv&s=kok' target='_top' shape='rect' coords='0,7,18,23' alt='previous' title='previous'><area href='https://baccyflap.com/noai/?nxt&s=kok' target='_top' shape='rect' coords='69,7,87,23' alt='next' title='next'></map><img src='https://baccyflap.com/noai/miniwidget8.gif' style='filter: grayscale(100%)' height='28' usemap='#noaimini8'></footer></body></html>
