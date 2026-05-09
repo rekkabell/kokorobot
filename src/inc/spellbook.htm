@@ -284,7 +284,7 @@ ______________________________
 
 <p>If you accept the defaults, the public key will be written to ~/.ssh/id_rsa.pub and the private key to ~/.ssh/id_rsa.</p>
 
-<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github. If </p>
+<p>Add the key to the Sourcehut meta.sr.ht keys page, or in your SSH and GPG page under settings on Github.</p>
 
 <p>Configure git:</p>
 
@@ -336,7 +336,7 @@ git config user.email</pre>
 
 <p>Sourcehut will require you to specify a key:</p>
 
-<p>If you already use multiple SSH keys, remember to specify which key to use with sr.ht services. Edit ~/.ssh/config and add an appropriate Host entry that gives the path to the private key you wish to use:</p>
+<p>If you already use multiple SSH keys, remember to specify which key to use with sr.ht services. To grab your key you can type the command <i>cat keyname.pub</i>. Add an appropriate Host entry that gives the path to the private key you wish to use:</p>
 
 <pre>Host *sr.ht
   IdentityFile ~/.ssh/srht.id_rsa
