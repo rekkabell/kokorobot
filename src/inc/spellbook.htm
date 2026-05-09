@@ -5,6 +5,7 @@
 <p>All of these are linux commands(I use Manjaro i3):</p>
 
 <ul class="col2 nobull">
+    <li><a href='freshi3'>i3 Fresh Install tricks</li>
     <li><a href='#vlcissues'>VLC issues</li>
     <li><a href='#wireguard'>Wireguard</li>
     <li><a href='#unzip'>Layers as Files in Gimp via Unzip</li>
@@ -65,6 +66,39 @@
     <li><b>sudo pacman -Syu</b>, update all packages(Manjaro)</li>
     <li><b>rm -rf dir-name</b>, delete a directory that is not empty</li>
 </ul>
+
+
+<h3><a id='freshi3'>i3 Fresh Install tricks</a></h3>
+
+<p>To remove the i3wm info on desktop after a fresh install, navigate to...</p>
+
+<pre>cd etc/skel/i3/</pre>
+
+<p>Then:</p>
+
+<pre>mousepad config</pre>
+
+<p>Put a hash in front of <i>exec --no-startup-id start_conky_maia</i>.</p>
+
+<p>To remove certain information from appearing in the systray, navigate to:</p>
+
+<pre>cd etc/</pre>
+
+<p>Then:</p>
+
+<pre>mousepad i3status.conf</pre>
+
+<p>Remove desired information, I personally remove all mentions of "ipv6", "wireless" and "ethernet"</p>
+
+<p>If having issues with pulseaudio, first go into applications>preferences>Manjaro Settings Manager> Hardware Configuration. Try auto-install proprietary drivers. Sound works with broadcom-wl. Then try...</p>
+
+<pre>systemctl --user start pulseaudio</pre>
+
+<p>An alternative is to install pipewire(but first remove pulse audio[manjaro-pulse]):</p>
+
+<pre>sudo pacman -S manjaro-pipewire</pre>
+
+<p></p>
 
 <h3><a id='vlcissues'>VLC issues</a></h3>
 

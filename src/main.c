@@ -21,10 +21,11 @@ WITH REGARD TO THIS SOFTWARE.
 #define DOMAIN "https://kokorobot.ca/"
 #define LICENSE "https://github.com/rekkabell/kokorobot/blob/main/LICENSE"
 #define SOURCE "https://github.com/rekkabell/kokorobot/edit/main/"
+#define BUFSIZE 64
 
 typedef struct Lexicon {
 	int len, refs[512];
-	char files[512][64];
+	char files[512][BUFSIZE];
 } Lexicon;
 
 /* clang-format off */
@@ -57,8 +58,8 @@ int
 findf(Lexicon *l, char *f)
 {
 	int i;
-	char filename[64];
-	scat(scsw(stlc(scpy(f, filename, 64)), ' ', '_'), ".htm");
+	char filename[BUFSIZE];
+	scat(scsw(stlc(scpy(f, filename, BUFSIZE)), ' ', '_'), ".htm");
 	for(i = 0; i < l->len; ++i)
 		if(scmp(l->files[i], filename))
 			return i;
@@ -80,13 +81,13 @@ int
 fpportal(FILE *f, Lexicon *l, char *s, int head)
 {
 	int target;
-	char srcpath[64], filename[64];
+	char srcpath[BUFSIZE], filename[BUFSIZE];
 	target = findf(l, s);
 	if(target < 0)
 		return error("Missing portal", s);
 	srcpath[0] = 0;
 	filename[0] = 0;
-	scat(scat(scat(srcpath, "src/inc/"), scpy(s, filename, 64)), ".htm");
+	scat(scat(scat(srcpath, "src/inc/"), scpy(s, filename, BUFSIZE)), ".htm");
 	if(head)
 		fprintf(f, "<h2 id='%s'><a href='%s.html'>%s</a></h2>", scsw(filename, ' ', '_'), filename, s);
 	fpinject(f, l, srcpath);
@@ -152,9 +153,9 @@ fpindex(FILE *f)
 		return error("scandir", "failed");
 	fputs("<ul class='col2 capital'>", f);
 	while(i < n) {
-		char filepath[64], filename[64];
+		char filepath[BUFSIZE], filename[BUFSIZE];
 		if(d[i]->d_name[0] != '.')
-			fprintf(f, "<li><a href='%sl'>%s</a></li>", scpy(d[i]->d_name, filepath, 64), scsw(scpy(d[i]->d_name, filename, ssin(d[i]->d_name, ".htm") + 1), '_', ' '));
+			fprintf(f, "<li><a href='%sl'>%s</a></li>", scpy(d[i]->d_name, filepath, BUFSIZE), scsw(scpy(d[i]->d_name, filename, ssin(d[i]->d_name, ".htm") + 1), '_', ' '));
 		free(d[i++]);
 	}
 	fputs("</ul>", f);
@@ -209,7 +210,7 @@ int
 generate(Lexicon *l)
 {
 	int i = 0;
-	char srcpath[64], dstpath[64], filename[64];
+	char srcpath[BUFSIZE], dstpath[BUFSIZE], filename[BUFSIZE];
 	for(i = 0; i < l->len; ++i) {
 		srcpath[0] = 0;
 		dstpath[0] = 0;
@@ -230,19 +231,19 @@ generate(Lexicon *l)
 }
 
 int
-index(Lexicon *l, DIR *d)
+index2(Lexicon *l, DIR *d)
 {
 	FILE *f;
 	struct dirent *dir;
 	while((dir = readdir(d)))
 		if(ssin(dir->d_name, ".htm") > 0) {
 			l->refs[l->len] = 0;
-			scpy(dir->d_name, l->files[l->len++], 128);
+			scpy(dir->d_name, l->files[l->len++], BUFSIZE);
 		}
 	closedir(d);
 	printf("Indexed %d terms\n", l->len);
 	l->refs[l->len] = 0;
-	scpy("index.htm", l->files[l->len++], 128);
+	scpy("index.htm", l->files[l->len++], BUFSIZE);
 	f = fopen("src/inc/index.htm", "w");
 	fpindex(f);
 	fclose(f);
@@ -266,7 +267,7 @@ main(void)
 	lex.len = 0;
 	if(!(d = opendir("src/inc")))
 		return error("Open", "Missing inc/ folder. ");
-	if(!index(&lex, d))
+	if(!index2(&lex, d))
 		return error("Indexing", "Failed");
 	if(!generate(&lex))
 		return error("Generating", "Failed");

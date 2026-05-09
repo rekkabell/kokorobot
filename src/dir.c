@@ -30,7 +30,7 @@ main(int argc, char** argv)
 {
 	DIR *d;
 	FILE *f;
-	char index_html[0x40];
+	char index_html[0x80];
 	struct dirent *dir;
 	if(argc == 1){
 		fprintf(stderr, "usage %s: folder/\n", argv[0]);
@@ -40,7 +40,7 @@ main(int argc, char** argv)
 		fprintf(stderr, "Missing directory: %s\n", argv[1]);
 		return 0;
 	}
-	if(!(f = fopen(scat(scpy(argv[1], index_html, 0x80), "index.html"), "w"))){
+	if(!(f = fopen(scat(scpy(argv[1], index_html, 0x7f), "index.html"), "w"))){
 		fprintf(stderr, "Cannot create index: %s\n", index_html);
 		return 0;
 	}
