@@ -300,7 +300,20 @@ ______________________________
 
 <pre>git config --global user.email
 or
-git config --global user.email</pre>
+git config user.email</pre>
+
+<p>**Note that for Github, if your email is set to private you'll have to use your GitHub-provided no-reply email address (look in settings>emails)</p>
+
+<p>All repos:</p>
+
+<pre>git config --global user.email "ID+username@users.noreply.github.com"</pre>
+
+<p>Single repo:</p>
+<pre>git config user.email "ID+username@users.noreply.github.com"</pre>
+
+<p>Then reset the author on your last commit:</p>
+
+<pre>git commit --amend --reset-author --no-edit</pre>
 
 <p>Generating a key in the terminal, the following creates a new SSH key, using the provided email as a label:</p>
 

@@ -317,7 +317,20 @@ ______________________________
 
 <pre>git config --global user.email
 or
-git config --global user.email</pre>
+git config user.email</pre>
+
+<p>**Note that for Github, if your email is set to private you'll have to use your GitHub-provided no-reply email address (look in settings>emails)</p>
+
+<p>All repos:</p>
+
+<pre>git config --global user.email "ID+username@users.noreply.github.com"</pre>
+
+<p>Single repo:</p>
+<pre>git config user.email "ID+username@users.noreply.github.com"</pre>
+
+<p>Then reset the author on your last commit:</p>
+
+<pre>git commit --amend --reset-author --no-edit</pre>
 
 <p>Generating a key in the terminal, the following creates a new SSH key, using the provided email as a label:</p>
 
@@ -978,5 +991,5 @@ sudo pacman -S sdcv
 <p>Back to <a href='#content'>top</a>.</p>
 
 
-</main><footer><span style='float:right'>Edited on Sat May  9 10:35:41 2026
+</main><footer><span style='float:right'>Edited on Sat May  9 11:00:36 2026
  <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/spellbook.htm'>[edit]</a><br/></span><b><a href='../site/rek.html'>Rek Bell</a></b> © 2011-2026 <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'> [BY-NC-SA 4.0]</a> <a href='https://merveilles.town/@rek'><img src='../media/interface/links/merveilles.png' height='25'></a> <a href='http://webring.xxiivv.com/#random'><img src='../media/interface/links/rotonde.png' height='25'></a> <map name='noaimini8'><area href='https://baccyflap.com/noai' shape='rect' coords='20,0,67,30' target='_blank'><area href='https://baccyflap.com/noai/?prv&s=kok' target='_top' shape='rect' coords='0,7,18,23' alt='previous' title='previous'><area href='https://baccyflap.com/noai/?nxt&s=kok' target='_top' shape='rect' coords='69,7,87,23' alt='next' title='next'></map><img src='https://baccyflap.com/noai/miniwidget8.gif' style='filter: grayscale(100%)' height='28' usemap='#noaimini8'></footer></body></html>
