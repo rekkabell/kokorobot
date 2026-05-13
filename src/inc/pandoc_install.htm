@@ -46,7 +46,7 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='latex'>Installing Tex Live</a></h3>
 
-<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Many packages are required to make this work, if looking for a lighter alternative check out <a href='#tectonic'>Tectonic</a>. Tex Live is a package specific to Linux, enter the following command to install it:</p>
+<p>For converting text files (written in Pandoc Markdown) to PDF, Pandoc makes use of LaTeX and XeTeX as the text rendering engine. This is what makes your documents beautiful. Many packages are required to make this work, if looking for a lighter alternative check out <a href='#tectonic'>Tectonic</a>(it's what I've been using since 2024). Tex Live is a package specific to Linux, enter the following command to install it:</p>
 
 <pre>sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-generic-recommended</pre>
 
@@ -58,7 +58,7 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='tectonic'>Tectonic</a></h3>
 
-<p>Installing all the correct bits necessary to make Tex Live work is tricky, and quite heavy. A recent update has corrupted my install and I had to find a different way to generate a PDF. Tectonic is a good alternative. It only installs what is absolutely necessary to do what you need to do.</p>
+<p>Installing all the correct bits necessary to make Tex Live work is tricky, and quite heavy. A recent update has corrupted my install and I had to find a different way to generate a PDF. Tectonic is an excellent alternative. It only installs what is absolutely necessary to do what you need to do.</p>
 
 <pre>sudo pacman -S tectonic</pre>
 
@@ -98,8 +98,4 @@ warranty, not even for merchantability or fitness for a particular purpose.
 
 <h3><a id='gs'>Ghost script</a></h3>
 
-<p>Pdfunite does what its name suggests it does: merge pdfs. It is part of the poppler-utils package, install it using the following command:</p>
-
-<pre>sudo apt-get install poppler-utils</pre>
-
-<p>Now, you'll be able to use it.</p>
+<p>Ghostscript is an interpreter for the PostScript language and PDF files, it comes pre-installed on Manjaro. Check out <a href="https://ghostscript.readthedocs.io/en/latest/Install.html" target="_blank">docs</a> to figure out how to install it.</p>
