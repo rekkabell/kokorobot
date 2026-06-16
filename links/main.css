@@ -7,8 +7,8 @@ a.noglyph:after { content:"" !important; }
 
 header { display: block;background: #eee;text-align: center;color:#111;padding:40px 0px 10px;}
 header h1 { font-size: 40px; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; font-weight: normal; margin-bottom:15px;}
-header h2 { font-size:30px;position: absolute;top:10px;left:20px; }
-header h2:hover { color:white; }
+header h3 { font-size:30px;position: absolute;top:10px;left:20px; }
+header h3:hover { color:white; }
 header a {color: black; text-decoration: none}
 header a:hover { cursor: pointer; text-decoration: underline;}
 header ul {padding: 15px;}
