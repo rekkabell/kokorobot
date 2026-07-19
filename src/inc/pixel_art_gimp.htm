@@ -1,0 +1,14 @@
+<img src="../media/content/cactusgirl01.png" loading="lazy">
+
+<p>The above image is artwork I did for an upcoming Catjam game called <b>Lepore Express Line</b>.</p>
+
+<p>To make small sprites for a game I will usually use <a href="https://100r.ca/site/nasu.html">Nasu</a>, I also sometimes use <a href="https://100r.ca/site/noodle.html">Noodle</a>, but when making larger characters, especially if I am working from a scanned sketch as a reference, I like to use Gimp. Here are a few things to know when using Gimp to get sharp pixels.</p>
+
+<p><b>Pencil Tool</b>. To make pixel art, you must use the pencil tool. I usually select a round hard-edged brush(hardness 100) and reduce the size to 1 pixel. In the <b>Tool Options</b> menu, uncheck <i>"Enable Dynamics"</i>. This will ensure that where won't be any interpolation happening between pixels(no grays), only full black pixels.</p>
+
+<p><b>Eraser Tool</b>. In the <b>Tool Options</b> menu, uncheck all options but put a check in <i>"hard edge"</i> so that again, you won't get any interpolation happening.</p>
+
+<p><b>Rotating a Drawing</b>. It is possible to rotate pixelated artwork. Say you're animating and want to re-use part of a drawing. It will get distorted, but I think it a good way to get a good sense of the proportions and design. When rotating, in the <b>Tool Options</b> menu set Interpolation to <i>"None"</i>, you will have to set it again when making other transformations(scale, shear, etc) too.</p>
+
+<p><b>Scaling</b>. To scale a pixel image, it is necessary to limit the scaling to multiples of 100% so that 1 pixel becomes 2(if scaled at 200%), then 3 (300%) or else the pixels will get distorted. When scaling, you also have to set interpolation to <i>"none"</i>(or <i>"nearest neighbour"</i>) so that the software uses the existing pixel data without trying to make an average of the existing pixels(which will create undesirable artifacts), this way the pixels will remain crisp :>. In the end, all of the pixels should be perfect squares.</p>
+
