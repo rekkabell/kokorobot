@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>&bull; Reksize</title></head>
+<body>
+<input id="file_el" type="file" accept="image/*">
+<div id="status_el"></div>
+<script>
+const file_el = document.getElementById('file_el');
+const status_el = document.getElementById('status_el');
+file_el.addEventListener('change', (e) => {
+	const f = e.target.files[0];
+	if (!f) return;
+	status_el.textContent = "..";
+	const img = new Image();
+	const r = new FileReader();
+	r.onload = (ev) => {
+	img.onload = () => {
+		if (img.width > 1000 || img.height > 1000)
+			if (img.width >= img.height) 
+				img.height = Math.round(img.height * (1000 / img.width)), img.width = 1000;
+			else 
+				img.width = Math.round(img.width * (1000 / img.height)), img.height = 1000;
+		const canvas = document.createElement('canvas');
+		canvas.width = img.width, canvas.height = img.height;
+		const ctx = canvas.getContext('2d');
+		ctx.drawImage(img, 0, 0, img.width, img.height);
+		canvas.toBlob((blob) => {
+			const url = URL.createObjectURL(blob);
+			const tmp = document.createElement('a');
+			tmp.href = url;
+			tmp.download = `${f.name.replace(/\.[^/.]+$/, '')}-resized.jpg`;
+			document.body.appendChild(tmp), tmp.click(), document.body.removeChild(tmp);
+			URL.revokeObjectURL(url);
+			status_el.textContent = `${img.width} x ${img.height}px`;
+		}, 'image/jpeg', 0.9);
+	};
+	img.src = ev.target.result;
+	};
+	r.readAsDataURL(f);
+});
+</script>
+</body>
+</html>
+
