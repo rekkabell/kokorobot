@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'><meta name='thumbnail' content='https://kokorobot.ca/media/services/thumbnail.jpg' /><meta name='viewport' content='width=device-width,initial-scale=1'><link rel='alternate' type='application/rss+xml' title='RSS Feed' href='../links/rss.xml' /><link rel='stylesheet' type='text/css' href='../links/main.css'><link rel='shortcut icon' type='image/x-icon' href='../media/services/favicon.ico'><title>Rek Bell &mdash; processing analog artwork</title></head><body><header><h1><a href='home.html'>Rek Bell</a></h1>
+<h3><a href='home.html'>⬟</a></h3>
+
+<ul>
+	<li><a href="about.html"><img src="../media/interface/menu/about_tn.png" alt='' width="140" height="140" />About</a></li>
+	<li><a href="projects.html"><img src="../media/interface/menu/projects_tn.png" alt='' width="140" height="140" />Projects</a></li>
+	<li><a href="games.html"><img src="../media/interface/menu/illustration_tn.png" alt='' width="140" height="140" />Games</a></li>
+	<li><a href="stories.html"><img src="../media/interface/menu/stories_tn.png" alt='' width="140" height="140" />Stories</a></li>
+	<li><a href="store.html"><img src="../media/interface/menu/store_tn.png" alt='' width="140" height="140" />Store</a></li>
+	<li><a href="hobby.html"><img src="../media/interface/menu/childrens_books_tn.png" alt='' width="140" height="140" />Hobby</a></li>
+	<li><a href="notes.html"><img src="../media/interface/menu/notes_tn.png" alt='' width="140" height="140" />Notes</a></li>
+	<li><a href="how-to.html"><img src="../media/interface/menu/howto_tn.png" alt='' width="140" height="140" />How-to</a></li>
+</ul>
+</header><main>
+
+<!-- Generated file, do not edit -->
+
+<img src="../media/content/sketch/paper_rocks.jpg" loading="lazy">
+
+<p>I draw as much as I can on paper, I love it, I get to spend more time off-screen, I don't depend on any specific software to produce my art, and it means that I'll always have hard copies of my work that I can refer to, or re-process should I lose the digital copy.</p>
+
+<p>I hope to further lessen the steps I have to do digitally, in the meantime here is how I get my art to look good after scanning.</p>
+
+<p>To scan my paper art, I have a used <b>CanoScanLiDE20</b> and use <b>Simple Scan</b> (see <a href='using_a_scanner_under_linux.html' class='local'>using a scanner under linux</a> for more information). I then process the drawings in Gimp. I have used Krita in the past, but Gimp is less bloated overall and everything I could do in Krita I can do in Gimp.</p>
+
+<h2>Line art</h2>
+
+<img src="../media/content/process_la.jpg" loading="lazy">
+
+<p>Processing line art is the easiest. In the above image, the one to the left is what it looks like when scanned, the one on the right is after it was processed.</p>
+
+<p>The first thing I do in Gimp, is to set the drawing to black and white.</p>
+
+<p>The drawing always has a bit of a colored hue to it, and since I don't want that I go to <i>Image>Mode</i> and select <i>Grayscale</i>.</p>
+
+<p>Or, it is possible to go to <i>Colors>Hue-Saturation</i>, and to bring the saturation down to -100%.</p>
+
+<img src="../media/content/process_la_lvls.jpg" loading="lazy">
+
+<p>Then I go to <i>Colors>Levels</i>, and move the arrows around in the "Input" window until the whites are as white as I can get them, and the blacks are as dark as possible.</p>
+
+<img src="../media/content/process_la_darker.jpg" loading="lazy">
+
+<p>To make the lines a bit more bold, I occasionally duplicate the layer and set the layer mode to <i>Multiply</i>, lowering the opacity depending on the look that I want for the image.</p>
+
+<h2>Pencil art with shading</h2>
+
+<img src="../media/content/process_original.jpg" loading="lazy">
+
+<p>This is what my art looks like after scanning. How the drawing will come out depends on the default settings of your scanning software. With Simple Scan, I typically leave things as is, and take care of the processing in Gimp.</p>
+
+<p>The first thing I do in Gimp, like with the line art described above, is to set the drawing to black and white. Then I go to <i>Image>Mode</i>, and select <i>Grayscale</i>, or, it is possible to go to <i> Colors>Hue-Saturation</i>, and to bring the saturation down to -100%.</p>
+
+<img src="../media/content/process_lvls.jpg" loading="lazy">
+
+<p>Then I go to <i>Colors>Levels</i>, and move the arrows around in the "Input" window until the whites are as white as I can get them, and the blacks are as dark as possible. My settings won't always be the same, it depends on the drawing. If I'm not able to darken an image enough using my pencils I may try and darken it a little bit more using levels, but I try not to darken too much because otherwise it ruins the shading.</p>
+
+<img src="../media/content/process_clone.jpg" loading="lazy">
+
+<p>I get a lot of weird artifacts when drawing, sometimes because there's a hard bit under the sheet of paper and when I shade overtop it creates dark spots, or sometimes my scanner bed is full of eraser shavings. Overall, I'm pretty messy when I draw.</p>
+
+<p>To remove unwanted smears or dirt from the image, I use the <i>clone tool</i>, selecting areas similarly textured nearby and making the necessary corrections. In the above image, the one on the left was cleaned up with the clone tool.</p>
+
+<p>Next, I usually make a highlight pass, to bring out the whites in my drawing, or to remove artifacts that the level stage did not catch.</p>
+
+<img src="../media/content/process_hl.jpg" loading="lazy">
+
+<p>I create a separate empty layer overtop and using a white brush, and by setting the layer mode to Overlay, I start painting over the white areas, or adding new ones(whatever suits the drawing).</p>
+
+<img src="../media/content/process_shade.jpg" loading="lazy">
+
+<p>I also usually add another layer to add more shadows(contrast) to the drawing, by painting with a black paintbrush with the layer mode set as Overlay, or sometimes I'll add a whole dark grey layer overtop as an overlay and bring the opacity down to something like 30%.</p>
+
+<p>Below is an example from the comic <a href='night_terror.html' class='local'>night terror</a>, because the whole sequence takes place at night, I need the scene to be fairly dark, and also for the characters to come out so I "boosted" a lot of the whites and blacks with extra layers of dark and light overlays.</p>
+
+<p>(I used to draw a white outline around characters to make them stand out, but I no longer do that, I've just learned to weigh the light and dark in scenes better.)</p>
+
+<img src="../media/content/process_all.jpg" loading="lazy">
+
+<h2>Color drawing</h2>
+
+<img src="../media/content/process_colo_original.jpg" loading="lazy">
+
+<p>Like with all of my scanned art, for a scanned color drawing I first play with the levels to bring out the whites and darken the colors a little.</p>
+
+<p>I don't usually put the whites too high because it then starts to change the color of the drawing too much.</p>
+
+<img src="../media/content/process_colo_arti.jpg" loading="lazy">
+
+<p>In the above example, you can see some artifacts around the bird's head, I will fix it by painting over with a white brush with the layer set to Overlay.</p>
+
+<p>Below is the final image.</p>
+
+<img src="../media/content/process_colo_highlight.jpg" loading="lazy">
+
+<p>I also drew over the white areas, in the eyes, on the edges of the pants and jacket too to bring up the contrast. It is sometimes hard to see whether or not there are still artifacts left, tilting my laptop screen back a bit permits me to see them and to make corrections.</p>
+
+<p><b>Color Boost?</b> Sometimes I go to <i>Color>Hue-saturation</i> and make the drawing greyer by moving the saturation slider to the left, or boost the colors by moving the slider to the right.</p>
+
+<p><b>Color Change?</b> Sometimes, if I find that the colors in the original aren't quite right, I play with the color balance (<i>Colors>Balance</i>) and play with the Shadows, Midtones and Highlights. I rarely do this though, this is only if a color I used is slighly off, like if I made a mistake and I want it to match with another drawing.</p>
+
+</main><footer><span style='float:right'>Edited on Mon Sep  7 16:40:23 2026
+ <a href='https://github.com/rekkabell/kokorobot/edit/main/src/inc/processing_analog_artwork.htm'>[edit]</a><br/></span><b><a href='../site/rek.html'>Rek Bell</a></b> © 2011-2026 <a href='https://github.com/rekkabell/kokorobot/blob/main/LICENSE' target='_blank'> [BY-NC-SA 4.0]</a> <a href='https://merveilles.town/@rek'><img src='../media/interface/links/merveilles.png' height='25'></a> <a href='http://webring.xxiivv.com/#random'><img src='../media/interface/links/rotonde.png' height='25'></a> <map name='noaimini8'><area href='https://baccyflap.com/noai' shape='rect' coords='20,0,67,30' target='_blank'><area href='https://baccyflap.com/noai/?prv&s=kok' target='_top' shape='rect' coords='0,7,18,23' alt='previous' title='previous'><area href='https://baccyflap.com/noai/?nxt&s=kok' target='_top' shape='rect' coords='69,7,87,23' alt='next' title='next'></map><img src='https://baccyflap.com/noai/miniwidget8.gif' style='filter: grayscale(100%)' height='28' usemap='#noaimini8'></footer></body></html>
