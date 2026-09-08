@@ -2,65 +2,63 @@
 
 <p>I draw as much as I can on paper, I love it, I get to spend more time off-screen, I don't depend on any specific software to produce my art, and it means that I'll always have hard copies of my work that I can refer to, or re-process should I lose the digital copy.</p>
 
-<p>I hope to further lessen the steps I have to do digitally, in the meantime here is how I get my art to look good after scanning.</p>
+<p>To scan my paper art, I have a used <b>CanoScanLiDE20</b> and use <b>Simple Scan</b> (see {using a scanner under linux} for more information). How the drawing will come out depends on the default settings of your scanning software. With Simple Scan, I typically leave things as is, and take care of the processing in Gimp. I have used Krita in the past, but Gimp is less bloated overall and everything I could do in Krita I can do in Gimp.</p>
 
-<p>To scan my paper art, I have a used <b>CanoScanLiDE20</b> and use <b>Simple Scan</b> (see {using a scanner under linux} for more information). I then process the drawings in Gimp. I have used Krita in the past, but Gimp is less bloated overall and everything I could do in Krita I can do in Gimp.</p>
+<p>I hope, in the future, to further lessen the steps I have to do digitally, in the meantime, here is how I get my art to look good after scanning. Note that I'm not claiming that this is the best possible way to process art done on paper, but it's a way that works for me and that is also replicable with image editing software other than Gimp.</p>
 
 <h2>Line art</h2>
 
 <img src="../media/content/process_la.jpg" loading="lazy">
 
-<p>Processing line art is the easiest. In the above image, the one to the left is what it looks like when scanned, the one on the right is after it was processed.</p>
+<p>Processing line art is the easiest. In the above image, the one to the left is what it looks like when first scanned, and the one on the right is after it was processed in Gimp.</p>
 
-<p>The first thing I do in Gimp, is to set the drawing to black and white.</p>
+<p>The first thing I do when processing the image in Gimp is to set the drawing to greyscale.</p>
 
-<p>The drawing always has a bit of a colored hue to it, and since I don't want that I go to <i>Image>Mode</i> and select <i>Grayscale</i>.</p>
+<p>The drawing often has a bit of a colored hue to it, to get rid of it I go to: <i>Image>Mode</i>, and select <i>Grayscale</i>.</p>
 
-<p>Or, it is possible to go to <i>Colors>Hue-Saturation</i>, and to bring the saturation down to -100%.</p>
+<p>Changing the image mode to grayscale though will mean that it won't be possible to put color, unless converted back to RGB. It is also possible to apply a greyscale to the image by selecting <i>Colors > Hue-Saturation</i> in the nav bar, and to bring the saturation down -100%.</p>
 
 <a href="../media/content/process_la_lvls.jpg"><img src="../media/content/process_la_lvls.jpg" loading="lazy"></a>
 
-<p>Then I go to <i>Colors>Levels</i>, and move the arrows around in the "Input" window until the whites are as white as I can get them, and the blacks are as dark as possible.</p>
+<p>Then, in the nav bar, I select: <i>Colors > Levels</i>, and move the arrows around in the "Input Window" to create contrast, to get the whites as white, and the blacks as black as I can get them to be.</p>
 
 <a href="../media/content/process_la_darker.jpg"><img src="../media/content/process_la_darker.jpg" loading="lazy"></a>
 
-<p>To make the lines a bit more bold, I occasionally duplicate the layer and set the layer mode to <i>Multiply</i>, lowering the opacity depending on the look that I want for the image.</p>
+<p>To make the lines a bit more bold, I occasionally duplicate the layer and set the "layer mode" of the new layer to <i>Multiply</i>. I lower the opacity of the layer depending on the look that I want for the image.</p>
 
 <h2>Pencil art with shading</h2>
 
 <img src="../media/content/process_original.jpg" loading="lazy">
 
-<p>This is what my pencil art looks like after scanning. How the drawing will come out depends on the default settings of your scanning software. With Simple Scan, I typically leave things as is, and take care of the processing in Gimp.</p>
-
-<p>The first thing I do in Gimp, like with the line art described above, is to set the drawing to black and white.</p>
+<p>This is what my pencil art looks like after scanning. The first thing I do in Gimp, like with the line art described above, is to set the drawing to greyscale. I won't be adding color to this drawing, so setting it to that mode is fine.</p>
 
 <a href="../media/content/process_lvls.jpg"><img src="../media/content/process_lvls.jpg" loading="lazy"></a>
 
-<p>Then I go to <i>Colors>Levels</i>, and move the arrows around in the "Input Levels" window until the whites are as white as I can get them, and the blacks are as dark as possible.</p>
+<p>Then, I go to <i>Colors > Levels</i> in the nav bar, and like with the line art, play with the arrows until I have the look I want.</p>
 
-<p>My settings won't always be the same, it depends on the drawing. If I'm not able to darken an image enough using my pencils I may try and darken it a little bit more using levels, but I try not to darken too much because otherwise it ruins the shading.</p>
+<p>For pencil art with shading my settings won't always be the same, it depends on the drawing. If say, I'm not able to darken an image enough using my pencils, I may try and darken it a little bit more using levels, but I try not to darken too much because otherwise it becomes less smooth and ruins the shading.</p>
 
-<p>I get a lot of weird artifacts when drawing, sometimes because there's a hard bit under the sheet of paper and when I shade overtop it creates dark spots, or sometimes my scanner bed is full of eraser shavings. Overall, I'm pretty messy when I draw.</p>
+<p>I get a lot of weird artifacts when drawing, sometimes because there's a hard bit under the sheet of paper and when I shade overtop it creates dark spots, my eraser also occasionally leaves smudges, and sometimes my scanner bed is full of eraser shavings. Overall, I'm pretty messy when I draw.</p>
 
 <img src="../media/content/process_clone.jpg" loading="lazy">
 
-<p>To remove unwanted smears or dirt from the image, I use the <i>clone tool</i>, selecting areas similarly textured nearby and making the necessary corrections. In the above image, the one on the left was cleaned up with the clone tool.</p>
+<p>To remove unwanted smears or dirt from the image, I use the <i>clone tool</i>, selecting areas similarly textured nearby and making the necessary corrections. In the above image, the one on the left was cleaned up with the clone tool. Another sure way to not have to do much clean is to clean your scanner bed(I'm lazy), and to keep your erasers clean.</p>
 
-<p>Next, I usually make a highlight pass, to bring out the white in my drawing, or to remove artifacts that the level pass did not catch.</p>
+<p>Next, I usually make a "highlight" pass to bring out the white areas in my drawing, or to remove artifacts that the "level" pass did not catch.</p>
 
 <img src="../media/content/process_hl.jpg" loading="lazy">
 
-<p>I create a separate empty layer overtop and paint with a white brush with the layer mode set to <i>Overlay</i>.</p>
+<p>I create a separate empty layer overtop of the main layer, and paint with a white brush with the layer mode set to <i>Overlay</i>.</p>
 
-<p>I then start painting over the white areas I want to "boost", usually near the outlines, eyes, background, etc.</p>
+<p>I then start painting over the white areas I want to "boost", usually near the outlines of the character, eyes, background, etc.</p>
 
 <img src="../media/content/process_shade.jpg" loading="lazy">
 
-<p>I also usually add another layer to add more shadows(contrast) to the drawing, by painting with a black brush with the layer mode set as <i>Overlay</i></p>
+<p>I also usually add another layer to add more shadows(contrast) to the drawing, by painting with a black brush with the layer mode set as <i>Overlay</i>.</p>
 
-<p>Sometimes I'll add a layer filled with a dark grey color overtop, set the layer mode to <i>Overlay</i>, and bring the opacity down to something like 30%. The darker I want the image to be, the higher the opacity.</p>
+<p>Sometimes, I'll add a layer filled with a dark grey color overtop, set the layer mode to <i>Overlay</i>, and bring the opacity down to something like 30%. The darker I want the image to be, the higher the opacity.</p>
 
-<p>Below is an example from the comic {Night Terror}, because the whole sequence takes place at night, I need the scene to be fairly dark, and also for the characters to come out so I "boosted" a lot of the whites and blacks with extra layers of dark and light overlays.</p>
+<p>Below is an example from a comic I drew in 2023 called {Night Terror}, because the whole sequence takes place at night, I need the scene to be fairly dark, and also for the characters to come out, so I "boosted" a lot of the tones with extra layers with painted dark and light overlays.</p>
 
 <img src="../media/content/process_all.jpg" loading="lazy">
 
@@ -70,20 +68,22 @@
 
 <img src="../media/content/process_colo_original.jpg" loading="lazy">
 
-<p>Like with all of my scanned art, for a scanned color drawing I first play with the levels to bring out the whites and to darken the colors a little.</p>
+<p>Like with all of my scanned art, for a scanned color drawing I first play with the levels to bring out the tones of the colors a little.</p>
 
-<p>I don't usually put the white level too high because it then starts to change the colors too much.</p>
+<p>I don't usually put the white level too high because then it starts to alter the colors too much, I usually have the original next to me and try to match the tone as much as I can.</p>
 
 <img src="../media/content/process_colo_arti.jpg" loading="lazy">
 
-<p>In the above example, you can see some artifacts around the bird's head that stays because I didn't want the white level to be too high. I usually fix this kind of thing by painting over with a white brush with the layer mode set to <i>Overlay</i>.</p>
+<p>In the above example, there are some artifacts around the bird, especially around the head that is still there even after playing with levels because I didn't want the white level to be too high. I usually fix this by creating a new layer, and painting over with a white brush with the layer mode set to <i>Overlay</i>.</p>
 
 <p>Below is the final processed image, with all of the other drawings around it erased.</p>
 
 <img src="../media/content/process_colo_highlight.jpg" loading="lazy">
 
-<p>I also drew over the white areas, in the eyes, on the edges of the pants and jacket too to bring up the contrast. It is sometimes hard to see whether or not there are still artifacts left, but tilting my laptop screen back a bit permits me to see them and to make corrections.</p>
+<p>I also drew over the white areas, around the eyes, and on the edges of the pants/jacket too to bring up the contrast. It is sometimes hard to see whether or not there are still artifacts left, but tilting my laptop screen back a bit permits me to see them and to make corrections.</p>
 
 <p><b>Color Boost?</b> Sometimes I go to <i>Color>Hue-saturation</i> and make the drawing greyer by moving the saturation slider to the left, or boost the colors by moving the slider to the right.</p>
 
 <p><b>Color Change?</b> Sometimes, if I find that the colors in the original aren't quite right, I play with the color balance (<i>Colors>Balance</i>) and play with the Shadows, Midtones and Highlights. I rarely do this though, this is only if a color I used is slighly off, like if I made a mistake and I want it to match with another drawing.</p>
+
+<p><i>Written on 2026-09-07.</i></p>
