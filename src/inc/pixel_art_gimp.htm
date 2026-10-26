@@ -12,4 +12,18 @@
 
 <p><b>Scaling</b>. To scale a pixel image, it is necessary to limit the scaling to multiples of 100% so that 1 pixel becomes 2(if scaled at 200%), then 3 (300%) or else the pixels will get distorted. When scaling, you also have to set interpolation to <i>"none"</i>(or <i>"nearest neighbour"</i>) so that the software uses the existing pixel data without trying to make an average of the existing pixels(which will create undesirable artifacts), this way the pixels will remain crisp :>. In the end, all of the pixels should be perfect squares.</p>
 
+<h2>Painting With Screentones</h2>
+
+<img src="../media/content/screentones_example.png" loading="lazy">
+
+<p>A while ago I used to shade {Hakum} digitally with screentones, I made a set with tones varying from light to dark(I had about 4). A light screetone means that there are fewer black pixels in the image, a darker screentone means that there are more black pixels in the image.</p>
+
+<p>I drew each pattern in a 16x16px square and saved each as a PNG in a folder. It is possible to turn the tones into a brush, but the pixels wont align on a grid. For true screentones it is better to import them into Gimp as patterns and to paint using the <i>clone tool</i>:</p>
+
+<p><i>Edit > Preferences > Folders > Patterns</i></p>
+
+<p>Navigate to the folder where you stored your screentones, and check the box next to it. The screentones will appear in the Patterns tab.</p>
+
+<p>Select the <i>clone tool</i>. In the Tool Options tab select <i>pattern</i> as the source, in the <i>Alignment</i> dropdown menu select <i>Registered</i>, uncheck <i>Enable Dynamics</i>, and check <i>Hard Edge</i>.</p>
+
 <p><i>Written on 2026-08-15.</i></p>
